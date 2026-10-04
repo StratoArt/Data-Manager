@@ -1,0 +1,1 @@
+{"fields":{"id":"string","brand_name":"string","manufacturer":"string","formula":"string","nutrients":"object","crops":"array","images":"array","sources":"array","status":"draft|verified","visibility":"public|internal"}}

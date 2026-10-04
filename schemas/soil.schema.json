@@ -1,0 +1,1 @@
+{"fields":{"id":"string","soil_type":"string","texture":"string","ph":"number","cec":"number","organic_matter":"number","nutrients":"object","images":"array","sources":"array","status":"draft|verified","visibility":"public|internal"}}
