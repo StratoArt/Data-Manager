@@ -1,5 +1,5 @@
 {
-  "data_center_version": "2026.10.05-opt-icons",
+  "data_center_version": "2026.10.05",
   "schema_version": "1.0.0",
   "source_baseline": "PestiApps data/opt.json @ 2026-10-04",
   "datasets": {
@@ -26,5 +26,7 @@
     "crop_icons": 30,
     "ui_icons": 18,
     "media_files": 40
-  }
+  },
+  "icon_system_version": "1.0.1",
+  "media_system_version": "1.0.0"
 }
