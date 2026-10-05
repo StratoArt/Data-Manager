@@ -1,6 +1,128 @@
-{
-  "dataset_version": "2026.10.04",
-  "record_count": 0,
-  "records": [],
-  "status": "pending_import"
-}
+[
+  {
+    "crop_id": "padi",
+    "opt_id": "rhizoctonia",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "padi",
+    "opt_id": "rice-narrow-brown-leaf-spot",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "cabai",
+    "opt_id": "colletotrichum",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "cabai",
+    "opt_id": "chili-cercospora",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "cabai",
+    "opt_id": "phytophthora-brassica",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "cabai",
+    "opt_id": "colletotrichum",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "cabai",
+    "opt_id": "chili-phytophthora-capsici",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "cabai",
+    "opt_id": "fusarium",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "cabai",
+    "opt_id": "tomato-bacterial-wilt",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "cabai",
+    "opt_id": "pepylciv",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "cabai",
+    "opt_id": "xanthomonas",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "bawang",
+    "opt_id": "alternaria-porri",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "bawang",
+    "opt_id": "onion-downy-mildew",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "bawang",
+    "opt_id": "fusarium",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "bawang",
+    "opt_id": "fusarium-cepae",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "bawang",
+    "opt_id": "onion-stemphylium",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "bawang",
+    "opt_id": "botrytis-aclada",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "kacang",
+    "opt_id": "colletotrichum",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  }
+]

@@ -4,5 +4,16 @@
     "type": "baseline",
     "source": "pesticide_database_cleaned_2026-10-04-no-TC(1).json",
     "notes": "Canonical Data Center v0.3 baseline; no legacy app data deleted."
+  },
+  {
+    "version": "2026.10.05-opt-icons",
+    "date": "2026-10-05",
+    "changes": [
+      "Migrated exact PestiApps OPT master: 69 Hama, 66 Penyakit, 16 Gulma, 30 Crop.",
+      "Created explicit Crop↔OPT relations from crops[].related_opt.",
+      "Added canonical icon registry and synchronized PestiApps OPT SVG assets.",
+      "Added reusable UI icon set and emoji-to-SVG runtime replacer.",
+      "Preserved source terminology and media provenance."
+    ]
   }
 ]

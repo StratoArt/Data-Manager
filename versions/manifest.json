@@ -1,22 +1,30 @@
 {
-  "data_center_version": "2026.10.05",
+  "data_center_version": "2026.10.05-opt-icons",
   "schema_version": "1.0.0",
-  "source_baseline": "clean-2026-10-04",
+  "source_baseline": "PestiApps data/opt.json @ 2026-10-04",
   "datasets": {
     "pestisida": 1058,
     "pupuk": 4,
     "active_ingredients": 430,
     "moa": 52,
     "product_opt": 92,
-    "crops": 0,
-    "hama": 0,
-    "penyakit": 0,
-    "gulma": 0
+    "crops": 30,
+    "hama": 69,
+    "penyakit": 66,
+    "gulma": 16,
+    "crop_opt": 42
   },
   "policy": {
     "canonical_source": "Data Manager",
     "bayer_internal_data_included": false,
     "old_app_data_deleted": false,
-    "fertilizer_rule": "solid fertilizers only in pupuk; liquid biostimulants/PGR/etc remain product database unless separately reclassified"
+    "fertilizer_rule": "solid fertilizers only in pupuk; liquid biostimulants/PGR/etc remain product database unless separately reclassified",
+    "icon_source": "PestiApps assets/opt synchronized into canonical Data Manager icon registry"
+  },
+  "assets": {
+    "opt_icons": 54,
+    "crop_icons": 30,
+    "ui_icons": 18,
+    "media_files": 40
   }
 }

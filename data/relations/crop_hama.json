@@ -1,6 +1,149 @@
-{
-  "dataset_version": "2026.10.04",
-  "record_count": 0,
-  "records": [],
-  "status": "pending_import"
-}
+[
+  {
+    "crop_id": "padi",
+    "opt_id": "scirpophaga-incertulas",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "cabai",
+    "opt_id": "aphid",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "cabai",
+    "opt_id": "helicoverpa-armigera",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "cabai",
+    "opt_id": "thrips-parvispinus",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "cabai",
+    "opt_id": "bemisia-tabaci",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "cabai",
+    "opt_id": "aphis-gossypii",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "cabai",
+    "opt_id": "polyphagotarsonemus-latus",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "cabai",
+    "opt_id": "bactrocera-dorsalis",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "cabai",
+    "opt_id": "spodoptera-litura",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "cabai",
+    "opt_id": "liriomyza",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "bawang",
+    "opt_id": "thrips-tabaci",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "bawang",
+    "opt_id": "aphid",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "bawang",
+    "opt_id": "spodoptera-exigua",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "bawang",
+    "opt_id": "liriomyza",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "bawang",
+    "opt_id": "agrotis-ipsilon",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "jagung",
+    "opt_id": "agrotis-ipsilon",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "kedelai",
+    "opt_id": "delia-florigela",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "kacang",
+    "opt_id": "aphid",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "jeruk",
+    "opt_id": "aphid",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "jagung-manis",
+    "opt_id": "spodoptera-frugiperda",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "jagung-manis",
+    "opt_id": "mythimna-separata",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  }
+]

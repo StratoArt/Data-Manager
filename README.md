@@ -1,27 +1,23 @@
-# Crop Expert Data Center v0.3
+# Crop Expert Data Center v0.5 — OPT + Icon System
 
-Canonical data layer for PestiApps and Crop Expert.
+Canonical Data Manager upgrade based on the supplied PestiApps source snapshot.
 
-## Baseline
-- Source: `pesticide_database_cleaned_2026-10-04-no-TC(1).json`
-- Source records: 1084
-- Clean records: 1062
-- Canonical pesticide/product records: 1058
-- Canonical solid fertilizer records: 4
+## Migrated exact datasets
+- Hama: 69
+- Penyakit: 66
+- Gulma: 16
+- Crop: 30
+- Crop ↔ OPT: explicit relations from `data/opt.json` → `crops[].related_opt`
 
-## Rules
-- Data Center is canonical source.
-- No legacy PestiApps/Crop Expert data is deleted in this phase.
-- No Bayer/internal data is included.
-- Solid fertilizers only go to `data/products/pupuk.json`.
-- Liquid biostimulants/PGR/etc remain in product database unless explicitly reclassified.
-- OPT/crop master datasets are placeholders until exact current app datasets are migrated.
+## Icon system
+- Canonical registry: `assets/icon-registry.json`
+- PestiApps OPT SVG assets synchronized under `assets/icons/opt/`
+- Crop icons under `assets/icons/crops/`
+- Reusable UI icons under `assets/icons/ui/`
+- `assets/icon-replacer.js` can replace legacy emoji icons at runtime without changing source data.
 
-## Integration order
-1. Validate Data Center.
-2. Push to StratoArt/Data-Manager.
-3. Add read-only adapter to PestiApps.
-4. Add DataService adapter to Crop Expert.
-5. Compare output against legacy data.
-6. Switch canonical source.
-7. Only then retire duplicate legacy datasets.
+## Safety / provenance
+- No Bayer/internal data added.
+- Source records are preserved; this migration does not silently invent OPT records.
+- Existing pesticide/product datasets remain preserved.
+- Solid fertilizer rule remains unchanged.

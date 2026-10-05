@@ -1,6 +1,23 @@
-{
-  "dataset_version": "2026.10.04",
-  "record_count": 0,
-  "records": [],
-  "status": "pending_import"
-}
+[
+  {
+    "crop_id": "padi",
+    "opt_id": "echinochloa",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "bawang",
+    "opt_id": "cyperus",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  },
+  {
+    "crop_id": "kedelai",
+    "opt_id": "echinochloa-crus",
+    "source": "PestiApps data/opt.json",
+    "source_field": "crops[].related_opt",
+    "status": "source_explicit"
+  }
+]

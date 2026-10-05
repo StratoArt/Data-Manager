@@ -1,6 +1,421 @@
-{
-  "dataset_version": "2026.10.04",
-  "record_count": 0,
-  "records": [],
-  "status": "pending_import"
-}
+[
+  {
+    "id": "echinochloa",
+    "name": "Echinochloa crus-galli",
+    "common": "Jajagoan",
+    "category": "Rumput",
+    "icon": "weed-grass.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Bersaing memperebutkan cahaya dan nutrisi"
+    ],
+    "images": [
+      {
+        "image_type": "organism",
+        "local_path": "",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Echinochloa_crus-galli.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Echinochloa_crus-galli.jpg",
+        "source_name": "Wikimedia Commons / USDA-NRCS",
+        "license": "Public domain",
+        "author": "See source page",
+        "attribution": "Echinochloa crus-galli — Wikimedia Commons source.",
+        "notes": "Robert H. Mohlenbrock / USDA-NRCS."
+      }
+    ],
+    "classification": "Rumput",
+    "classification_group": "Poaceae / grass",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "weeds",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "cyperus",
+    "name": "Cyperus rotundus",
+    "common": "Teki",
+    "category": "Daun Sempit",
+    "icon": "weed-sedge.svg",
+    "hosts": [
+      "Jagung",
+      "Kedelai",
+      "Sayuran"
+    ],
+    "symptoms": [
+      "Tumbuh dari umbi",
+      "Sulit dikendalikan bila populasi tinggi"
+    ],
+    "images": [
+      {
+        "image_type": "organism",
+        "local_path": "",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cyperus_iria_(2724216169).jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/Category:Cyperus_iria",
+        "source_name": "Wikimedia Commons",
+        "license": "verify license on file page",
+        "author": "See source page",
+        "attribution": "Cyperus rotundus — Wikimedia Commons source.",
+        "notes": "Cyperus iria category; selected photo file."
+      }
+    ],
+    "classification": "Daun Sempit",
+    "classification_group": "Cyperaceae / sedge",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "weeds",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "eleusine",
+    "name": "Eleusine indica",
+    "common": "Rambut belulang",
+    "category": "Rumput",
+    "icon": "weed-grass.svg",
+    "hosts": [
+      "Jagung",
+      "Kedelai",
+      "Perkebunan"
+    ],
+    "symptoms": [
+      "Rumput berumpun",
+      "Kompetisi tinggi pada lahan terbuka"
+    ],
+    "classification": "Rumput",
+    "classification_group": "Poaceae / grass",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "weeds",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "amaranthus",
+    "name": "Amaranthus spinosus",
+    "common": "Bayam duri",
+    "category": "Daun Lebar",
+    "icon": "weed-broadleaf.svg",
+    "hosts": [
+      "Jagung",
+      "Kedelai",
+      "Sayuran"
+    ],
+    "symptoms": [
+      "Tumbuh cepat",
+      "Menghasilkan banyak biji"
+    ],
+    "classification": "Daun Lebar",
+    "classification_group": "Broadleaf",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "weeds",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "ageratum",
+    "name": "Ageratum conyzoides",
+    "common": "Babadotan",
+    "category": "Daun Lebar",
+    "icon": "weed-broadleaf.svg",
+    "hosts": [
+      "Jagung",
+      "Kedelai",
+      "Perkebunan"
+    ],
+    "symptoms": [
+      "Membentuk populasi rapat",
+      "Kompetisi dengan tanaman utama"
+    ],
+    "classification": "Daun Lebar",
+    "classification_group": "Broadleaf",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "weeds",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "fimb",
+    "name": "Fimbristylis miliacea",
+    "common": "Jekeng",
+    "category": "Daun Sempit",
+    "icon": "weed-sedge.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Tumbuh cepat pada lahan sawah",
+      "Kompetisi dengan padi"
+    ],
+    "classification": "Daun Sempit",
+    "classification_group": "Cyperaceae / sedge",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "weeds",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "monochoria-vaginalis",
+    "name": "Monochoria vaginalis",
+    "common": "Eceng padi",
+    "category": "Daun Lebar",
+    "icon": "weed-broadleaf.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Menghambat pertumbuhan padi",
+      "Populasi tinggi menutup permukaan sawah",
+      "Mengganggu pertumbuhan padi di sawah"
+    ],
+    "images": [
+      {
+        "image_type": "organism",
+        "local_path": "",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Monochoria_vaginalis_(5781099211).jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Monochoria_vaginalis_(5781099211).jpg",
+        "source_name": "Wikimedia Commons",
+        "license": "CC BY-SA 2.0",
+        "author": "See source page",
+        "attribution": "Monochoria vaginalis — Wikimedia Commons source.",
+        "notes": "Dinesh Valke; Monochoria vaginalis."
+      }
+    ],
+    "classification": "Daun Lebar",
+    "classification_group": "Broadleaf",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "weeds",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "ludwigia",
+    "name": "Ludwigia hyssopifolia",
+    "common": "Jukut weru / kayu apu sawah",
+    "category": "Daun Lebar",
+    "icon": "weed-broadleaf.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Tumbuh cepat pada sawah",
+      "Bersaing dengan padi"
+    ],
+    "classification": "Daun Lebar",
+    "classification_group": "Broadleaf",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "weeds",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "sphenochlea",
+    "name": "Sphenochlea zeylanica",
+    "common": "Gonda",
+    "category": "Daun Lebar",
+    "icon": "weed-broadleaf.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Populasi rapat",
+      "Kompetisi pada lahan sawah"
+    ],
+    "classification": "Daun Lebar",
+    "classification_group": "Broadleaf",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "weeds",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "ischaemum",
+    "name": "Ischaemum rugosum",
+    "common": "Ischaemum",
+    "category": "Rumput",
+    "icon": "weed-grass.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Rumput berumpun",
+      "Kompetisi kuat dengan padi"
+    ],
+    "classification": "Rumput",
+    "classification_group": "Poaceae / grass",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "weeds",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "leptochloa",
+    "name": "Leptochloa chinensis",
+    "common": "Timunan",
+    "category": "Rumput",
+    "icon": "weed-grass.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Tumbuh pada sawah",
+      "Bersaing memperebutkan nutrisi"
+    ],
+    "classification": "Rumput",
+    "classification_group": "Poaceae / grass",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "weeds",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "echinochloa-crus",
+    "name": "Echinochloa colona",
+    "common": "Jajagoan kecil",
+    "category": "Rumput",
+    "icon": "weed-grass.svg",
+    "hosts": [
+      "Padi",
+      "Jagung"
+    ],
+    "symptoms": [
+      "Rumput berumpun",
+      "Tumbuh cepat pada kondisi terbuka"
+    ],
+    "classification": "Rumput",
+    "classification_group": "Poaceae / grass",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "weeds",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "cyperus-difformis",
+    "name": "Cyperus difformis",
+    "common": "Teki kecil",
+    "category": "Daun Sempit",
+    "icon": "weed-sedge.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Tumbuh cepat pada sawah",
+      "Menghasilkan banyak biji"
+    ],
+    "classification": "Daun Sempit",
+    "classification_group": "Cyperaceae / sedge",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "weeds",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "portulaca",
+    "name": "Portulaca oleracea",
+    "common": "Krokot",
+    "category": "Daun Lebar",
+    "icon": "weed-broadleaf.svg",
+    "hosts": [
+      "Sayuran",
+      "Jagung"
+    ],
+    "symptoms": [
+      "Tumbuh menjalar",
+      "Bersaing pada lahan terbuka"
+    ],
+    "classification": "Daun Lebar",
+    "classification_group": "Broadleaf",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "weeds",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "commelina",
+    "name": "Commelina benghalensis",
+    "common": "Gewor",
+    "category": "Daun Lebar",
+    "icon": "weed-broadleaf.svg",
+    "hosts": [
+      "Jagung",
+      "Kedelai"
+    ],
+    "symptoms": [
+      "Pertumbuhan menjalar",
+      "Sulit ditekan bila sudah membentuk populasi"
+    ],
+    "classification": "Daun Lebar",
+    "classification_group": "Broadleaf",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "weeds",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "mimosa",
+    "name": "Mimosa pudica",
+    "common": "Putri malu",
+    "category": "Daun Lebar",
+    "icon": "weed-broadleaf.svg",
+    "hosts": [
+      "Perkebunan",
+      "Lahan kering"
+    ],
+    "symptoms": [
+      "Tumbuh menyemak",
+      "Mengganggu akses dan kompetisi tanaman"
+    ],
+    "classification": "Daun Lebar",
+    "classification_group": "Broadleaf",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "weeds",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  }
+]

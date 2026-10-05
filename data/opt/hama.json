@@ -1,6 +1,2942 @@
-{
-  "dataset_version": "2026.10.04",
-  "record_count": 0,
-  "records": [],
-  "status": "pending_import"
-}
+[
+  {
+    "id": "spodoptera-exigua",
+    "name": "Spodoptera exigua",
+    "common": "Ulat bawang / ulat grayak (beet armyworm)",
+    "category": "Lepidoptera",
+    "family": "Noctuidae",
+    "icon": "spodoptera.svg",
+    "hosts": [
+      "Alfalfa",
+      "Asparagus",
+      "Bawang daun",
+      "Bawang merah",
+      "Bit gula",
+      "Brassica",
+      "Jagung",
+      "Kapas",
+      "Padi",
+      "Paprika/cabai",
+      "Selada",
+      "Seledri",
+      "Stroberi",
+      "Terung",
+      "Tomat"
+    ],
+    "symptoms": [
+      "Daun berlubang dan terpotong",
+      "Daun terskeletonisasi pada larva muda",
+      "Defoliasi berat",
+      "Frass hijau–hitam di sekitar area makan",
+      "Larva dapat masuk ke buah, bunga, atau polong",
+      "Larva masuk ke daun",
+      "Tanaman menguning dan pertumbuhan terganggu"
+    ],
+    "life": [
+      "Telur",
+      "Larva",
+      "Pupa",
+      "Imago"
+    ],
+    "notes": "Hama penting pada bawang dan beberapa tanaman sayuran.",
+    "images": [
+      {
+        "image_type": "symptom_reference",
+        "stage": "gejala",
+        "local_path": "assets/opt/photos/spodoptera-exigua-symptom.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": "Foto gejala serangan pada bawang; digunakan sebagai visual lapangan dan bukan penentu spesies secara tunggal."
+      },
+      {
+        "image_type": "organism",
+        "stage": "imago",
+        "local_path": "assets/opt/photos/spodoptera-exigua-adult.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": "Foto imago yang diberikan pengguna."
+      },
+      {
+        "image_type": "organism",
+        "stage": "larva",
+        "local_path": "assets/opt/photos/spodoptera-exigua-larva.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": "Foto larva yang diberikan pengguna."
+      },
+      {
+        "image_type": "lifecycle",
+        "stage": "lifecycle",
+        "local_path": "assets/opt/photos/spodoptera-exigua-lifecycle.jpg",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Ilustrasi pengguna — Crop Expert",
+        "notes": "Ilustrasi siklus hidup Spodoptera exigua pada bawang merah."
+      }
+    ],
+    "eppo": {
+      "code": "LAPHEG",
+      "url": "https://gd.eppo.int/taxon/LAPHEG/photos",
+      "name": "Spodoptera exigua"
+    },
+    "source_irm": "data/irm_spodoptera_exigua_2025.json",
+    "irm_note": "Poster IRAC 2025: resistensi dapat melibatkan detoksifikasi metabolik, perubahan target-site, dan penurunan penetrasi; IRAC merekomendasikan pengaturan jendela MoA sekitar 30 hari dan membatasi paparan MoA yang sama pada maksimal 50% siklus tanaman.",
+    "life_cycle_reference": {
+      "stages": [
+        "Telur",
+        "Larva",
+        "Pupa",
+        "Imago"
+      ],
+      "source_note": "Siklus disederhanakan untuk pembelajaran; durasi aktual dipengaruhi suhu, inang, varietas dan kondisi lapangan."
+    },
+    "description": "Ulat bawang adalah larva ngengat yang merusak jaringan daun dengan menggerek/mengikis permukaan dan membuat lubang. Pada bawang merah, kerusakan berat mengurangi luas daun aktif sehingga pembentukan dan pengisian umbi dapat terganggu.",
+    "diagnostic": "Cari telur/larva pada daun, lubang tidak beraturan, serta kotoran (frass). Larva sering lebih aktif sore–malam.",
+    "favorable_conditions": "Populasi dapat meningkat cepat pada kondisi hangat; monitoring perlu lebih intensif sejak tanaman muda hingga pembentukan umbi.",
+    "importance": "Penting",
+    "crop_importance": {
+      "bawang": "Penting",
+      "cabai": "Perlu dipantau"
+    },
+    "references": [
+      "UC IPM Onion & Garlic"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "spodoptera-frugiperda",
+    "name": "Spodoptera frugiperda",
+    "common": "Fall Armyworm (FAW) / ulat grayak jagung",
+    "category": "Lepidoptera",
+    "family": "Noctuidae",
+    "icon": "spodoptera.svg",
+    "hosts": [
+      "Jagung"
+    ],
+    "symptoms": [
+      "Daun berlubang",
+      "Kotoran larva pada pucuk",
+      "Whorl rusak"
+    ],
+    "life": [
+      "Telur",
+      "Larva",
+      "Pupa",
+      "Imago"
+    ],
+    "notes": "Sering menyerang titik tumbuh jagung.",
+    "images": [
+      {
+        "image_type": "organism",
+        "stage": "larva",
+        "local_path": "assets/opt/photos/spodoptera-frugiperda-larva.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": "Foto larva Spodoptera frugiperda yang diberikan pengguna."
+      },
+      {
+        "image_type": "species_reference",
+        "stage": "larva",
+        "local_path": "assets/opt/photos/spodoptera-frugiperda-characteristics.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Ilustrasi pengguna — Crop Expert",
+        "notes": "Ilustrasi ciri morfologi larva Fall Armyworm (FAW); digunakan sebagai referensi visual, bukan satu-satunya dasar identifikasi."
+      },
+      {
+        "image_type": "lifecycle",
+        "stage": "lifecycle",
+        "local_path": "assets/opt/photos/spodoptera-frugiperda-lifecycle.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Ilustrasi pengguna — Crop Expert",
+        "notes": "Ilustrasi siklus hidup Fall Armyworm (FAW): telur, larva, pupa, dan imago."
+      }
+    ],
+    "aliases": [
+      "FAW",
+      "Fall Armyworm"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "plutella-xylostella",
+    "name": "Plutella xylostella",
+    "common": "Ulat krop",
+    "category": "Lepidoptera",
+    "family": "Plutellidae",
+    "icon": "plutella.svg",
+    "hosts": [
+      "Kubis",
+      "Sawi"
+    ],
+    "symptoms": [
+      "Daun berlubang kecil",
+      "Epidermis daun tersisa seperti jendela",
+      "Krop rusak"
+    ],
+    "life": [
+      "Telur",
+      "Larva",
+      "Pupa",
+      "Imago"
+    ],
+    "notes": "Hama utama kelompok Brassica.",
+    "images": [
+      {
+        "image_type": "organism",
+        "local_path": "",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Plutella.xylostella.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Plutella.xylostella.jpg",
+        "source_name": "Wikimedia Commons",
+        "license": "CC BY-SA 2.5/3.0",
+        "author": "See source page",
+        "attribution": "Plutella xylostella — Wikimedia Commons source.",
+        "notes": "James K. Lindsey; diamondback moth."
+      }
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "helicoverpa-armigera",
+    "name": "Helicoverpa armigera",
+    "common": "Ulat buah",
+    "category": "Lepidoptera",
+    "family": "Noctuidae",
+    "icon": "helicoverpa.svg",
+    "hosts": [
+      "Cabai",
+      "Tomat",
+      "Jagung"
+    ],
+    "symptoms": [
+      "Buah berlubang",
+      "Kotoran larva di sekitar lubang",
+      "Bunga dan pucuk rusak"
+    ],
+    "life": [
+      "Telur",
+      "Larva",
+      "Pupa",
+      "Imago"
+    ],
+    "notes": "Larva dapat masuk ke buah dan menyebabkan busuk sekunder.",
+    "images": [
+      {
+        "image_type": "organism",
+        "local_path": "",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Helicoverpa_armigera.png",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Helicoverpa_armigera.png",
+        "attribution": "Wikimedia Commons — CC BY-SA 4.0",
+        "notes": "Foto referensi berlisensi/sumber publik; cek halaman sumber untuk ketentuan penggunaan."
+      },
+      {
+        "image_type": "ai_illustration",
+        "local_path": "assets/opt/photos/helicoverpa-armigera.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Crop Expert — ilustrasi AI",
+        "notes": "Ilustrasi AI untuk pembelajaran bentuk/gejala; BUKAN foto diagnostik."
+      }
+    ],
+    "description": "Ulat buah menyerang pucuk, bunga dan terutama buah. Larva dapat masuk ke buah sehingga kerusakan dari luar terlihat sebagai lubang masuk disertai kotoran.",
+    "diagnostic": "Periksa buah dan bunga untuk lubang, frass dan larva. Kerusakan buah perlu dibedakan dari lalat buah.",
+    "importance": "Penting",
+    "crop_importance": {
+      "cabai": "Penting"
+    },
+    "references": [
+      "UC IPM Peppers"
+    ],
+    "life_cycle_reference": {
+      "stages": [
+        "Telur",
+        "Larva",
+        "Pupa",
+        "Dewasa"
+      ],
+      "source_note": "Urutan siklus disederhanakan untuk pembelajaran; durasi aktual bergantung suhu, inang, varietas dan kondisi lapangan."
+    },
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "thrips-parvispinus",
+    "name": "Thrips parvispinus",
+    "common": "Thrips",
+    "category": "Thysanoptera",
+    "family": "Thripidae",
+    "icon": "thrips.svg",
+    "hosts": [
+      "Cabai",
+      "Bawang",
+      "Tomat",
+      "Kacang"
+    ],
+    "symptoms": [
+      "Daun keperakan / bercak putih",
+      "Daun keriting dan deformasi",
+      "Pertumbuhan terhambat"
+    ],
+    "life": [
+      "Telur",
+      "Nimfa",
+      "Imago"
+    ],
+    "notes": "Serangan berat dapat mengganggu pucuk dan bunga.",
+    "images": [
+      {
+        "image_type": "ai_illustration",
+        "local_path": "assets/opt/photos/thrips-parvispinus.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Crop Expert — ilustrasi AI",
+        "notes": "Ilustrasi AI untuk pembelajaran bentuk/gejala; BUKAN foto diagnostik."
+      }
+    ],
+    "life_cycle_reference": {
+      "stages": [
+        "Telur",
+        "Nimfa",
+        "Prepupa/Pupa",
+        "Dewasa"
+      ],
+      "source_note": "Foto spesies tersedia pada EPPO Global Database; visual lokal ini adalah ilustrasi AI fallback. Jangan gunakan ilustrasi sebagai bukti diagnosis spesies."
+    },
+    "description": "Thrips parvispinus merupakan thrips penting pada cabai di Indonesia. Serangan terutama pada daun muda dan pucuk menyebabkan bronzing/keperakan, keriting, distorsi dan pertumbuhan terhambat; bunga juga dapat terdampak.",
+    "diagnostic": "Fokus pemeriksaan pada pucuk, daun muda dan bunga. Gejala perlu dibedakan dari tungau, virus dan fitotoksisitas.",
+    "favorable_conditions": "Populasi dapat berkembang cepat pada kondisi hangat; pemantauan perlu diperketat pada fase vegetatif akhir sampai pembungaan.",
+    "importance": "Penting",
+    "crop_importance": {
+      "cabai": "Penting"
+    },
+    "references": [
+      "FAO AGRIS / Central Java chili crop protection study"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "bemisia-tabaci",
+    "name": "Bemisia tabaci",
+    "common": "Kutu kebul",
+    "category": "Hemiptera",
+    "family": "Aleyrodidae",
+    "icon": "hemiptera.svg",
+    "hosts": [
+      "Cabai",
+      "Tomat",
+      "Kedelai",
+      "Melon"
+    ],
+    "symptoms": [
+      "Daun menguning",
+      "Embun madu",
+      "Pertumbuhan cendawan jelaga",
+      "Dapat menularkan virus",
+      "Pertumbuhan terganggu",
+      "Honeydew dan embun jelaga",
+      "Pertumbuhan tanaman menurun",
+      "Dapat menularkan berbagai virus"
+    ],
+    "life": [
+      "Telur",
+      "Nimfa",
+      "Imago",
+      "Pupa"
+    ],
+    "notes": "Vektor penting berbagai virus tanaman.",
+    "images": [
+      {
+        "image_type": "organism",
+        "local_path": "",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bemisia_tabaci_from_USDA_1.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/Category:Bemisia_tabaci",
+        "attribution": "Wikimedia Commons — USDA image",
+        "notes": "Foto referensi berlisensi/sumber publik; cek halaman sumber untuk ketentuan penggunaan."
+      },
+      {
+        "image_type": "ai_illustration",
+        "local_path": "assets/opt/photos/bemisia-tabaci.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Crop Expert — ilustrasi AI",
+        "notes": "Ilustrasi AI untuk pembelajaran bentuk/gejala; BUKAN foto diagnostik."
+      }
+    ],
+    "eppo": {
+      "code": "BEMITA",
+      "url": "https://gd.eppo.int/taxon/BEMITA/photos",
+      "name": "Bemisia tabaci"
+    },
+    "description": "Kutu kebul mengisap cairan tanaman dan menghasilkan embun madu yang dapat ditumbuhi cendawan jelaga. Pada cabai, Bemisia tabaci juga merupakan vektor penting Begomovirus penyebab penyakit daun keriting kuning.",
+    "diagnostic": "Goyangkan daun untuk melihat imago terbang; periksa nimfa yang menetap di permukaan bawah daun dan adanya embun madu.",
+    "favorable_conditions": "Populasi meningkat bila tanaman inang dan gulma reservoir tersedia serta kondisi mendukung perkembangan kutu kebul.",
+    "importance": "Penting",
+    "crop_importance": {
+      "cabai": "Penting"
+    },
+    "references": [
+      "UC IPM Peppers",
+      "Jurnal Perlindungan Tanaman Indonesia (UGM), 2025"
+    ],
+    "life_cycle_reference": {
+      "stages": [
+        "Telur",
+        "Nimfa",
+        "Pupa-like stage",
+        "Dewasa"
+      ],
+      "source_note": "Urutan siklus disederhanakan untuk pembelajaran; durasi aktual bergantung suhu, inang, varietas dan kondisi lapangan."
+    },
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "aphis-gossypii",
+    "name": "Aphis gossypii",
+    "common": "Kutu daun",
+    "category": "Hemiptera",
+    "family": "Aphididae",
+    "icon": "hemiptera.svg",
+    "hosts": [
+      "Cabai",
+      "Melon",
+      "Mentimun"
+    ],
+    "symptoms": [
+      "Pucuk keriting",
+      "Embun madu",
+      "Koloni pada pucuk muda"
+    ],
+    "life": [
+      "Nimfa",
+      "Imago"
+    ],
+    "notes": "Dapat menjadi vektor virus.",
+    "images": [
+      {
+        "image_type": "organism",
+        "local_path": "",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Aphis_gossypii.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Aphis_gossypii.jpg",
+        "attribution": "Wikimedia Commons — source/licence on file page",
+        "notes": "Foto referensi berlisensi/sumber publik; cek halaman sumber untuk ketentuan penggunaan."
+      },
+      {
+        "image_type": "ai_illustration",
+        "local_path": "assets/opt/photos/aphis-gossypii.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Crop Expert — ilustrasi AI",
+        "notes": "Ilustrasi AI untuk pembelajaran bentuk/gejala; BUKAN foto diagnostik."
+      }
+    ],
+    "description": "Kutu daun mengisap cairan pada pucuk dan daun muda. Koloni menyebabkan daun keriting, pertumbuhan terhambat dan menghasilkan embun madu. Beberapa aphid juga dapat menjadi vektor virus tanaman.",
+    "diagnostic": "Cari koloni pada pucuk/daun muda, embun madu dan semut yang berasosiasi.",
+    "importance": "Penting",
+    "crop_importance": {
+      "cabai": "Penting"
+    },
+    "references": [
+      "UC IPM Peppers"
+    ],
+    "life_cycle_reference": {
+      "stages": [
+        "Telur/induk vivipar",
+        "Nimfa",
+        "Dewasa"
+      ],
+      "source_note": "Urutan siklus disederhanakan untuk pembelajaran; durasi aktual bergantung suhu, inang, varietas dan kondisi lapangan."
+    },
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "nilaparvata-lugens",
+    "name": "Nilaparvata lugens",
+    "common": "Wereng coklat",
+    "category": "Hemiptera",
+    "family": "Delphacidae",
+    "icon": "hemiptera.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Daun menguning",
+      "Tanaman mengering bertahap",
+      "Gejala hopperburn"
+    ],
+    "life": [
+      "Telur",
+      "Nimfa",
+      "Imago"
+    ],
+    "notes": "Hama utama padi dengan potensi ledakan populasi.",
+    "images": [
+      {
+        "image_type": "organism",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nilaparvata_lugens_-_Brown_planthopper_-_UGA5190055.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Nilaparvata_lugens_-_Brown_planthopper_-_UGA5190055.jpg",
+        "source_name": "Wikimedia Commons / Bugwood.org",
+        "license": "CC BY 3.0 US",
+        "author": "Natasha Wright / FDACS, Bugwood.org",
+        "attribution": "Nilaparvata lugens — Wikimedia Commons, CC BY 3.0 US.",
+        "local_path": "",
+        "notes": "Foto referensi organisme; periksa atribusi pada halaman sumber sebelum redistribusi."
+      }
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "cnaphalocrocis-medinalis",
+    "name": "Cnaphalocrocis medinalis",
+    "common": "Penggerek daun padi",
+    "category": "Lepidoptera",
+    "family": "Crambidae",
+    "icon": "helicoverpa.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Daun menggulung",
+      "Jaringan daun dimakan dari dalam gulungan",
+      "Jaringan hijau di dalam gulungan terkikis"
+    ],
+    "life": [
+      "Telur",
+      "Larva",
+      "Pupa",
+      "Imago"
+    ],
+    "notes": "Larva hidup di dalam daun yang digulung.",
+    "images": [
+      {
+        "image_type": "organism",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cnaphalocrocis_medinalis.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Cnaphalocrocis_medinalis.jpg",
+        "source_name": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "author": "Gannu03",
+        "attribution": "Cnaphalocrocis medinalis — Wikimedia Commons, CC BY-SA 4.0.",
+        "local_path": "",
+        "notes": "Foto referensi organisme; periksa atribusi pada halaman sumber sebelum redistribusi."
+      }
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "liriomyza",
+    "name": "Liriomyza spp.",
+    "common": "Lalat pengorok daun",
+    "category": "Diptera",
+    "family": "Agromyzidae",
+    "icon": "diptera.svg",
+    "hosts": [
+      "Tomat",
+      "Kacang",
+      "Bawang",
+      "Sayuran"
+    ],
+    "symptoms": [
+      "Korokan berliku pada daun",
+      "Fotosintesis terganggu",
+      "Daun mengering pada serangan berat",
+      "Pengorok daun yang tercantum dalam pedoman Allium."
+    ],
+    "life": [
+      "Telur",
+      "Larva",
+      "Pupa",
+      "Imago"
+    ],
+    "notes": "Larva berada di jaringan daun.",
+    "images": [
+      {
+        "image_type": "organism",
+        "local_path": "",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/2510028-PPT-Leafminer_fly_(Genus_Liriomyza).jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:2510028-PPT-Leafminer_fly_(Genus_Liriomyza).jpg",
+        "attribution": "Wikimedia Commons — source/licence on file page",
+        "notes": "Foto referensi berlisensi/sumber publik; cek halaman sumber untuk ketentuan penggunaan."
+      },
+      {
+        "image_type": "ai_illustration",
+        "local_path": "assets/opt/photos/liriomyza.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Crop Expert — ilustrasi AI",
+        "notes": "Ilustrasi AI untuk pembelajaran bentuk/gejala; BUKAN foto diagnostik."
+      }
+    ],
+    "source_refs": [
+      "EPPO GPP crop guidelines 2000/1999"
+    ],
+    "description": "Lalat pengorok daun; larva membuat lorong di dalam jaringan daun sehingga muncul garis/korokan putih berkelok. Kerusakan berat menurunkan luas daun efektif.",
+    "diagnostic": "Bedakan lorong larva yang masih aktif dari bercak nekrotik. Periksa keberadaan larva/pupa di dalam atau dekat ujung lorong.",
+    "favorable_conditions": "Serangan cenderung lebih mudah berkembang saat terdapat tanaman inang dan gulma reservoir di sekitar pertanaman.",
+    "importance": "Penting",
+    "crop_importance": {
+      "bawang": "Penting",
+      "cabai": "Perlu dipantau"
+    },
+    "references": [
+      "UC IPM Onion & Garlic",
+      "UC IPM Peppers"
+    ],
+    "life_cycle_reference": {
+      "stages": [
+        "Telur",
+        "Larva di dalam daun",
+        "Pupa",
+        "Dewasa"
+      ],
+      "source_note": "Urutan siklus disederhanakan untuk pembelajaran; durasi aktual bergantung suhu, inang, varietas dan kondisi lapangan."
+    },
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "tetranychus",
+    "name": "Tetranychus spp.",
+    "common": "Tungau merah / tungau dua titik",
+    "category": "Acari",
+    "family": "Tetranychidae",
+    "icon": "acari.svg",
+    "hosts": [
+      "Cabai",
+      "Kedelai",
+      "Melon"
+    ],
+    "symptoms": [
+      "Bintik klorotik",
+      "Daun kusam",
+      "Jaring halus pada populasi tinggi"
+    ],
+    "life": [
+      "Telur",
+      "Nimfa",
+      "Imago"
+    ],
+    "notes": "Populasi berkembang cepat pada kondisi panas dan kering.",
+    "images": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "nematoda-puru",
+    "name": "Meloidogyne spp.",
+    "common": "Nematoda puru akar",
+    "category": "Nematoda",
+    "family": "Meloidogynidae",
+    "icon": "nematoda.svg",
+    "hosts": [
+      "Tomat",
+      "Cabai",
+      "Melon"
+    ],
+    "symptoms": [
+      "Puru pada akar",
+      "Tanaman kerdil",
+      "Daun mudah layu"
+    ],
+    "life": [
+      "Telur",
+      "Juvenil",
+      "Dewasa"
+    ],
+    "notes": "Kerusakan akar menghambat penyerapan air dan nutrisi.",
+    "images": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "leptocorisa-oratorius",
+    "name": "Leptocorisa oratorius",
+    "common": "Walang sangit",
+    "category": "Hemiptera",
+    "family": "Alydidae",
+    "icon": "hemiptera.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Bulir hampa atau berisi sebagian",
+      "Biji berubah warna dan mutu gabah menurun"
+    ],
+    "life": [
+      "Telur",
+      "Nimfa",
+      "Imago"
+    ],
+    "notes": "Menyerang bulir padi terutama pada fase pengisian.",
+    "images": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "scirpophaga-incertulas",
+    "name": "Scirpophaga incertulas",
+    "common": "Penggerek batang padi kuning",
+    "category": "Lepidoptera",
+    "family": "Crambidae",
+    "icon": "lepidoptera.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Sundep pada fase vegetatif",
+      "Beluk pada fase generatif",
+      "Pucuk mati dan mudah dicabut"
+    ],
+    "life": [
+      "Telur",
+      "Larva",
+      "Pupa",
+      "Imago"
+    ],
+    "notes": "Larva merusak jaringan batang dari dalam.",
+    "images": [
+      {
+        "image_type": "organism",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Scirpophaga_incertulas.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Scirpophaga_incertulas.jpg",
+        "source_name": "Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "author": "Donald Hobern",
+        "attribution": "Scirpophaga incertulas — Wikimedia Commons, CC BY 2.0.",
+        "local_path": "",
+        "notes": "Foto referensi organisme; periksa atribusi pada halaman sumber sebelum redistribusi."
+      }
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "scirpophaga-innotata",
+    "name": "Scirpophaga innotata",
+    "common": "Penggerek batang padi putih / Rice white stem borer",
+    "category": "Lepidoptera",
+    "family": "Crambidae",
+    "icon": "lepidoptera.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Sundep (deadheart) pada fase vegetatif",
+      "Beluk / whitehead pada fase generatif",
+      "Batang terserang mudah dicabut",
+      "Panikel dapat gagal muncul atau menghasilkan gabah putih/hampa"
+    ],
+    "life": [
+      "Telur",
+      "Larva",
+      "Pupa",
+      "Imago"
+    ],
+    "notes": "Larva menggerek di antara pelepah dan batang menuju titik tumbuh. Sumber PPPW mencatat larva dapat mengalami diapause; identifikasi perlu hati-hati karena gejalanya mirip dengan penggerek batang padi lain, termasuk S. incertulas.",
+    "diagnostic": "Dibedakan dari S. incertulas antara lain dengan ciri sayap depan; PPPW mencatat S. innotata tidak memiliki bintik pada sayap depan. Identifikasi spesies tetap sebaiknya dikonfirmasi oleh ahli taksonomi karena beberapa penggerek batang padi memiliki gejala yang sangat mirip.",
+    "life_cycle_reference": {
+      "stages": [
+        "Telur",
+        "Larva",
+        "Pupa",
+        "Imago"
+      ],
+      "duration_notes": "Telur sekitar 1 minggu hingga menetas; perkembangan larva sekitar 20–30 hari pada kondisi yang mendukung; pupa sekitar 6–9 hari. Larva dapat mengalami diapause selama kondisi tidak sesuai.",
+      "source_note": "Pacific Pests, Pathogens, Weeds & Pesticides (PPPW v13), Fact Sheet 411."
+    },
+    "images": [
+      {
+        "image_type": "symptom_reference",
+        "stage": "gejala",
+        "local_path": "assets/opt/photos/scirpophaga-innotata-whitehead.webp",
+        "remote_url": "",
+        "source_url": "",
+        "source_name": "Foto pengguna (user-provided)",
+        "license": "User-provided",
+        "author": "",
+        "attribution": "Foto pengguna: gejala whitehead / beluk pada padi.",
+        "notes": "Foto pengguna untuk referensi gejala whitehead / beluk. Gejala whitehead dapat terjadi akibat penggerek batang dan tidak sendirinya memastikan spesies."
+      },
+      {
+        "image_type": "organism",
+        "stage": "larva",
+        "local_path": "assets/opt/photos/scirpophaga-innotata-larva.webp",
+        "remote_url": "",
+        "source_url": "",
+        "source_name": "Foto pengguna (user-provided)",
+        "license": "User-provided",
+        "author": "",
+        "attribution": "Foto pengguna: larva penggerek batang padi putih.",
+        "notes": "Foto larva user-provided; dipakai sebagai thumbnail utama entity ini."
+      },
+      {
+        "image_type": "organism",
+        "stage": "imago",
+        "local_path": "",
+        "remote_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Scirpophaga_innotata_%28ento-csiro-au%29.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Scirpophaga_innotata_(ento-csiro-au).jpg",
+        "source_name": "Wikimedia Commons / CSIRO",
+        "license": "Public domain (as stated on Wikimedia Commons file page)",
+        "author": "",
+        "attribution": "Scirpophaga innotata (ento-csiro-au).jpg — Wikimedia Commons; public domain status stated on file page.",
+        "notes": "Ilustrasi imago. Gunakan sebagai referensi visual; local_path sengaja kosong karena file tidak dimirror ke repository."
+      }
+    ],
+    "sources": [
+      {
+        "title": "PPPW v13 Fact Sheet 411 — Rice white stem borer",
+        "url": "https://apps.lucidcentral.org/pppw_v13/text/web_full/entities/rice_white_stem_borer_411.htm",
+        "source": "Pacific Pests, Pathogens, Weeds & Pesticides"
+      }
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "chilo-suppressalis",
+    "name": "Chilo suppressalis",
+    "common": "Penggerek batang padi",
+    "category": "Lepidoptera",
+    "family": "Crambidae",
+    "icon": "lepidoptera.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Sundep",
+      "Beluk",
+      "Anakan mati"
+    ],
+    "life": [
+      "Telur",
+      "Larva",
+      "Pupa",
+      "Imago"
+    ],
+    "notes": "Larva hidup dan makan di dalam batang.",
+    "images": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "bemisia-vaporariorum",
+    "name": "Trialeurodes vaporariorum",
+    "common": "Kutu kebul rumah kaca",
+    "category": "Hemiptera",
+    "family": "Aleyrodidae",
+    "icon": "hemiptera.svg",
+    "hosts": [
+      "Tomat",
+      "Mentimun",
+      "Melon"
+    ],
+    "symptoms": [
+      "Daun menguning",
+      "Embun madu",
+      "Populasi pada bagian bawah daun"
+    ],
+    "life": [
+      "Telur",
+      "Nimfa",
+      "Imago"
+    ],
+    "notes": "Kutu kebul dapat menjadi vektor dan menurunkan vigor tanaman.",
+    "images": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "helopeltis",
+    "name": "Helopeltis spp.",
+    "common": "Helopeltis / kepik pengisap",
+    "category": "Hemiptera",
+    "family": "Miridae",
+    "icon": "hemiptera.svg",
+    "hosts": [
+      "Kakao",
+      "Teh",
+      "Jambu"
+    ],
+    "symptoms": [
+      "Bercak nekrotik",
+      "Pucuk mengering",
+      "Buah mengalami luka tusukan"
+    ],
+    "life": [
+      "Telur",
+      "Nimfa",
+      "Imago"
+    ],
+    "notes": "Penting pada beberapa komoditas perkebunan.",
+    "images": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "recilia-dorsalis",
+    "name": "Recilia dorsalis",
+    "common": "Wereng punggung putih",
+    "category": "Hemiptera",
+    "family": "Cicadellidae",
+    "icon": "hemiptera.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Daun menguning",
+      "Vigor tanaman menurun",
+      "Dapat berasosiasi dengan penyakit virus"
+    ],
+    "life": [
+      "Telur",
+      "Nimfa",
+      "Imago"
+    ],
+    "notes": "Serangga pengisap pada tanaman padi.",
+    "images": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "sogatella-furcifera",
+    "name": "Sogatella furcifera",
+    "common": "Wereng punggung putih",
+    "category": "Hemiptera",
+    "family": "Delphacidae",
+    "icon": "hemiptera.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Daun menguning",
+      "Tanaman melemah",
+      "Populasi tinggi dapat menyebabkan kerusakan berat"
+    ],
+    "life": [
+      "Telur",
+      "Nimfa",
+      "Imago"
+    ],
+    "notes": "Salah satu wereng penting pada padi.",
+    "images": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "nephotettix",
+    "name": "Nephotettix spp.",
+    "common": "Wereng hijau",
+    "category": "Hemiptera",
+    "family": "Cicadellidae",
+    "icon": "hemiptera.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Daun menguning",
+      "Tanaman kerdil",
+      "Berperan sebagai vektor tungro"
+    ],
+    "life": [
+      "Telur",
+      "Nimfa",
+      "Imago"
+    ],
+    "notes": "Kelompok vektor penting penyakit tungro.",
+    "images": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "spodoptera-litura",
+    "name": "Spodoptera litura",
+    "common": "Ulat grayak",
+    "category": "Lepidoptera",
+    "family": "Noctuidae",
+    "icon": "spodoptera.svg",
+    "hosts": [
+      "Kedelai",
+      "Cabai",
+      "Tomat",
+      "Bawang"
+    ],
+    "symptoms": [
+      "Daun berlubang luas",
+      "Defoliasi",
+      "Larva aktif terutama malam hari"
+    ],
+    "life": [
+      "Telur",
+      "Larva",
+      "Pupa",
+      "Imago"
+    ],
+    "notes": "Polifag dan menyerang banyak tanaman budidaya.",
+    "images": [
+      {
+        "image_type": "symptom_reference",
+        "stage": "gejala",
+        "local_path": "assets/opt/photos/spodoptera-exigua-symptom.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": "Foto gejala serangan pada bawang yang juga dapat digunakan sebagai contoh gejala lapangan S. litura; gejala bersifat tumpang tindih dan tidak menentukan spesies secara tunggal."
+      },
+      {
+        "image_type": "organism",
+        "stage": "imago",
+        "local_path": "assets/opt/photos/spodoptera-litura-adult.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": "Foto imago S. litura yang diberikan pengguna."
+      },
+      {
+        "image_type": "organism",
+        "stage": "larva",
+        "local_path": "assets/opt/photos/spodoptera-litura-larva.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": "Foto larva S. litura yang diberikan pengguna."
+      }
+    ],
+    "life_cycle_reference": {
+      "stages": [
+        "Telur",
+        "Larva",
+        "Pupa",
+        "Imago"
+      ],
+      "source_note": "Siklus disederhanakan untuk pembelajaran; durasi aktual dipengaruhi suhu, inang, varietas dan kondisi lapangan."
+    },
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "agrotis-ipsilon",
+    "name": "Agrotis ipsilon",
+    "common": "Ulat tanah",
+    "category": "Lepidoptera",
+    "family": "Noctuidae",
+    "icon": "spodoptera.svg",
+    "hosts": [
+      "Jagung",
+      "Sayuran"
+    ],
+    "symptoms": [
+      "Bibit terpotong dekat permukaan tanah",
+      "Tanaman muda rebah"
+    ],
+    "life": [
+      "Telur",
+      "Larva",
+      "Pupa",
+      "Imago"
+    ],
+    "notes": "Larva bersembunyi di tanah pada siang hari.",
+    "description": "Ulat tanah menyerang pangkal bibit, terutama pada tanaman muda. Larva dapat memotong batang dekat permukaan tanah sehingga tanaman rebah atau mati.",
+    "diagnostic": "Periksa tanaman putus pada malam hari dan cari larva bersembunyi di tanah sekitar pangkal tanaman.",
+    "importance": "Perlu dipantau",
+    "crop_importance": {
+      "bawang": "Perlu dipantau",
+      "cabai": "Perlu dipantau"
+    },
+    "references": [
+      "UC IPM Peppers"
+    ],
+    "images": [
+      {
+        "image_type": "organism",
+        "local_path": "",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Agrotis_ipsilon.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Agrotis_ipsilon.jpg",
+        "attribution": "Wikimedia Commons — CC BY 2.0",
+        "notes": "Foto referensi berlisensi/sumber publik; cek halaman sumber untuk ketentuan penggunaan."
+      },
+      {
+        "image_type": "ai_illustration",
+        "local_path": "assets/opt/photos/agrotis-ipsilon.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Crop Expert — ilustrasi AI",
+        "notes": "Ilustrasi AI untuk pembelajaran bentuk/gejala; BUKAN foto diagnostik."
+      }
+    ],
+    "life_cycle_reference": {
+      "stages": [
+        "Telur",
+        "Larva",
+        "Pupa",
+        "Dewasa"
+      ],
+      "source_note": "Urutan siklus disederhanakan untuk pembelajaran; durasi aktual bergantung suhu, inang, varietas dan kondisi lapangan."
+    },
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "pseudococcus",
+    "name": "Pseudococcus spp.",
+    "common": "Kutu putih",
+    "category": "Hemiptera",
+    "family": "Pseudococcidae",
+    "icon": "hemiptera.svg",
+    "hosts": [
+      "Jeruk",
+      "Pepaya",
+      "Anggur",
+      "Tanaman hias"
+    ],
+    "symptoms": [
+      "Koloni berlapis lilin putih",
+      "Embun madu",
+      "Pertumbuhan pucuk terganggu"
+    ],
+    "life": [
+      "Telur/Nimfa",
+      "Imago"
+    ],
+    "notes": "Serangga pengisap dengan lapisan lilin.",
+    "images": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "aphid",
+    "name": "Aphididae spp.",
+    "common": "Kutu daun",
+    "category": "Hemiptera",
+    "family": "Aphididae",
+    "icon": "hemiptera.svg",
+    "hosts": [
+      "Cabai",
+      "Melon",
+      "Mentimun",
+      "Kacang"
+    ],
+    "symptoms": [
+      "Daun keriting",
+      "Koloni pada pucuk",
+      "Embun madu"
+    ],
+    "life": [
+      "Nimfa",
+      "Imago"
+    ],
+    "notes": "Kelompok umum kutu daun.",
+    "images": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "caloptilia",
+    "name": "Caloptilia spp.",
+    "common": "Pengorok daun",
+    "category": "Lepidoptera",
+    "family": "Gracillariidae",
+    "icon": "lepidoptera.svg",
+    "hosts": [
+      "Jeruk",
+      "Sayuran"
+    ],
+    "symptoms": [
+      "Korokan pada daun muda",
+      "Daun menggulung",
+      "Pucuk terganggu"
+    ],
+    "life": [
+      "Telur",
+      "Larva",
+      "Pupa",
+      "Imago"
+    ],
+    "notes": "Beberapa spesies menjadi hama pada pucuk dan daun muda.",
+    "images": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "brontispa-longissima",
+    "name": "Brontispa longissima",
+    "common": "Kumbang janur kelapa",
+    "category": "Coleoptera",
+    "family": "Chrysomelidae",
+    "icon": "coleoptera.svg",
+    "hosts": [
+      "Kelapa"
+    ],
+    "symptoms": [
+      "Daun muda berwarna cokelat",
+      "Jaringan daun tergores"
+    ],
+    "life": [
+      "Telur",
+      "Larva",
+      "Pupa",
+      "Imago"
+    ],
+    "notes": "Menyerang daun muda kelapa.",
+    "images": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "oryctes-rhinoceros",
+    "name": "Oryctes rhinoceros",
+    "common": "Kumbang tanduk",
+    "category": "Coleoptera",
+    "family": "Scarabaeidae",
+    "icon": "coleoptera.svg",
+    "hosts": [
+      "Kelapa",
+      "Kelapa sawit"
+    ],
+    "symptoms": [
+      "Daun tombak rusak",
+      "Lubang pada pelepah muda",
+      "Daun berbentuk kipas setelah membuka"
+    ],
+    "life": [
+      "Telur",
+      "Larva",
+      "Pupa",
+      "Imago"
+    ],
+    "notes": "Hama penting palma.",
+    "images": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "hypothenemus-hampei",
+    "name": "Hypothenemus hampei",
+    "common": "Penggerek buah kopi",
+    "category": "Coleoptera",
+    "family": "Curculionidae",
+    "icon": "coleoptera.svg",
+    "hosts": [
+      "Kopi"
+    ],
+    "symptoms": [
+      "Lubang masuk pada buah",
+      "Biji rusak",
+      "Mutu kopi menurun"
+    ],
+    "life": [
+      "Telur",
+      "Larva",
+      "Pupa",
+      "Imago"
+    ],
+    "notes": "Betina membuat lubang masuk ke buah kopi.",
+    "images": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "bemisia-cassava",
+    "name": "Bemisia tabaci complex",
+    "common": "Kutu kebul singkong",
+    "category": "Hemiptera",
+    "family": "Aleyrodidae",
+    "icon": "hemiptera.svg",
+    "hosts": [
+      "Singkong"
+    ],
+    "symptoms": [
+      "Daun menguning",
+      "Embun madu",
+      "Vektor virus singkong"
+    ],
+    "life": [
+      "Telur",
+      "Nimfa",
+      "Imago"
+    ],
+    "notes": "Kompleks spesies yang berasosiasi dengan singkong.",
+    "images": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "thrips-tabaci",
+    "name": "Thrips tabaci",
+    "common": "Thrips bawang",
+    "category": "Thysanoptera",
+    "family": "Thripidae",
+    "icon": "thysanoptera.svg",
+    "hosts": [
+      "Bawang merah",
+      "Bawang bombai",
+      "Cabai"
+    ],
+    "symptoms": [
+      "Daun berwarna keperakan",
+      "Daun menguning dan mengering",
+      "Kerusakan pada jaringan muda"
+    ],
+    "life": [
+      "Telur",
+      "Nimfa",
+      "Pupa",
+      "Imago"
+    ],
+    "notes": "Thrips penting pada tanaman bawang; juga dapat ditemukan pada berbagai tanaman sayuran.",
+    "eppo": {
+      "code": "THRITB",
+      "url": "https://gd.eppo.int/taxon/THRITB/photos",
+      "name": "Thrips tabaci"
+    },
+    "images": [
+      {
+        "image_type": "organism",
+        "local_path": "",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Thrips_tabaci.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Thrips_tabaci.jpg",
+        "attribution": "Wikimedia Commons — CC BY 3.0",
+        "notes": "Foto referensi berlisensi/sumber publik; cek halaman sumber untuk ketentuan penggunaan."
+      },
+      {
+        "image_type": "ai_illustration",
+        "local_path": "assets/opt/photos/thrips-tabaci.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Crop Expert — ilustrasi AI",
+        "notes": "Ilustrasi AI untuk pembelajaran bentuk/gejala; BUKAN foto diagnostik."
+      },
+      {
+        "image_type": "lifecycle",
+        "stage": "lifecycle",
+        "local_path": "assets/opt/photos/thrips-tabaci-lifecycle.jpg",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Ilustrasi pengguna — Crop Expert",
+        "notes": "Ilustrasi siklus hidup Thrips tabaci pada bawang merah."
+      },
+      {
+        "image_type": "organism",
+        "stage": "imago",
+        "local_path": "assets/opt/photos/thrips-tabaci-adult.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": "Foto imago Thrips tabaci yang diberikan pengguna."
+      }
+    ],
+    "life_cycle_reference": {
+      "stages": [
+        "Telur",
+        "Nimfa I–II",
+        "Prepupa/Pupa",
+        "Dewasa"
+      ],
+      "source_note": "Referensi visual: Wikimedia Commons; biologi: literatur thrips bawang."
+    },
+    "source_table": {
+      "source": "Tabel spesies thrips yang diberikan pengguna",
+      "severe": [
+        "Onion",
+        "Kale",
+        "Cabbage",
+        "Snowpea"
+      ],
+      "moderate": [
+        "Tomato"
+      ]
+    },
+    "description": "Thrips bawang menyerang jaringan daun, terutama bagian terlindung di antara lipatan daun. Luka makan menimbulkan warna keperakan/bronzing, daun terdistorsi dan pada serangan berat luas fotosintesis turun.",
+    "diagnostic": "Periksa bagian dalam lipatan daun dan pangkal daun; gunakan kaca pembesar atau ketuk daun di atas kertas putih untuk menemukan nimfa dan imago.",
+    "favorable_conditions": "Kondisi panas dan relatif kering cenderung mendukung perkembangan dan kerusakan thrips.",
+    "importance": "Penting",
+    "crop_importance": {
+      "bawang": "Penting",
+      "cabai": "Perlu dipantau"
+    },
+    "references": [
+      "UC IPM Thrips / Onion & Garlic"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "liriomyza-chinensis",
+    "name": "Liriomyza chinensis",
+    "common": "Lalat pengorok daun bawang",
+    "category": "Diptera",
+    "family": "Agromyzidae",
+    "icon": "diptera.svg",
+    "hosts": [
+      "Bawang merah",
+      "Bawang daun"
+    ],
+    "symptoms": [
+      "Korokan berkelok pada daun",
+      "Daun menguning",
+      "Fotosintesis menurun"
+    ],
+    "life": [
+      "Telur",
+      "Larva",
+      "Pupa",
+      "Imago"
+    ],
+    "notes": "Agromyzid leaf miner yang berasosiasi dengan Allium.",
+    "eppo": {
+      "code": "LIRICH",
+      "url": "https://gd.eppo.int/taxon/LIRICH/photos",
+      "name": "Liriomyza chinensis"
+    },
+    "images": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "delia-antiqua",
+    "name": "Delia antiqua",
+    "common": "Lalat bawang",
+    "category": "Diptera",
+    "family": "Anthomyiidae",
+    "icon": "diptera.svg",
+    "hosts": [
+      "Bawang merah",
+      "Bawang bombai"
+    ],
+    "symptoms": [
+      "Larva merusak pangkal dan umbi",
+      "Tanaman layu",
+      "Umbi membusuk sekunder"
+    ],
+    "life": [
+      "Telur",
+      "Larva",
+      "Pupa",
+      "Imago"
+    ],
+    "notes": "Onion fly; penting terutama pada sistem produksi Allium tertentu.",
+    "eppo": {
+      "code": "HYLEAN",
+      "url": "https://gd.eppo.int/taxon/HYLEAN/photos",
+      "name": "Delia antiqua"
+    },
+    "images": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "mythimna-separata",
+    "name": "Mythimna separata",
+    "common": "Ulat grayak padi",
+    "category": "Lepidoptera",
+    "family": "Noctuidae",
+    "icon": "lepidoptera.svg",
+    "hosts": [
+      "Padi",
+      "Jagung"
+    ],
+    "symptoms": [
+      "Daun dimakan dari tepi",
+      "Defoliasi",
+      "Tanaman muda dapat gundul"
+    ],
+    "life": [
+      "Telur",
+      "Larva",
+      "Pupa",
+      "Imago"
+    ],
+    "notes": "Armyworm yang memiliki padi sebagai salah satu inang utama.",
+    "eppo": {
+      "code": "PSEDSE",
+      "url": "https://gd.eppo.int/taxon/PSEDSE/photos",
+      "name": "Mythimna separata"
+    },
+    "images": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "orseolia-oryzae",
+    "name": "Orseolia oryzae",
+    "common": "Lalat bibit/penggerek puru padi",
+    "category": "Diptera",
+    "family": "Cecidomyiidae",
+    "icon": "diptera.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Terbentuk daun berbentuk tabung seperti daun bawang",
+      "Anakan terserang tidak menghasilkan malai normal",
+      "Pertumbuhan terganggu"
+    ],
+    "life": [
+      "Telur",
+      "Larva",
+      "Pupa",
+      "Imago"
+    ],
+    "notes": "Rice gall midge; EPPO mencatat keberadaannya di Indonesia.",
+    "eppo": {
+      "code": "PACHOR",
+      "url": "https://gd.eppo.int/taxon/PACHOR/photos",
+      "name": "Orseolia oryzae"
+    },
+    "images": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "pomacea-canaliculata",
+    "name": "Pomacea canaliculata",
+    "common": "Keong mas",
+    "category": "Mollusca",
+    "family": "Ampullariidae",
+    "icon": "mollusca.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Bibit padi terpotong",
+      "Rumpun muda habis dimakan",
+      "Petak tampak berlubang"
+    ],
+    "life": [
+      "Telur",
+      "Juvenil",
+      "Dewasa"
+    ],
+    "notes": "Hama penting pada fase awal pertanaman padi; pengelolaan perlu memperhatikan umur tanaman dan kondisi sawah.",
+    "eppo": {
+      "code": "POMACA",
+      "url": "https://gd.eppo.int/taxon/POMACA/photos",
+      "name": "Pomacea canaliculata"
+    },
+    "images": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "nymphula-depunctalis",
+    "name": "Nymphula depunctalis",
+    "common": "Penggulung daun air padi",
+    "category": "Lepidoptera",
+    "family": "Crambidae",
+    "icon": "lepidoptera.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Daun terpotong dan digulung",
+      "Larva berlindung dalam gulungan daun",
+      "Kerusakan meningkat pada sawah tergenang"
+    ],
+    "life": [
+      "Telur",
+      "Larva",
+      "Pupa",
+      "Imago"
+    ],
+    "notes": "Rice caseworm/leaf roller yang terkait dengan lingkungan sawah berair.",
+    "eppo": {
+      "code": "NYMPDE",
+      "url": "https://gd.eppo.int/taxon/NYMPDE/photos",
+      "name": "Nymphula depunctalis"
+    },
+    "images": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "dicladispa-armigera",
+    "name": "Dicladispa armigera",
+    "common": "Kumbang hispa padi",
+    "category": "Coleoptera",
+    "family": "Chrysomelidae",
+    "icon": "coleoptera.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Daun tergores dan memutih",
+      "Epidermis rusak",
+      "Pertumbuhan tanaman terganggu"
+    ],
+    "life": [
+      "Telur",
+      "Larva",
+      "Pupa",
+      "Imago"
+    ],
+    "notes": "Rice hispa; dewasa dan larva dapat merusak jaringan daun.",
+    "eppo": {
+      "code": "DICLAR",
+      "url": "https://gd.eppo.int/taxon/DICLAR/photos",
+      "name": "Dicladispa armigera"
+    },
+    "images": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "polyphagotarsonemus-latus",
+    "name": "Polyphagotarsonemus latus",
+    "common": "Tungau kuning lebar",
+    "category": "Acari",
+    "family": "Tarsonemidae",
+    "icon": "acari.svg",
+    "hosts": [
+      "Cabai",
+      "Tomat",
+      "Bawang merah"
+    ],
+    "symptoms": [
+      "Daun muda keriting",
+      "Pertumbuhan pucuk terhambat",
+      "Permukaan daun tampak rusak/bronzing"
+    ],
+    "life": [
+      "Telur",
+      "Larva",
+      "Nimfa",
+      "Dewasa"
+    ],
+    "notes": "Broad mite; sering menyerang jaringan muda pada berbagai tanaman hortikultura.",
+    "eppo": {
+      "code": "POLYLA",
+      "url": "https://gd.eppo.int/taxon/POLYLA/photos",
+      "name": "Polyphagotarsonemus latus"
+    },
+    "description": "Tungau kuning lebar menyerang jaringan muda. Daun menjadi menyempit, berkerut atau terdistorsi dan pertumbuhan pucuk dapat terhambat.",
+    "diagnostic": "Periksa pucuk dan daun termuda dengan kaca pembesar; gejala dapat menyerupai kerusakan thrips atau virus.",
+    "importance": "Penting",
+    "crop_importance": {
+      "cabai": "Penting"
+    },
+    "references": [
+      "UC IPM Peppers"
+    ],
+    "images": [
+      {
+        "image_type": "organism",
+        "local_path": "",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Polyphagotarsonemus_latus,_USDA_BARC.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Polyphagotarsonemus_latus,_USDA_BARC.jpg",
+        "attribution": "Wikimedia Commons — public domain",
+        "notes": "Foto referensi berlisensi/sumber publik; cek halaman sumber untuk ketentuan penggunaan."
+      },
+      {
+        "image_type": "ai_illustration",
+        "local_path": "assets/opt/photos/polyphagotarsonemus-latus.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Crop Expert — ilustrasi AI",
+        "notes": "Ilustrasi AI untuk pembelajaran bentuk/gejala; BUKAN foto diagnostik."
+      }
+    ],
+    "life_cycle_reference": {
+      "stages": [
+        "Telur",
+        "Larva/Nimfa",
+        "Dewasa"
+      ],
+      "source_note": "Urutan siklus disederhanakan untuk pembelajaran; durasi aktual bergantung suhu, inang, varietas dan kondisi lapangan."
+    },
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "bactrocera-dorsalis",
+    "name": "Bactrocera dorsalis",
+    "common": "Lalat buah",
+    "category": "Diptera",
+    "family": "Tephritidae",
+    "icon": "diptera.svg",
+    "hosts": [
+      "Cabai"
+    ],
+    "symptoms": [
+      "Tusukan pada buah",
+      "Larva berkembang di dalam buah",
+      "Buah busuk dan gugur"
+    ],
+    "life": [
+      "Telur",
+      "Larva",
+      "Pupa",
+      "Imago"
+    ],
+    "notes": "Lalat buah dengan inang sangat luas; pengelolaan biasanya memadukan sanitasi dan teknik pengendalian lainnya.",
+    "eppo": {
+      "code": "DACUDO",
+      "url": "https://gd.eppo.int/taxon/DACUDO/photos",
+      "name": "Bactrocera dorsalis"
+    },
+    "description": "Lalat buah bertelur pada buah; larva berkembang di dalam buah dan menyebabkan jaringan busuk. Lubang oviposisi dan pembusukan dapat membuka jalan bagi mikroorganisme sekunder.",
+    "diagnostic": "Cari titik tusukan/oviposisi dan buah yang cepat melunak atau membusuk; konfirmasi dengan menemukan larva di dalam buah.",
+    "importance": "Penting",
+    "crop_importance": {
+      "cabai": "Penting"
+    },
+    "references": [
+      "UC IPM Peppers"
+    ],
+    "images": [
+      {
+        "image_type": "organism",
+        "local_path": "",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bactrocera_dorsalis.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bactrocera_dorsalis.jpg",
+        "attribution": "Wikimedia Commons — public domain",
+        "notes": "Foto referensi berlisensi/sumber publik; cek halaman sumber untuk ketentuan penggunaan."
+      },
+      {
+        "image_type": "ai_illustration",
+        "local_path": "assets/opt/photos/bactrocera-dorsalis.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Crop Expert — ilustrasi AI",
+        "notes": "Ilustrasi AI untuk pembelajaran bentuk/gejala; BUKAN foto diagnostik."
+      }
+    ],
+    "life_cycle_reference": {
+      "stages": [
+        "Telur",
+        "Larva",
+        "Pupa",
+        "Dewasa"
+      ],
+      "source_note": "Urutan siklus disederhanakan untuk pembelajaran; durasi aktual bergantung suhu, inang, varietas dan kondisi lapangan."
+    },
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "aphis-craccivora",
+    "name": "Aphis craccivora",
+    "common": "Kutu daun kacang",
+    "category": "Hemiptera",
+    "family": "Aphididae",
+    "icon": "hemiptera.svg",
+    "hosts": [
+      "Cabai"
+    ],
+    "symptoms": [
+      "Koloni kutu pada pucuk",
+      "Daun keriting",
+      "Honeydew dan embun jelaga",
+      "Dapat berperan sebagai vektor virus"
+    ],
+    "life": [
+      "Nimfa",
+      "Dewasa"
+    ],
+    "notes": "Aphid dengan kisaran inang luas; hubungan dengan virus bergantung pada virus dan sistem tanaman.",
+    "eppo": {
+      "code": "APHICR",
+      "url": "https://gd.eppo.int/taxon/APHICR/photos",
+      "name": "Aphis craccivora"
+    },
+    "images": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "ceutorhynchus-suturalis",
+    "name": "Ceutorhynchus suturalis",
+    "common": "Kumbang bawang",
+    "category": "Coleoptera",
+    "family": "Curculionidae",
+    "hosts": [
+      "Bawang"
+    ],
+    "symptoms": [
+      "Hama yang tercantum pada pedoman EPPO untuk tanaman Allium."
+    ],
+    "life": [],
+    "notes": "Hama yang tercantum pada pedoman EPPO untuk tanaman Allium.",
+    "images": [],
+    "source_refs": [
+      "EPPO GPP crop guidelines 2000/1999"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "delia-platura",
+    "name": "Delia platura",
+    "common": "Lalat bibit kacang",
+    "category": "Diptera",
+    "family": "Anthomyiidae",
+    "hosts": [
+      "Bawang",
+      "Jagung"
+    ],
+    "symptoms": [
+      "Larva dapat menyerang bibit."
+    ],
+    "life": [],
+    "notes": "Larva dapat menyerang bibit.",
+    "images": [],
+    "source_refs": [
+      "EPPO GPP crop guidelines 2000/1999"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "delia-florigela",
+    "name": "Delia florilega",
+    "common": "Lalat bibit",
+    "category": "Diptera",
+    "family": "Anthomyiidae",
+    "hosts": [
+      "Bawang"
+    ],
+    "symptoms": [
+      "Tercantum sebagai hama Allium dalam pedoman EPPO."
+    ],
+    "life": [],
+    "notes": "Tercantum sebagai hama Allium dalam pedoman EPPO.",
+    "images": [],
+    "source_refs": [
+      "EPPO GPP crop guidelines 2000/1999"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "acrolepiopsis-assectella",
+    "name": "Acrolepiopsis assectella",
+    "common": "Penggerek daun bawang",
+    "category": "Lepidoptera",
+    "family": "Acrolepiidae",
+    "hosts": [
+      "Bawang daun",
+      "Bawang"
+    ],
+    "symptoms": [
+      "Larva merupakan hama daun pada tanaman Allium."
+    ],
+    "life": [],
+    "notes": "Larva merupakan hama daun pada tanaman Allium.",
+    "images": [],
+    "source_refs": [
+      "EPPO GPP crop guidelines 2000/1999"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "ditylenchus-dipsaci",
+    "name": "Ditylenchus dipsaci",
+    "common": "Nematoda batang dan umbi",
+    "category": "Nematoda",
+    "family": "Anguinidae",
+    "hosts": [
+      "Bawang",
+      "Bawang putih"
+    ],
+    "symptoms": [
+      "Menyerang batang dan umbi."
+    ],
+    "life": [],
+    "notes": "Menyerang batang dan umbi.",
+    "images": [],
+    "source_refs": [
+      "EPPO GPP crop guidelines 2000/1999"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "oscinella-frit",
+    "name": "Oscinella frit",
+    "common": "Lalat frit",
+    "category": "Diptera",
+    "family": "Chloropidae",
+    "hosts": [
+      "Jagung"
+    ],
+    "symptoms": [
+      "Larva merusak pucuk muda dan titik tumbuh."
+    ],
+    "life": [],
+    "notes": "Larva merusak pucuk muda dan titik tumbuh.",
+    "images": [],
+    "source_refs": [
+      "EPPO GPP crop guidelines 2000/1999"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "geomyza-tripunctata",
+    "name": "Geomyza tripunctata",
+    "common": "Lalat serealia",
+    "category": "Diptera",
+    "family": "Opomyzidae",
+    "hosts": [
+      "Jagung"
+    ],
+    "symptoms": [
+      "Larva dapat merusak bibit melalui pengorokan atau pemotongan pangkal."
+    ],
+    "life": [],
+    "notes": "Larva dapat merusak bibit melalui pengorokan atau pemotongan pangkal.",
+    "images": [],
+    "source_refs": [
+      "EPPO GPP crop guidelines 2000/1999"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "tanymecus-dilaticollis",
+    "name": "Tanymecus dilaticollis",
+    "common": "Kumbang jagung",
+    "category": "Coleoptera",
+    "family": "Curculionidae",
+    "hosts": [
+      "Jagung"
+    ],
+    "symptoms": [
+      "Hama yang tercantum dalam pedoman EPPO untuk jagung."
+    ],
+    "life": [],
+    "notes": "Hama yang tercantum dalam pedoman EPPO untuk jagung.",
+    "images": [],
+    "source_refs": [
+      "EPPO GPP crop guidelines 2000/1999"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "ostrinia-nubilalis",
+    "name": "Ostrinia nubilalis",
+    "common": "Penggerek batang jagung Eropa",
+    "category": "Lepidoptera",
+    "family": "Crambidae",
+    "hosts": [
+      "Jagung"
+    ],
+    "symptoms": [
+      "Larva penggerek batang jagung."
+    ],
+    "life": [],
+    "notes": "Larva penggerek batang jagung.",
+    "images": [
+      {
+        "image_type": "organism",
+        "local_path": "",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ostrinia_nubilalis.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ostrinia_nubilalis.jpg",
+        "source_name": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "author": "See source page",
+        "attribution": "Ostrinia nubilalis — Wikimedia Commons.",
+        "notes": "Foto nyata imago Ostrinia nubilalis; lisensi perlu dipertahankan sesuai halaman sumber."
+      }
+    ],
+    "source_refs": [
+      "EPPO GPP crop guidelines 2000/1999"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "sesamia-nonagrioides",
+    "name": "Sesamia nonagrioides",
+    "common": "Penggerek batang jagung",
+    "category": "Lepidoptera",
+    "family": "Noctuidae",
+    "hosts": [
+      "Jagung"
+    ],
+    "symptoms": [
+      "Penggerek batang jagung yang tercantum dalam pedoman EPPO."
+    ],
+    "life": [],
+    "notes": "Penggerek batang jagung yang tercantum dalam pedoman EPPO.",
+    "images": [],
+    "source_refs": [
+      "EPPO GPP crop guidelines 2000/1999"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "tetranychus-urticae",
+    "name": "Tetranychus urticae",
+    "common": "Tungau laba-laba dua bercak",
+    "category": "Acari",
+    "family": "Tetranychidae",
+    "hosts": [
+      "Jagung",
+      "Sayuran"
+    ],
+    "symptoms": [
+      "Tungau yang tercantum sebagai hama jagung dalam pedoman EPPO."
+    ],
+    "life": [],
+    "notes": "Tungau yang tercantum sebagai hama jagung dalam pedoman EPPO.",
+    "images": [],
+    "source_refs": [
+      "EPPO GPP crop guidelines 2000/1999"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "tetranychus-cinnabarinus",
+    "name": "Tetranychus cinnabarinus",
+    "common": "Tungau merah",
+    "category": "Acari",
+    "family": "Tetranychidae",
+    "hosts": [
+      "Jagung",
+      "Sayuran"
+    ],
+    "symptoms": [
+      "Tungau yang tercantum sebagai hama jagung."
+    ],
+    "life": [],
+    "notes": "Tungau yang tercantum sebagai hama jagung.",
+    "images": [],
+    "source_refs": [
+      "EPPO GPP crop guidelines 2000/1999"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "tetranychus-turkestani",
+    "name": "Tetranychus turkestani",
+    "common": "Tungau Turkestan",
+    "category": "Acari",
+    "family": "Tetranychidae",
+    "hosts": [
+      "Jagung",
+      "Sayuran"
+    ],
+    "symptoms": [
+      "Tungau yang tercantum sebagai hama jagung."
+    ],
+    "life": [],
+    "notes": "Tungau yang tercantum sebagai hama jagung.",
+    "images": [],
+    "source_refs": [
+      "EPPO GPP crop guidelines 2000/1999"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "brevicoryne-brassicae",
+    "name": "Brevicoryne brassicae",
+    "common": "Kutu daun kubis",
+    "category": "Hemiptera",
+    "family": "Aphididae",
+    "hosts": [
+      "Kubis",
+      "Brassica"
+    ],
+    "symptoms": [
+      "Koloni pada daun muda; daun dapat terdistorsi."
+    ],
+    "life": [],
+    "notes": "Koloni pada daun muda; daun dapat terdistorsi.",
+    "images": [
+      {
+        "image_type": "organism",
+        "local_path": "",
+        "remote_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/Brevicoryne_brassicae",
+        "source_name": "Wikimedia Commons",
+        "license": "Lisensi per file",
+        "author": "See source page",
+        "attribution": "Brevicoryne brassicae — Wikimedia Commons.",
+        "notes": "Galeri spesies tersedia; file individu harus diverifikasi sebelum dipakai."
+      }
+    ],
+    "source_refs": [
+      "EPPO GPP crop guidelines 2000/1999"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "phyllotreta-spp",
+    "name": "Phyllotreta spp.",
+    "common": "Kumbang daun/kumbang flea",
+    "category": "Coleoptera",
+    "family": "Chrysomelidae",
+    "hosts": [
+      "Kubis",
+      "Brassica"
+    ],
+    "symptoms": [
+      "Kumbang kecil yang tercantum sebagai hama Brassica."
+    ],
+    "life": [],
+    "notes": "Kumbang kecil yang tercantum sebagai hama Brassica.",
+    "images": [],
+    "source_refs": [
+      "EPPO GPP crop guidelines 2000/1999"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "delia-radicum",
+    "name": "Delia radicum",
+    "common": "Lalat akar kubis",
+    "category": "Diptera",
+    "family": "Anthomyiidae",
+    "hosts": [
+      "Kubis",
+      "Brassica"
+    ],
+    "symptoms": [
+      "Larva menyerang akar Brassica."
+    ],
+    "life": [],
+    "notes": "Larva menyerang akar Brassica.",
+    "images": [],
+    "source_refs": [
+      "EPPO GPP crop guidelines 2000/1999"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "delia-floralis",
+    "name": "Delia floralis",
+    "common": "Lalat akar lobak",
+    "category": "Diptera",
+    "family": "Anthomyiidae",
+    "hosts": [
+      "Brassica",
+      "Lobak"
+    ],
+    "symptoms": [
+      "Hama akar Brassica."
+    ],
+    "life": [],
+    "notes": "Hama akar Brassica.",
+    "images": [],
+    "source_refs": [
+      "EPPO GPP crop guidelines 2000/1999"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "psyliodes-chrysocephala",
+    "name": "Psylliodes chrysocephala",
+    "common": "Kumbang flea batang kubis",
+    "category": "Coleoptera",
+    "family": "Chrysomelidae",
+    "hosts": [
+      "Kubis",
+      "Brassica"
+    ],
+    "symptoms": [
+      "Tercantum sebagai hama Brassica."
+    ],
+    "life": [],
+    "notes": "Tercantum sebagai hama Brassica.",
+    "images": [],
+    "source_refs": [
+      "EPPO GPP crop guidelines 2000/1999"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "ceutorhynchus-pallidactylus",
+    "name": "Ceutorhynchus pallidactylus",
+    "common": "Kumbang penggerek batang kubis",
+    "category": "Coleoptera",
+    "family": "Curculionidae",
+    "hosts": [
+      "Kubis",
+      "Brassica"
+    ],
+    "symptoms": [
+      "Tercantum sebagai hama Brassica."
+    ],
+    "life": [],
+    "notes": "Tercantum sebagai hama Brassica.",
+    "images": [],
+    "source_refs": [
+      "EPPO GPP crop guidelines 2000/1999"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "ceutorhynchus-pleurostigma",
+    "name": "Ceutorhynchus pleurostigma",
+    "common": "Kumbang pembentuk puru akar lobak",
+    "category": "Coleoptera",
+    "family": "Curculionidae",
+    "hosts": [
+      "Brassica",
+      "Lobak"
+    ],
+    "symptoms": [
+      "Tercantum sebagai hama Brassica."
+    ],
+    "life": [],
+    "notes": "Tercantum sebagai hama Brassica.",
+    "images": [],
+    "source_refs": [
+      "EPPO GPP crop guidelines 2000/1999"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "meligethes-spp",
+    "name": "Meligethes spp.",
+    "common": "Kumbang serbuk sari",
+    "category": "Coleoptera",
+    "family": "Nitidulidae",
+    "hosts": [
+      "Kubis",
+      "Brassica"
+    ],
+    "symptoms": [
+      "Tercantum sebagai hama Brassica."
+    ],
+    "life": [],
+    "notes": "Tercantum sebagai hama Brassica.",
+    "images": [],
+    "source_refs": [
+      "EPPO GPP crop guidelines 2000/1999"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "aleurodes-proletella",
+    "name": "Aleurodes proletella",
+    "common": "Kutu kebul kubis",
+    "category": "Hemiptera",
+    "family": "Aleyrodidae",
+    "hosts": [
+      "Kubis",
+      "Brassica"
+    ],
+    "symptoms": [
+      "Tercantum sebagai hama Brassica."
+    ],
+    "life": [],
+    "notes": "Tercantum sebagai hama Brassica.",
+    "images": [],
+    "source_refs": [
+      "EPPO GPP crop guidelines 2000/1999"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "heterodera-cruciferae",
+    "name": "Heterodera cruciferae",
+    "common": "Nematoda sista Brassica",
+    "category": "Nematoda",
+    "family": "Heteroderidae",
+    "hosts": [
+      "Kubis",
+      "Brassica"
+    ],
+    "symptoms": [
+      "Nematoda yang tercantum sebagai hama Brassica."
+    ],
+    "life": [],
+    "notes": "Nematoda yang tercantum sebagai hama Brassica.",
+    "images": [],
+    "source_refs": [
+      "EPPO GPP crop guidelines 2000/1999"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "frankliniella-occidentalis",
+    "name": "Frankliniella occidentalis",
+    "common": "Thrips bunga barat (Western flower thrips)",
+    "category": "Thysanoptera",
+    "family": "Thripidae",
+    "icon": "thrips.svg",
+    "hosts": [
+      "Kacang panjang",
+      "Tomat",
+      "Mentimun",
+      "Mawar",
+      "Anyelir",
+      "Cabai",
+      "Kacang"
+    ],
+    "symptoms": [
+      "Kerusakan jaringan akibat aktivitas makan thrips",
+      "Daun dapat menunjukkan gejala keperakan/bronzing atau deformasi; gejala spesifik perlu dikonfirmasi di lapangan"
+    ],
+    "life": [
+      "Telur",
+      "Instar 1",
+      "Instar 2",
+      "Prepupa",
+      "Pupa",
+      "Imago"
+    ],
+    "notes": "Entri spesies ditambahkan dari tabel referensi thrips yang diberikan pengguna. Data inang/tingkat kerusakan mengikuti tabel sumber dan bukan klaim universal untuk semua lokasi.",
+    "images": [
+      {
+        "image_type": "lifecycle",
+        "local_path": "assets/opt/reference/thrips-life-cycle.png",
+        "remote_url": "",
+        "source_url": "",
+        "source_name": "Gambar referensi pengguna",
+        "license": "user-provided",
+        "author": "Pengguna",
+        "attribution": "Gambar siklus hidup thrips yang diberikan pengguna untuk Crop Expert.",
+        "notes": "Menampilkan telur, instar 1, instar 2, prepupa, pupa dan imago."
+      },
+      {
+        "image_type": "species_reference",
+        "local_path": "assets/opt/reference/thrips-species-hosts.png",
+        "remote_url": "",
+        "source_url": "",
+        "source_name": "Gambar referensi pengguna",
+        "license": "user-provided",
+        "author": "Pengguna",
+        "attribution": "Tabel spesies thrips dan tanaman terdampak yang diberikan pengguna untuk Crop Expert.",
+        "notes": "Digunakan sebagai referensi daftar spesies dan kisaran kerusakan pada tabel."
+      }
+    ],
+    "life_cycle_reference": {
+      "stages": [
+        "Telur (3–4 hari)",
+        "Instar 1 (1–2 hari)",
+        "Instar 2 (2–4 hari)",
+        "Prepupa (1–2 hari)",
+        "Pupa (1–3 hari)",
+        "Imago (30–45 hari)"
+      ],
+      "source_note": "Durasi tahap mengikuti gambar siklus hidup thrips yang diberikan pengguna; dapat berubah menurut spesies dan kondisi lingkungan."
+    },
+    "source_table": {
+      "source": "Tabel spesies thrips yang diberikan pengguna",
+      "severe": [
+        "French bean",
+        "Tomato",
+        "Cucurbits",
+        "Roses",
+        "Carnation"
+      ],
+      "moderate": [
+        "Onion",
+        "Chillies",
+        "Capsicum",
+        "Bean"
+      ]
+    },
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "frankliniella-schultzei",
+    "name": "Frankliniella schultzei",
+    "common": "Thrips bunga umum (Common blossom thrips)",
+    "category": "Thysanoptera",
+    "family": "Thripidae",
+    "icon": "thrips.svg",
+    "hosts": [
+      "Kacang panjang",
+      "Tomat",
+      "Mentimun",
+      "Terung",
+      "Kacang tanah"
+    ],
+    "symptoms": [
+      "Kerusakan jaringan akibat aktivitas makan thrips",
+      "Daun dapat menunjukkan gejala keperakan/bronzing atau deformasi; gejala spesifik perlu dikonfirmasi di lapangan"
+    ],
+    "life": [
+      "Telur",
+      "Instar 1",
+      "Instar 2",
+      "Prepupa",
+      "Pupa",
+      "Imago"
+    ],
+    "notes": "Entri spesies ditambahkan dari tabel referensi thrips yang diberikan pengguna. Data inang/tingkat kerusakan mengikuti tabel sumber dan bukan klaim universal untuk semua lokasi.",
+    "images": [
+      {
+        "image_type": "lifecycle",
+        "local_path": "assets/opt/reference/thrips-life-cycle.png",
+        "remote_url": "",
+        "source_url": "",
+        "source_name": "Gambar referensi pengguna",
+        "license": "user-provided",
+        "author": "Pengguna",
+        "attribution": "Gambar siklus hidup thrips yang diberikan pengguna untuk Crop Expert.",
+        "notes": "Menampilkan telur, instar 1, instar 2, prepupa, pupa dan imago."
+      },
+      {
+        "image_type": "species_reference",
+        "local_path": "assets/opt/reference/thrips-species-hosts.png",
+        "remote_url": "",
+        "source_url": "",
+        "source_name": "Gambar referensi pengguna",
+        "license": "user-provided",
+        "author": "Pengguna",
+        "attribution": "Tabel spesies thrips dan tanaman terdampak yang diberikan pengguna untuk Crop Expert.",
+        "notes": "Digunakan sebagai referensi daftar spesies dan kisaran kerusakan pada tabel."
+      }
+    ],
+    "life_cycle_reference": {
+      "stages": [
+        "Telur (3–4 hari)",
+        "Instar 1 (1–2 hari)",
+        "Instar 2 (2–4 hari)",
+        "Prepupa (1–2 hari)",
+        "Pupa (1–3 hari)",
+        "Imago (30–45 hari)"
+      ],
+      "source_note": "Durasi tahap mengikuti gambar siklus hidup thrips yang diberikan pengguna; dapat berubah menurut spesies dan kondisi lingkungan."
+    },
+    "source_table": {
+      "source": "Tabel spesies thrips yang diberikan pengguna",
+      "severe": [
+        "French bean",
+        "Tomato",
+        "Cucumber",
+        "Egg plant"
+      ],
+      "moderate": [
+        "Onion",
+        "Chillies",
+        "Capsicum",
+        "Peanuts"
+      ]
+    },
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "hydatothrips-adolfifriderici",
+    "name": "Hydatothrips adolfifriderici",
+    "common": "Thrips daun kacang (Bean leaf thrips)",
+    "category": "Thysanoptera",
+    "family": "Thripidae",
+    "icon": "thrips.svg",
+    "hosts": [
+      "Kacang",
+      "Kacang panjang",
+      "Kacang tunggak",
+      "Dolichos"
+    ],
+    "symptoms": [
+      "Kerusakan jaringan akibat aktivitas makan thrips",
+      "Daun dapat menunjukkan gejala keperakan/bronzing atau deformasi; gejala spesifik perlu dikonfirmasi di lapangan"
+    ],
+    "life": [
+      "Telur",
+      "Instar 1",
+      "Instar 2",
+      "Prepupa",
+      "Pupa",
+      "Imago"
+    ],
+    "notes": "Entri spesies ditambahkan dari tabel referensi thrips yang diberikan pengguna. Data inang/tingkat kerusakan mengikuti tabel sumber dan bukan klaim universal untuk semua lokasi.",
+    "images": [
+      {
+        "image_type": "lifecycle",
+        "local_path": "assets/opt/reference/thrips-life-cycle.png",
+        "remote_url": "",
+        "source_url": "",
+        "source_name": "Gambar referensi pengguna",
+        "license": "user-provided",
+        "author": "Pengguna",
+        "attribution": "Gambar siklus hidup thrips yang diberikan pengguna untuk Crop Expert.",
+        "notes": "Menampilkan telur, instar 1, instar 2, prepupa, pupa dan imago."
+      },
+      {
+        "image_type": "species_reference",
+        "local_path": "assets/opt/reference/thrips-species-hosts.png",
+        "remote_url": "",
+        "source_url": "",
+        "source_name": "Gambar referensi pengguna",
+        "license": "user-provided",
+        "author": "Pengguna",
+        "attribution": "Tabel spesies thrips dan tanaman terdampak yang diberikan pengguna untuk Crop Expert.",
+        "notes": "Digunakan sebagai referensi daftar spesies dan kisaran kerusakan pada tabel."
+      }
+    ],
+    "life_cycle_reference": {
+      "stages": [
+        "Telur (3–4 hari)",
+        "Instar 1 (1–2 hari)",
+        "Instar 2 (2–4 hari)",
+        "Prepupa (1–2 hari)",
+        "Pupa (1–3 hari)",
+        "Imago (30–45 hari)"
+      ],
+      "source_note": "Durasi tahap mengikuti gambar siklus hidup thrips yang diberikan pengguna; dapat berubah menurut spesies dan kondisi lingkungan."
+    },
+    "source_table": {
+      "source": "Tabel spesies thrips yang diberikan pengguna",
+      "severe": [
+        "Bean",
+        "French bean",
+        "Cowpea"
+      ],
+      "moderate": [
+        "Dolichos"
+      ]
+    },
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "megalurothrips-sjostedti",
+    "name": "Megalurothrips sjostedti",
+    "common": "Thrips bunga kacang (Bean flower thrips)",
+    "category": "Thysanoptera",
+    "family": "Thripidae",
+    "icon": "thrips.svg",
+    "hosts": [
+      "Kacang tunggak",
+      "Kacang",
+      "Dolichos",
+      "Kacang panjang"
+    ],
+    "symptoms": [
+      "Kerusakan jaringan akibat aktivitas makan thrips",
+      "Daun dapat menunjukkan gejala keperakan/bronzing atau deformasi; gejala spesifik perlu dikonfirmasi di lapangan"
+    ],
+    "life": [
+      "Telur",
+      "Instar 1",
+      "Instar 2",
+      "Prepupa",
+      "Pupa",
+      "Imago"
+    ],
+    "notes": "Entri spesies ditambahkan dari tabel referensi thrips yang diberikan pengguna. Data inang/tingkat kerusakan mengikuti tabel sumber dan bukan klaim universal untuk semua lokasi.",
+    "images": [
+      {
+        "image_type": "lifecycle",
+        "local_path": "assets/opt/reference/thrips-life-cycle.png",
+        "remote_url": "",
+        "source_url": "",
+        "source_name": "Gambar referensi pengguna",
+        "license": "user-provided",
+        "author": "Pengguna",
+        "attribution": "Gambar siklus hidup thrips yang diberikan pengguna untuk Crop Expert.",
+        "notes": "Menampilkan telur, instar 1, instar 2, prepupa, pupa dan imago."
+      },
+      {
+        "image_type": "species_reference",
+        "local_path": "assets/opt/reference/thrips-species-hosts.png",
+        "remote_url": "",
+        "source_url": "",
+        "source_name": "Gambar referensi pengguna",
+        "license": "user-provided",
+        "author": "Pengguna",
+        "attribution": "Tabel spesies thrips dan tanaman terdampak yang diberikan pengguna untuk Crop Expert.",
+        "notes": "Digunakan sebagai referensi daftar spesies dan kisaran kerusakan pada tabel."
+      }
+    ],
+    "life_cycle_reference": {
+      "stages": [
+        "Telur (3–4 hari)",
+        "Instar 1 (1–2 hari)",
+        "Instar 2 (2–4 hari)",
+        "Prepupa (1–2 hari)",
+        "Pupa (1–3 hari)",
+        "Imago (30–45 hari)"
+      ],
+      "source_note": "Durasi tahap mengikuti gambar siklus hidup thrips yang diberikan pengguna; dapat berubah menurut spesies dan kondisi lingkungan."
+    },
+    "source_table": {
+      "source": "Tabel spesies thrips yang diberikan pengguna",
+      "severe": [
+        "Cowpea",
+        "Bean",
+        "Dolichos",
+        "French bean"
+      ],
+      "moderate": []
+    },
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "ceratothripoides-brunneus",
+    "name": "Ceratothripoides brunneus",
+    "common": "Thrips tomat (Tomato thrips)",
+    "category": "Thysanoptera",
+    "family": "Thripidae",
+    "icon": "thrips.svg",
+    "hosts": [
+      "Tomat",
+      "Nightshade/Terung",
+      "Cabai",
+      "Paprika"
+    ],
+    "symptoms": [
+      "Kerusakan jaringan akibat aktivitas makan thrips",
+      "Daun dapat menunjukkan gejala keperakan/bronzing atau deformasi; gejala spesifik perlu dikonfirmasi di lapangan"
+    ],
+    "life": [
+      "Telur",
+      "Instar 1",
+      "Instar 2",
+      "Prepupa",
+      "Pupa",
+      "Imago"
+    ],
+    "notes": "Entri spesies ditambahkan dari tabel referensi thrips yang diberikan pengguna. Data inang/tingkat kerusakan mengikuti tabel sumber dan bukan klaim universal untuk semua lokasi.",
+    "images": [
+      {
+        "image_type": "lifecycle",
+        "local_path": "assets/opt/reference/thrips-life-cycle.png",
+        "remote_url": "",
+        "source_url": "",
+        "source_name": "Gambar referensi pengguna",
+        "license": "user-provided",
+        "author": "Pengguna",
+        "attribution": "Gambar siklus hidup thrips yang diberikan pengguna untuk Crop Expert.",
+        "notes": "Menampilkan telur, instar 1, instar 2, prepupa, pupa dan imago."
+      },
+      {
+        "image_type": "species_reference",
+        "local_path": "assets/opt/reference/thrips-species-hosts.png",
+        "remote_url": "",
+        "source_url": "",
+        "source_name": "Gambar referensi pengguna",
+        "license": "user-provided",
+        "author": "Pengguna",
+        "attribution": "Tabel spesies thrips dan tanaman terdampak yang diberikan pengguna untuk Crop Expert.",
+        "notes": "Digunakan sebagai referensi daftar spesies dan kisaran kerusakan pada tabel."
+      }
+    ],
+    "life_cycle_reference": {
+      "stages": [
+        "Telur (3–4 hari)",
+        "Instar 1 (1–2 hari)",
+        "Instar 2 (2–4 hari)",
+        "Prepupa (1–2 hari)",
+        "Pupa (1–3 hari)",
+        "Imago (30–45 hari)"
+      ],
+      "source_note": "Durasi tahap mengikuti gambar siklus hidup thrips yang diberikan pengguna; dapat berubah menurut spesies dan kondisi lingkungan."
+    },
+    "source_table": {
+      "source": "Tabel spesies thrips yang diberikan pengguna",
+      "severe": [
+        "Tomato",
+        "Nightshade",
+        "Eggplant"
+      ],
+      "moderate": [
+        "Chilli",
+        "Capsicum"
+      ]
+    },
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "pests",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  }
+]

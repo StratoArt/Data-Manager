@@ -1,0 +1,978 @@
+{
+  "version": "2026.10.05",
+  "canonical_source": "Data Manager",
+  "asset_policy": "shared canonical icon registry; app repos may bundle a synchronized copy",
+  "categories": {
+    "lepidoptera": {
+      "name": "Lepidoptera",
+      "label": "Ulat",
+      "type": "Hama",
+      "icon": "icons/opt/lepidoptera.svg"
+    },
+    "hemiptera": {
+      "name": "Hemiptera",
+      "label": "Kutu · Wereng · Kepik",
+      "type": "Hama",
+      "icon": "icons/opt/hemiptera.svg"
+    },
+    "thysanoptera": {
+      "name": "Thysanoptera",
+      "label": "Thrips",
+      "type": "Hama",
+      "icon": "icons/opt/thrips.svg"
+    },
+    "coleoptera": {
+      "name": "Coleoptera",
+      "label": "Kumbang",
+      "type": "Hama",
+      "icon": "icons/opt/coleoptera.svg"
+    },
+    "diptera": {
+      "name": "Diptera",
+      "label": "Lalat",
+      "type": "Hama",
+      "icon": "icons/opt/diptera.svg"
+    },
+    "orthoptera": {
+      "name": "Orthoptera",
+      "label": "Belalang",
+      "type": "Hama",
+      "icon": "icons/opt/orthoptera.svg"
+    },
+    "isoptera": {
+      "name": "Isoptera",
+      "label": "Rayap",
+      "type": "Hama",
+      "icon": "icons/opt/isoptera.svg"
+    },
+    "acari": {
+      "name": "Acari",
+      "label": "Tungau",
+      "type": "Hama",
+      "icon": "icons/opt/acari.svg"
+    },
+    "nematoda": {
+      "name": "Nematoda",
+      "label": "Nematoda",
+      "type": "Hama",
+      "icon": "icons/opt/nematoda.svg"
+    },
+    "mollusca": {
+      "name": "Mollusca",
+      "label": "Siput · Keong",
+      "type": "Hama",
+      "icon": "icons/opt/mollusca.svg"
+    },
+    "rodentia": {
+      "name": "Rodentia",
+      "label": "Tikus",
+      "type": "Hama",
+      "icon": "icons/opt/rodentia.svg"
+    },
+    "lainnya": {
+      "name": "Lainnya",
+      "label": "Lain-lain",
+      "type": "Hama",
+      "icon": "icons/opt/lainnya.svg"
+    }
+  },
+  "crops": {
+    "padi": {
+      "name": "Padi",
+      "icon": "icons/crops/crop-rice.svg"
+    },
+    "cabai": {
+      "name": "Cabai",
+      "icon": "icons/crops/crop-chili.svg"
+    },
+    "tomat": {
+      "name": "Tomat",
+      "icon": "icons/crops/crop-tomato.svg"
+    },
+    "bawang": {
+      "name": "Bawang merah",
+      "icon": "icons/crops/crop-onion.svg"
+    },
+    "kubis": {
+      "name": "Kubis",
+      "icon": "icons/crops/crop-cabbage.svg"
+    },
+    "mentimun": {
+      "name": "Mentimun",
+      "icon": "icons/crops/crop-cucumber.svg"
+    },
+    "jagung": {
+      "name": "Jagung",
+      "icon": "icons/crops/crop-corn.svg"
+    },
+    "kedelai": {
+      "name": "Kedelai",
+      "icon": "icons/crops/crop-soy.svg"
+    },
+    "semangka": {
+      "name": "Semangka",
+      "icon": "icons/crops/crop-watermelon.svg"
+    },
+    "melon": {
+      "name": "Melon",
+      "icon": "icons/crops/crop-melon.svg"
+    },
+    "kentang": {
+      "name": "Kentang",
+      "icon": "icons/crops/crop-potato.svg"
+    },
+    "kacang": {
+      "name": "Kacang panjang",
+      "icon": "icons/crops/crop-beans.svg"
+    },
+    "terung": {
+      "name": "Terung",
+      "icon": "icons/crops/crop-eggplant.svg"
+    },
+    "pisang": {
+      "name": "Pisang",
+      "icon": "icons/crops/crop-banana.svg"
+    },
+    "jeruk": {
+      "name": "Jeruk",
+      "icon": "icons/crops/crop-citrus.svg"
+    },
+    "kopi": {
+      "name": "Kopi",
+      "icon": "icons/crops/crop-coffee.svg"
+    },
+    "kakao": {
+      "name": "Kakao",
+      "icon": "icons/crops/crop-cacao.svg"
+    },
+    "teh": {
+      "name": "Teh",
+      "icon": "icons/crops/crop-tea.svg"
+    },
+    "kelapa": {
+      "name": "Kelapa",
+      "icon": "icons/crops/crop-coconut.svg"
+    },
+    "sawit": {
+      "name": "Kelapa sawit",
+      "icon": "icons/crops/crop-palm.svg"
+    },
+    "singkong": {
+      "name": "Singkong",
+      "icon": "icons/crops/crop-cassava.svg"
+    },
+    "kacang-tanah": {
+      "name": "Kacang tanah",
+      "icon": "icons/crops/crop-peanut.svg"
+    },
+    "sawi": {
+      "name": "Sawi",
+      "icon": "icons/crops/crop-mustard.svg"
+    },
+    "caisim": {
+      "name": "Caisim",
+      "icon": "icons/crops/crop-caisim.svg"
+    },
+    "pakcoy": {
+      "name": "Pak Coy",
+      "icon": "icons/crops/crop-pakcoy.svg"
+    },
+    "anggur": {
+      "name": "Anggur",
+      "icon": "icons/crops/crop-grape.svg"
+    },
+    "jagung-manis": {
+      "name": "Jagung Manis",
+      "icon": "icons/crops/crop-sweet-corn.svg"
+    },
+    "kembang-kol": {
+      "name": "Kembang Kol",
+      "icon": "icons/crops/crop-cauliflower.svg"
+    },
+    "brokoli": {
+      "name": "Brokoli",
+      "icon": "icons/crops/crop-broccoli.svg"
+    },
+    "kailan": {
+      "name": "Kailan",
+      "icon": "icons/crops/crop-kailan.svg"
+    }
+  },
+  "opt": {
+    "spodoptera-exigua": {
+      "name": "Spodoptera exigua",
+      "type": "Hama",
+      "icon": "icons/opt/spodoptera.svg"
+    },
+    "spodoptera-frugiperda": {
+      "name": "Spodoptera frugiperda",
+      "type": "Hama",
+      "icon": "icons/opt/spodoptera.svg"
+    },
+    "plutella-xylostella": {
+      "name": "Plutella xylostella",
+      "type": "Hama",
+      "icon": "icons/opt/plutella.svg"
+    },
+    "helicoverpa-armigera": {
+      "name": "Helicoverpa armigera",
+      "type": "Hama",
+      "icon": "icons/opt/helicoverpa.svg"
+    },
+    "thrips-parvispinus": {
+      "name": "Thrips parvispinus",
+      "type": "Hama",
+      "icon": "icons/opt/thrips.svg"
+    },
+    "bemisia-tabaci": {
+      "name": "Bemisia tabaci",
+      "type": "Hama",
+      "icon": "icons/opt/hemiptera.svg"
+    },
+    "aphis-gossypii": {
+      "name": "Aphis gossypii",
+      "type": "Hama",
+      "icon": "icons/opt/hemiptera.svg"
+    },
+    "nilaparvata-lugens": {
+      "name": "Nilaparvata lugens",
+      "type": "Hama",
+      "icon": "icons/opt/hemiptera.svg"
+    },
+    "cnaphalocrocis-medinalis": {
+      "name": "Cnaphalocrocis medinalis",
+      "type": "Hama",
+      "icon": "icons/opt/helicoverpa.svg"
+    },
+    "liriomyza": {
+      "name": "Liriomyza spp.",
+      "type": "Hama",
+      "icon": "icons/opt/diptera.svg"
+    },
+    "tetranychus": {
+      "name": "Tetranychus spp.",
+      "type": "Hama",
+      "icon": "icons/opt/acari.svg"
+    },
+    "nematoda-puru": {
+      "name": "Meloidogyne spp.",
+      "type": "Hama",
+      "icon": "icons/opt/nematoda.svg"
+    },
+    "leptocorisa-oratorius": {
+      "name": "Leptocorisa oratorius",
+      "type": "Hama",
+      "icon": "icons/opt/hemiptera.svg"
+    },
+    "scirpophaga-incertulas": {
+      "name": "Scirpophaga incertulas",
+      "type": "Hama",
+      "icon": "icons/opt/lepidoptera.svg"
+    },
+    "scirpophaga-innotata": {
+      "name": "Scirpophaga innotata",
+      "type": "Hama",
+      "icon": "icons/opt/lepidoptera.svg"
+    },
+    "chilo-suppressalis": {
+      "name": "Chilo suppressalis",
+      "type": "Hama",
+      "icon": "icons/opt/lepidoptera.svg"
+    },
+    "bemisia-vaporariorum": {
+      "name": "Trialeurodes vaporariorum",
+      "type": "Hama",
+      "icon": "icons/opt/hemiptera.svg"
+    },
+    "helopeltis": {
+      "name": "Helopeltis spp.",
+      "type": "Hama",
+      "icon": "icons/opt/hemiptera.svg"
+    },
+    "recilia-dorsalis": {
+      "name": "Recilia dorsalis",
+      "type": "Hama",
+      "icon": "icons/opt/hemiptera.svg"
+    },
+    "sogatella-furcifera": {
+      "name": "Sogatella furcifera",
+      "type": "Hama",
+      "icon": "icons/opt/hemiptera.svg"
+    },
+    "nephotettix": {
+      "name": "Nephotettix spp.",
+      "type": "Hama",
+      "icon": "icons/opt/hemiptera.svg"
+    },
+    "spodoptera-litura": {
+      "name": "Spodoptera litura",
+      "type": "Hama",
+      "icon": "icons/opt/spodoptera.svg"
+    },
+    "agrotis-ipsilon": {
+      "name": "Agrotis ipsilon",
+      "type": "Hama",
+      "icon": "icons/opt/spodoptera.svg"
+    },
+    "pseudococcus": {
+      "name": "Pseudococcus spp.",
+      "type": "Hama",
+      "icon": "icons/opt/hemiptera.svg"
+    },
+    "aphid": {
+      "name": "Aphididae spp.",
+      "type": "Hama",
+      "icon": "icons/opt/hemiptera.svg"
+    },
+    "caloptilia": {
+      "name": "Caloptilia spp.",
+      "type": "Hama",
+      "icon": "icons/opt/lepidoptera.svg"
+    },
+    "brontispa-longissima": {
+      "name": "Brontispa longissima",
+      "type": "Hama",
+      "icon": "icons/opt/coleoptera.svg"
+    },
+    "oryctes-rhinoceros": {
+      "name": "Oryctes rhinoceros",
+      "type": "Hama",
+      "icon": "icons/opt/coleoptera.svg"
+    },
+    "hypothenemus-hampei": {
+      "name": "Hypothenemus hampei",
+      "type": "Hama",
+      "icon": "icons/opt/coleoptera.svg"
+    },
+    "bemisia-cassava": {
+      "name": "Bemisia tabaci complex",
+      "type": "Hama",
+      "icon": "icons/opt/hemiptera.svg"
+    },
+    "thrips-tabaci": {
+      "name": "Thrips tabaci",
+      "type": "Hama",
+      "icon": "icons/opt/thysanoptera.svg"
+    },
+    "liriomyza-chinensis": {
+      "name": "Liriomyza chinensis",
+      "type": "Hama",
+      "icon": "icons/opt/diptera.svg"
+    },
+    "delia-antiqua": {
+      "name": "Delia antiqua",
+      "type": "Hama",
+      "icon": "icons/opt/diptera.svg"
+    },
+    "mythimna-separata": {
+      "name": "Mythimna separata",
+      "type": "Hama",
+      "icon": "icons/opt/lepidoptera.svg"
+    },
+    "orseolia-oryzae": {
+      "name": "Orseolia oryzae",
+      "type": "Hama",
+      "icon": "icons/opt/diptera.svg"
+    },
+    "pomacea-canaliculata": {
+      "name": "Pomacea canaliculata",
+      "type": "Hama",
+      "icon": "icons/opt/mollusca.svg"
+    },
+    "nymphula-depunctalis": {
+      "name": "Nymphula depunctalis",
+      "type": "Hama",
+      "icon": "icons/opt/lepidoptera.svg"
+    },
+    "dicladispa-armigera": {
+      "name": "Dicladispa armigera",
+      "type": "Hama",
+      "icon": "icons/opt/coleoptera.svg"
+    },
+    "polyphagotarsonemus-latus": {
+      "name": "Polyphagotarsonemus latus",
+      "type": "Hama",
+      "icon": "icons/opt/acari.svg"
+    },
+    "bactrocera-dorsalis": {
+      "name": "Bactrocera dorsalis",
+      "type": "Hama",
+      "icon": "icons/opt/diptera.svg"
+    },
+    "aphis-craccivora": {
+      "name": "Aphis craccivora",
+      "type": "Hama",
+      "icon": "icons/opt/hemiptera.svg"
+    },
+    "ceutorhynchus-suturalis": {
+      "name": "Ceutorhynchus suturalis",
+      "type": "Hama",
+      "icon": "icons/opt/category-pest.svg"
+    },
+    "delia-platura": {
+      "name": "Delia platura",
+      "type": "Hama",
+      "icon": "icons/opt/category-pest.svg"
+    },
+    "delia-florigela": {
+      "name": "Delia florilega",
+      "type": "Hama",
+      "icon": "icons/opt/category-pest.svg"
+    },
+    "acrolepiopsis-assectella": {
+      "name": "Acrolepiopsis assectella",
+      "type": "Hama",
+      "icon": "icons/opt/category-pest.svg"
+    },
+    "ditylenchus-dipsaci": {
+      "name": "Ditylenchus dipsaci",
+      "type": "Hama",
+      "icon": "icons/opt/category-pest.svg"
+    },
+    "oscinella-frit": {
+      "name": "Oscinella frit",
+      "type": "Hama",
+      "icon": "icons/opt/category-pest.svg"
+    },
+    "geomyza-tripunctata": {
+      "name": "Geomyza tripunctata",
+      "type": "Hama",
+      "icon": "icons/opt/category-pest.svg"
+    },
+    "tanymecus-dilaticollis": {
+      "name": "Tanymecus dilaticollis",
+      "type": "Hama",
+      "icon": "icons/opt/category-pest.svg"
+    },
+    "ostrinia-nubilalis": {
+      "name": "Ostrinia nubilalis",
+      "type": "Hama",
+      "icon": "icons/opt/category-pest.svg"
+    },
+    "sesamia-nonagrioides": {
+      "name": "Sesamia nonagrioides",
+      "type": "Hama",
+      "icon": "icons/opt/category-pest.svg"
+    },
+    "tetranychus-urticae": {
+      "name": "Tetranychus urticae",
+      "type": "Hama",
+      "icon": "icons/opt/category-pest.svg"
+    },
+    "tetranychus-cinnabarinus": {
+      "name": "Tetranychus cinnabarinus",
+      "type": "Hama",
+      "icon": "icons/opt/category-pest.svg"
+    },
+    "tetranychus-turkestani": {
+      "name": "Tetranychus turkestani",
+      "type": "Hama",
+      "icon": "icons/opt/category-pest.svg"
+    },
+    "brevicoryne-brassicae": {
+      "name": "Brevicoryne brassicae",
+      "type": "Hama",
+      "icon": "icons/opt/category-pest.svg"
+    },
+    "phyllotreta-spp": {
+      "name": "Phyllotreta spp.",
+      "type": "Hama",
+      "icon": "icons/opt/category-pest.svg"
+    },
+    "delia-radicum": {
+      "name": "Delia radicum",
+      "type": "Hama",
+      "icon": "icons/opt/category-pest.svg"
+    },
+    "delia-floralis": {
+      "name": "Delia floralis",
+      "type": "Hama",
+      "icon": "icons/opt/category-pest.svg"
+    },
+    "psyliodes-chrysocephala": {
+      "name": "Psylliodes chrysocephala",
+      "type": "Hama",
+      "icon": "icons/opt/category-pest.svg"
+    },
+    "ceutorhynchus-pallidactylus": {
+      "name": "Ceutorhynchus pallidactylus",
+      "type": "Hama",
+      "icon": "icons/opt/category-pest.svg"
+    },
+    "ceutorhynchus-pleurostigma": {
+      "name": "Ceutorhynchus pleurostigma",
+      "type": "Hama",
+      "icon": "icons/opt/category-pest.svg"
+    },
+    "meligethes-spp": {
+      "name": "Meligethes spp.",
+      "type": "Hama",
+      "icon": "icons/opt/category-pest.svg"
+    },
+    "aleurodes-proletella": {
+      "name": "Aleurodes proletella",
+      "type": "Hama",
+      "icon": "icons/opt/category-pest.svg"
+    },
+    "heterodera-cruciferae": {
+      "name": "Heterodera cruciferae",
+      "type": "Hama",
+      "icon": "icons/opt/category-pest.svg"
+    },
+    "frankliniella-occidentalis": {
+      "name": "Frankliniella occidentalis",
+      "type": "Hama",
+      "icon": "icons/opt/thrips.svg"
+    },
+    "frankliniella-schultzei": {
+      "name": "Frankliniella schultzei",
+      "type": "Hama",
+      "icon": "icons/opt/thrips.svg"
+    },
+    "hydatothrips-adolfifriderici": {
+      "name": "Hydatothrips adolfifriderici",
+      "type": "Hama",
+      "icon": "icons/opt/thrips.svg"
+    },
+    "megalurothrips-sjostedti": {
+      "name": "Megalurothrips sjostedti",
+      "type": "Hama",
+      "icon": "icons/opt/thrips.svg"
+    },
+    "ceratothripoides-brunneus": {
+      "name": "Ceratothripoides brunneus",
+      "type": "Hama",
+      "icon": "icons/opt/thrips.svg"
+    },
+    "phytophthora": {
+      "name": "Phytophthora infestans",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "colletotrichum": {
+      "name": "Colletotrichum spp.",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "xanthomonas": {
+      "name": "Xanthomonas spp.",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "mosaic": {
+      "name": "Mosaic virus",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "fusarium": {
+      "name": "Fusarium oxysporum",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "downy": {
+      "name": "Peronospora spp.",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "rhizoctonia": {
+      "name": "Rhizoctonia solani",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "rice-blast": {
+      "name": "Magnaporthe oryzae",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "rice-bacterial-blight": {
+      "name": "Xanthomonas oryzae pv. oryzae",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "rice-tungro": {
+      "name": "Rice tungro virus complex",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "tomato-bacterial-wilt": {
+      "name": "Ralstonia solanacearum species complex",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "cercospora": {
+      "name": "Cercospora spp.",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "alternaria": {
+      "name": "Alternaria spp.",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "powdery-mildew": {
+      "name": "Podosphaera / Erysiphe spp.",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "downy-cucurbits": {
+      "name": "Pseudoperonospora cubensis",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "fusarium-wilt": {
+      "name": "Fusarium oxysporum complex",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "black-rot": {
+      "name": "Xanthomonas campestris pv. campestris",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "citrus-canker": {
+      "name": "Xanthomonas citri pv. citri",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "fusarium-cepae": {
+      "name": "Fusarium oxysporum f. sp. cepae",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "rice-brown-spot": {
+      "name": "Bipolaris oryzae",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "rice-bacterial-leaf-streak": {
+      "name": "Xanthomonas oryzae pv. oryzicola",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "rice-bakanae": {
+      "name": "Fusarium fujikuroi",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "rice-false-smut": {
+      "name": "Ustilaginoidea virens",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "rice-narrow-brown-leaf-spot": {
+      "name": "Cercospora janseana",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "onion-downy-mildew": {
+      "name": "Peronospora destructor",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "onion-stemphylium": {
+      "name": "Stemphylium vesicarium",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "chili-phytophthora-capsici": {
+      "name": "Phytophthora capsici",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "chili-cercospora": {
+      "name": "Cercospora capsici",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "stromatinia-cepivorum": {
+      "name": "Stromatinia cepivorum",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "botryotinia-squamosa": {
+      "name": "Botryotinia squamosa",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "phytophthora-porri": {
+      "name": "Phytophthora porri",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "alternaria-porri": {
+      "name": "Alternaria porri",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "cladosporium-allii": {
+      "name": "Cladosporium spp.",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "puccinia-allii": {
+      "name": "Puccinia allii",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "urocystis-cepulae": {
+      "name": "Urocystis cepulae",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "botrytis-aclada": {
+      "name": "Botrytis aclada",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "colletotrichum-circinans": {
+      "name": "Colletotrichum dematium f.sp. circinans",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "pyrenochaeta-terrestris": {
+      "name": "Pyrenochaeta terrestris",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "fusarium-culmorum": {
+      "name": "Fusarium culmorum",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "aspergillus-niger": {
+      "name": "Aspergillus niger",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "penicillium-spp": {
+      "name": "Penicillium spp.",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "burkholderia-gladioli-alliicola": {
+      "name": "Burkholderia gladioli pv. alliicola",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "setosphaeria-turcica": {
+      "name": "Setosphaeria turcica",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "sphacelotheca-reiliana": {
+      "name": "Sphacelotheca reiliana",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "ustilago-maydis": {
+      "name": "Ustilago maydis",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "pythium-maize": {
+      "name": "Pythium spp.",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "fusarium-maize": {
+      "name": "Fusarium spp.",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "colletotrichum-graminicola": {
+      "name": "Colletotrichum graminicola",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "sclerophthora-macrospora": {
+      "name": "Sclerophthora macrospora",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "leptosphaeria-maculans": {
+      "name": "Leptosphaeria maculans",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "mycosphaerella-brassicicola": {
+      "name": "Mycosphaerella brassicicola",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "peronospora-parasitica": {
+      "name": "Peronospora parasitica",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "albugo-candida": {
+      "name": "Albugo candida",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "erysiphe-cruciferarum": {
+      "name": "Erysiphe cruciferarum",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "alternaria-brassicae": {
+      "name": "Alternaria brassicae",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "alternaria-brassicicola": {
+      "name": "Alternaria brassicicola",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "pyrenopeziza-brassicae": {
+      "name": "Pyrenopeziza brassicae",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "botrytis-cinerea-brassica": {
+      "name": "Botrytis cinerea",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "plasmodiophora-brassicae": {
+      "name": "Plasmodiophora brassicae",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "phytophthora-brassica": {
+      "name": "Phytophthora spp.",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "verticillium-dahliae": {
+      "name": "Verticillium dahliae",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "erwinia-pseudomonas-brassica": {
+      "name": "Erwinia dan Pseudomonas spp.",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "pseudomonas-syringae-maculicola": {
+      "name": "Pseudomonas syringae pv. maculicola",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "cauliflower-mosaic-virus": {
+      "name": "Cauliflower mosaic caulimovirus",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "turnip-mosaic-virus": {
+      "name": "Turnip mosaic potyvirus",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "pepylciv": {
+      "name": "Pepper yellow leaf curl Indonesia virus (PepYLCIV)",
+      "type": "Penyakit",
+      "icon": "icons/opt/disease-leaf.svg"
+    },
+    "echinochloa": {
+      "name": "Echinochloa crus-galli",
+      "type": "Gulma",
+      "icon": "icons/opt/weed-grass.svg"
+    },
+    "cyperus": {
+      "name": "Cyperus rotundus",
+      "type": "Gulma",
+      "icon": "icons/opt/weed-sedge.svg"
+    },
+    "eleusine": {
+      "name": "Eleusine indica",
+      "type": "Gulma",
+      "icon": "icons/opt/weed-grass.svg"
+    },
+    "amaranthus": {
+      "name": "Amaranthus spinosus",
+      "type": "Gulma",
+      "icon": "icons/opt/weed-broadleaf.svg"
+    },
+    "ageratum": {
+      "name": "Ageratum conyzoides",
+      "type": "Gulma",
+      "icon": "icons/opt/weed-broadleaf.svg"
+    },
+    "fimb": {
+      "name": "Fimbristylis miliacea",
+      "type": "Gulma",
+      "icon": "icons/opt/weed-sedge.svg"
+    },
+    "monochoria-vaginalis": {
+      "name": "Monochoria vaginalis",
+      "type": "Gulma",
+      "icon": "icons/opt/weed-broadleaf.svg"
+    },
+    "ludwigia": {
+      "name": "Ludwigia hyssopifolia",
+      "type": "Gulma",
+      "icon": "icons/opt/weed-broadleaf.svg"
+    },
+    "sphenochlea": {
+      "name": "Sphenochlea zeylanica",
+      "type": "Gulma",
+      "icon": "icons/opt/weed-broadleaf.svg"
+    },
+    "ischaemum": {
+      "name": "Ischaemum rugosum",
+      "type": "Gulma",
+      "icon": "icons/opt/weed-grass.svg"
+    },
+    "leptochloa": {
+      "name": "Leptochloa chinensis",
+      "type": "Gulma",
+      "icon": "icons/opt/weed-grass.svg"
+    },
+    "echinochloa-crus": {
+      "name": "Echinochloa colona",
+      "type": "Gulma",
+      "icon": "icons/opt/weed-grass.svg"
+    },
+    "cyperus-difformis": {
+      "name": "Cyperus difformis",
+      "type": "Gulma",
+      "icon": "icons/opt/weed-sedge.svg"
+    },
+    "portulaca": {
+      "name": "Portulaca oleracea",
+      "type": "Gulma",
+      "icon": "icons/opt/weed-broadleaf.svg"
+    },
+    "commelina": {
+      "name": "Commelina benghalensis",
+      "type": "Gulma",
+      "icon": "icons/opt/weed-broadleaf.svg"
+    },
+    "mimosa": {
+      "name": "Mimosa pudica",
+      "type": "Gulma",
+      "icon": "icons/opt/weed-broadleaf.svg"
+    }
+  },
+  "ui": {
+    "dashboard": "icons/ui/dashboard.svg",
+    "pesticide": "icons/ui/pesticide.svg",
+    "fertilizer": "icons/ui/fertilizer.svg",
+    "active-ingredient": "icons/ui/active-ingredient.svg",
+    "moa": "icons/ui/moa.svg",
+    "formulation": "icons/ui/formulation.svg",
+    "company": "icons/ui/company.svg",
+    "weather": "icons/ui/weather.svg",
+    "water": "icons/ui/water.svg",
+    "soil": "icons/ui/soil.svg",
+    "camera": "icons/ui/camera.svg",
+    "calculator": "icons/ui/calculator.svg",
+    "search": "icons/ui/search.svg",
+    "edit": "icons/ui/edit.svg",
+    "plus": "icons/ui/plus.svg",
+    "check": "icons/ui/check.svg",
+    "crops": "icons/ui/crops.svg",
+    "book": "icons/ui/book.svg"
+  }
+}

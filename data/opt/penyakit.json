@@ -1,6 +1,2309 @@
-{
-  "dataset_version": "2026.10.04",
-  "record_count": 0,
-  "records": [],
-  "status": "pending_import"
-}
+[
+  {
+    "id": "phytophthora",
+    "name": "Phytophthora infestans",
+    "common": "Busuk daun / late blight",
+    "category": "Jamur Basah",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Tomat",
+      "Kentang"
+    ],
+    "symptoms": [
+      "Bercak basah kecokelatan",
+      "Jaringan cepat nekrosis",
+      "Sporulasi pada kelembapan tinggi"
+    ],
+    "images": [
+      {
+        "image_type": "symptom",
+        "local_path": "",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Phytophthora_infestans.webp",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Phytophthora_infestans.webp",
+        "source_name": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "author": "See source page",
+        "attribution": "Phytophthora infestans — Wikimedia Commons source.",
+        "notes": "Reference image of Phytophthora infestans."
+      }
+    ],
+    "classification": "Jamur Basah",
+    "classification_group": "Oomycetes",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "colletotrichum",
+    "name": "Colletotrichum spp.",
+    "common": "Antraknosa",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Cabai",
+      "Mangga",
+      "Tomat",
+      "Bawang"
+    ],
+    "symptoms": [
+      "Bercak cekung",
+      "Lesi membesar",
+      "Busuk buah",
+      "Lesi melingkar",
+      "Busuk buah atau umbi",
+      "Lesi cekung pada buah",
+      "Bercak membesar konsentris",
+      "Buah membusuk",
+      "Spora dapat muncul pada jaringan terserang"
+    ],
+    "notes": "Antraknosa cabai merupakan kompleks Colletotrichum; spesies penyebab perlu dikonfirmasi bila diperlukan.",
+    "images": [
+      {
+        "image_type": "ai_illustration",
+        "local_path": "assets/opt/photos/colletotrichum.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Crop Expert — ilustrasi AI",
+        "notes": "Ilustrasi AI untuk pembelajaran bentuk/gejala; BUKAN foto diagnostik."
+      }
+    ],
+    "description": "Colletotrichum spp. menyebabkan antraknosa pada berbagai tanaman. Pada cabai, penyakit terutama merusak buah dengan lesi cekung yang membesar dan dapat berkembang menjadi busuk; pada Allium, gejala dan spesies penyebab dapat berbeda sehingga identifikasi perlu mempertimbangkan inang.",
+    "diagnostic": "Pada cabai, cari lesi cekung pada buah dan perkembangan busuk. Nama spesies Colletotrichum tidak sebaiknya ditentukan hanya dari gejala visual.",
+    "favorable_conditions": "Periode lembap/basah mendukung perkembangan penyakit.",
+    "importance": "Penting",
+    "crop_importance": {
+      "cabai": "Penting",
+      "bawang": "Perlu dipantau"
+    },
+    "references": [
+      {
+        "name": "FAO AGRIS — Central Java chili crop protection study",
+        "url": "https://agris.fao.org/search/en/providers/122535/records/65de4df9b766d82b18fd05c7"
+      },
+      {
+        "name": "UC IPM Peppers",
+        "url": "https://ipm.ucanr.edu/agriculture/peppers/"
+      }
+    ],
+    "life_cycle_reference": {
+      "stages": [
+        "Inokulum/konidia",
+        "Infeksi jaringan",
+        "Lesi & acervuli",
+        "Konidia menyebar"
+      ],
+      "source_note": "Gejala antraknosa cabai merujuk studi diagnostik pepper anthracnose; visual lokal adalah ilustrasi AI fallback."
+    },
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "xanthomonas",
+    "name": "Xanthomonas spp.",
+    "common": "Hawar daun bakteri",
+    "category": "Bakteri",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Padi",
+      "Tomat",
+      "Cabai"
+    ],
+    "symptoms": [
+      "Bercak/hawar daun",
+      "Daun menguning",
+      "Luka berair pada kondisi lembap",
+      "Bercak kecil pada daun",
+      "Lesi pada buah",
+      "Daun dapat gugur",
+      "Bercak dapat tampak berair pada awal infeksi"
+    ],
+    "notes": "Kelompok Xanthomonas yang menyerang Capsicum perlu dibedakan sampai tingkat spesies/pathovar bila diperlukan.",
+    "eppo": {
+      "code": "XANTHO",
+      "url": "https://gd.eppo.int/taxon/XANTHO/photos",
+      "name": "Xanthomonas"
+    },
+    "description": "Kelompok Xanthomonas dapat menyebabkan bercak/lesi bakteri pada daun dan organ tanaman. Pada cabai, diagnosis perlu dibedakan dari bercak jamur dan kerusakan lain.",
+    "diagnostic": "Perhatikan lesi kecil yang berkembang, terutama pada kondisi lembap; identifikasi spesies/ras memerlukan pemeriksaan lebih lanjut.",
+    "importance": "Perlu dipantau",
+    "crop_importance": {
+      "cabai": "Perlu dipantau"
+    },
+    "references": [
+      "UC IPM Peppers"
+    ],
+    "images": [
+      {
+        "image_type": "symptom_reference",
+        "local_path": "",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bacterial_leaf_spot_of_pepper_(Capsicum_sp.)_(43614805831).jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bacterial_leaf_spot_of_pepper_(Capsicum_sp.)_(43614805831).jpg",
+        "attribution": "Wikimedia Commons — CC0",
+        "notes": "Foto referensi berlisensi/sumber publik; cek halaman sumber untuk ketentuan penggunaan."
+      },
+      {
+        "image_type": "ai_illustration",
+        "local_path": "assets/opt/photos/xanthomonas.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Crop Expert — ilustrasi AI",
+        "notes": "Ilustrasi AI untuk pembelajaran bentuk/gejala; BUKAN foto diagnostik."
+      }
+    ],
+    "life_cycle_reference": {
+      "stages": [
+        "Bakteri pada benih/sisa tanaman",
+        "Masuk melalui stomata/luka",
+        "Kolonisasi jaringan",
+        "Eksudat & penyebaran percikan"
+      ],
+      "source_note": "Urutan siklus disederhanakan untuk pembelajaran; durasi aktual bergantung suhu, inang, varietas dan kondisi lapangan."
+    },
+    "classification": "Bakteri",
+    "classification_group": "Bacteria",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "mosaic",
+    "name": "Mosaic virus",
+    "common": "Mosaik",
+    "category": "Virus",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Cabai",
+      "Tomat",
+      "Mentimun"
+    ],
+    "symptoms": [
+      "Pola mosaik",
+      "Daun keriting",
+      "Pertumbuhan terhambat"
+    ],
+    "images": [],
+    "classification": "Virus",
+    "classification_group": "Virus",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "fusarium",
+    "name": "Fusarium oxysporum",
+    "common": "Layu fusarium",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Cabai",
+      "Tomat",
+      "Melon"
+    ],
+    "symptoms": [
+      "Layu bertahap",
+      "Perubahan warna pembuluh",
+      "Tanaman kerdil"
+    ],
+    "images": [],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "downy",
+    "name": "Peronospora spp.",
+    "common": "Embun bulu",
+    "category": "Jamur Basah",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Bawang",
+      "Mentimun"
+    ],
+    "symptoms": [
+      "Bercak klorotik",
+      "Lapisan sporulasi",
+      "Daun cepat rusak"
+    ],
+    "images": [
+      {
+        "image_type": "symptom",
+        "local_path": "",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Peronospora_destructor.JPG",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Peronospora_destructor.JPG",
+        "source_name": "Wikimedia Commons",
+        "license": "CC BY-SA 3.0 / CC BY 3.0 US",
+        "author": "See source page",
+        "attribution": "Peronospora spp. — Wikimedia Commons source.",
+        "notes": "Howard F. Schwartz / Bugwood; downy mildew on onion."
+      }
+    ],
+    "classification": "Jamur Basah",
+    "classification_group": "Oomycetes",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "rhizoctonia",
+    "name": "Rhizoctonia solani",
+    "common": "Rebah semai / busuk pangkal",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Padi",
+      "Kedelai",
+      "Sayuran",
+      "Kubis",
+      "Brassica"
+    ],
+    "symptoms": [
+      "Pangkal batang busuk",
+      "Tanaman roboh",
+      "Akar kecokelatan",
+      "Bercak pada pelepah",
+      "Lesi meluas ke daun",
+      "Rebah pada kondisi berat"
+    ],
+    "images": [
+      {
+        "image_type": "symptom",
+        "local_path": "",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rhizoctonia_solani.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Rhizoctonia_solani.jpg",
+        "source_name": "Wikimedia Commons",
+        "license": "CC BY 3.0 US",
+        "author": "See source page",
+        "attribution": "Rhizoctonia solani — Wikimedia Commons source.",
+        "notes": "David B. Langston / University of Georgia / Bugwood."
+      }
+    ],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "rice-blast",
+    "name": "Magnaporthe oryzae",
+    "common": "Blas padi",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Bercak berbentuk belah ketupat",
+      "Leher malai dapat membusuk",
+      "Malai mengering"
+    ],
+    "images": [],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "rice-bacterial-blight",
+    "name": "Xanthomonas oryzae pv. oryzae",
+    "common": "Hawar daun bakteri",
+    "category": "Bakteri",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Daun menguning dari tepi",
+      "Hawar memanjang",
+      "Gejala kresek pada tanaman muda"
+    ],
+    "images": [],
+    "classification": "Bakteri",
+    "classification_group": "Bacteria",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "rice-tungro",
+    "name": "Rice tungro virus complex",
+    "common": "Tungro",
+    "category": "Virus",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Daun kuning-oranye",
+      "Tanaman kerdil",
+      "Anakan berkurang"
+    ],
+    "images": [],
+    "classification": "Virus",
+    "classification_group": "Virus",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "tomato-bacterial-wilt",
+    "name": "Ralstonia solanacearum species complex",
+    "common": "Layu bakteri",
+    "category": "Bakteri",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Tomat",
+      "Cabai"
+    ],
+    "symptoms": [
+      "Layu mendadak",
+      "Pembuluh kecokelatan",
+      "Eksudat bakteri"
+    ],
+    "images": [
+      {
+        "image_type": "symptom_reference",
+        "local_path": "",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bacterial_wilt_of_pepper_(9159744719).jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bacterial_wilt_of_pepper_(9159744719).jpg",
+        "attribution": "Wikimedia Commons — CC0",
+        "notes": "Foto referensi berlisensi/sumber publik; cek halaman sumber untuk ketentuan penggunaan."
+      },
+      {
+        "image_type": "ai_illustration",
+        "local_path": "assets/opt/photos/tomato-bacterial-wilt.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Crop Expert — ilustrasi AI",
+        "notes": "Ilustrasi AI untuk pembelajaran bentuk/gejala; BUKAN foto diagnostik."
+      }
+    ],
+    "description": "Layu bakteri oleh Ralstonia solanacearum species complex menyebabkan layu yang dapat berkembang cepat tanpa pola nekrosis daun yang khas pada awal serangan. Pangkal batang dan sistem pembuluh dapat terinfeksi.",
+    "diagnostic": "Lakukan pemeriksaan akar/pangkal batang dan gunakan uji diagnostik bila perlu; gejala layu saja tidak cukup untuk memastikan Ralstonia.",
+    "favorable_conditions": "Tanah basah dan suhu hangat mendukung perkembangan serta penyebaran patogen tular tanah.",
+    "importance": "Penting",
+    "crop_importance": {
+      "cabai": "Penting"
+    },
+    "references": [
+      "UC IPM Peppers"
+    ],
+    "life_cycle_reference": {
+      "stages": [
+        "Bakteri bertahan di tanah",
+        "Masuk melalui akar/luka",
+        "Kolonisasi xilem",
+        "Penyebaran melalui tanah/air"
+      ],
+      "source_note": "Urutan siklus disederhanakan untuk pembelajaran; durasi aktual bergantung suhu, inang, varietas dan kondisi lapangan."
+    },
+    "classification": "Bakteri",
+    "classification_group": "Bacteria",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "cercospora",
+    "name": "Cercospora spp.",
+    "common": "Bercak daun cercospora",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Kedelai",
+      "Bawang",
+      "Sayuran"
+    ],
+    "symptoms": [
+      "Bercak cokelat/abu-abu",
+      "Daun menguning",
+      "Defoliasi bila berat"
+    ],
+    "images": [],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "alternaria",
+    "name": "Alternaria spp.",
+    "common": "Bercak alternaria",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Tomat",
+      "Kubis",
+      "Bawang"
+    ],
+    "symptoms": [
+      "Bercak konsentris",
+      "Daun menguning",
+      "Nekrosis meluas"
+    ],
+    "images": [
+      {
+        "image_type": "symptom",
+        "local_path": "",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Alternaria_porri.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Alternaria_porri.jpg",
+        "source_name": "Wikimedia Commons",
+        "license": "CC BY 3.0",
+        "author": "See source page",
+        "attribution": "Alternaria spp. — Wikimedia Commons source.",
+        "notes": "New Zealand Fungal and Plant Disease Collection (PDD) / Landcare Research."
+      }
+    ],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "powdery-mildew",
+    "name": "Podosphaera / Erysiphe spp.",
+    "common": "Embun tepung",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Mentimun",
+      "Melon",
+      "Kedelai"
+    ],
+    "symptoms": [
+      "Lapisan putih seperti tepung",
+      "Daun menguning",
+      "Fotosintesis menurun"
+    ],
+    "images": [],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "downy-cucurbits",
+    "name": "Pseudoperonospora cubensis",
+    "common": "Embun bulu mentimun",
+    "category": "Jamur Basah",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Mentimun",
+      "Melon"
+    ],
+    "symptoms": [
+      "Bercak kuning bersudut",
+      "Sporulasi di bawah daun",
+      "Daun cepat nekrosis"
+    ],
+    "images": [
+      {
+        "image_type": "symptom",
+        "local_path": "",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Pseudoperonospora_cubensis_147541589.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Pseudoperonospora_cubensis_147541589.jpg",
+        "source_name": "Wikimedia Commons / iNaturalist",
+        "license": "CC BY 4.0",
+        "author": "See source page",
+        "attribution": "Pseudoperonospora cubensis — Wikimedia Commons source.",
+        "notes": "Nathan T. Jones / iNaturalist; cucurbit downy mildew."
+      }
+    ],
+    "classification": "Jamur Basah",
+    "classification_group": "Oomycetes",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "fusarium-wilt",
+    "name": "Fusarium oxysporum complex",
+    "common": "Layu fusarium",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Cabai",
+      "Tomat",
+      "Melon",
+      "Pisang"
+    ],
+    "symptoms": [
+      "Layu bertahap",
+      "Pembuluh berubah warna",
+      "Tanaman kerdil"
+    ],
+    "notes": "Fusarium oxysporum complex mencakup berbagai forma specialis dan populasi inang-spesifik; jangan menyamakan semua isolat F. oxysporum sebagai patogen semua tanaman.",
+    "references": [
+      "EPPO Global Database",
+      "Literatur penyakit Fusarium pada tanaman inang spesifik"
+    ],
+    "aliases": [
+      "Fusarium wilt",
+      "Layu Fusarium"
+    ],
+    "images": [],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "black-rot",
+    "name": "Xanthomonas campestris pv. campestris",
+    "common": "Busuk hitam kubis",
+    "category": "Bakteri",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Kubis",
+      "Brassica"
+    ],
+    "symptoms": [
+      "V berbatas tegas pada daun",
+      "Jaringan menghitam",
+      "Daun mengering"
+    ],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Bakteri",
+    "classification_group": "Bacteria",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "citrus-canker",
+    "name": "Xanthomonas citri pv. citri",
+    "common": "Kanker jeruk",
+    "category": "Bakteri",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Jeruk"
+    ],
+    "symptoms": [
+      "Lesi gabus",
+      "Halo kuning",
+      "Lesi pada daun dan buah"
+    ],
+    "images": [],
+    "classification": "Bakteri",
+    "classification_group": "Bacteria",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "fusarium-cepae",
+    "name": "Fusarium oxysporum f. sp. cepae",
+    "common": "Busuk pangkal Fusarium / moler",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Bawang merah",
+      "Bawang bombai"
+    ],
+    "symptoms": [
+      "Daun menguning dan layu mulai dari ujung",
+      "Pertumbuhan tanaman melemah",
+      "Akar dan pangkal umbi mengalami pembusukan",
+      "Pangkal umbi dapat mengalami nekrosis dan membusuk"
+    ],
+    "notes": "Fusarium oxysporum f. sp. cepae dikaitkan dengan busuk pangkal/basal plate rot pada bawang merah. Identifikasi forma specialis tidak sebaiknya ditentukan hanya dari gejala visual.",
+    "references": [
+      "UC IPM Onion & Garlic diseases"
+    ],
+    "confidence_note": "Identifikasi spesies/forma specialis tidak sebaiknya ditentukan hanya dari gejala visual.",
+    "aliases": [
+      "FOCe",
+      "Fusarium basal rot",
+      "Moler"
+    ],
+    "images": [
+      {
+        "image_type": "symptom_reference",
+        "local_path": "",
+        "remote_url": "https://ipm.ucanr.edu/PMG/IMAGES/F/D-OG-FOXC-FO.003.jpg",
+        "source_url": "https://ipm.ucanr.edu/PMG/F/D-OG-FOXC-FO.003.html",
+        "attribution": "UC IPM — Jack Kelly Clark",
+        "notes": "Foto gejala Fusarium basal rot pada bawang; digunakan sebagai referensi visual."
+      },
+      {
+        "image_type": "ai_illustration",
+        "local_path": "assets/opt/photos/fusarium-cepae.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Crop Expert — ilustrasi AI",
+        "notes": "Ilustrasi AI untuk pembelajaran bentuk/gejala; BUKAN foto diagnostik."
+      }
+    ],
+    "eppo": {
+      "code": "FUSACE",
+      "url": "https://gd.eppo.int/taxon/FUSACE/photos",
+      "name": "Fusarium oxysporum f. sp. cepae"
+    },
+    "description": "Fusarium oxysporum f. sp. cepae menyebabkan busuk pangkal (basal plate rot) pada bawang merah. Infeksi berasal dari tanah dan menyerang akar serta pangkal umbi; tanaman dapat kerdil, daun menguning/melintir dan layu, kemudian umbi membusuk.",
+    "diagnostic": "Periksa pangkal umbi dan akar. Pemotongan membujur dapat menunjukkan perubahan warna cokelat pada basal plate. Diagnosis forma specialis tidak dapat dipastikan hanya dari gejala visual.",
+    "favorable_conditions": "Risiko meningkat pada lahan dengan riwayat penyakit dan kondisi yang mendukung patogen tular tanah.",
+    "importance": "Penting",
+    "crop_importance": {
+      "bawang": "Penting"
+    },
+    "life_cycle_reference": {
+      "stages": [
+        "Sumber inokulum di tanah/sisa tanaman",
+        "Infeksi akar/pangkal",
+        "Kolonisasi jaringan",
+        "Pembentukan inokulum & bertahan di tanah"
+      ],
+      "source_note": "Foto gejala spesifik busuk pangkal bawang tersedia pada WSU/UC IPM; visual lokal adalah ilustrasi AI fallback."
+    },
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "rice-brown-spot",
+    "name": "Bipolaris oryzae",
+    "common": "Bercak cokelat padi",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Bercak cokelat berbentuk oval pada daun",
+      "Biji dapat berubah warna",
+      "Tanaman lemah pada kondisi stres"
+    ],
+    "notes": "Brown spot pada padi; diagnosis perlu dibedakan dari penyakit bercak daun lain.",
+    "eppo": {
+      "code": "COCHMI",
+      "url": "https://gd.eppo.int/taxon/COCHMI/photos",
+      "name": "Bipolaris oryzae"
+    },
+    "images": [],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "rice-bacterial-leaf-streak",
+    "name": "Xanthomonas oryzae pv. oryzicola",
+    "common": "Bacterial leaf streak / hawar daun bergaris",
+    "category": "Bakteri",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Garis atau bercak transparan memanjang",
+      "Eksudat bakteri dapat terlihat pada kondisi lembap",
+      "Daun dapat mengering"
+    ],
+    "notes": "Berbeda dari bacterial leaf blight yang disebabkan X. oryzae pv. oryzae.",
+    "eppo": {
+      "code": "XANTTO",
+      "url": "https://gd.eppo.int/taxon/XANTTO/photos",
+      "name": "Xanthomonas oryzae pv. oryzicola"
+    },
+    "images": [],
+    "classification": "Bakteri",
+    "classification_group": "Bacteria",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "rice-bakanae",
+    "name": "Fusarium fujikuroi",
+    "common": "Bakanae padi",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Tanaman memanjang tidak normal",
+      "Daun pucat",
+      "Tanaman dapat mati atau menghasilkan anakan lemah"
+    ],
+    "notes": "Bakanae-associated Fusarium; identifikasi spesies dapat memerlukan pemeriksaan laboratorium.",
+    "eppo": {
+      "code": "FUSAFJ",
+      "url": "https://gd.eppo.int/taxon/FUSAFJ/photos",
+      "name": "Fusarium fujikuroi"
+    },
+    "images": [],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "rice-false-smut",
+    "name": "Ustilaginoidea virens",
+    "common": "False smut / gosong palsu padi",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Bola spora hijau-oranye menggantikan sebagian bulir",
+      "Massa spora membesar dari bulir",
+      "Mudah terlihat saat malai keluar"
+    ],
+    "notes": "Penyakit malai yang menjadi penting pada kondisi lingkungan tertentu.",
+    "eppo": {
+      "code": "USTIVI",
+      "url": "https://gd.eppo.int/taxon/USTIVI/photos",
+      "name": "Ustilaginoidea virens"
+    },
+    "images": [],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "rice-narrow-brown-leaf-spot",
+    "name": "Cercospora janseana",
+    "common": "Narrow brown leaf spot",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Padi"
+    ],
+    "symptoms": [
+      "Bercak cokelat sempit memanjang",
+      "Bercak mengikuti arah tulang daun",
+      "Daun tampak bergaris cokelat"
+    ],
+    "notes": "Penyakit bercak daun sempit pada padi.",
+    "eppo": {
+      "code": "CERCOR",
+      "url": "https://gd.eppo.int/taxon/CERCOR/photos",
+      "name": "Cercospora janseana"
+    },
+    "images": [],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "onion-downy-mildew",
+    "name": "Peronospora destructor",
+    "common": "Embun bulu bawang",
+    "category": "Jamur Basah",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Bawang merah",
+      "Bawang bombai"
+    ],
+    "symptoms": [
+      "Daun pucat dan memanjang",
+      "Sporulasi abu-ungu pada kondisi lembap",
+      "Daun rebah dan mengering"
+    ],
+    "notes": "Downy mildew of onion; EPPO mengklasifikasikannya sebagai oomycete.",
+    "eppo": {
+      "code": "PERODE",
+      "url": "https://gd.eppo.int/taxon/PERODE/photos",
+      "name": "Peronospora destructor"
+    },
+    "description": "Embun bulu bawang disebabkan Peronospora destructor. Daun dapat pucat, rebah dan mengering; pada kondisi lembap terlihat pertumbuhan/sporulasi abu-ungu pada permukaan daun.",
+    "diagnostic": "Periksa daun terutama saat pagi lembap untuk menemukan sporulasi abu-ungu. Bedakan dari bercak ungu dan kerusakan thrips.",
+    "favorable_conditions": "Kelembapan tinggi dan daun basah mendukung penyakit.",
+    "importance": "Penting",
+    "crop_importance": {
+      "bawang": "Penting"
+    },
+    "references": [
+      "UC IPM Onion & Garlic diseases"
+    ],
+    "images": [
+      {
+        "image_type": "symptom_reference",
+        "local_path": "",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Peronospora_destructor.JPG",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Peronospora_destructor.JPG",
+        "attribution": "Wikimedia Commons — source/licence on file page",
+        "notes": "Foto referensi berlisensi/sumber publik; cek halaman sumber untuk ketentuan penggunaan."
+      },
+      {
+        "image_type": "ai_illustration",
+        "local_path": "assets/opt/photos/onion-downy-mildew.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Crop Expert — ilustrasi AI",
+        "notes": "Ilustrasi AI untuk pembelajaran bentuk/gejala; BUKAN foto diagnostik."
+      }
+    ],
+    "life_cycle_reference": {
+      "stages": [
+        "Oospora/inokulum bertahan",
+        "Infeksi daun saat basah",
+        "Sporulasi",
+        "Penyebaran & infeksi sekunder"
+      ],
+      "source_note": "Urutan siklus disederhanakan untuk pembelajaran; durasi aktual bergantung suhu, inang, varietas dan kondisi lapangan."
+    },
+    "classification": "Jamur Basah",
+    "classification_group": "Oomycetes",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "onion-stemphylium",
+    "name": "Stemphylium vesicarium",
+    "common": "Bercak daun Stemphylium bawang",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Bawang merah",
+      "Bawang bombai"
+    ],
+    "symptoms": [
+      "Bercak cokelat pada daun",
+      "Lesi dapat membesar dan menyatu",
+      "Daun mengering pada serangan berat"
+    ],
+    "notes": "Stemphylium leaf blight pada Allium.",
+    "eppo": {
+      "code": "STEMVE",
+      "url": "https://gd.eppo.int/taxon/STEMVE/photos",
+      "name": "Stemphylium vesicarium"
+    },
+    "description": "Bercak daun Stemphylium menyebabkan lesi cokelat pada daun yang dapat membesar dan menyatu hingga daun mengering pada serangan berat.",
+    "diagnostic": "Periksa pola lesi dan kondisi kelembapan; konfirmasi patogen secara laboratorium bila identitas diperlukan.",
+    "importance": "Penting",
+    "crop_importance": {
+      "bawang": "Penting"
+    },
+    "references": [
+      "UC IPM Onion & Garlic diseases"
+    ],
+    "images": [],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "chili-phytophthora-capsici",
+    "name": "Phytophthora capsici",
+    "common": "Layu/busuk Phytophthora pada cabai",
+    "category": "Jamur Basah",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Cabai"
+    ],
+    "symptoms": [
+      "Layu cepat",
+      "Busuk pangkal atau akar",
+      "Buah dapat membusuk",
+      "Gejala berat pada kondisi basah"
+    ],
+    "notes": "P. capsici tercatat sebagai patogen/inang pada Capsicum annuum.",
+    "eppo": {
+      "code": "PHYTCP",
+      "url": "https://gd.eppo.int/taxon/PHYTCP/photos",
+      "name": "Phytophthora capsici"
+    },
+    "description": "Phytophthora capsici dapat menyebabkan busuk akar/pangkal dan layu pada cabai; buah juga dapat mengalami busuk terutama ketika kondisi sangat basah.",
+    "diagnostic": "Periksa pangkal batang, akar dan buah. Gejala sering lebih berat pada lahan dengan drainase buruk atau kondisi basah.",
+    "favorable_conditions": "Kondisi basah dan drainase buruk meningkatkan risiko.",
+    "importance": "Penting",
+    "crop_importance": {
+      "cabai": "Penting"
+    },
+    "references": [
+      "UC IPM Peppers"
+    ],
+    "images": [
+      {
+        "image_type": "symptom_reference",
+        "local_path": "",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Capsicum_annuum_with_Phytophthora_capsici.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Capsicum_annuum_with_Phytophthora_capsici.jpg",
+        "attribution": "Wikimedia Commons — source/licence on file page",
+        "notes": "Foto referensi berlisensi/sumber publik; cek halaman sumber untuk ketentuan penggunaan."
+      },
+      {
+        "image_type": "ai_illustration",
+        "local_path": "assets/opt/photos/chili-phytophthora-capsici.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Crop Expert — ilustrasi AI",
+        "notes": "Ilustrasi AI untuk pembelajaran bentuk/gejala; BUKAN foto diagnostik."
+      }
+    ],
+    "life_cycle_reference": {
+      "stages": [
+        "Sporangia/oospora",
+        "Zoospora & infeksi",
+        "Kolonisasi jaringan",
+        "Sporulasi & penyebaran air"
+      ],
+      "source_note": "Urutan siklus disederhanakan untuk pembelajaran; durasi aktual bergantung suhu, inang, varietas dan kondisi lapangan."
+    },
+    "classification": "Jamur Basah",
+    "classification_group": "Oomycetes",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "chili-cercospora",
+    "name": "Cercospora capsici",
+    "common": "Bercak daun Cercospora cabai",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Cabai"
+    ],
+    "symptoms": [
+      "Bercak daun",
+      "Jaringan tengah bercak dapat mengering",
+      "Daun dapat gugur pada serangan berat"
+    ],
+    "notes": "EPPO mencatat C. capsici sebagai organisme yang berasosiasi dengan Capsicum.",
+    "eppo": {
+      "code": "CERCCP",
+      "url": "https://gd.eppo.int/taxon/CERCCP/photos",
+      "name": "Cercospora capsici"
+    },
+    "images": [],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "stromatinia-cepivorum",
+    "name": "Stromatinia cepivorum",
+    "common": "Busuk putih bawang",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Bawang merah",
+      "Bawang bombai",
+      "Bawang putih",
+      "Bawang daun"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "botryotinia-squamosa",
+    "name": "Botryotinia squamosa",
+    "common": "Bercak daun/daun busuk bawang",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Bawang"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "phytophthora-porri",
+    "name": "Phytophthora porri",
+    "common": "Ujung putih",
+    "category": "Jamur Basah",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Bawang daun",
+      "Bawang"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur Basah",
+    "classification_group": "Oomycetes",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "alternaria-porri",
+    "name": "Alternaria porri",
+    "common": "Bercak ungu",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Bawang merah",
+      "Bawang bombai",
+      "Bawang daun"
+    ],
+    "symptoms": [
+      "Bercak kecil berair lalu membesar",
+      "Bercak ungu kecokelatan",
+      "Daun mengering dari area terserang"
+    ],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [
+      {
+        "image_type": "symptom_reference",
+        "local_path": "",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Alternaria_porri.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Alternaria_porri.jpg",
+        "attribution": "Wikimedia Commons — CC BY-SA licence on file page",
+        "notes": "Foto referensi berlisensi/sumber publik; cek halaman sumber untuk ketentuan penggunaan."
+      },
+      {
+        "image_type": "ai_illustration",
+        "local_path": "assets/opt/photos/alternaria-porri.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Crop Expert — ilustrasi AI",
+        "notes": "Ilustrasi AI untuk pembelajaran bentuk/gejala; BUKAN foto diagnostik."
+      }
+    ],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "eppo": {
+      "code": "ALTEPO",
+      "url": "https://gd.eppo.int/taxon/ALTEPO/photos",
+      "name": "Alternaria porri"
+    },
+    "description": "Bercak ungu (purple blotch) menyebabkan lesi pada daun yang berkembang menjadi bercak ungu-kecokelatan dan dapat menyebabkan jaringan daun mengering. Penyakit penting pada Allium.",
+    "diagnostic": "Cari lesi memanjang/oval berwarna cokelat-ungu dengan jaringan mengering di sekitarnya; gejala dapat mirip dengan bercak daun lain sehingga kondisi lapangan perlu diperhatikan.",
+    "favorable_conditions": "Kelembapan daun tinggi dan periode basah yang panjang mendukung perkembangan penyakit daun.",
+    "importance": "Penting",
+    "crop_importance": {
+      "bawang": "Penting"
+    },
+    "references": [
+      "UC IPM Onion & Garlic diseases"
+    ],
+    "life_cycle_reference": {
+      "stages": [
+        "Inokulum pada sisa tanaman",
+        "Infeksi daun",
+        "Lesi & pembentukan konidia",
+        "Penyebaran oleh angin/percikan"
+      ],
+      "source_note": "Urutan siklus disederhanakan untuk pembelajaran; durasi aktual bergantung suhu, inang, varietas dan kondisi lapangan."
+    },
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "cladosporium-allii",
+    "name": "Cladosporium spp.",
+    "common": "Bercak daun Cladosporium",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Bawang"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "puccinia-allii",
+    "name": "Puccinia allii",
+    "common": "Karat bawang",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Bawang putih",
+      "Bawang daun"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "urocystis-cepulae",
+    "name": "Urocystis cepulae",
+    "common": "Gosong bawang",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Bawang"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "botrytis-aclada",
+    "name": "Botrytis aclada",
+    "common": "Busuk leher bawang",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Bawang"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [
+      {
+        "image_type": "symptom_reference",
+        "local_path": "",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Botryis_allii_a1.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Botryis_allii_a1.jpg",
+        "attribution": "Wikimedia Commons — CC BY-SA 4.0",
+        "notes": "Foto referensi berlisensi/sumber publik; cek halaman sumber untuk ketentuan penggunaan."
+      },
+      {
+        "image_type": "ai_illustration",
+        "local_path": "assets/opt/photos/botrytis-aclada.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Crop Expert — ilustrasi AI",
+        "notes": "Ilustrasi AI untuk pembelajaran bentuk/gejala; BUKAN foto diagnostik."
+      }
+    ],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "description": "Botrytis aclada/allii dapat menyebabkan busuk leher dan umbi pada Allium. Gejala sering terlihat sebagai pelunakan dan pembusukan jaringan leher/umbi dan dapat berkembang saat penyimpanan.",
+    "diagnostic": "Periksa leher umbi yang melunak/berair dan perkembangan jamur abu-abu; penyakit dapat mulai dari lapangan lalu berkembang saat penyimpanan.",
+    "importance": "Penting",
+    "crop_importance": {
+      "bawang": "Penting"
+    },
+    "references": [
+      "UC IPM Onion & Garlic diseases"
+    ],
+    "life_cycle_reference": {
+      "stages": [
+        "Inokulum bertahan pada jaringan/sisa",
+        "Infeksi",
+        "Kolonisasi & busuk",
+        "Sporulasi/penyebaran"
+      ],
+      "source_note": "Urutan siklus disederhanakan untuk pembelajaran; durasi aktual bergantung suhu, inang, varietas dan kondisi lapangan."
+    },
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "colletotrichum-circinans",
+    "name": "Colletotrichum dematium f.sp. circinans",
+    "common": "Smudge/bercak gelap bawang",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Bawang"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "pyrenochaeta-terrestris",
+    "name": "Pyrenochaeta terrestris",
+    "common": "Akar merah muda",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Bawang"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "fusarium-culmorum",
+    "name": "Fusarium culmorum",
+    "common": "Busuk pangkal/kaki",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Bawang",
+      "Jagung"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "aspergillus-niger",
+    "name": "Aspergillus niger",
+    "common": "Kapang hitam bawang",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Bawang"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "penicillium-spp",
+    "name": "Penicillium spp.",
+    "common": "Kapang biru",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Bawang"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "burkholderia-gladioli-alliicola",
+    "name": "Burkholderia gladioli pv. alliicola",
+    "common": "Busuk leher bakteri",
+    "category": "Bakteri",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Bawang"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Bakteri",
+    "classification_group": "Bacteria",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "setosphaeria-turcica",
+    "name": "Setosphaeria turcica",
+    "common": "Hawar daun utara jagung",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Jagung"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "sphacelotheca-reiliana",
+    "name": "Sphacelotheca reiliana",
+    "common": "Gosong kepala jagung",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Jagung"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "ustilago-maydis",
+    "name": "Ustilago maydis",
+    "common": "Gosong jagung",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Jagung"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [
+      {
+        "image_type": "symptom",
+        "local_path": "",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ustilago_maydis_J1a.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ustilago_maydis_J1a.jpg",
+        "source_name": "Wikimedia Commons",
+        "license": "Periksa halaman sumber",
+        "author": "See source page",
+        "attribution": "Ustilago maydis — Wikimedia Commons.",
+        "notes": "Foto nyata Ustilago maydis; lisensi mengikuti halaman file."
+      }
+    ],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "pythium-maize",
+    "name": "Pythium spp.",
+    "common": "Pencokelatan akar jagung",
+    "category": "Jamur Basah",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Jagung"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur Basah",
+    "classification_group": "Oomycetes",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "fusarium-maize",
+    "name": "Fusarium spp.",
+    "common": "Busuk akar, batang dan tongkol jagung",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Jagung"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "colletotrichum-graminicola",
+    "name": "Colletotrichum graminicola",
+    "common": "Antraknosa jagung",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Jagung"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "sclerophthora-macrospora",
+    "name": "Sclerophthora macrospora",
+    "common": "Bulai/top gila jagung",
+    "category": "Jamur Basah",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Jagung"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur Basah",
+    "classification_group": "Oomycetes",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "leptosphaeria-maculans",
+    "name": "Leptosphaeria maculans",
+    "common": "Kanker batang dan bercak daun Brassica",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Kubis",
+      "Brassica"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "mycosphaerella-brassicicola",
+    "name": "Mycosphaerella brassicicola",
+    "common": "Bercak cincin Brassica",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Kubis",
+      "Brassica"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "peronospora-parasitica",
+    "name": "Peronospora parasitica",
+    "common": "Embun bulu Brassica",
+    "category": "Jamur Basah",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Kubis",
+      "Brassica"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur Basah",
+    "classification_group": "Oomycetes",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "albugo-candida",
+    "name": "Albugo candida",
+    "common": "Karatan/blas putih Brassica",
+    "category": "Jamur Basah",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Kubis",
+      "Brassica"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur Basah",
+    "classification_group": "Oomycetes",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "erysiphe-cruciferarum",
+    "name": "Erysiphe cruciferarum",
+    "common": "Embun tepung Brassica",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Kubis",
+      "Brassica"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "alternaria-brassicae",
+    "name": "Alternaria brassicae",
+    "common": "Bercak daun gelap Brassica",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Kubis",
+      "Brassica"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "alternaria-brassicicola",
+    "name": "Alternaria brassicicola",
+    "common": "Bercak daun gelap Brassica",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Kubis",
+      "Brassica"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "pyrenopeziza-brassicae",
+    "name": "Pyrenopeziza brassicae",
+    "common": "Bercak daun terang Brassica",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Kubis",
+      "Brassica"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "botrytis-cinerea-brassica",
+    "name": "Botrytis cinerea",
+    "common": "Kapang abu-abu",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Kubis",
+      "Brassica"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "plasmodiophora-brassicae",
+    "name": "Plasmodiophora brassicae",
+    "common": "Akar gada",
+    "category": "Jamur Basah",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Kubis",
+      "Brassica"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur Basah",
+    "classification_group": "Plasmodiophorids (bukan Oomycetes)",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "phytophthora-brassica",
+    "name": "Phytophthora spp.",
+    "common": "Busuk akar/penyimpanan",
+    "category": "Jamur Basah",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Kubis",
+      "Brassica"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur Basah",
+    "classification_group": "Oomycetes",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "verticillium-dahliae",
+    "name": "Verticillium dahliae",
+    "common": "Layu Verticillium",
+    "category": "Jamur",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Kubis",
+      "Brassica"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Jamur",
+    "classification_group": "Fungi",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "erwinia-pseudomonas-brassica",
+    "name": "Erwinia dan Pseudomonas spp.",
+    "common": "Busuk lunak",
+    "category": "Bakteri",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Kubis",
+      "Brassica"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Bakteri",
+    "classification_group": "Bacteria",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "pseudomonas-syringae-maculicola",
+    "name": "Pseudomonas syringae pv. maculicola",
+    "common": "Bercak bakteri",
+    "category": "Bakteri",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Kubis",
+      "Brassica"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Bakteri",
+    "classification_group": "Bacteria",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "cauliflower-mosaic-virus",
+    "name": "Cauliflower mosaic caulimovirus",
+    "common": "Virus mosaik kembang kol",
+    "category": "Virus",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Kubis",
+      "Brassica"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Virus",
+    "classification_group": "Virus",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "turnip-mosaic-virus",
+    "name": "Turnip mosaic potyvirus",
+    "common": "Virus mosaik lobak",
+    "category": "Virus",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Kubis",
+      "Brassica"
+    ],
+    "symptoms": [],
+    "notes": "Data sumber EPPO Guidelines on Good Plant Protection Practice; pedoman bersifat regional dan historis, bukan bukti registrasi Indonesia.",
+    "images": [],
+    "source_refs": [
+      "EPPO PP 2/4 Allium Crops",
+      "EPPO PP 2/17 Maize",
+      "EPPO PP 2/7 Vegetable Brassicas"
+    ],
+    "classification": "Virus",
+    "classification_group": "Virus",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "pepylciv",
+    "name": "Pepper yellow leaf curl Indonesia virus (PepYLCIV)",
+    "common": "Daun keriting kuning cabai",
+    "category": "Virus",
+    "icon": "disease-leaf.svg",
+    "hosts": [
+      "Cabai"
+    ],
+    "symptoms": [
+      "Daun menguning dan mosaik",
+      "Daun menggulung/keriting",
+      "Ukuran daun mengecil",
+      "Tanaman kerdil"
+    ],
+    "description": "Penyakit daun keriting kuning cabai yang disebabkan Begomovirus/PepYLCIV. Penyakit ini dapat menyebar melalui kutu kebul Bemisia tabaci dan telah dilaporkan luas di sentra cabai Indonesia.",
+    "diagnostic": "Gejala visual dapat tumpang tindih dengan defisiensi hara dan penyakit virus lain; konfirmasi molekuler diperlukan untuk memastikan identitas virus.",
+    "importance": "Penting",
+    "crop_importance": {
+      "cabai": "Penting"
+    },
+    "references": [
+      {
+        "name": "Jurnal Perlindungan Tanaman Indonesia (UGM), 2025",
+        "url": "https://journal.ugm.ac.id/jpti/article/view/99401"
+      },
+      {
+        "name": "Jurnal Fitopatologi Indonesia, 2021",
+        "url": "https://journal.ipb.ac.id/jfiti/article/view/37226"
+      }
+    ],
+    "notes": "PepYLCIV termasuk Begomovirus; Bemisia tabaci merupakan vektor penting. Jangan menyimpulkan virus hanya dari foto tanpa konfirmasi diagnostik.",
+    "images": [
+      {
+        "image_type": "symptom_reference",
+        "local_path": "",
+        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Kuning_cabai.JPG",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Kuning_cabai.JPG",
+        "attribution": "Wikimedia Commons — CC BY-SA 3.0",
+        "notes": "Foto referensi berlisensi/sumber publik; cek halaman sumber untuk ketentuan penggunaan."
+      },
+      {
+        "image_type": "ai_illustration",
+        "local_path": "assets/opt/photos/pepylciv.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Crop Expert — ilustrasi AI",
+        "notes": "Ilustrasi AI untuk pembelajaran bentuk/gejala; BUKAN foto diagnostik."
+      }
+    ],
+    "life_cycle_reference": {
+      "stages": [
+        "Virus bertahan pada inang",
+        "Ditularkan kutu kebul",
+        "Replikasi di jaringan",
+        "Penyebaran oleh vektor"
+      ],
+      "source_note": "Urutan siklus disederhanakan untuk pembelajaran; durasi aktual bergantung suhu, inang, varietas dan kondisi lapangan."
+    },
+    "classification": "Virus",
+    "classification_group": "Virus",
+    "classification_source": "Crop Expert classification standard 2026",
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "diseases",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  }
+]

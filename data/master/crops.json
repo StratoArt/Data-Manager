@@ -1,6 +1,497 @@
-{
-  "dataset_version": "2026.10.04",
-  "record_count": 0,
-  "records": [],
-  "status": "pending_import"
-}
+[
+  {
+    "id": "padi",
+    "name": "Padi",
+    "latin": "Oryza sativa",
+    "icon": "crop-rice.svg",
+    "related_opt": [
+      "scirpophaga-incertulas",
+      "rhizoctonia",
+      "rice-narrow-brown-leaf-spot",
+      "echinochloa"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "cabai",
+    "name": "Cabai",
+    "latin": "Capsicum annuum",
+    "icon": "crop-chili.svg",
+    "related_opt": [
+      "aphid",
+      "helicoverpa-armigera",
+      "colletotrichum",
+      "chili-cercospora",
+      "phytophthora-brassica",
+      "thrips-parvispinus",
+      "bemisia-tabaci",
+      "aphis-gossypii",
+      "polyphagotarsonemus-latus",
+      "bactrocera-dorsalis",
+      "spodoptera-litura",
+      "liriomyza",
+      "colletotrichum",
+      "chili-phytophthora-capsici",
+      "fusarium",
+      "tomato-bacterial-wilt",
+      "pepylciv",
+      "xanthomonas"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "tomat",
+    "name": "Tomat",
+    "latin": "Solanum lycopersicum",
+    "icon": "crop-tomato.svg",
+    "related_opt": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "bawang",
+    "name": "Bawang merah",
+    "latin": "Allium cepa var. aggregatum",
+    "icon": "crop-onion.svg",
+    "source_guidelines": {
+      "source": "EPPO PP 2/4(2) Allium Crops",
+      "summary_id": "Pedoman GPP Allium mencakup bawang bombai, bawang merah, bawang daun, kucai dan bawang putih; sumber tabel pengguna juga memuat gulma, penyakit dan hama bawang merah.",
+      "source_note": "Relasi OPT diperluas dari TABEL HAMA (ID).pdf dan EPPO PP 2/4(2); bukan bukti registrasi Indonesia."
+    },
+    "related_opt": [
+      "thrips-tabaci",
+      "aphid",
+      "spodoptera-exigua",
+      "alternaria-porri",
+      "onion-downy-mildew",
+      "fusarium",
+      "cyperus",
+      "liriomyza",
+      "agrotis-ipsilon",
+      "fusarium-cepae",
+      "onion-stemphylium",
+      "botrytis-aclada"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "kubis",
+    "name": "Kubis",
+    "latin": "Brassica oleracea",
+    "icon": "crop-cabbage.svg",
+    "related_opt": [],
+    "source_guidelines": {
+      "source": "EPPO PP 2/7(1) Vegetable Brassicas",
+      "summary_id": "Pedoman GPP Brassica mencakup kubis, kembang kol, brokoli, sawi dan Brassica lain; mencakup penyakit jamur/oomycete, bakteri, virus, kutu daun, lalat, kumbang, ulat, nematoda, siput dan gulma.",
+      "source_note": "Sumber regional EPPO, bukan bukti registrasi Indonesia."
+    },
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "mentimun",
+    "name": "Mentimun",
+    "latin": "Cucumis sativus",
+    "icon": "crop-cucumber.svg",
+    "related_opt": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "jagung",
+    "name": "Jagung",
+    "latin": "Zea mays",
+    "icon": "crop-corn.svg",
+    "related_opt": [
+      "agrotis-ipsilon"
+    ],
+    "source_guidelines": {
+      "source": "EPPO PP 2/17(1) Maize",
+      "summary_id": "Pedoman GPP jagung mencakup penyakit daun, gosong, busuk akar/batang/tongkol, serangga tanah, penggerek, ulat, kutu daun, tungau dan gulma; menekankan benih sehat, varietas sesuai, sanitasi, rotasi dan ambang pengendalian bila tersedia.",
+      "source_note": "Sumber regional EPPO, bukan bukti registrasi Indonesia."
+    },
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "kedelai",
+    "name": "Kedelai",
+    "latin": "Glycine max",
+    "icon": "crop-soy.svg",
+    "related_opt": [
+      "delia-florigela",
+      "echinochloa-crus"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "semangka",
+    "name": "Semangka",
+    "latin": "Citrullus lanatus",
+    "icon": "crop-watermelon.svg",
+    "related_opt": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "melon",
+    "name": "Melon",
+    "latin": "Cucumis melo",
+    "icon": "crop-melon.svg",
+    "related_opt": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "kentang",
+    "name": "Kentang",
+    "latin": "Solanum tuberosum",
+    "icon": "crop-potato.svg",
+    "related_opt": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "kacang",
+    "name": "Kacang panjang",
+    "latin": "Vigna unguiculata subsp. sesquipedalis",
+    "icon": "crop-beans.svg",
+    "related_opt": [
+      "aphid",
+      "colletotrichum"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "terung",
+    "name": "Terung",
+    "latin": "Solanum melongena",
+    "icon": "crop-eggplant.svg",
+    "related_opt": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "pisang",
+    "name": "Pisang",
+    "latin": "Musa spp.",
+    "icon": "crop-banana.svg",
+    "related_opt": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "jeruk",
+    "name": "Jeruk",
+    "latin": "Citrus spp.",
+    "icon": "crop-citrus.svg",
+    "related_opt": [
+      "aphid"
+    ],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "kopi",
+    "name": "Kopi",
+    "latin": "Coffea spp.",
+    "icon": "crop-coffee.svg",
+    "related_opt": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "kakao",
+    "name": "Kakao",
+    "latin": "Theobroma cacao",
+    "icon": "crop-cacao.svg",
+    "related_opt": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "teh",
+    "name": "Teh",
+    "latin": "Camellia sinensis",
+    "icon": "crop-tea.svg",
+    "related_opt": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "kelapa",
+    "name": "Kelapa",
+    "latin": "Cocos nucifera",
+    "icon": "crop-coconut.svg",
+    "related_opt": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "sawit",
+    "name": "Kelapa sawit",
+    "latin": "Elaeis guineensis",
+    "icon": "crop-palm.svg",
+    "related_opt": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "singkong",
+    "name": "Singkong",
+    "latin": "Manihot esculenta",
+    "icon": "crop-cassava.svg",
+    "related_opt": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "kacang-tanah",
+    "name": "Kacang tanah",
+    "latin": "Arachis hypogaea",
+    "icon": "crop-peanut.svg",
+    "related_opt": [],
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "sawi",
+    "name": "Sawi",
+    "latin": "Brassica juncea",
+    "icon": "crop-mustard.svg",
+    "related_opt": [],
+    "source_guidelines": {
+      "source": "EPPO PP 2/7(1) Vegetable Brassicas",
+      "summary_id": "Kelompok Brassica daun; data OPT spesifik tanaman ini akan ditampilkan jika relasinya tersedia di sumber/master.",
+      "source_note": "Sumber regional EPPO; bukan bukti registrasi Indonesia."
+    },
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "caisim",
+    "name": "Caisim",
+    "latin": "Brassica rapa var. parachinensis",
+    "icon": "crop-caisim.svg",
+    "related_opt": [],
+    "source_guidelines": {
+      "source": "EPPO Vegetable Brassicas / minor-use extrapolation",
+      "summary_id": "Brassica daun; EPPO mencantumkan Brassica parachinensis sebagai leafy brassica.",
+      "source_note": "Sumber regional EPPO; bukan bukti registrasi Indonesia."
+    },
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "pakcoy",
+    "name": "Pak Coy",
+    "latin": "Brassica rapa subsp. chinensis",
+    "icon": "crop-pakcoy.svg",
+    "related_opt": [],
+    "source_guidelines": {
+      "source": "EPPO Vegetable Brassicas / minor-use extrapolation",
+      "summary_id": "Brassica daun; EPPO mencantumkan B. chinensis sebagai leafy brassica.",
+      "source_note": "Sumber regional EPPO; bukan bukti registrasi Indonesia."
+    },
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "anggur",
+    "name": "Anggur",
+    "latin": "Vitis vinifera",
+    "icon": "crop-grape.svg",
+    "related_opt": [],
+    "source_guidelines": {
+      "source": "EPPO PP 2/23(1) Grapevine",
+      "summary_id": "Komoditas anggur ditambahkan sebagai profil tanaman; relasi OPT ditampilkan jika tersedia di master/sumber yang dipetakan.",
+      "source_note": "Sumber regional EPPO; bukan bukti registrasi Indonesia."
+    },
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "jagung-manis",
+    "name": "Jagung Manis",
+    "latin": "Zea mays",
+    "icon": "crop-sweet-corn.svg",
+    "related_opt": [
+      "spodoptera-frugiperda",
+      "mythimna-separata"
+    ],
+    "source_guidelines": {
+      "source": "EPPO PP 2/17(1) Maize",
+      "summary_id": "Jagung manis menggunakan profil botani Zea mays; relasi OPT yang benar-benar terpetakan pada master dapat ditampilkan bersama profil jagung.",
+      "source_note": "Tidak menganggap semua data jagung otomatis sebagai klaim spesifik kultivar manis."
+    },
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "kembang-kol",
+    "name": "Kembang Kol",
+    "latin": "Brassica oleracea var. botrytis",
+    "icon": "crop-cauliflower.svg",
+    "related_opt": [],
+    "source_guidelines": {
+      "source": "EPPO PP 2/7(1) Vegetable Brassicas",
+      "summary_id": "Flowerhead brassica; EPPO secara eksplisit mencantumkan cauliflower/kembang kol.",
+      "source_note": "Sumber regional EPPO; bukan bukti registrasi Indonesia."
+    },
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "brokoli",
+    "name": "Brokoli",
+    "latin": "Brassica oleracea var. italica",
+    "icon": "crop-broccoli.svg",
+    "related_opt": [],
+    "source_guidelines": {
+      "source": "EPPO PP 2/7(1) Vegetable Brassicas",
+      "summary_id": "Flowerhead brassica; EPPO secara eksplisit mencantumkan broccoli.",
+      "source_note": "Sumber regional EPPO; bukan bukti registrasi Indonesia."
+    },
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  },
+  {
+    "id": "kailan",
+    "name": "Kailan",
+    "latin": "Brassica alboglabra",
+    "icon": "crop-kailan.svg",
+    "related_opt": [],
+    "source_guidelines": {
+      "source": "EPPO vegetable brassicas / minor-use extrapolation",
+      "summary_id": "Chinese kale/kailan tercantum sebagai Brassica alboglabra pada sumber EPPO minor-use.",
+      "source_note": "Sumber regional EPPO; bukan bukti registrasi Indonesia."
+    },
+    "provenance": {
+      "source_repo": "StratoArt/pestiapps",
+      "source_file": "data/opt.json",
+      "source_dataset": "crops",
+      "migration": "exact-source-copy-2026-10-05"
+    }
+  }
+]
