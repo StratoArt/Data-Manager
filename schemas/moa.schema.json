@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "required": [
+    "committee",
+    "code"
+  ],
+  "properties": {
+    "committee": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    }
+  }
+}

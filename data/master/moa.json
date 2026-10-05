@@ -1,0 +1,370 @@
+{
+  "dataset_version": "2026.10.04",
+  "record_count": 52,
+  "records": [
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids"
+    },
+    {
+      "committee": "IRAC",
+      "code": "30",
+      "group": "30",
+      "name": "GABA-gated chloride channel allosteric modulators",
+      "chemical_class": "Isoxazolines; Meta-diamides"
+    },
+    {
+      "committee": "IRAC",
+      "code": "14",
+      "group": "14",
+      "name": "nAChR channel blockers",
+      "chemical_class": "Nereistoxin analogues"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1A",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Carbamates"
+    },
+    {
+      "committee": "HRAC",
+      "code": "6",
+      "group": "6C3",
+      "name": "Inhibition of Photosynthesis at PS II – D1 Histidine 215 binders",
+      "chemical_class": "Nitriles"
+    },
+    {
+      "committee": "HRAC",
+      "code": "10",
+      "group": "10H",
+      "name": "Inhibition of Glutamine Synthetase (GS)",
+      "chemical_class": "Phosphinic acids"
+    },
+    {
+      "committee": "IRAC",
+      "code": "36",
+      "group": "36",
+      "name": "Chordotonal organ modulators – undefined target site",
+      "chemical_class": "Pyridazine pyrazolecarboxamides"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins"
+    },
+    {
+      "committee": "IRAC",
+      "code": "15",
+      "group": "15",
+      "name": "Inhibitors of chitin biosynthesis affecting CHS1",
+      "chemical_class": "Benzoylureas"
+    },
+    {
+      "committee": "IRAC",
+      "code": "9D",
+      "group": "9",
+      "name": "Chordotonal organ TRPV channel modulators",
+      "chemical_class": "Pyropenes"
+    },
+    {
+      "committee": "IRAC",
+      "code": "6",
+      "group": "6",
+      "name": "Glutamate-gated chloride channel allosteric modulators",
+      "chemical_class": "Avermectins; Milbemycins"
+    },
+    {
+      "committee": "HRAC",
+      "code": "15",
+      "group": "15K3",
+      "name": "Inhibition of Very Long-Chain Fatty Acid Synthesis (VLCFA)",
+      "chemical_class": "α-Chloroacetamides; Thiocarbamates; α-Oxyacetamides; α-Thioacetamides"
+    },
+    {
+      "committee": "HRAC",
+      "code": "3",
+      "group": "3K1",
+      "name": "Inhibition of Microtubule Assembly / α-Tubulin",
+      "chemical_class": "Dinitroanilines; Pyridines; Phosphoroamidates"
+    },
+    {
+      "committee": "IRAC",
+      "code": "2B",
+      "group": "2",
+      "name": "GABA-gated chloride channel blockers",
+      "chemical_class": "Phenylpyrazoles (Fiproles)"
+    },
+    {
+      "committee": "IRAC",
+      "code": "5",
+      "group": "5",
+      "name": "nAChR allosteric modulators – Site I",
+      "chemical_class": "Spinosyns"
+    },
+    {
+      "committee": "HRAC",
+      "code": "4",
+      "group": "4O",
+      "name": "Auxin Mimics",
+      "chemical_class": "Pyridyloxycarboxylates; 6-Chloropicolinates; Phenoxycarboxylates; Benzoates"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4E",
+      "group": "4",
+      "name": "Unknown",
+      "chemical_class": ""
+    },
+    {
+      "committee": "FRAC",
+      "code": "M03",
+      "group": "M03",
+      "name": "multi-site contact activity",
+      "chemical_class": "dithiocarbamates and relatives (electrophiles)"
+    },
+    {
+      "committee": "HRAC",
+      "code": "9",
+      "group": "9G",
+      "name": "Inhibition of EPSPS",
+      "chemical_class": "Glycines"
+    },
+    {
+      "committee": "HRAC",
+      "code": "22",
+      "group": "22D",
+      "name": "PS I Electron Diversion",
+      "chemical_class": "Pyridiniums"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1B",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Organophosphates"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones"
+    },
+    {
+      "committee": "IRAC",
+      "code": "22A",
+      "group": "22",
+      "name": "Voltage-dependent sodium channel blockers",
+      "chemical_class": "Oxadiazines"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4D",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Butenolides"
+    },
+    {
+      "committee": "IRAC",
+      "code": "28",
+      "group": "28",
+      "name": "Ryanodine receptor modulators",
+      "chemical_class": "Diamides"
+    },
+    {
+      "committee": "HRAC",
+      "code": "5",
+      "group": "5C1,2",
+      "name": "Inhibition of Photosynthesis at PS II – D1 Serine 264 binders",
+      "chemical_class": "Triazines; Ureas; Uracils; Phenylcarbamates; Amides; Triazinones"
+    },
+    {
+      "committee": "HRAC",
+      "code": "27",
+      "group": "27F2",
+      "name": "Inhibition of Hydroxyphenyl Pyruvate Dioxygenase (HPPD)",
+      "chemical_class": "Triketones; Pyrazoles; Nitriles"
+    },
+    {
+      "committee": "IRAC",
+      "code": "7B",
+      "group": "7",
+      "name": "Juvenile hormone receptor modulators",
+      "chemical_class": "Fenoxycarb"
+    },
+    {
+      "committee": "IRAC",
+      "code": "12A",
+      "group": "12",
+      "name": "Inhibitors of mitochondrial ATP synthase",
+      "chemical_class": "Diafenthiuron"
+    },
+    {
+      "committee": "IRAC",
+      "code": "17",
+      "group": "17",
+      "name": "Moulting disruptor, Dipteran",
+      "chemical_class": "Cyromazine"
+    },
+    {
+      "committee": "IRAC",
+      "code": "16",
+      "group": "16",
+      "name": "Inhibitors of chitin biosynthesis, type 1",
+      "chemical_class": "Buprofezin"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M05",
+      "group": "M05",
+      "name": "multi-site contact activity",
+      "chemical_class": "chloronitriles (phthalonitriles)"
+    },
+    {
+      "committee": "HRAC",
+      "code": "29",
+      "group": "29L",
+      "name": "Inhibition of Cellulose Synthesis",
+      "chemical_class": "Benzonitriles; Indaziflam / related"
+    },
+    {
+      "committee": "IRAC",
+      "code": "23",
+      "group": "23",
+      "name": "Inhibitors of acetyl-CoA carboxylase",
+      "chemical_class": "Tetronic and Tetramic acid derivatives"
+    },
+    {
+      "committee": "FRAC",
+      "code": "C3",
+      "group": "C3",
+      "name": "complex III cytochrome bc1 Qo site",
+      "chemical_class": "QoI-fungicides"
+    },
+    {
+      "committee": "FRAC",
+      "code": "G1",
+      "group": "G1",
+      "name": "C14-demethylase in sterol biosynthesis (erg11/cyp51)",
+      "chemical_class": "DMI-fungicides (SBI Class I)"
+    },
+    {
+      "committee": "HRAC",
+      "code": "1",
+      "group": "1A",
+      "name": "Inhibition of Acetyl CoA Carboxylase (ACCase)",
+      "chemical_class": "Cyclohexanediones; Aryloxyphenoxypropionates"
+    },
+    {
+      "committee": "IRAC",
+      "code": "13",
+      "group": "13",
+      "name": "Uncouplers of oxidative phosphorylation via disruption of proton gradient",
+      "chemical_class": "Pyrroles; Dinitrophenols"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M02",
+      "group": "M02",
+      "name": "multi-site contact activity",
+      "chemical_class": "inorganic (electrophiles)"
+    },
+    {
+      "committee": "IRAC",
+      "code": "29",
+      "group": "29",
+      "name": "Chordotonal organ nicotinamidase inhibitors",
+      "chemical_class": "Flonicamid"
+    },
+    {
+      "committee": "IRAC",
+      "code": "9B",
+      "group": "9",
+      "name": "Chordotonal organ TRPV channel modulators",
+      "chemical_class": "Pyridine azomethine derivatives"
+    },
+    {
+      "committee": "IRAC",
+      "code": "18",
+      "group": "18",
+      "name": "Ecdysone receptor agonists",
+      "chemical_class": "Diacylhydrazines"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4C",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Sulfoximines"
+    },
+    {
+      "committee": "HRAC",
+      "code": "14",
+      "group": "14E",
+      "name": "Inhibition of Protoporphyrinogen Oxidase (PPO)",
+      "chemical_class": "Diphenyl ethers; N-Phenylimides; N-Phenyltriazolinones"
+    },
+    {
+      "committee": "IRAC",
+      "code": "10B",
+      "group": "10",
+      "name": "Mite growth inhibitors affecting CHS1",
+      "chemical_class": "Etoxazole"
+    },
+    {
+      "committee": "IRAC",
+      "code": "20D",
+      "group": "20",
+      "name": "Mitochondrial complex III electron transport inhibitors – Qo site",
+      "chemical_class": "Bifenazate"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M01",
+      "group": "M01",
+      "name": "multi-site contact activity",
+      "chemical_class": "inorganic (electrophiles)"
+    },
+    {
+      "committee": "IRAC",
+      "code": "7C",
+      "group": "7",
+      "name": "Juvenile hormone receptor modulators",
+      "chemical_class": "Pyriproxyfen"
+    },
+    {
+      "committee": "HRAC",
+      "code": "13",
+      "group": "13F4",
+      "name": "Inhibition of Deoxy-D-Xylulose Phosphate Synthase (DXPS)",
+      "chemical_class": "Pyrimidinyl / related"
+    },
+    {
+      "committee": "IRAC",
+      "code": "34",
+      "group": "34",
+      "name": "Mitochondrial complex III electron transport inhibitors – Qi site",
+      "chemical_class": "Flometoquin"
+    },
+    {
+      "committee": "FRAC",
+      "code": "P01",
+      "group": "P01",
+      "name": "salicylate-related benzo-thiadiazole (BTH)",
+      "chemical_class": "host defence inducer"
+    },
+    {
+      "committee": "IRAC",
+      "code": "21A",
+      "group": "21",
+      "name": "Mitochondrial complex I electron transport inhibitors",
+      "chemical_class": "METI acaricides and insecticides"
+    }
+  ]
+}

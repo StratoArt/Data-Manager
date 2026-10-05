@@ -1,0 +1,142 @@
+{
+  "dataset_version": "2026.10.04",
+  "record_count": 4,
+  "records": [
+    {
+      "id": "pestdb-clean-0073",
+      "brand_name": "Fertibio",
+      "company": "CV. SAPROTAN UTAMA",
+      "product_category": "Biostimulan / Pupuk Organik",
+      "product_type": "solid_fertilizer",
+      "active_ingredients_raw": "Mikroba fungsional + bahan organik; N 0,82%; P2O5 1,03%; K2O 0,61%; C-organik >12%",
+      "formulation": "Granul",
+      "packaging": "",
+      "moa": {
+        "irac": "",
+        "frac": "",
+        "hrac": ""
+      },
+      "targets_raw": "Meningkatkan kesuburan hayati; penambatan N; pelarutan P; penguraian K; menghasilkan fitohormon",
+      "linked_opt_ids": [],
+      "ai_master_matches": [],
+      "registration": {
+        "number": "",
+        "status": "Produk tercantum pada katalog resmi"
+      },
+      "market_status": "",
+      "source": "Saprotan Utama – halaman resmi Fertibio",
+      "registry_source": "Saprotan Utama – halaman resmi Fertibio",
+      "provenance": {
+        "database_source": "database_pestisida_crop_expert_v14-1.csv",
+        "source_row": 75,
+        "source_variant_count": 1,
+        "ai_status": "legacy_verified",
+        "ai_source": "existing dataset/source",
+        "data_quality": "legacy"
+      },
+      "notes": "FertiBio Plus mengandung mikroba fungsional dan menghasilkan fitohormon; bukan pestisida kimia."
+    },
+    {
+      "id": "pestdb-clean-0453",
+      "brand_name": "Padivit-B",
+      "company": "PT Maxxi Agri Indonesia",
+      "product_category": "Pupuk",
+      "product_type": "solid_fertilizer",
+      "active_ingredients_raw": "NPK 12-30-25",
+      "formulation": "",
+      "packaging": "500 g; 1 kg",
+      "moa": {
+        "irac": "",
+        "frac": "",
+        "hrac": ""
+      },
+      "targets_raw": "",
+      "linked_opt_ids": [],
+      "ai_master_matches": [],
+      "registration": {
+        "number": "",
+        "status": ""
+      },
+      "market_status": "",
+      "source": "Nutrisi tanaman",
+      "registry_source": "",
+      "provenance": {
+        "database_source": "database_pestisida_crop_expert_v14-1.csv",
+        "source_row": 659,
+        "source_variant_count": 1,
+        "ai_status": "legacy_verified",
+        "ai_source": "existing dataset/source",
+        "data_quality": "legacy"
+      },
+      "notes": "Terverifikasi"
+    },
+    {
+      "id": "pestdb-clean-0454",
+      "brand_name": "Padivit-D",
+      "company": "PT Maxxi Agri Indonesia",
+      "product_category": "Pupuk",
+      "product_type": "solid_fertilizer",
+      "active_ingredients_raw": "NPK 26-6-6",
+      "formulation": "",
+      "packaging": "500 g; 1 kg",
+      "moa": {
+        "irac": "",
+        "frac": "",
+        "hrac": ""
+      },
+      "targets_raw": "",
+      "linked_opt_ids": [],
+      "ai_master_matches": [],
+      "registration": {
+        "number": "",
+        "status": ""
+      },
+      "market_status": "",
+      "source": "Nutrisi tanaman",
+      "registry_source": "",
+      "provenance": {
+        "database_source": "database_pestisida_crop_expert_v14-1.csv",
+        "source_row": 660,
+        "source_variant_count": 1,
+        "ai_status": "legacy_verified",
+        "ai_source": "existing dataset/source",
+        "data_quality": "legacy"
+      },
+      "notes": "Terverifikasi"
+    },
+    {
+      "id": "pestdb-clean-0867",
+      "brand_name": "RabanaSil",
+      "company": "PT. RABANA AGRO RESOURCES",
+      "product_category": "Pupuk/biostimulan",
+      "product_type": "solid_fertilizer",
+      "active_ingredients_raw": "Silika + Magnesium",
+      "formulation": "Padat",
+      "packaging": "",
+      "moa": {
+        "irac": "",
+        "frac": "",
+        "hrac": ""
+      },
+      "targets_raw": "Pembenah tanah; menaikkan pH dan mendukung pertumbuhan",
+      "linked_opt_ids": [],
+      "ai_master_matches": [],
+      "registration": {
+        "number": "",
+        "status": "Belum diverifikasi dari label"
+      },
+      "market_status": "",
+      "source": "Katalog resmi PT Rabana Agro Resources",
+      "registry_source": "Katalog resmi PT Rabana Agro Resources",
+      "provenance": {
+        "database_source": "database_pestisida_crop_expert_v14-1.csv",
+        "source_row": 836,
+        "source_variant_count": 1,
+        "ai_status": "legacy_verified",
+        "ai_source": "existing dataset/source",
+        "data_quality": "legacy"
+      },
+      "notes": "Produk tercantum pada katalog resmi; kadar/nomor registrasi tidak ditebak bila tidak ditampilkan pada halaman katalog."
+    }
+  ]
+}

@@ -1,0 +1,374 @@
+{
+  "dataset_version": "2026.10.04",
+  "record_count": 92,
+  "records": [
+    {
+      "product_id": "pestdb-clean-0012",
+      "opt_id": "bemisia-tabaci"
+    },
+    {
+      "product_id": "pestdb-clean-0012",
+      "opt_id": "bemisia-vaporariorum"
+    },
+    {
+      "product_id": "pestdb-clean-0012",
+      "opt_id": "aphid"
+    },
+    {
+      "product_id": "pestdb-clean-0013",
+      "opt_id": "spodoptera-frugiperda"
+    },
+    {
+      "product_id": "pestdb-clean-0013",
+      "opt_id": "spodoptera-litura"
+    },
+    {
+      "product_id": "pestdb-clean-0014",
+      "opt_id": "bemisia-tabaci"
+    },
+    {
+      "product_id": "pestdb-clean-0014",
+      "opt_id": "bemisia-vaporariorum"
+    },
+    {
+      "product_id": "pestdb-clean-0014",
+      "opt_id": "aphid"
+    },
+    {
+      "product_id": "pestdb-clean-0016",
+      "opt_id": "bemisia-tabaci"
+    },
+    {
+      "product_id": "pestdb-clean-0016",
+      "opt_id": "bemisia-vaporariorum"
+    },
+    {
+      "product_id": "pestdb-clean-0016",
+      "opt_id": "aphid"
+    },
+    {
+      "product_id": "pestdb-clean-0036",
+      "opt_id": "liriomyza"
+    },
+    {
+      "product_id": "pestdb-clean-0036",
+      "opt_id": "liriomyza-chinensis"
+    },
+    {
+      "product_id": "pestdb-clean-0036",
+      "opt_id": "tetranychus"
+    },
+    {
+      "product_id": "pestdb-clean-0042",
+      "opt_id": "powdery-mildew"
+    },
+    {
+      "product_id": "pestdb-clean-0053",
+      "opt_id": "colletotrichum"
+    },
+    {
+      "product_id": "pestdb-clean-0053",
+      "opt_id": "powdery-mildew"
+    },
+    {
+      "product_id": "pestdb-clean-0060",
+      "opt_id": "powdery-mildew"
+    },
+    {
+      "product_id": "pestdb-clean-0062",
+      "opt_id": "cyperus"
+    },
+    {
+      "product_id": "pestdb-clean-0063",
+      "opt_id": "cyperus"
+    },
+    {
+      "product_id": "pestdb-clean-0064",
+      "opt_id": "cyperus"
+    },
+    {
+      "product_id": "pestdb-clean-0113",
+      "opt_id": "spodoptera-frugiperda"
+    },
+    {
+      "product_id": "pestdb-clean-0113",
+      "opt_id": "spodoptera-litura"
+    },
+    {
+      "product_id": "pestdb-clean-0113",
+      "opt_id": "helicoverpa-armigera"
+    },
+    {
+      "product_id": "pestdb-clean-0117",
+      "opt_id": "bemisia-tabaci"
+    },
+    {
+      "product_id": "pestdb-clean-0117",
+      "opt_id": "bemisia-vaporariorum"
+    },
+    {
+      "product_id": "pestdb-clean-0117",
+      "opt_id": "aphid"
+    },
+    {
+      "product_id": "pestdb-clean-0129",
+      "opt_id": "spodoptera-frugiperda"
+    },
+    {
+      "product_id": "pestdb-clean-0129",
+      "opt_id": "spodoptera-litura"
+    },
+    {
+      "product_id": "pestdb-clean-0192",
+      "opt_id": "bemisia-tabaci"
+    },
+    {
+      "product_id": "pestdb-clean-0192",
+      "opt_id": "bemisia-vaporariorum"
+    },
+    {
+      "product_id": "pestdb-clean-0192",
+      "opt_id": "aphid"
+    },
+    {
+      "product_id": "pestdb-clean-0208",
+      "opt_id": "bemisia-tabaci"
+    },
+    {
+      "product_id": "pestdb-clean-0208",
+      "opt_id": "bemisia-vaporariorum"
+    },
+    {
+      "product_id": "pestdb-clean-0208",
+      "opt_id": "aphid"
+    },
+    {
+      "product_id": "pestdb-clean-0234",
+      "opt_id": "tetranychus"
+    },
+    {
+      "product_id": "pestdb-clean-0240",
+      "opt_id": "spodoptera-frugiperda"
+    },
+    {
+      "product_id": "pestdb-clean-0240",
+      "opt_id": "spodoptera-litura"
+    },
+    {
+      "product_id": "pestdb-clean-0240",
+      "opt_id": "helicoverpa-armigera"
+    },
+    {
+      "product_id": "pestdb-clean-0264",
+      "opt_id": "liriomyza"
+    },
+    {
+      "product_id": "pestdb-clean-0264",
+      "opt_id": "liriomyza-chinensis"
+    },
+    {
+      "product_id": "pestdb-clean-0264",
+      "opt_id": "tetranychus"
+    },
+    {
+      "product_id": "pestdb-clean-0265",
+      "opt_id": "colletotrichum"
+    },
+    {
+      "product_id": "pestdb-clean-0266",
+      "opt_id": "colletotrichum"
+    },
+    {
+      "product_id": "pestdb-clean-0285",
+      "opt_id": "bemisia-tabaci"
+    },
+    {
+      "product_id": "pestdb-clean-0285",
+      "opt_id": "bemisia-vaporariorum"
+    },
+    {
+      "product_id": "pestdb-clean-0570",
+      "opt_id": "colletotrichum"
+    },
+    {
+      "product_id": "pestdb-clean-0571",
+      "opt_id": "tetranychus"
+    },
+    {
+      "product_id": "pestdb-clean-0574",
+      "opt_id": "liriomyza"
+    },
+    {
+      "product_id": "pestdb-clean-0574",
+      "opt_id": "liriomyza-chinensis"
+    },
+    {
+      "product_id": "pestdb-clean-0574",
+      "opt_id": "tetranychus"
+    },
+    {
+      "product_id": "pestdb-clean-0575",
+      "opt_id": "spodoptera-frugiperda"
+    },
+    {
+      "product_id": "pestdb-clean-0575",
+      "opt_id": "spodoptera-litura"
+    },
+    {
+      "product_id": "pestdb-clean-0575",
+      "opt_id": "helicoverpa-armigera"
+    },
+    {
+      "product_id": "pestdb-clean-0581",
+      "opt_id": "cyperus"
+    },
+    {
+      "product_id": "pestdb-clean-0603",
+      "opt_id": "colletotrichum"
+    },
+    {
+      "product_id": "pestdb-clean-0603",
+      "opt_id": "powdery-mildew"
+    },
+    {
+      "product_id": "pestdb-clean-0604",
+      "opt_id": "colletotrichum"
+    },
+    {
+      "product_id": "pestdb-clean-0605",
+      "opt_id": "bemisia-tabaci"
+    },
+    {
+      "product_id": "pestdb-clean-0605",
+      "opt_id": "bemisia-vaporariorum"
+    },
+    {
+      "product_id": "pestdb-clean-0605",
+      "opt_id": "aphid"
+    },
+    {
+      "product_id": "pestdb-clean-0606",
+      "opt_id": "powdery-mildew"
+    },
+    {
+      "product_id": "pestdb-clean-0609",
+      "opt_id": "bemisia-tabaci"
+    },
+    {
+      "product_id": "pestdb-clean-0609",
+      "opt_id": "bemisia-vaporariorum"
+    },
+    {
+      "product_id": "pestdb-clean-0610",
+      "opt_id": "colletotrichum"
+    },
+    {
+      "product_id": "pestdb-clean-0610",
+      "opt_id": "powdery-mildew"
+    },
+    {
+      "product_id": "pestdb-clean-0611",
+      "opt_id": "colletotrichum"
+    },
+    {
+      "product_id": "pestdb-clean-0613",
+      "opt_id": "colletotrichum"
+    },
+    {
+      "product_id": "pestdb-clean-0907",
+      "opt_id": "spodoptera-frugiperda"
+    },
+    {
+      "product_id": "pestdb-clean-0907",
+      "opt_id": "spodoptera-litura"
+    },
+    {
+      "product_id": "pestdb-clean-0907",
+      "opt_id": "helicoverpa-armigera"
+    },
+    {
+      "product_id": "pestdb-clean-0908",
+      "opt_id": "bemisia-tabaci"
+    },
+    {
+      "product_id": "pestdb-clean-0908",
+      "opt_id": "bemisia-vaporariorum"
+    },
+    {
+      "product_id": "pestdb-clean-0908",
+      "opt_id": "aphid"
+    },
+    {
+      "product_id": "pestdb-clean-0910",
+      "opt_id": "colletotrichum"
+    },
+    {
+      "product_id": "pestdb-clean-0915",
+      "opt_id": "colletotrichum"
+    },
+    {
+      "product_id": "pestdb-clean-1035",
+      "opt_id": "liriomyza"
+    },
+    {
+      "product_id": "pestdb-clean-1035",
+      "opt_id": "liriomyza-chinensis"
+    },
+    {
+      "product_id": "pestdb-clean-1035",
+      "opt_id": "tetranychus"
+    },
+    {
+      "product_id": "pestdb-clean-1036",
+      "opt_id": "bemisia-tabaci"
+    },
+    {
+      "product_id": "pestdb-clean-1036",
+      "opt_id": "bemisia-vaporariorum"
+    },
+    {
+      "product_id": "pestdb-clean-1036",
+      "opt_id": "aphid"
+    },
+    {
+      "product_id": "pestdb-clean-1054",
+      "opt_id": "bemisia-tabaci"
+    },
+    {
+      "product_id": "pestdb-clean-1054",
+      "opt_id": "bemisia-vaporariorum"
+    },
+    {
+      "product_id": "pestdb-clean-1054",
+      "opt_id": "aphid"
+    },
+    {
+      "product_id": "pestdb-clean-1056",
+      "opt_id": "colletotrichum"
+    },
+    {
+      "product_id": "pestdb-clean-1057",
+      "opt_id": "colletotrichum"
+    },
+    {
+      "product_id": "pestdb-clean-1057",
+      "opt_id": "powdery-mildew"
+    },
+    {
+      "product_id": "pestdb-clean-1059",
+      "opt_id": "cyperus"
+    },
+    {
+      "product_id": "pestdb-clean-1061",
+      "opt_id": "cyperus"
+    },
+    {
+      "product_id": "pestdb-clean-1064",
+      "opt_id": "spodoptera-frugiperda"
+    },
+    {
+      "product_id": "pestdb-clean-1064",
+      "opt_id": "spodoptera-litura"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "type": "object",
+  "required": [
+    "id",
+    "brand_name",
+    "product_category",
+    "product_type"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "brand_name": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "product_category": {
+      "type": "string"
+    },
+    "product_type": {
+      "type": "string"
+    },
+    "active_ingredients_raw": {
+      "type": "string"
+    },
+    "formulation": {
+      "type": "string"
+    },
+    "linked_opt_ids": {
+      "type": "array"
+    },
+    "moa": {
+      "type": "object"
+    },
+    "provenance": {
+      "type": "object"
+    }
+  }
+}

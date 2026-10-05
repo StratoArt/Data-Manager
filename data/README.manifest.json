@@ -1,0 +1,7 @@
+{
+  "name": "Crop Expert Data Center",
+  "version": "2026.10.05",
+  "base_path": "data/",
+  "manifest": "versions/manifest.json",
+  "read_only_consumer_contract": true
+}

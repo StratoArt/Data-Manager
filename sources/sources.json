@@ -1,1 +1,10 @@
-[{"id":"SRC-0001","name":"Manual Entry","type":"manual","url":"","license":"","notes":""}]
+{
+  "sources": [
+    {
+      "id": "pesticide_database_cleaned_2026-10-04-no-TC",
+      "version": "clean-2026-10-04",
+      "record_count": 1062,
+      "source_file": "pesticide_database_cleaned_2026-10-04-no-TC(1).json"
+    }
+  ]
+}

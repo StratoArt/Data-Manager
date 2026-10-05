@@ -1,0 +1,8 @@
+[
+  {
+    "version": "2026.10.05",
+    "type": "baseline",
+    "source": "pesticide_database_cleaned_2026-10-04-no-TC(1).json",
+    "notes": "Canonical Data Center v0.3 baseline; no legacy app data deleted."
+  }
+]

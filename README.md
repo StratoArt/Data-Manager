@@ -1,7 +1,27 @@
-# Crop Expert Data Manager v0.1
+# Crop Expert Data Center v0.3
 
-MVP standalone untuk mengelola dataset Crop Expert.
+Canonical data layer for PestiApps and Crop Expert.
 
-Fitur: CRUD, search, import/export JSON, multiple image upload, status draft/verified, visibility public/internal, source metadata.
+## Baseline
+- Source: `pesticide_database_cleaned_2026-10-04-no-TC(1).json`
+- Source records: 1084
+- Clean records: 1062
+- Canonical pesticide/product records: 1058
+- Canonical solid fertilizer records: 4
 
-Run: `python -m http.server 8080` lalu buka `http://localhost:8080`.
+## Rules
+- Data Center is canonical source.
+- No legacy PestiApps/Crop Expert data is deleted in this phase.
+- No Bayer/internal data is included.
+- Solid fertilizers only go to `data/products/pupuk.json`.
+- Liquid biostimulants/PGR/etc remain in product database unless explicitly reclassified.
+- OPT/crop master datasets are placeholders until exact current app datasets are migrated.
+
+## Integration order
+1. Validate Data Center.
+2. Push to StratoArt/Data-Manager.
+3. Add read-only adapter to PestiApps.
+4. Add DataService adapter to Crop Expert.
+5. Compare output against legacy data.
+6. Switch canonical source.
+7. Only then retire duplicate legacy datasets.

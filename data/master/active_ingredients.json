@@ -1,0 +1,3446 @@
+{
+  "dataset_version": "2026.10.04",
+  "record_count": 430,
+  "records": [
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "Imidakloprid 50 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "30",
+      "group": "30",
+      "name": "GABA-gated chloride channel allosteric modulators",
+      "chemical_class": "Isoxazolines; Meta-diamides",
+      "active_ingredient_match": "Broflanilida 53%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "Asetamiprid 30 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "14",
+      "group": "14",
+      "name": "nAChR channel blockers",
+      "chemical_class": "Nereistoxin analogues",
+      "active_ingredient_match": "Bisultap"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "Imidakloprid 2% + Monosultap 58%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "14",
+      "group": "14",
+      "name": "nAChR channel blockers",
+      "chemical_class": "Nereistoxin analogues",
+      "active_ingredient_match": "Imidakloprid 2% + Monosultap 58%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1A",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Carbamates",
+      "active_ingredient_match": "Karbaril 85%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "14",
+      "group": "14",
+      "name": "nAChR channel blockers",
+      "chemical_class": "Nereistoxin analogues",
+      "active_ingredient_match": "Dimehipo 400 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "6",
+      "group": "6C3",
+      "name": "Inhibition of Photosynthesis at PS II – D1 Histidine 215 binders",
+      "chemical_class": "Nitriles",
+      "active_ingredient_match": "bentazone 460 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "10",
+      "group": "10H",
+      "name": "Inhibition of Glutamine Synthetase (GS)",
+      "chemical_class": "Phosphinic acids",
+      "active_ingredient_match": "glufosinate-ammonium 150 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "30",
+      "group": "30",
+      "name": "GABA-gated chloride channel allosteric modulators",
+      "chemical_class": "Isoxazolines; Meta-diamides",
+      "active_ingredient_match": "Broflanilide 100 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "36",
+      "group": "36",
+      "name": "Chordotonal organ modulators – undefined target site",
+      "chemical_class": "Pyridazine pyrazolecarboxamides",
+      "active_ingredient_match": "Dimpropyridaz 120 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "Alfa-sipermetrin 15 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "Alfa-sipermetrin 75 g/L + Teflubenzuron 75 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "15",
+      "group": "15",
+      "name": "Inhibitors of chitin biosynthesis affecting CHS1",
+      "chemical_class": "Benzoylureas",
+      "active_ingredient_match": "Alfa-sipermetrin 75 g/L + Teflubenzuron 75 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "9D",
+      "group": "9",
+      "name": "Chordotonal organ TRPV channel modulators",
+      "chemical_class": "Pyropenes",
+      "active_ingredient_match": "Afidopiropen 50 g/L + Abamektin 25 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "6",
+      "group": "6",
+      "name": "Glutamate-gated chloride channel allosteric modulators",
+      "chemical_class": "Avermectins; Milbemycins",
+      "active_ingredient_match": "Afidopiropen 50 g/L + Abamektin 25 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "15",
+      "group": "15K3",
+      "name": "Inhibition of Very Long-Chain Fatty Acid Synthesis (VLCFA)",
+      "chemical_class": "α-Chloroacetamides; Thiocarbamates; α-Oxyacetamides; α-Thioacetamides",
+      "active_ingredient_match": "Simetilin 750 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "3",
+      "group": "3K1",
+      "name": "Inhibition of Microtubule Assembly / α-Tubulin",
+      "chemical_class": "Dinitroanilines; Pyridines; Phosphoroamidates",
+      "active_ingredient_match": "Pendimetalin 330 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "2B",
+      "group": "2",
+      "name": "GABA-gated chloride channel blockers",
+      "chemical_class": "Phenylpyrazoles (Fiproles)",
+      "active_ingredient_match": "fipronil 0.3%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "2B",
+      "group": "2",
+      "name": "GABA-gated chloride channel blockers",
+      "chemical_class": "Phenylpyrazoles (Fiproles)",
+      "active_ingredient_match": "Fipronil 50 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "sipermetrin 50 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "5",
+      "group": "5",
+      "name": "nAChR allosteric modulators – Site I",
+      "chemical_class": "Spinosyns",
+      "active_ingredient_match": "Spinetoram 25%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "4",
+      "group": "4O",
+      "name": "Auxin Mimics",
+      "chemical_class": "Pyridyloxycarboxylates; 6-Chloropicolinates; Phenoxycarboxylates; Benzoates",
+      "active_ingredient_match": "Florpyrauxifen-benzyl (Rinskor)"
+    },
+    {
+      "committee": "HRAC",
+      "code": "4",
+      "group": "4O",
+      "name": "Auxin Mimics",
+      "chemical_class": "Pyridyloxycarboxylates; 6-Chloropicolinates; Phenoxycarboxylates; Benzoates",
+      "active_ingredient_match": "Florpyrauxifen-benzyl (Rinskor) + bahan aktif pendamping"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4E",
+      "group": "4",
+      "name": "Unknown",
+      "chemical_class": "",
+      "active_ingredient_match": "Triflumezopyrim 106 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M03",
+      "group": "M03",
+      "name": "multi-site contact activity",
+      "chemical_class": "dithiocarbamates and relatives (electrophiles)",
+      "active_ingredient_match": "Propineb 70%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "9",
+      "group": "9G",
+      "name": "Inhibition of EPSPS",
+      "chemical_class": "Glycines",
+      "active_ingredient_match": ""
+    },
+    {
+      "committee": "FRAC",
+      "code": "M03",
+      "group": "M03",
+      "name": "multi-site contact activity",
+      "chemical_class": "dithiocarbamates and relatives (electrophiles)",
+      "active_ingredient_match": "Mankozeb 80%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "22",
+      "group": "22D",
+      "name": "PS I Electron Diversion",
+      "chemical_class": "Pyridiniums",
+      "active_ingredient_match": ""
+    },
+    {
+      "committee": "IRAC",
+      "code": "1B",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Organophosphates",
+      "active_ingredient_match": "Profenofos 500 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1B",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Organophosphates",
+      "active_ingredient_match": "Klorpirifos 200 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "6",
+      "group": "6",
+      "name": "Glutamate-gated chloride channel allosteric modulators",
+      "chemical_class": "Avermectins; Milbemycins",
+      "active_ingredient_match": "Abamektin 18 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "Metsulfuron-metil + bahan aktif pendamping"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "Metsulfuron-metil 20%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "22A",
+      "group": "22",
+      "name": "Voltage-dependent sodium channel blockers",
+      "chemical_class": "Oxadiazines",
+      "active_ingredient_match": "Indoksakarb 150 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "6",
+      "group": "6",
+      "name": "Glutamate-gated chloride channel allosteric modulators",
+      "chemical_class": "Avermectins; Milbemycins",
+      "active_ingredient_match": "Indoksakarb 150 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "sipermetrin 30 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "fenvalerate 50 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4D",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Butenolides",
+      "active_ingredient_match": "Flupyradifurone 106 g/L + Bifenthrin 159 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "Flupyradifurone 106 g/L + Bifenthrin 159 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "zeta-cypermethrin 50 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1A",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Carbamates",
+      "active_ingredient_match": "Karbosulfan 200 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1A",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Carbamates",
+      "active_ingredient_match": "carbosulfan 200 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "permethrin 20 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "28",
+      "group": "28",
+      "name": "Ryanodine receptor modulators",
+      "chemical_class": "Diamides",
+      "active_ingredient_match": "Klorantraniliprol 50 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "Natrium bispiribak 100 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "Metil bensulfuron 4% + Pretilaklor 36%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "15",
+      "group": "15K3",
+      "name": "Inhibition of Very Long-Chain Fatty Acid Synthesis (VLCFA)",
+      "chemical_class": "α-Chloroacetamides; Thiocarbamates; α-Oxyacetamides; α-Thioacetamides",
+      "active_ingredient_match": "Metil bensulfuron 4% + Pretilaklor 36%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "5",
+      "group": "5C1,2",
+      "name": "Inhibition of Photosynthesis at PS II – D1 Serine 264 binders",
+      "chemical_class": "Triazines; Ureas; Uracils; Phenylcarbamates; Amides; Triazinones",
+      "active_ingredient_match": "Atrazin 500 g/L + Mesotrion 50 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "27",
+      "group": "27F2",
+      "name": "Inhibition of Hydroxyphenyl Pyruvate Dioxygenase (HPPD)",
+      "chemical_class": "Triketones; Pyrazoles; Nitriles",
+      "active_ingredient_match": "Atrazin 500 g/L + Mesotrion 50 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "7B",
+      "group": "7",
+      "name": "Juvenile hormone receptor modulators",
+      "chemical_class": "Fenoxycarb",
+      "active_ingredient_match": "Fenoksikarb 75 g/L + Diafentiuron 300 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "12A",
+      "group": "12",
+      "name": "Inhibitors of mitochondrial ATP synthase",
+      "chemical_class": "Diafenthiuron",
+      "active_ingredient_match": "Fenoksikarb 75 g/L + Diafentiuron 300 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "17",
+      "group": "17",
+      "name": "Moulting disruptor, Dipteran",
+      "chemical_class": "Cyromazine",
+      "active_ingredient_match": "Siromazin 75%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "4",
+      "group": "4O",
+      "name": "Auxin Mimics",
+      "chemical_class": "Pyridyloxycarboxylates; 6-Chloropicolinates; Phenoxycarboxylates; Benzoates",
+      "active_ingredient_match": "Kuinklorak 32,5% + Etil pirazosulfuron 5%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "Kuinklorak 32,5% + Etil pirazosulfuron 5%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "15",
+      "group": "15K3",
+      "name": "Inhibition of Very Long-Chain Fatty Acid Synthesis (VLCFA)",
+      "chemical_class": "α-Chloroacetamides; Thiocarbamates; α-Oxyacetamides; α-Thioacetamides",
+      "active_ingredient_match": "Pretilaklor 300 g/L + Piribenzoksim 20 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "Pretilaklor 300 g/L + Piribenzoksim 20 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "Etoksisulfuron 15%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "15",
+      "group": "15K3",
+      "name": "Inhibition of Very Long-Chain Fatty Acid Synthesis (VLCFA)",
+      "chemical_class": "α-Chloroacetamides; Thiocarbamates; α-Oxyacetamides; α-Thioacetamides",
+      "active_ingredient_match": "Propanil 167 g/L + Pretilaklor 323 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "Natrium bispiribak 400 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "4",
+      "group": "4O",
+      "name": "Auxin Mimics",
+      "chemical_class": "Pyridyloxycarboxylates; 6-Chloropicolinates; Phenoxycarboxylates; Benzoates",
+      "active_ingredient_match": "Kuinklorak 47% + Etil pirazosulfuron 3%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "Kuinklorak 47% + Etil pirazosulfuron 3%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "Natrium bispiribak 20% + Etil pirazosulfuron 10%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "16",
+      "group": "16",
+      "name": "Inhibitors of chitin biosynthesis, type 1",
+      "chemical_class": "Buprofezin",
+      "active_ingredient_match": "Buprofezin 500 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M05",
+      "group": "M05",
+      "name": "multi-site contact activity",
+      "chemical_class": "chloronitriles (phthalonitriles)",
+      "active_ingredient_match": "Karbendazim 250 g/L + Klorotalonil 250 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "4",
+      "group": "4O",
+      "name": "Auxin Mimics",
+      "chemical_class": "Pyridyloxycarboxylates; 6-Chloropicolinates; Phenoxycarboxylates; Benzoates",
+      "active_ingredient_match": "2,4-D dimethylamine 865 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M03",
+      "group": "M03",
+      "name": "multi-site contact activity",
+      "chemical_class": "dithiocarbamates and relatives (electrophiles)",
+      "active_ingredient_match": "mancozeb 80%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "9",
+      "group": "9G",
+      "name": "Inhibition of EPSPS",
+      "chemical_class": "Glycines",
+      "active_ingredient_match": "glyphosate isopropylamine 270 g/L + 2,4-D isopropylamine 120 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "4",
+      "group": "4O",
+      "name": "Auxin Mimics",
+      "chemical_class": "Pyridyloxycarboxylates; 6-Chloropicolinates; Phenoxycarboxylates; Benzoates",
+      "active_ingredient_match": "glyphosate isopropylamine 270 g/L + 2,4-D isopropylamine 120 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "9",
+      "group": "9G",
+      "name": "Inhibition of EPSPS",
+      "chemical_class": "Glycines",
+      "active_ingredient_match": "glyphosate IPA 480 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "4",
+      "group": "4O",
+      "name": "Auxin Mimics",
+      "chemical_class": "Pyridyloxycarboxylates; 6-Chloropicolinates; Phenoxycarboxylates; Benzoates",
+      "active_ingredient_match": "triclopyr butoxyethyl ester 670 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1A",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Carbamates",
+      "active_ingredient_match": "carbaryl 85%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "metsulfuron-methyl 10%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "metsulfuron-methyl 20%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "27",
+      "group": "27F2",
+      "name": "Inhibition of Hydroxyphenyl Pyruvate Dioxygenase (HPPD)",
+      "chemical_class": "Triketones; Pyrazoles; Nitriles",
+      "active_ingredient_match": "Isoksaflutol 225 g/L; Thiencarbazone-methyl 90 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1A",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Carbamates",
+      "active_ingredient_match": "Fenobucarb 485 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "29",
+      "group": "29L",
+      "name": "Inhibition of Cellulose Synthesis",
+      "chemical_class": "Benzonitriles; Indaziflam / related",
+      "active_ingredient_match": "Indaziflam 500 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "29",
+      "group": "29L",
+      "name": "Inhibition of Cellulose Synthesis",
+      "chemical_class": "Benzonitriles; Indaziflam / related",
+      "active_ingredient_match": "ISOPROPIL AMINA GLIFOSAT 540 g/L ; Indaziflam 20 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "28",
+      "group": "28",
+      "name": "Ryanodine receptor modulators",
+      "chemical_class": "Diamides",
+      "active_ingredient_match": "flubendiamida 240 g/L ; tiakloprid 240 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "flubendiamida 240 g/L ; tiakloprid 240 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "Beta siflutrin 25 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "28",
+      "group": "28",
+      "name": "Ryanodine receptor modulators",
+      "chemical_class": "Diamides",
+      "active_ingredient_match": "tetraniliprol 120 g/L; spirotetramat 240 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "23",
+      "group": "23",
+      "name": "Inhibitors of acetyl-CoA carboxylase",
+      "chemical_class": "Tetronic and Tetramic acid derivatives",
+      "active_ingredient_match": "tetraniliprol 120 g/L; spirotetramat 240 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "Imidakloprid 200 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "Imidakloprid 350 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "Deltametrin 25 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "C3",
+      "group": "C3",
+      "name": "complex III cytochrome bc1 Qo site",
+      "chemical_class": "QoI-fungicides",
+      "active_ingredient_match": "Isotianil 200 g/l; Trifloxystrobin 80 g/l"
+    },
+    {
+      "committee": "FRAC",
+      "code": "C3",
+      "group": "C3",
+      "name": "complex III cytochrome bc1 Qo site",
+      "chemical_class": "QoI-fungicides",
+      "active_ingredient_match": "fluopyram 250 g/L; Trifloksistrobin 250 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "G1",
+      "group": "G1",
+      "name": "C14-demethylase in sterol biosynthesis (erg11/cyp51)",
+      "chemical_class": "DMI-fungicides (SBI Class I)",
+      "active_ingredient_match": "fluopyram 250 g/L; Trifloksistrobin 250 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "Imidakloprid 120 g/L; Spirotetramat 120 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "23",
+      "group": "23",
+      "name": "Inhibitors of acetyl-CoA carboxylase",
+      "chemical_class": "Tetronic and Tetramic acid derivatives",
+      "active_ingredient_match": "Imidakloprid 120 g/L; Spirotetramat 120 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "C3",
+      "group": "C3",
+      "name": "complex III cytochrome bc1 Qo site",
+      "chemical_class": "QoI-fungicides",
+      "active_ingredient_match": "tebukonazol 50%; trifloksistrobin 25%"
+    },
+    {
+      "committee": "FRAC",
+      "code": "G1",
+      "group": "G1",
+      "name": "C14-demethylase in sterol biosynthesis (erg11/cyp51)",
+      "chemical_class": "DMI-fungicides (SBI Class I)",
+      "active_ingredient_match": "tebukonazol 50%; trifloksistrobin 25%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "23",
+      "group": "23",
+      "name": "Inhibitors of acetyl-CoA carboxylase",
+      "chemical_class": "Tetronic and Tetramic acid derivatives",
+      "active_ingredient_match": "Spiromesifen 228,6 g/L; Abamektin 11,4 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "6",
+      "group": "6",
+      "name": "Glutamate-gated chloride channel allosteric modulators",
+      "chemical_class": "Avermectins; Milbemycins",
+      "active_ingredient_match": "Spiromesifen 228,6 g/L; Abamektin 11,4 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "28",
+      "group": "28",
+      "name": "Ryanodine receptor modulators",
+      "chemical_class": "Diamides",
+      "active_ingredient_match": "Tetraniliprol 480 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "1",
+      "group": "1A",
+      "name": "Inhibition of Acetyl CoA Carboxylase (ACCase)",
+      "chemical_class": "Cyclohexanediones; Aryloxyphenoxypropionates",
+      "active_ingredient_match": "Fenoksaprop-P-etil 69 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "1",
+      "group": "1A",
+      "name": "Inhibition of Acetyl CoA Carboxylase (ACCase)",
+      "chemical_class": "Cyclohexanediones; Aryloxyphenoxypropionates",
+      "active_ingredient_match": "Fenoksaprop-p-etil 69 g/l; Etoksisulfuron 20 g/l."
+    },
+    {
+      "committee": "HRAC",
+      "code": "1",
+      "group": "1A",
+      "name": "Inhibition of Acetyl CoA Carboxylase (ACCase)",
+      "chemical_class": "Cyclohexanediones; Aryloxyphenoxypropionates",
+      "active_ingredient_match": "Fenoksaprop-P-etil 110 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4D",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Butenolides",
+      "active_ingredient_match": "flupiradifuron 200 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M03",
+      "group": "M03",
+      "name": "multi-site contact activity",
+      "chemical_class": "dithiocarbamates and relatives (electrophiles)",
+      "active_ingredient_match": "Fluopikolid 6%; Propineb 66,7%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "28",
+      "group": "28",
+      "name": "Ryanodine receptor modulators",
+      "chemical_class": "Diamides",
+      "active_ingredient_match": "klorantraniliprol 35%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "28",
+      "group": "28",
+      "name": "Ryanodine receptor modulators",
+      "chemical_class": "Diamides",
+      "active_ingredient_match": "Tetraniliprol 200 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "13",
+      "group": "13",
+      "name": "Uncouplers of oxidative phosphorylation via disruption of proton gradient",
+      "chemical_class": "Pyrroles; Dinitrophenols",
+      "active_ingredient_match": "klorfenapir 200 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1B",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Organophosphates",
+      "active_ingredient_match": "klorpirifos 500 g/L + sipermetrin 50 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "klorpirifos 500 g/L + sipermetrin 50 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "dimehipo 450 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "22A",
+      "group": "22",
+      "name": "Voltage-dependent sodium channel blockers",
+      "chemical_class": "Oxadiazines",
+      "active_ingredient_match": "indoksakarb 160 g/L + emamektin benzoat 20 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "6",
+      "group": "6",
+      "name": "Glutamate-gated chloride channel allosteric modulators",
+      "chemical_class": "Avermectins; Milbemycins",
+      "active_ingredient_match": "indoksakarb 160 g/L + emamektin benzoat 20 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "beta-siflutrin 50 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M02",
+      "group": "M02",
+      "name": "multi-site contact activity",
+      "chemical_class": "inorganic (electrophiles)",
+      "active_ingredient_match": "belerang 85% + K 1% + Zn 2% + Mn 1% + Ca 1%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1B",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Organophosphates",
+      "active_ingredient_match": "Klorpirifos 500 g/L + Sipermetrin 50 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "Klorpirifos 500 g/L + Sipermetrin 50 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M03",
+      "group": "M03",
+      "name": "multi-site contact activity",
+      "chemical_class": "dithiocarbamates and relatives (electrophiles)",
+      "active_ingredient_match": "simoksanil 8% + mankozeb 64%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "5",
+      "group": "5",
+      "name": "nAChR allosteric modulators – Site I",
+      "chemical_class": "Spinosyns",
+      "active_ingredient_match": "spinetoram 120 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "29",
+      "group": "29",
+      "name": "Chordotonal organ nicotinamidase inhibitors",
+      "chemical_class": "Flonicamid",
+      "active_ingredient_match": "flonicamid 20% + pymetrozine 20%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "9B",
+      "group": "9",
+      "name": "Chordotonal organ TRPV channel modulators",
+      "chemical_class": "Pyridine azomethine derivatives",
+      "active_ingredient_match": "flonicamid 20% + pymetrozine 20%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1A",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Carbamates",
+      "active_ingredient_match": "metomil 40%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "5",
+      "group": "5",
+      "name": "nAChR allosteric modulators – Site I",
+      "chemical_class": "Spinosyns",
+      "active_ingredient_match": "spinetoram 300 g/L + methoxyfenozide 60 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "18",
+      "group": "18",
+      "name": "Ecdysone receptor agonists",
+      "chemical_class": "Diacylhydrazines",
+      "active_ingredient_match": "spinetoram 300 g/L + methoxyfenozide 60 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "2B",
+      "group": "2",
+      "name": "GABA-gated chloride channel blockers",
+      "chemical_class": "Phenylpyrazoles (Fiproles)",
+      "active_ingredient_match": "fipronil 50 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "6",
+      "group": "6",
+      "name": "Glutamate-gated chloride channel allosteric modulators",
+      "chemical_class": "Avermectins; Milbemycins",
+      "active_ingredient_match": "abamectin?"
+    },
+    {
+      "committee": "HRAC",
+      "code": "10",
+      "group": "10H",
+      "name": "Inhibition of Glutamine Synthetase (GS)",
+      "chemical_class": "Phosphinic acids",
+      "active_ingredient_match": "ammonium glufosinate 150 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1B",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Organophosphates",
+      "active_ingredient_match": "acephate 75%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "6",
+      "group": "6",
+      "name": "Glutamate-gated chloride channel allosteric modulators",
+      "chemical_class": "Avermectins; Milbemycins",
+      "active_ingredient_match": "emamectin benzoate 21 g/L + beta-cypermethrin 45 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "emamectin benzoate 21 g/L + beta-cypermethrin 45 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "22",
+      "group": "22D",
+      "name": "PS I Electron Diversion",
+      "chemical_class": "Pyridiniums",
+      "active_ingredient_match": "paraquat dichloride 276 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "4",
+      "group": "4O",
+      "name": "Auxin Mimics",
+      "chemical_class": "Pyridyloxycarboxylates; 6-Chloropicolinates; Phenoxycarboxylates; Benzoates",
+      "active_ingredient_match": "triclopyr BEE 670 g/L?"
+    },
+    {
+      "committee": "HRAC",
+      "code": "27",
+      "group": "27F2",
+      "name": "Inhibition of Hydroxyphenyl Pyruvate Dioxygenase (HPPD)",
+      "chemical_class": "Triketones; Pyrazoles; Nitriles",
+      "active_ingredient_match": "mesotrione 50 g/L + atrazine 500 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "5",
+      "group": "5C1,2",
+      "name": "Inhibition of Photosynthesis at PS II – D1 Serine 264 binders",
+      "chemical_class": "Triazines; Ureas; Uracils; Phenylcarbamates; Amides; Triazinones",
+      "active_ingredient_match": "mesotrione 50 g/L + atrazine 500 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M05",
+      "group": "M05",
+      "name": "multi-site contact activity",
+      "chemical_class": "chloronitriles (phthalonitriles)",
+      "active_ingredient_match": "chlorothalonil 75%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "5",
+      "group": "5C1,2",
+      "name": "Inhibition of Photosynthesis at PS II – D1 Serine 264 binders",
+      "chemical_class": "Triazines; Ureas; Uracils; Phenylcarbamates; Amides; Triazinones",
+      "active_ingredient_match": "Diuron 80 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "16",
+      "group": "16",
+      "name": "Inhibitors of chitin biosynthesis, type 1",
+      "chemical_class": "Buprofezin",
+      "active_ingredient_match": "Buprofezin 10% + Etofenproks 10%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "Buprofezin 10% + Etofenproks 10%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "5",
+      "group": "5C1,2",
+      "name": "Inhibition of Photosynthesis at PS II – D1 Serine 264 binders",
+      "chemical_class": "Triazines; Ureas; Uracils; Phenylcarbamates; Amides; Triazinones",
+      "active_ingredient_match": "ametrin 500 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "6",
+      "group": "6",
+      "name": "Glutamate-gated chloride channel allosteric modulators",
+      "chemical_class": "Avermectins; Milbemycins",
+      "active_ingredient_match": "abamektin 18 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4C",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Sulfoximines",
+      "active_ingredient_match": "monosultap 68% + imidakloprid 2%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "monosultap 68% + imidakloprid 2%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "14",
+      "group": "14E",
+      "name": "Inhibition of Protoporphyrinogen Oxidase (PPO)",
+      "chemical_class": "Diphenyl ethers; N-Phenylimides; N-Phenyltriazolinones",
+      "active_ingredient_match": "flumioxazin 50%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "4",
+      "group": "4O",
+      "name": "Auxin Mimics",
+      "chemical_class": "Pyridyloxycarboxylates; 6-Chloropicolinates; Phenoxycarboxylates; Benzoates",
+      "active_ingredient_match": "triklopir butoksi etil ester 670 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "6",
+      "group": "6",
+      "name": "Glutamate-gated chloride channel allosteric modulators",
+      "chemical_class": "Avermectins; Milbemycins",
+      "active_ingredient_match": "emamektin benzoat 35 g/L + klorantraniliprol 120 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "28",
+      "group": "28",
+      "name": "Ryanodine receptor modulators",
+      "chemical_class": "Diamides",
+      "active_ingredient_match": "emamektin benzoat 35 g/L + klorantraniliprol 120 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "tiametoksam 25%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1B",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Organophosphates",
+      "active_ingredient_match": "profenofos 500 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1A",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Carbamates",
+      "active_ingredient_match": "metomil 45%"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M03",
+      "group": "M03",
+      "name": "multi-site contact activity",
+      "chemical_class": "dithiocarbamates and relatives (electrophiles)",
+      "active_ingredient_match": "mankozeb 80%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "22A",
+      "group": "22",
+      "name": "Voltage-dependent sodium channel blockers",
+      "chemical_class": "Oxadiazines",
+      "active_ingredient_match": "indoksakarb 100 g/L + emamektin benzoat 50 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "6",
+      "group": "6",
+      "name": "Glutamate-gated chloride channel allosteric modulators",
+      "chemical_class": "Avermectins; Milbemycins",
+      "active_ingredient_match": "indoksakarb 100 g/L + emamektin benzoat 50 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "4",
+      "group": "4O",
+      "name": "Auxin Mimics",
+      "chemical_class": "Pyridyloxycarboxylates; 6-Chloropicolinates; Phenoxycarboxylates; Benzoates",
+      "active_ingredient_match": "2,4-D dimetil amina 865 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4C",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Sulfoximines",
+      "active_ingredient_match": "dimehipo 500 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "10",
+      "group": "10H",
+      "name": "Inhibition of Glutamine Synthetase (GS)",
+      "chemical_class": "Phosphinic acids",
+      "active_ingredient_match": "amonium glufosinat 200 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "6",
+      "group": "6",
+      "name": "Glutamate-gated chloride channel allosteric modulators",
+      "chemical_class": "Avermectins; Milbemycins",
+      "active_ingredient_match": "emamektin benzoat 50 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "nikosulfuron 30 g/L + mesotrion 50 g/L + atrazin 220 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "27",
+      "group": "27F2",
+      "name": "Inhibition of Hydroxyphenyl Pyruvate Dioxygenase (HPPD)",
+      "chemical_class": "Triketones; Pyrazoles; Nitriles",
+      "active_ingredient_match": "nikosulfuron 30 g/L + mesotrion 50 g/L + atrazin 220 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "5",
+      "group": "5C1,2",
+      "name": "Inhibition of Photosynthesis at PS II – D1 Serine 264 binders",
+      "chemical_class": "Triazines; Ureas; Uracils; Phenylcarbamates; Amides; Triazinones",
+      "active_ingredient_match": "nikosulfuron 30 g/L + mesotrion 50 g/L + atrazin 220 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "natrium bispiribak 400 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "penoksulam 10 g/L + butil sihalofop 50 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "1",
+      "group": "1A",
+      "name": "Inhibition of Acetyl CoA Carboxylase (ACCase)",
+      "chemical_class": "Cyclohexanediones; Aryloxyphenoxypropionates",
+      "active_ingredient_match": "penoksulam 10 g/L + butil sihalofop 50 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "27",
+      "group": "27F2",
+      "name": "Inhibition of Hydroxyphenyl Pyruvate Dioxygenase (HPPD)",
+      "chemical_class": "Triketones; Pyrazoles; Nitriles",
+      "active_ingredient_match": "topramezon 10 g/L + atrazin 300 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "5",
+      "group": "5C1,2",
+      "name": "Inhibition of Photosynthesis at PS II – D1 Serine 264 binders",
+      "chemical_class": "Triazines; Ureas; Uracils; Phenylcarbamates; Amides; Triazinones",
+      "active_ingredient_match": "topramezon 10 g/L + atrazin 300 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M05",
+      "group": "M05",
+      "name": "multi-site contact activity",
+      "chemical_class": "chloronitriles (phthalonitriles)",
+      "active_ingredient_match": "klorotalonil 77%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "9",
+      "group": "9G",
+      "name": "Inhibition of EPSPS",
+      "chemical_class": "Glycines",
+      "active_ingredient_match": "IPA glifosat 480 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "1",
+      "group": "1A",
+      "name": "Inhibition of Acetyl CoA Carboxylase (ACCase)",
+      "chemical_class": "Cyclohexanediones; Aryloxyphenoxypropionates",
+      "active_ingredient_match": "metamifop 120 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "14",
+      "group": "14E",
+      "name": "Inhibition of Protoporphyrinogen Oxidase (PPO)",
+      "chemical_class": "Diphenyl ethers; N-Phenylimides; N-Phenyltriazolinones",
+      "active_ingredient_match": "oksifluorfen 240 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1B",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Organophosphates",
+      "active_ingredient_match": "asefat 75%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "dinotefuran 20%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "28",
+      "group": "28",
+      "name": "Ryanodine receptor modulators",
+      "chemical_class": "Diamides",
+      "active_ingredient_match": "klorantraniliprol 200 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "10",
+      "group": "10H",
+      "name": "Inhibition of Glutamine Synthetase (GS)",
+      "chemical_class": "Phosphinic acids",
+      "active_ingredient_match": "glufosinat-P 100 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "6",
+      "group": "6C3",
+      "name": "Inhibition of Photosynthesis at PS II – D1 Histidine 215 binders",
+      "chemical_class": "Nitriles",
+      "active_ingredient_match": "bentazon 400 g/L + MCPA sodium 60 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "4",
+      "group": "4O",
+      "name": "Auxin Mimics",
+      "chemical_class": "Pyridyloxycarboxylates; 6-Chloropicolinates; Phenoxycarboxylates; Benzoates",
+      "active_ingredient_match": "bentazon 400 g/L + MCPA sodium 60 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "15",
+      "group": "15K3",
+      "name": "Inhibition of Very Long-Chain Fatty Acid Synthesis (VLCFA)",
+      "chemical_class": "α-Chloroacetamides; Thiocarbamates; α-Oxyacetamides; α-Thioacetamides",
+      "active_ingredient_match": "butaklor 500 g/L + oksadiazon 100 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "14",
+      "group": "14E",
+      "name": "Inhibition of Protoporphyrinogen Oxidase (PPO)",
+      "chemical_class": "Diphenyl ethers; N-Phenylimides; N-Phenyltriazolinones",
+      "active_ingredient_match": "butaklor 500 g/L + oksadiazon 100 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "17",
+      "group": "17",
+      "name": "Moulting disruptor, Dipteran",
+      "chemical_class": "Cyromazine",
+      "active_ingredient_match": "siromazin 75%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "nitenpiram 20% + pimetrozin 60%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "9B",
+      "group": "9",
+      "name": "Chordotonal organ TRPV channel modulators",
+      "chemical_class": "Pyridine azomethine derivatives",
+      "active_ingredient_match": "nitenpiram 20% + pimetrozin 60%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "beta siflutrin 50 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "6",
+      "group": "6",
+      "name": "Glutamate-gated chloride channel allosteric modulators",
+      "chemical_class": "Avermectins; Milbemycins",
+      "active_ingredient_match": "abamektin 18 g/L + etoksazol 20 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "10B",
+      "group": "10",
+      "name": "Mite growth inhibitors affecting CHS1",
+      "chemical_class": "Etoxazole",
+      "active_ingredient_match": "abamektin 18 g/L + etoksazol 20 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M03",
+      "group": "M03",
+      "name": "multi-site contact activity",
+      "chemical_class": "dithiocarbamates and relatives (electrophiles)",
+      "active_ingredient_match": "metalaksil-M 4% + mankozeb 64%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "acetamiprid 15% + flonicamid 20%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "29",
+      "group": "29",
+      "name": "Chordotonal organ nicotinamidase inhibitors",
+      "chemical_class": "Flonicamid",
+      "active_ingredient_match": "acetamiprid 15% + flonicamid 20%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "deltametrin 25 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "10",
+      "group": "10H",
+      "name": "Inhibition of Glutamine Synthetase (GS)",
+      "chemical_class": "Phosphinic acids",
+      "active_ingredient_match": "amonium glufosinat 150 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "alpha-cypermethrin 50 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "4",
+      "group": "4O",
+      "name": "Auxin Mimics",
+      "chemical_class": "Pyridyloxycarboxylates; 6-Chloropicolinates; Phenoxycarboxylates; Benzoates",
+      "active_ingredient_match": "dikamba 480 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "bifenthrin 10%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "20D",
+      "group": "20",
+      "name": "Mitochondrial complex III electron transport inhibitors – Qo site",
+      "chemical_class": "Bifenazate",
+      "active_ingredient_match": "bifenazate 50%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "4",
+      "group": "4O",
+      "name": "Auxin Mimics",
+      "chemical_class": "Pyridyloxycarboxylates; 6-Chloropicolinates; Phenoxycarboxylates; Benzoates",
+      "active_ingredient_match": "2,4-D dimetilamina 865 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "sodium bispyribac 400 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "5",
+      "group": "5C1,2",
+      "name": "Inhibition of Photosynthesis at PS II – D1 Serine 264 binders",
+      "chemical_class": "Triazines; Ureas; Uracils; Phenylcarbamates; Amides; Triazinones",
+      "active_ingredient_match": "diuron 80%"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M03",
+      "group": "M03",
+      "name": "multi-site contact activity",
+      "chemical_class": "dithiocarbamates and relatives (electrophiles)",
+      "active_ingredient_match": "metalaksil 8% + mankozeb 64%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "6",
+      "group": "6",
+      "name": "Glutamate-gated chloride channel allosteric modulators",
+      "chemical_class": "Avermectins; Milbemycins",
+      "active_ingredient_match": "emamektin benzoat 5.7%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1B",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Organophosphates",
+      "active_ingredient_match": "klorpirifos 200 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "27",
+      "group": "27F2",
+      "name": "Inhibition of Hydroxyphenyl Pyruvate Dioxygenase (HPPD)",
+      "chemical_class": "Triketones; Pyrazoles; Nitriles",
+      "active_ingredient_match": "tembotrion 34.4%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "6",
+      "group": "6",
+      "name": "Glutamate-gated chloride channel allosteric modulators",
+      "chemical_class": "Avermectins; Milbemycins",
+      "active_ingredient_match": "emamektin benzoat 50 g/L + indoksakarb 100 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "22A",
+      "group": "22",
+      "name": "Voltage-dependent sodium channel blockers",
+      "chemical_class": "Oxadiazines",
+      "active_ingredient_match": "emamektin benzoat 50 g/L + indoksakarb 100 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M01",
+      "group": "M01",
+      "name": "multi-site contact activity",
+      "chemical_class": "inorganic (electrophiles)",
+      "active_ingredient_match": "tembaga oksiklorida 85%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "nikosulfuron 2% + mesotrion 4% + atrazin 20%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "27",
+      "group": "27F2",
+      "name": "Inhibition of Hydroxyphenyl Pyruvate Dioxygenase (HPPD)",
+      "chemical_class": "Triketones; Pyrazoles; Nitriles",
+      "active_ingredient_match": "nikosulfuron 2% + mesotrion 4% + atrazin 20%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "5",
+      "group": "5C1,2",
+      "name": "Inhibition of Photosynthesis at PS II – D1 Serine 264 binders",
+      "chemical_class": "Triazines; Ureas; Uracils; Phenylcarbamates; Amides; Triazinones",
+      "active_ingredient_match": "nikosulfuron 2% + mesotrion 4% + atrazin 20%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "fenvalerat 200 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "15",
+      "group": "15K3",
+      "name": "Inhibition of Very Long-Chain Fatty Acid Synthesis (VLCFA)",
+      "chemical_class": "α-Chloroacetamides; Thiocarbamates; α-Oxyacetamides; α-Thioacetamides",
+      "active_ingredient_match": "pretilaklor 30% + pyrazosulfuron-ethyl 0.75%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "pretilaklor 30% + pyrazosulfuron-ethyl 0.75%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "5",
+      "group": "5C1,2",
+      "name": "Inhibition of Photosynthesis at PS II – D1 Serine 264 binders",
+      "chemical_class": "Triazines; Ureas; Uracils; Phenylcarbamates; Amides; Triazinones",
+      "active_ingredient_match": "atrazin 72% + nikosulfuron 8%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "atrazin 72% + nikosulfuron 8%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1A",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Carbamates",
+      "active_ingredient_match": "fenobukarb 500 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "16",
+      "group": "16",
+      "name": "Inhibitors of chitin biosynthesis, type 1",
+      "chemical_class": "Buprofezin",
+      "active_ingredient_match": "buprofezin 440 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "imazetapir 100 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M02",
+      "group": "M02",
+      "name": "multi-site contact activity",
+      "chemical_class": "inorganic (electrophiles)",
+      "active_ingredient_match": "sulfur 80% WDG"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "bispyribac sodium 10%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "6",
+      "group": "6",
+      "name": "Glutamate-gated chloride channel allosteric modulators",
+      "chemical_class": "Avermectins; Milbemycins",
+      "active_ingredient_match": "emamektin benzoat 5%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "imidacloprid 30.5%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "lambda-cyhalothrin 106 g/L + thiamethoxam 141 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "lambda-cyhalothrin 106 g/L + thiamethoxam 141 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "1",
+      "group": "1A",
+      "name": "Inhibition of Acetyl CoA Carboxylase (ACCase)",
+      "chemical_class": "Cyclohexanediones; Aryloxyphenoxypropionates",
+      "active_ingredient_match": "clodinafop-propargyl 15%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "15",
+      "group": "15K3",
+      "name": "Inhibition of Very Long-Chain Fatty Acid Synthesis (VLCFA)",
+      "chemical_class": "α-Chloroacetamides; Thiocarbamates; α-Oxyacetamides; α-Thioacetamides",
+      "active_ingredient_match": "butaklor 500 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "penoxsulam 15 g/L + pretilachlor 385 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "15",
+      "group": "15K3",
+      "name": "Inhibition of Very Long-Chain Fatty Acid Synthesis (VLCFA)",
+      "chemical_class": "α-Chloroacetamides; Thiocarbamates; α-Oxyacetamides; α-Thioacetamides",
+      "active_ingredient_match": "penoxsulam 15 g/L + pretilachlor 385 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M05",
+      "group": "M05",
+      "name": "multi-site contact activity",
+      "chemical_class": "chloronitriles (phthalonitriles)",
+      "active_ingredient_match": "klorotalonil 75%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "3",
+      "group": "3K1",
+      "name": "Inhibition of Microtubule Assembly / α-Tubulin",
+      "chemical_class": "Dinitroanilines; Pyridines; Phosphoroamidates",
+      "active_ingredient_match": "pendimetalin 30%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "14",
+      "group": "14E",
+      "name": "Inhibition of Protoporphyrinogen Oxidase (PPO)",
+      "chemical_class": "Diphenyl ethers; N-Phenylimides; N-Phenyltriazolinones",
+      "active_ingredient_match": "oxyfluorfen 240 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "22",
+      "group": "22D",
+      "name": "PS I Electron Diversion",
+      "chemical_class": "Pyridiniums",
+      "active_ingredient_match": "paraquat dichloride 24%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "12A",
+      "group": "12",
+      "name": "Inhibitors of mitochondrial ATP synthase",
+      "chemical_class": "Diafenthiuron",
+      "active_ingredient_match": "diafenthiuron 50%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "7C",
+      "group": "7",
+      "name": "Juvenile hormone receptor modulators",
+      "chemical_class": "Pyriproxyfen",
+      "active_ingredient_match": "pyriproxyfen 10%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "9B",
+      "group": "9",
+      "name": "Chordotonal organ TRPV channel modulators",
+      "chemical_class": "Pyridine azomethine derivatives",
+      "active_ingredient_match": "pymetrozine 60% + nitenpyram 20%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "pymetrozine 60% + nitenpyram 20%"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M03",
+      "group": "M03",
+      "name": "multi-site contact activity",
+      "chemical_class": "dithiocarbamates and relatives (electrophiles)",
+      "active_ingredient_match": "propineb 70%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "7C",
+      "group": "7",
+      "name": "Juvenile hormone receptor modulators",
+      "chemical_class": "Pyriproxyfen",
+      "active_ingredient_match": "pyriproxyfen 5% + diafenthiuron 25%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "12A",
+      "group": "12",
+      "name": "Inhibitors of mitochondrial ATP synthase",
+      "chemical_class": "Diafenthiuron",
+      "active_ingredient_match": "pyriproxyfen 5% + diafenthiuron 25%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "9B",
+      "group": "9",
+      "name": "Chordotonal organ TRPV channel modulators",
+      "chemical_class": "Pyridine azomethine derivatives",
+      "active_ingredient_match": "pymetrozine 50%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "5",
+      "group": "5C1,2",
+      "name": "Inhibition of Photosynthesis at PS II – D1 Serine 264 binders",
+      "chemical_class": "Triazines; Ureas; Uracils; Phenylcarbamates; Amides; Triazinones",
+      "active_ingredient_match": "metribuzin 70%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "13",
+      "group": "13",
+      "name": "Uncouplers of oxidative phosphorylation via disruption of proton gradient",
+      "chemical_class": "Pyrroles; Dinitrophenols",
+      "active_ingredient_match": "chlorfenapyr 200 g/L + imidacloprid 200 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "chlorfenapyr 200 g/L + imidacloprid 200 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "28",
+      "group": "28",
+      "name": "Ryanodine receptor modulators",
+      "chemical_class": "Diamides",
+      "active_ingredient_match": "chlorantraniliprole 18.5%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "sulfosulfuron 75%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "13",
+      "group": "13F4",
+      "name": "Inhibition of Deoxy-D-Xylulose Phosphate Synthase (DXPS)",
+      "chemical_class": "Pyrimidinyl / related",
+      "active_ingredient_match": "clomazone 230 g/L + fomesafen 95 g/L + quizalofop-P-ethyl 25 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "14",
+      "group": "14E",
+      "name": "Inhibition of Protoporphyrinogen Oxidase (PPO)",
+      "chemical_class": "Diphenyl ethers; N-Phenylimides; N-Phenyltriazolinones",
+      "active_ingredient_match": "clomazone 230 g/L + fomesafen 95 g/L + quizalofop-P-ethyl 25 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "1",
+      "group": "1A",
+      "name": "Inhibition of Acetyl CoA Carboxylase (ACCase)",
+      "chemical_class": "Cyclohexanediones; Aryloxyphenoxypropionates",
+      "active_ingredient_match": "clomazone 230 g/L + fomesafen 95 g/L + quizalofop-P-ethyl 25 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "9B",
+      "group": "9",
+      "name": "Chordotonal organ TRPV channel modulators",
+      "chemical_class": "Pyridine azomethine derivatives",
+      "active_ingredient_match": "pymetrozine 40% + dinotefuran 20%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "pymetrozine 40% + dinotefuran 20%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "lambda-cyhalothrin 100 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "6",
+      "group": "6",
+      "name": "Glutamate-gated chloride channel allosteric modulators",
+      "chemical_class": "Avermectins; Milbemycins",
+      "active_ingredient_match": "emamektin benzoat 30 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "13",
+      "group": "13",
+      "name": "Uncouplers of oxidative phosphorylation via disruption of proton gradient",
+      "chemical_class": "Pyrroles; Dinitrophenols",
+      "active_ingredient_match": "chlorfenapyr 360 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1B",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Organophosphates",
+      "active_ingredient_match": "dimetoat 400 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M02",
+      "group": "M02",
+      "name": "multi-site contact activity",
+      "chemical_class": "inorganic (electrophiles)",
+      "active_ingredient_match": "tebukonazol 10% + sulfur 65%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "13",
+      "group": "13",
+      "name": "Uncouplers of oxidative phosphorylation via disruption of proton gradient",
+      "chemical_class": "Pyrroles; Dinitrophenols",
+      "active_ingredient_match": "chlorfenapyr 180 g/L + indoxacarb 120 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "22A",
+      "group": "22",
+      "name": "Voltage-dependent sodium channel blockers",
+      "chemical_class": "Oxadiazines",
+      "active_ingredient_match": "chlorfenapyr 180 g/L + indoxacarb 120 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "pyrazosulfuron-ethyl 10%"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M03",
+      "group": "M03",
+      "name": "multi-site contact activity",
+      "chemical_class": "dithiocarbamates and relatives (electrophiles)",
+      "active_ingredient_match": "propineb 54.2% + tricyclazole 15%"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M03",
+      "group": "M03",
+      "name": "multi-site contact activity",
+      "chemical_class": "dithiocarbamates and relatives (electrophiles)",
+      "active_ingredient_match": "mankozeb 63% + karbendazim 12%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "4",
+      "group": "4O",
+      "name": "Auxin Mimics",
+      "chemical_class": "Pyridyloxycarboxylates; 6-Chloropicolinates; Phenoxycarboxylates; Benzoates",
+      "active_ingredient_match": "fluchloraminopyr 200 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "14",
+      "group": "14E",
+      "name": "Inhibition of Protoporphyrinogen Oxidase (PPO)",
+      "chemical_class": "Diphenyl ethers; N-Phenylimides; N-Phenyltriazolinones",
+      "active_ingredient_match": "flufenoximacil 40 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "14",
+      "group": "14E",
+      "name": "Inhibition of Protoporphyrinogen Oxidase (PPO)",
+      "chemical_class": "Diphenyl ethers; N-Phenylimides; N-Phenyltriazolinones",
+      "active_ingredient_match": "flufenoximacil 100 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "14",
+      "group": "14E",
+      "name": "Inhibition of Protoporphyrinogen Oxidase (PPO)",
+      "chemical_class": "Diphenyl ethers; N-Phenylimides; N-Phenyltriazolinones",
+      "active_ingredient_match": "flufenoximacil 200 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "30",
+      "group": "30",
+      "name": "GABA-gated chloride channel allosteric modulators",
+      "chemical_class": "Isoxazolines; Meta-diamides",
+      "active_ingredient_match": "isoflualanam 30 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "30",
+      "group": "30",
+      "name": "GABA-gated chloride channel allosteric modulators",
+      "chemical_class": "Isoxazolines; Meta-diamides",
+      "active_ingredient_match": "metoksifenosida 160 g/L + isoflualanam 40 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "10",
+      "group": "10H",
+      "name": "Inhibition of Glutamine Synthetase (GS)",
+      "chemical_class": "Phosphinic acids",
+      "active_ingredient_match": "p-glufosinat 100 g/L + fluchloraminopyr-tefuryl 50 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "10",
+      "group": "10H",
+      "name": "Inhibition of Glutamine Synthetase (GS)",
+      "chemical_class": "Phosphinic acids",
+      "active_ingredient_match": "p-glufosinat 100 g/L + flufenoximacil 10 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "30",
+      "group": "30",
+      "name": "GABA-gated chloride channel allosteric modulators",
+      "chemical_class": "Isoxazolines; Meta-diamides",
+      "active_ingredient_match": "klorantraniliprol 60 g/L + isoflualanam 30 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "22",
+      "group": "22D",
+      "name": "PS I Electron Diversion",
+      "chemical_class": "Pyridiniums",
+      "active_ingredient_match": "paraquat diklorida 276 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "5",
+      "group": "5C1,2",
+      "name": "Inhibition of Photosynthesis at PS II – D1 Serine 264 binders",
+      "chemical_class": "Triazines; Ureas; Uracils; Phenylcarbamates; Amides; Triazinones",
+      "active_ingredient_match": "atrazin 500 g/L + mesotrion 50 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "27",
+      "group": "27F2",
+      "name": "Inhibition of Hydroxyphenyl Pyruvate Dioxygenase (HPPD)",
+      "chemical_class": "Triketones; Pyrazoles; Nitriles",
+      "active_ingredient_match": "atrazin 500 g/L + mesotrion 50 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "10",
+      "group": "10H",
+      "name": "Inhibition of Glutamine Synthetase (GS)",
+      "chemical_class": "Phosphinic acids",
+      "active_ingredient_match": "amonium glufosinat 240 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "5",
+      "group": "5C1,2",
+      "name": "Inhibition of Photosynthesis at PS II – D1 Serine 264 binders",
+      "chemical_class": "Triazines; Ureas; Uracils; Phenylcarbamates; Amides; Triazinones",
+      "active_ingredient_match": "atrazin 200 g/L + mesotrion 70 g/L + nikosulfuron 20 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "27",
+      "group": "27F2",
+      "name": "Inhibition of Hydroxyphenyl Pyruvate Dioxygenase (HPPD)",
+      "chemical_class": "Triketones; Pyrazoles; Nitriles",
+      "active_ingredient_match": "atrazin 200 g/L + mesotrion 70 g/L + nikosulfuron 20 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "atrazin 200 g/L + mesotrion 70 g/L + nikosulfuron 20 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "22",
+      "group": "22D",
+      "name": "PS I Electron Diversion",
+      "chemical_class": "Pyridiniums",
+      "active_ingredient_match": "paraquat diklorida 138 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "2B",
+      "group": "2",
+      "name": "GABA-gated chloride channel blockers",
+      "chemical_class": "Phenylpyrazoles (Fiproles)",
+      "active_ingredient_match": "fipronil 60 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "27",
+      "group": "27F2",
+      "name": "Inhibition of Hydroxyphenyl Pyruvate Dioxygenase (HPPD)",
+      "chemical_class": "Triketones; Pyrazoles; Nitriles",
+      "active_ingredient_match": "tembotrion 80 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1A",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Carbamates",
+      "active_ingredient_match": "Metomil 25%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "Permetrin 20 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "Sipermetrin 250 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "28",
+      "group": "28",
+      "name": "Ryanodine receptor modulators",
+      "chemical_class": "Diamides",
+      "active_ingredient_match": "chlorantraniliprole 100 g/L + chlorfenapyr 200 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "13",
+      "group": "13",
+      "name": "Uncouplers of oxidative phosphorylation via disruption of proton gradient",
+      "chemical_class": "Pyrroles; Dinitrophenols",
+      "active_ingredient_match": "chlorantraniliprole 100 g/L + chlorfenapyr 200 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "imidakloprid 10%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1A",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Carbamates",
+      "active_ingredient_match": "metomil 25%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1A",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Carbamates",
+      "active_ingredient_match": "Metomil 40%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "Metil metsulfuron 20%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "15",
+      "group": "15",
+      "name": "Inhibitors of chitin biosynthesis affecting CHS1",
+      "chemical_class": "Benzoylureas",
+      "active_ingredient_match": "chlorfluazuron 50 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "5",
+      "group": "5C1,2",
+      "name": "Inhibition of Photosynthesis at PS II – D1 Serine 264 binders",
+      "chemical_class": "Triazines; Ureas; Uracils; Phenylcarbamates; Amides; Triazinones",
+      "active_ingredient_match": "atrazine 550 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "nicosulfuron 30 g/L + atrazine?"
+    },
+    {
+      "committee": "HRAC",
+      "code": "5",
+      "group": "5C1,2",
+      "name": "Inhibition of Photosynthesis at PS II – D1 Serine 264 binders",
+      "chemical_class": "Triazines; Ureas; Uracils; Phenylcarbamates; Amides; Triazinones",
+      "active_ingredient_match": "nicosulfuron 30 g/L + atrazine?"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "lambda-cyhalothrin 25 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M01",
+      "group": "M01",
+      "name": "multi-site contact activity",
+      "chemical_class": "inorganic (electrophiles)",
+      "active_ingredient_match": "copper hydroxide 77%"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M03",
+      "group": "M03",
+      "name": "multi-site contact activity",
+      "chemical_class": "dithiocarbamates and relatives (electrophiles)",
+      "active_ingredient_match": "mancozeb + tricyclazole"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "deltamethrin 100 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "28",
+      "group": "28",
+      "name": "Ryanodine receptor modulators",
+      "chemical_class": "Diamides",
+      "active_ingredient_match": "flubendiamide 200 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "16",
+      "group": "16",
+      "name": "Inhibitors of chitin biosynthesis, type 1",
+      "chemical_class": "Buprofezin",
+      "active_ingredient_match": "buprofezin 100 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M02",
+      "group": "M02",
+      "name": "multi-site contact activity",
+      "chemical_class": "inorganic (electrophiles)",
+      "active_ingredient_match": "sulfur 80%"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M01",
+      "group": "M01",
+      "name": "multi-site contact activity",
+      "chemical_class": "inorganic (electrophiles)",
+      "active_ingredient_match": "copper oxychloride/sulfate mixture"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M05",
+      "group": "M05",
+      "name": "multi-site contact activity",
+      "chemical_class": "chloronitriles (phthalonitriles)",
+      "active_ingredient_match": "chlorothalonil 82.5%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "9",
+      "group": "9G",
+      "name": "Inhibition of EPSPS",
+      "chemical_class": "Glycines",
+      "active_ingredient_match": "potassium glyphosate 440 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "6",
+      "group": "6",
+      "name": "Glutamate-gated chloride channel allosteric modulators",
+      "chemical_class": "Avermectins; Milbemycins",
+      "active_ingredient_match": "emamectin benzoate 5.7%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "4",
+      "group": "4O",
+      "name": "Auxin Mimics",
+      "chemical_class": "Pyridyloxycarboxylates; 6-Chloropicolinates; Phenoxycarboxylates; Benzoates",
+      "active_ingredient_match": "triclopyr BEE 665 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "14",
+      "group": "14E",
+      "name": "Inhibition of Protoporphyrinogen Oxidase (PPO)",
+      "chemical_class": "Diphenyl ethers; N-Phenylimides; N-Phenyltriazolinones",
+      "active_ingredient_match": "tiafenacil 70%"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M03",
+      "group": "M03",
+      "name": "multi-site contact activity",
+      "chemical_class": "dithiocarbamates and relatives (electrophiles)",
+      "active_ingredient_match": "maneb 80%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "6",
+      "group": "6",
+      "name": "Glutamate-gated chloride channel allosteric modulators",
+      "chemical_class": "Avermectins; Milbemycins",
+      "active_ingredient_match": "abamectin 50 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M03",
+      "group": "M03",
+      "name": "multi-site contact activity",
+      "chemical_class": "dithiocarbamates and relatives (electrophiles)",
+      "active_ingredient_match": "propineb 75%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "16",
+      "group": "16",
+      "name": "Inhibitors of chitin biosynthesis, type 1",
+      "chemical_class": "Buprofezin",
+      "active_ingredient_match": "buprofezin 10%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1A",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Carbamates",
+      "active_ingredient_match": "BPMC 480 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "asetamiprid 100 g/L + abamektin 25 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "6",
+      "group": "6",
+      "name": "Glutamate-gated chloride channel allosteric modulators",
+      "chemical_class": "Avermectins; Milbemycins",
+      "active_ingredient_match": "asetamiprid 100 g/L + abamektin 25 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1B",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Organophosphates",
+      "active_ingredient_match": "diazinon 10%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1B",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Organophosphates",
+      "active_ingredient_match": "diazinon 600 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "6",
+      "group": "6",
+      "name": "Glutamate-gated chloride channel allosteric modulators",
+      "chemical_class": "Avermectins; Milbemycins",
+      "active_ingredient_match": "emamektin benzoat 75 g/L + lufenuron 75 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "15",
+      "group": "15",
+      "name": "Inhibitors of chitin biosynthesis affecting CHS1",
+      "chemical_class": "Benzoylureas",
+      "active_ingredient_match": "emamektin benzoat 75 g/L + lufenuron 75 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "dinotefuran 250 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "34",
+      "group": "34",
+      "name": "Mitochondrial complex III electron transport inhibitors – Qi site",
+      "chemical_class": "Flometoquin",
+      "active_ingredient_match": "flometoquin 106 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1B",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Organophosphates",
+      "active_ingredient_match": "fosthiazate 100 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1A",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Carbamates",
+      "active_ingredient_match": "MIPC 50%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "14",
+      "group": "14",
+      "name": "nAChR channel blockers",
+      "chemical_class": "Nereistoxin analogues",
+      "active_ingredient_match": "bisultap/dimehipo 400 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1A",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Carbamates",
+      "active_ingredient_match": "karbofuran 3%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "alfametrin 15 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "nitenpiram 25%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "lambda-sihalotrin 25 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "sipermetrin 108 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "imidakloprid 5%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1B",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Organophosphates",
+      "active_ingredient_match": "klorpirifos 400 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "alfa-sipermetrin 36 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "sipermetrin 189 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1A",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Carbamates",
+      "active_ingredient_match": "metomil 27%"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M03",
+      "group": "M03",
+      "name": "multi-site contact activity",
+      "chemical_class": "dithiocarbamates and relatives (electrophiles)",
+      "active_ingredient_match": "mankozeb 60%"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M03",
+      "group": "M03",
+      "name": "multi-site contact activity",
+      "chemical_class": "dithiocarbamates and relatives (electrophiles)",
+      "active_ingredient_match": "mankozeb 70% + karbendazim 10%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "13",
+      "group": "13",
+      "name": "Uncouplers of oxidative phosphorylation via disruption of proton gradient",
+      "chemical_class": "Pyrroles; Dinitrophenols",
+      "active_ingredient_match": "Klorfenapir 200 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "4",
+      "group": "4O",
+      "name": "Auxin Mimics",
+      "chemical_class": "Pyridyloxycarboxylates; 6-Chloropicolinates; Phenoxycarboxylates; Benzoates",
+      "active_ingredient_match": "Fluroksipir MHE 480 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "6",
+      "group": "6",
+      "name": "Glutamate-gated chloride channel allosteric modulators",
+      "chemical_class": "Avermectins; Milbemycins",
+      "active_ingredient_match": "Emamektin benzoat 50 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "4",
+      "group": "4O",
+      "name": "Auxin Mimics",
+      "chemical_class": "Pyridyloxycarboxylates; 6-Chloropicolinates; Phenoxycarboxylates; Benzoates",
+      "active_ingredient_match": "Triklopir BEE 480 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "22",
+      "group": "22D",
+      "name": "PS I Electron Diversion",
+      "chemical_class": "Pyridiniums",
+      "active_ingredient_match": "paraquat diklorida"
+    },
+    {
+      "committee": "HRAC",
+      "code": "22",
+      "group": "22D",
+      "name": "PS I Electron Diversion",
+      "chemical_class": "Pyridiniums",
+      "active_ingredient_match": "Parakuat diklorida 276 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "9",
+      "group": "9G",
+      "name": "Inhibition of EPSPS",
+      "chemical_class": "Glycines",
+      "active_ingredient_match": "IPA glifosat 555 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1B",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Organophosphates",
+      "active_ingredient_match": "malation 500 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M03",
+      "group": "M03",
+      "name": "multi-site contact activity",
+      "chemical_class": "dithiocarbamates and relatives (electrophiles)",
+      "active_ingredient_match": "metiram 55% + piraklostrobin 5%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1B",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Organophosphates",
+      "active_ingredient_match": "klorpirifos 550 g/L + sipermetrin 60 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "klorpirifos 550 g/L + sipermetrin 60 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "9",
+      "group": "9G",
+      "name": "Inhibition of EPSPS",
+      "chemical_class": "Glycines",
+      "active_ingredient_match": "glifosat 520 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "22",
+      "group": "22D",
+      "name": "PS I Electron Diversion",
+      "chemical_class": "Pyridiniums",
+      "active_ingredient_match": "paraquat diklorida 297 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "P01",
+      "group": "P01",
+      "name": "salicylate-related benzo-thiadiazole (BTH)",
+      "chemical_class": "host defence inducer",
+      "active_ingredient_match": "asibenzolar-S-metil 1% + mankozeb 48%"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M03",
+      "group": "M03",
+      "name": "multi-site contact activity",
+      "chemical_class": "dithiocarbamates and relatives (electrophiles)",
+      "active_ingredient_match": "asibenzolar-S-metil 1% + mankozeb 48%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "23",
+      "group": "23",
+      "name": "Inhibitors of acetyl-CoA carboxylase",
+      "chemical_class": "Tetronic and Tetramic acid derivatives",
+      "active_ingredient_match": "spiropidion 30% + acetamiprid 24%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "spiropidion 30% + acetamiprid 24%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "30",
+      "group": "30",
+      "name": "GABA-gated chloride channel allosteric modulators",
+      "chemical_class": "Isoxazolines; Meta-diamides",
+      "active_ingredient_match": "isosikloseram 200 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "15",
+      "group": "15",
+      "name": "Inhibitors of chitin biosynthesis affecting CHS1",
+      "chemical_class": "Benzoylureas",
+      "active_ingredient_match": "lufenuron 200 g/L + siantraniliprol 200 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "28",
+      "group": "28",
+      "name": "Ryanodine receptor modulators",
+      "chemical_class": "Diamides",
+      "active_ingredient_match": "lufenuron 200 g/L + siantraniliprol 200 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M05",
+      "group": "M05",
+      "name": "multi-site contact activity",
+      "chemical_class": "chloronitriles (phthalonitriles)",
+      "active_ingredient_match": "oksatiapiprolin 6 g/L + klorotalonil 400 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M05",
+      "group": "M05",
+      "name": "multi-site contact activity",
+      "chemical_class": "chloronitriles (phthalonitriles)",
+      "active_ingredient_match": "mandipropamid 40 g/L + klorotalonil 400 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4E",
+      "group": "4",
+      "name": "Unknown",
+      "chemical_class": "",
+      "active_ingredient_match": "triflumezopyrim 20%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "29",
+      "group": "29",
+      "name": "Chordotonal organ nicotinamidase inhibitors",
+      "chemical_class": "Flonicamid",
+      "active_ingredient_match": "Flonicamid 100 g/L + Spirotetramat 200 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "23",
+      "group": "23",
+      "name": "Inhibitors of acetyl-CoA carboxylase",
+      "chemical_class": "Tetronic and Tetramic acid derivatives",
+      "active_ingredient_match": "Flonicamid 100 g/L + Spirotetramat 200 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "30",
+      "group": "30",
+      "name": "GABA-gated chloride channel allosteric modulators",
+      "chemical_class": "Isoxazolines; Meta-diamides",
+      "active_ingredient_match": "Tiorantraniliprol 100 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "4",
+      "group": "4O",
+      "name": "Auxin Mimics",
+      "chemical_class": "Pyridyloxycarboxylates; 6-Chloropicolinates; Phenoxycarboxylates; Benzoates",
+      "active_ingredient_match": "2,4-D Dimethylammonium 825 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "27",
+      "group": "27F2",
+      "name": "Inhibition of Hydroxyphenyl Pyruvate Dioxygenase (HPPD)",
+      "chemical_class": "Triketones; Pyrazoles; Nitriles",
+      "active_ingredient_match": "mesotrion 480 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "13",
+      "group": "13",
+      "name": "Uncouplers of oxidative phosphorylation via disruption of proton gradient",
+      "chemical_class": "Pyrroles; Dinitrophenols",
+      "active_ingredient_match": "klorfenapir 450 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1B",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Organophosphates",
+      "active_ingredient_match": "triazofos 400 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "4",
+      "group": "4O",
+      "name": "Auxin Mimics",
+      "chemical_class": "Pyridyloxycarboxylates; 6-Chloropicolinates; Phenoxycarboxylates; Benzoates",
+      "active_ingredient_match": "triklopir 666 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "5",
+      "group": "5C1,2",
+      "name": "Inhibition of Photosynthesis at PS II – D1 Serine 264 binders",
+      "chemical_class": "Triazines; Ureas; Uracils; Phenylcarbamates; Amides; Triazinones",
+      "active_ingredient_match": "atrazin 48% + nikosulfuron 4%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "atrazin 48% + nikosulfuron 4%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "14",
+      "group": "14E",
+      "name": "Inhibition of Protoporphyrinogen Oxidase (PPO)",
+      "chemical_class": "Diphenyl ethers; N-Phenylimides; N-Phenyltriazolinones",
+      "active_ingredient_match": "oksadiazon 380 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "6",
+      "group": "6",
+      "name": "Glutamate-gated chloride channel allosteric modulators",
+      "chemical_class": "Avermectins; Milbemycins",
+      "active_ingredient_match": "abamektin 20 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "1",
+      "group": "1A",
+      "name": "Inhibition of Acetyl CoA Carboxylase (ACCase)",
+      "chemical_class": "Cyclohexanediones; Aryloxyphenoxypropionates",
+      "active_ingredient_match": "fenoksaprop-P-etil 120 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "nitenpiram 10%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4C",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Sulfoximines",
+      "active_ingredient_match": "dimehipo 400 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "6",
+      "group": "6",
+      "name": "Glutamate-gated chloride channel allosteric modulators",
+      "chemical_class": "Avermectins; Milbemycins",
+      "active_ingredient_match": "Abamektin 31 g/L + Spirotetramat 124 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "23",
+      "group": "23",
+      "name": "Inhibitors of acetyl-CoA carboxylase",
+      "chemical_class": "Tetronic and Tetramic acid derivatives",
+      "active_ingredient_match": "Abamektin 31 g/L + Spirotetramat 124 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "Tiametoksam 102 g/L + Deltametrin 27 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "Tiametoksam 102 g/L + Deltametrin 27 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "15",
+      "group": "15",
+      "name": "Inhibitors of chitin biosynthesis affecting CHS1",
+      "chemical_class": "Benzoylureas",
+      "active_ingredient_match": "Lufenuron 53 g/L + Tolfenpyrad 106 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "21A",
+      "group": "21",
+      "name": "Mitochondrial complex I electron transport inhibitors",
+      "chemical_class": "METI acaricides and insecticides",
+      "active_ingredient_match": "Lufenuron 53 g/L + Tolfenpyrad 106 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M03",
+      "group": "M03",
+      "name": "multi-site contact activity",
+      "chemical_class": "dithiocarbamates and relatives (electrophiles)",
+      "active_ingredient_match": "Metiram 55% + Piraklostrobin 5%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "9B",
+      "group": "9",
+      "name": "Chordotonal organ TRPV channel modulators",
+      "chemical_class": "Pyridine azomethine derivatives",
+      "active_ingredient_match": "Pimetrozin 60%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "14",
+      "group": "14E",
+      "name": "Inhibition of Protoporphyrinogen Oxidase (PPO)",
+      "chemical_class": "Diphenyl ethers; N-Phenylimides; N-Phenyltriazolinones",
+      "active_ingredient_match": "Flumioxazin 32 g/L + S-metolaklor 318 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "15",
+      "group": "15K3",
+      "name": "Inhibition of Very Long-Chain Fatty Acid Synthesis (VLCFA)",
+      "chemical_class": "α-Chloroacetamides; Thiocarbamates; α-Oxyacetamides; α-Thioacetamides",
+      "active_ingredient_match": "Flumioxazin 32 g/L + S-metolaklor 318 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M01",
+      "group": "M01",
+      "name": "multi-site contact activity",
+      "chemical_class": "inorganic (electrophiles)",
+      "active_ingredient_match": "Tembaga hidroksida 545 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "15",
+      "group": "15K3",
+      "name": "Inhibition of Very Long-Chain Fatty Acid Synthesis (VLCFA)",
+      "chemical_class": "α-Chloroacetamides; Thiocarbamates; α-Oxyacetamides; α-Thioacetamides",
+      "active_ingredient_match": "Butaklor 286 g/L + Oksadiargil 32 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "14",
+      "group": "14E",
+      "name": "Inhibition of Protoporphyrinogen Oxidase (PPO)",
+      "chemical_class": "Diphenyl ethers; N-Phenylimides; N-Phenyltriazolinones",
+      "active_ingredient_match": "Butaklor 286 g/L + Oksadiargil 32 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "15",
+      "group": "15",
+      "name": "Inhibitors of chitin biosynthesis affecting CHS1",
+      "chemical_class": "Benzoylureas",
+      "active_ingredient_match": "Lufenuron 105 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "28",
+      "group": "28",
+      "name": "Ryanodine receptor modulators",
+      "chemical_class": "Diamides",
+      "active_ingredient_match": "Klorantraniliprol 100 g/L + Lamda Sihalotrin 50 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "Klorantraniliprol 100 g/L + Lamda Sihalotrin 50 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "Asetamiprid 81 g/L + Flonicamid 101 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "29",
+      "group": "29",
+      "name": "Chordotonal organ nicotinamidase inhibitors",
+      "chemical_class": "Flonicamid",
+      "active_ingredient_match": "Asetamiprid 81 g/L + Flonicamid 101 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "28",
+      "group": "28",
+      "name": "Ryanodine receptor modulators",
+      "chemical_class": "Diamides",
+      "active_ingredient_match": "Klorantraniliprol 200 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "14",
+      "group": "14E",
+      "name": "Inhibition of Protoporphyrinogen Oxidase (PPO)",
+      "chemical_class": "Diphenyl ethers; N-Phenylimides; N-Phenyltriazolinones",
+      "active_ingredient_match": "Oksifluorfen 400 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "15",
+      "group": "15K3",
+      "name": "Inhibition of Very Long-Chain Fatty Acid Synthesis (VLCFA)",
+      "chemical_class": "α-Chloroacetamides; Thiocarbamates; α-Oxyacetamides; α-Thioacetamides",
+      "active_ingredient_match": "S-metolaklor 480 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M05",
+      "group": "M05",
+      "name": "multi-site contact activity",
+      "chemical_class": "chloronitriles (phthalonitriles)",
+      "active_ingredient_match": "Klorotalonil 720 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "Lamda Sihalotrin 250 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "6",
+      "group": "6",
+      "name": "Glutamate-gated chloride channel allosteric modulators",
+      "chemical_class": "Avermectins; Milbemycins",
+      "active_ingredient_match": "Abamektin 53 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "Penoksulam 20 g/L + Butil Sihalofop 147 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "1",
+      "group": "1A",
+      "name": "Inhibition of Acetyl CoA Carboxylase (ACCase)",
+      "chemical_class": "Cyclohexanediones; Aryloxyphenoxypropionates",
+      "active_ingredient_match": "Penoksulam 20 g/L + Butil Sihalofop 147 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "10",
+      "group": "10H",
+      "name": "Inhibition of Glutamine Synthetase (GS)",
+      "chemical_class": "Phosphinic acids",
+      "active_ingredient_match": "Amonium Glufosinat 600 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "3",
+      "group": "3K1",
+      "name": "Inhibition of Microtubule Assembly / α-Tubulin",
+      "chemical_class": "Dinitroanilines; Pyridines; Phosphoroamidates",
+      "active_ingredient_match": "Pendimetalin 450 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "5",
+      "group": "5",
+      "name": "nAChR allosteric modulators – Site I",
+      "chemical_class": "Spinosyns",
+      "active_ingredient_match": "Spinosad 100 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "Lamda Sihalotrin 80 g/L + Lufenuron 80 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "15",
+      "group": "15",
+      "name": "Inhibitors of chitin biosynthesis affecting CHS1",
+      "chemical_class": "Benzoylureas",
+      "active_ingredient_match": "Lamda Sihalotrin 80 g/L + Lufenuron 80 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "6",
+      "group": "6",
+      "name": "Glutamate-gated chloride channel allosteric modulators",
+      "chemical_class": "Avermectins; Milbemycins",
+      "active_ingredient_match": "Emamektin benzoat 7% + Klorbenzuron 30%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "15",
+      "group": "15",
+      "name": "Inhibitors of chitin biosynthesis affecting CHS1",
+      "chemical_class": "Benzoylureas",
+      "active_ingredient_match": "Emamektin benzoat 7% + Klorbenzuron 30%"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M03",
+      "group": "M03",
+      "name": "multi-site contact activity",
+      "chemical_class": "dithiocarbamates and relatives (electrophiles)",
+      "active_ingredient_match": "Karbendazim + Mankozeb"
+    },
+    {
+      "committee": "IRAC",
+      "code": "1A",
+      "group": "1",
+      "name": "Acetylcholinesterase (AChE) inhibitors",
+      "chemical_class": "Carbamates",
+      "active_ingredient_match": "Metomil 77%"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M03",
+      "group": "M03",
+      "name": "multi-site contact activity",
+      "chemical_class": "dithiocarbamates and relatives (electrophiles)",
+      "active_ingredient_match": "Mankozeb 85%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "14",
+      "group": "14E",
+      "name": "Inhibition of Protoporphyrinogen Oxidase (PPO)",
+      "chemical_class": "Diphenyl ethers; N-Phenylimides; N-Phenyltriazolinones",
+      "active_ingredient_match": "Oksifluorfen 240 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "28",
+      "group": "28",
+      "name": "Ryanodine receptor modulators",
+      "chemical_class": "Diamides",
+      "active_ingredient_match": "klorantraniliprol 105 g/L ; Metoksifenosida 420 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "18",
+      "group": "18",
+      "name": "Ecdysone receptor agonists",
+      "chemical_class": "Diacylhydrazines",
+      "active_ingredient_match": "klorantraniliprol 105 g/L ; Metoksifenosida 420 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "15",
+      "group": "15",
+      "name": "Inhibitors of chitin biosynthesis affecting CHS1",
+      "chemical_class": "Benzoylureas",
+      "active_ingredient_match": "novaluron 100 g/L + lambda-sihalotrin 20 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "novaluron 100 g/L + lambda-sihalotrin 20 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "13",
+      "group": "13",
+      "name": "Uncouplers of oxidative phosphorylation via disruption of proton gradient",
+      "chemical_class": "Pyrroles; Dinitrophenols",
+      "active_ingredient_match": "klorfenapir 180 g/L + indoksakarb 120 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "22A",
+      "group": "22",
+      "name": "Voltage-dependent sodium channel blockers",
+      "chemical_class": "Oxadiazines",
+      "active_ingredient_match": "klorfenapir 180 g/L + indoksakarb 120 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M03",
+      "group": "M03",
+      "name": "multi-site contact activity",
+      "chemical_class": "dithiocarbamates and relatives (electrophiles)",
+      "active_ingredient_match": "mankozeb 59.7% + azoksistrobin 4.7% + tebukonazol 5.6%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "6",
+      "group": "6",
+      "name": "Glutamate-gated chloride channel allosteric modulators",
+      "chemical_class": "Avermectins; Milbemycins",
+      "active_ingredient_match": "abamektin 50 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "Tiametoksam 141 g/L; Lambda sihalotrin 106 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "3A",
+      "group": "3",
+      "name": "Sodium channel modulators",
+      "chemical_class": "Pyrethroids; Pyrethrins",
+      "active_ingredient_match": "Tiametoksam 141 g/L; Lambda sihalotrin 106 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "P01",
+      "group": "P01",
+      "name": "salicylate-related benzo-thiadiazole (BTH)",
+      "chemical_class": "host defence inducer",
+      "active_ingredient_match": "Asibenzolar-S-metil 1%; Mankozeb 48%"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M03",
+      "group": "M03",
+      "name": "multi-site contact activity",
+      "chemical_class": "dithiocarbamates and relatives (electrophiles)",
+      "active_ingredient_match": "Asibenzolar-S-metil 1%; Mankozeb 48%"
+    },
+    {
+      "committee": "HRAC",
+      "code": "5",
+      "group": "5C1,2",
+      "name": "Inhibition of Photosynthesis at PS II – D1 Serine 264 binders",
+      "chemical_class": "Triazines; Ureas; Uracils; Phenylcarbamates; Amides; Triazinones",
+      "active_ingredient_match": "Mesotrion 50 g/L; Atrazin 500 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "27",
+      "group": "27F2",
+      "name": "Inhibition of Hydroxyphenyl Pyruvate Dioxygenase (HPPD)",
+      "chemical_class": "Triketones; Pyrazoles; Nitriles",
+      "active_ingredient_match": "Mesotrion 50 g/L; Atrazin 500 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "23",
+      "group": "23",
+      "name": "Inhibitors of acetyl-CoA carboxylase",
+      "chemical_class": "Tetronic and Tetramic acid derivatives",
+      "active_ingredient_match": "Spiropidion 30%; Asetamiprid 24%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "Spiropidion 30%; Asetamiprid 24%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "30",
+      "group": "30",
+      "name": "GABA-gated chloride channel allosteric modulators",
+      "chemical_class": "Isoxazolines; Meta-diamides",
+      "active_ingredient_match": "Isosikloseram 200 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "28",
+      "group": "28",
+      "name": "Ryanodine receptor modulators",
+      "chemical_class": "Diamides",
+      "active_ingredient_match": "Lufenuron 200 g/L; Siantraniliprol 200 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "15",
+      "group": "15",
+      "name": "Inhibitors of chitin biosynthesis affecting CHS1",
+      "chemical_class": "Benzoylureas",
+      "active_ingredient_match": "Lufenuron 200 g/L; Siantraniliprol 200 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M05",
+      "group": "M05",
+      "name": "multi-site contact activity",
+      "chemical_class": "chloronitriles (phthalonitriles)",
+      "active_ingredient_match": "Klorotalonil 400 g/L; Oksatiapiprolin 6 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "9B",
+      "group": "9",
+      "name": "Chordotonal organ TRPV channel modulators",
+      "chemical_class": "Pyridine azomethine derivatives",
+      "active_ingredient_match": "Pimetrozin 50%"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M05",
+      "group": "M05",
+      "name": "multi-site contact activity",
+      "chemical_class": "chloronitriles (phthalonitriles)",
+      "active_ingredient_match": "Mandipropamid 40 g/L; Klorotalonil 400 g/L"
+    },
+    {
+      "committee": "FRAC",
+      "code": "M03",
+      "group": "M03",
+      "name": "multi-site contact activity",
+      "chemical_class": "dithiocarbamates and relatives (electrophiles)",
+      "active_ingredient_match": "Mankozeb 64%; Mefenoksam 4%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "30",
+      "group": "30",
+      "name": "GABA-gated chloride channel allosteric modulators",
+      "chemical_class": "Isoxazolines; Meta-diamides",
+      "active_ingredient_match": "Isosikloseram 100 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "1",
+      "group": "1A",
+      "name": "Inhibition of Acetyl CoA Carboxylase (ACCase)",
+      "chemical_class": "Cyclohexanediones; Aryloxyphenoxypropionates",
+      "active_ingredient_match": "Sihalofop-butil 300 g/L; Etoksisulfuron 30 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "2",
+      "group": "2B",
+      "name": "Inhibition of Acetolactate Synthase (ALS)",
+      "chemical_class": "Imidazolinones; Sulfonylureas; Triazolopyrimidines; Triazolinones",
+      "active_ingredient_match": "Sihalofop-butil 300 g/L; Etoksisulfuron 30 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "1",
+      "group": "1A",
+      "name": "Inhibition of Acetyl CoA Carboxylase (ACCase)",
+      "chemical_class": "Cyclohexanediones; Aryloxyphenoxypropionates",
+      "active_ingredient_match": "Penoksulam 10 g/L; Sihalofop-butil 50 g/L"
+    },
+    {
+      "committee": "HRAC",
+      "code": "9",
+      "group": "9G",
+      "name": "Inhibition of EPSPS",
+      "chemical_class": "Glycines",
+      "active_ingredient_match": "IPA Glifosat 480 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4E",
+      "group": "4",
+      "name": "Unknown",
+      "chemical_class": "",
+      "active_ingredient_match": "Triflumezopirim 20%"
+    },
+    {
+      "committee": "IRAC",
+      "code": "28",
+      "group": "28",
+      "name": "Ryanodine receptor modulators",
+      "chemical_class": "Diamides",
+      "active_ingredient_match": "Klorantraniliprol 100 g/L; Tiametoksam 200 g/L"
+    },
+    {
+      "committee": "IRAC",
+      "code": "4A",
+      "group": "4",
+      "name": "nAChR competitive modulators",
+      "chemical_class": "Neonicotinoids",
+      "active_ingredient_match": "Klorantraniliprol 100 g/L; Tiametoksam 200 g/L"
+    }
+  ]
+}

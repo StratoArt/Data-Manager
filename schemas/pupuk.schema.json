@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "required": [
+    "id",
+    "brand_name",
+    "product_type"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "brand_name": {
+      "type": "string"
+    },
+    "product_type": {
+      "const": "solid_fertilizer"
+    }
+  }
+}

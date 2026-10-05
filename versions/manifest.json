@@ -1,0 +1,22 @@
+{
+  "data_center_version": "2026.10.05",
+  "schema_version": "1.0.0",
+  "source_baseline": "clean-2026-10-04",
+  "datasets": {
+    "pestisida": 1058,
+    "pupuk": 4,
+    "active_ingredients": 430,
+    "moa": 52,
+    "product_opt": 92,
+    "crops": 0,
+    "hama": 0,
+    "penyakit": 0,
+    "gulma": 0
+  },
+  "policy": {
+    "canonical_source": "Data Manager",
+    "bayer_internal_data_included": false,
+    "old_app_data_deleted": false,
+    "fertilizer_rule": "solid fertilizers only in pupuk; liquid biostimulants/PGR/etc remain product database unless separately reclassified"
+  }
+}
