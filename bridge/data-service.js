@@ -1,140 +1,260 @@
 import { DATASETS, DATA_CENTER } from './data-registry.js';
 import { loadJSON, clearDataCache } from './data-loader.js';
 
-const get = (path, options) => loadJSON(path, options);
+function records(data) {
+  if (Array.isArray(data)) return data;
+  if (Array.isArray(data?.records)) return data.records;
+  return [];
+}
+
+function relationRows(data) {
+  return Array.isArray(data)
+    ? data
+    : Array.isArray(data?.records)
+      ? data.records
+      : [];
+}
+
+function idOf(value) {
+  if (value === undefined || value === null) return '';
+  return String(value).trim();
+}
+
+function matches(row, keys, value) {
+  const target = idOf(value);
+  return keys.some(key => idOf(row?.[key]) === target);
+}
+
+async function loadDataset(path) {
+  return loadJSON(path);
+}
 
 export const DataService = {
 
-  // =========================
-  // MASTER / OPT
-  // =========================
-
-  getCrops(options) {
-    return get(DATASETS.crops, options);
+  async getCrops(options = {}) {
+    return records(
+      await loadDataset(DATASETS.crops, options)
+    );
   },
 
-  getPests(options) {
-    return get(DATASETS.pests, options);
+  async getPests(options = {}) {
+    return records(
+      await loadDataset(DATASETS.pests, options)
+    );
   },
 
-  getDiseases(options) {
-    return get(DATASETS.diseases, options);
+  async getDiseases(options = {}) {
+    return records(
+      await loadDataset(DATASETS.diseases, options)
+    );
   },
 
-  getWeeds(options) {
-    return get(DATASETS.weeds, options);
+  async getWeeds(options = {}) {
+    return records(
+      await loadDataset(DATASETS.weeds, options)
+    );
   },
 
-  // =========================
-  // PRODUCTS
-  // =========================
-
-  getProducts(options) {
-    return get(DATASETS.products, options);
+  async getProducts(options = {}) {
+    return records(
+      await loadDataset(DATASETS.products, options)
+    );
   },
 
-  // Compatibility alias
-  getPesticides(options) {
-    return get(DATASETS.products, options);
+  async getPesticides(options = {}) {
+    return this.getProducts(options);
   },
 
-  getFertilizers(options) {
-    return get(DATASETS.fertilizers, options);
+  async getFertilizers(options = {}) {
+    return records(
+      await loadDataset(DATASETS.fertilizers, options)
+    );
   },
 
-  // =========================
-  // ACTIVE INGREDIENT / MoA
-  // =========================
-
-  getActiveIngredients(options) {
-    return get(DATASETS.activeIngredients, options);
+  async getActiveIngredients(options = {}) {
+    return records(
+      await loadDataset(DATASETS.activeIngredients, options)
+    );
   },
 
-  getMoA(options) {
-    return get(DATASETS.moa, options);
+  async getMoA(options = {}) {
+    return records(
+      await loadDataset(DATASETS.moa, options)
+    );
   },
 
-  // =========================
-  // RELATIONS
-  // =========================
+  async getRelation(name, options = {}) {
+    const path = DATASETS.relations?.[name];
 
-  getCropHama(options) {
-    return get(DATASETS.relations.cropHama, options);
+    if (!path) {
+      throw new Error(
+        `Data Center: relation "${name}" tidak terdaftar`
+      );
+    }
+
+    return relationRows(
+      await loadDataset(path, options)
+    );
   },
 
-  getCropPenyakit(options) {
-    return get(DATASETS.relations.cropPenyakit, options);
+  async getCropOPT(cropId, options = {}) {
+    const rows = await this.getRelation('cropOPT', options);
+
+    return rows.filter(row =>
+      matches(
+        row,
+        ['crop_id', 'cropId'],
+        cropId
+      )
+    );
   },
 
-  getCropGulma(options) {
-    return get(DATASETS.relations.cropGulma, options);
+  async getOPTActiveIngredients(optId, options = {}) {
+    const rows = await this.getRelation('optAI', options);
+
+    return rows.filter(row =>
+      matches(
+        row,
+        ['opt_id', 'optId'],
+        optId
+      )
+    );
   },
 
-  getCropOPT(options) {
-    return get(DATASETS.relations.cropOPT, options);
+  async getOPTProducts(optId, options = {}) {
+    const rows = await this.getRelation('productOPT', options);
+
+    return rows.filter(row =>
+      matches(
+        row,
+        ['opt_id', 'optId'],
+        optId
+      )
+    );
   },
 
-  getProductOPT(options) {
-    return get(DATASETS.relations.productOPT, options);
+  async getProductOPT(productId, options = {}) {
+    const rows = await this.getRelation('productOPT', options);
+
+    return rows.filter(row =>
+      matches(
+        row,
+        ['product_id', 'productId'],
+        productId
+      )
+    );
   },
 
-  getProductCrop(options) {
-    return get(DATASETS.relations.productCrop, options);
+  async getProductCrop(productId, options = {}) {
+    const rows = await this.getRelation('productCrop', options);
+
+    return rows.filter(row =>
+      matches(
+        row,
+        ['product_id', 'productId'],
+        productId
+      )
+    );
   },
 
-  getAIMoA(options) {
-    return get(DATASETS.relations.aiMoa, options);
+  async getProductActiveIngredients(productId, options = {}) {
+    const products = await this.getProducts(options);
+
+    const product = products.find(
+      row => idOf(row?.id) === idOf(productId)
+    );
+
+    if (!product) return [];
+
+    if (Array.isArray(product.active_ingredients)) {
+      return product.active_ingredients;
+    }
+
+    if (Array.isArray(product.ai_master_matches)) {
+      return product.ai_master_matches;
+    }
+
+    return [];
   },
 
-  // =========================
-  // MEDIA
-  // =========================
+  async getActiveIngredientMoA(aiId, options = {}) {
+    const rows = await this.getRelation('aiMoa', options);
+
+    return rows.filter(row =>
+      matches(
+        row,
+        ['active_ingredient_id', 'activeIngredientId', 'ai_id', 'aiId'],
+        aiId
+      )
+    );
+  },
+
+  async getOPTProfile(optId, options = {}) {
+
+    const [
+      pests,
+      diseases,
+      weeds
+    ] = await Promise.all([
+      this.getPests(options),
+      this.getDiseases(options),
+      this.getWeeds(options)
+    ]);
+
+    const all = [
+      ...pests,
+      ...diseases,
+      ...weeds
+    ];
+
+    const opt = all.find(
+      row => idOf(row?.id) === idOf(optId)
+    );
+
+    if (!opt) return null;
+
+    const [
+      aiRelations,
+      productRelations
+    ] = await Promise.all([
+      this.getOPTActiveIngredients(optId, options),
+      this.getOPTProducts(optId, options)
+    ]);
+
+    return {
+      opt,
+      activeIngredients: aiRelations,
+      products: productRelations
+    };
+  },
 
   resolveMediaPath(path) {
     if (!path) return '';
 
     let value = String(path).trim();
 
-    // Legacy OPT photo path → canonical Data Center path
     value = value.replace(
       /^assets\/opt\/photos\//,
       'assets/opt-media/photos/'
     );
 
-    // Legacy OPT reference path → canonical Data Center path
     value = value.replace(
       /^assets\/opt\/reference\//,
       'assets/opt-media/reference/'
     );
 
-    return value;
+    return (
+      DATA_CENTER_BASE_URL.replace(/\/+$/, '') +
+      '/' +
+      value.replace(/^\/+/, '')
+    );
   },
-
-  resolveMedia(item) {
-    if (!item) return '';
-
-    if (typeof item === 'string') {
-      return this.resolveMediaPath(item);
-    }
-
-    if (item.local_path) {
-      return this.resolveMediaPath(item.local_path);
-    }
-
-    if (item.remote_url) {
-      return item.remote_url;
-    }
-
-    return '';
-  },
-
-  // =========================
-  // DATA CENTER VERSION
-  // =========================
 
   getVersion() {
     return {
-      ...DATA_CENTER
+      name: DATA_CENTER.name,
+      bridgeVersion: DATA_CENTER.bridgeVersion,
+      schemaVersion: DATA_CENTER.schemaVersion
     };
   },
 

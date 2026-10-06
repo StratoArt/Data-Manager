@@ -1,0 +1,8031 @@
+{
+  "dataset": "active-ingredient-normalization-audit",
+  "version": "0.1.0",
+  "generated_at": "2026-10-06T15:19:43.790Z",
+  "source": "data/products/pestisida.json",
+  "source_record_count": 1058,
+  "record_count": 608,
+  "records": [
+    {
+      "normalized_name": "abamektin",
+      "aliases": [
+        "Abamektin 11,4 g/L",
+        "Abamektin 18 g/L",
+        "Abamektin 25 g/L",
+        "Abamektin 31 g/L",
+        "Abamektin 37 g/L",
+        "Abamektin 53 g/L",
+        "abamektin 18 g/L",
+        "abamektin 25 g/L",
+        "abamektin 50 g/L"
+      ],
+      "product_count": 17,
+      "product_ids": [
+        "pestdb-clean-0036",
+        "pestdb-clean-0090",
+        "pestdb-clean-0212",
+        "pestdb-clean-0282",
+        "pestdb-clean-0289",
+        "pestdb-clean-0327",
+        "pestdb-clean-0329",
+        "pestdb-clean-0518",
+        "pestdb-clean-0527",
+        "pestdb-clean-0574",
+        "pestdb-clean-0615",
+        "pestdb-clean-0821",
+        "pestdb-clean-0838",
+        "pestdb-clean-0930",
+        "pestdb-clean-0931",
+        "pestdb-clean-1030",
+        "pestdb-clean-1035"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "klorantraniliprol",
+      "aliases": [
+        "Klorantraniliprol 100 g/L",
+        "Klorantraniliprol 200 g/L",
+        "Klorantraniliprol 50 g/L",
+        "klorantraniliprol 105 g/L",
+        "klorantraniliprol 120 g/L",
+        "klorantraniliprol 200 g/L",
+        "klorantraniliprol 50 g/L",
+        "klorantraniliprol 60 g/L",
+        "klorantraniliprol 600 g/L"
+      ],
+      "product_count": 13,
+      "product_ids": [
+        "pestdb-clean-0104",
+        "pestdb-clean-0105",
+        "pestdb-clean-0106",
+        "pestdb-clean-0107",
+        "pestdb-clean-0110",
+        "pestdb-clean-0129",
+        "pestdb-clean-0293",
+        "pestdb-clean-0316",
+        "pestdb-clean-0445",
+        "pestdb-clean-0830",
+        "pestdb-clean-0832",
+        "pestdb-clean-0957",
+        "pestdb-clean-1064"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mancozeb 80%",
+      "aliases": [
+        "mancozeb 80%"
+      ],
+      "product_count": 13,
+      "product_ids": [
+        "pestdb-clean-0159",
+        "pestdb-clean-0261",
+        "pestdb-clean-0494",
+        "pestdb-clean-0507",
+        "pestdb-clean-0788",
+        "pestdb-clean-0815",
+        "pestdb-clean-0880",
+        "pestdb-clean-0905",
+        "pestdb-clean-0963",
+        "pestdb-clean-0970",
+        "pestdb-clean-0989",
+        "pestdb-clean-0990",
+        "pestdb-clean-0997"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "sipermetrin",
+      "aliases": [
+        "Sipermetrin 250 g/L",
+        "Sipermetrin 50 g/L",
+        "sipermetrin 108 g/L",
+        "sipermetrin 189 g/L",
+        "sipermetrin 30 g/L",
+        "sipermetrin 50 g/L",
+        "sipermetrin 60 g/L"
+      ],
+      "product_count": 11,
+      "product_ids": [
+        "pestdb-clean-0052",
+        "pestdb-clean-0114",
+        "pestdb-clean-0238",
+        "pestdb-clean-0243",
+        "pestdb-clean-0295",
+        "pestdb-clean-0461",
+        "pestdb-clean-0521",
+        "pestdb-clean-0536",
+        "pestdb-clean-0540",
+        "pestdb-clean-0596",
+        "pestdb-clean-1043"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "difenokonazol",
+      "aliases": [
+        "Difenokonazol 125 g/L",
+        "Difenokonazol 250 g/L",
+        "Difenokonazol 75 g/L",
+        "difenokonazol 125 g/L",
+        "difenokonazol 150 g/L",
+        "difenokonazol 250 g/L",
+        "difenokonazol 255 g/L",
+        "difenokonazol 50 g/L"
+      ],
+      "product_count": 11,
+      "product_ids": [
+        "pestdb-clean-0055",
+        "pestdb-clean-0141",
+        "pestdb-clean-0237",
+        "pestdb-clean-0324",
+        "pestdb-clean-0390",
+        "pestdb-clean-0549",
+        "pestdb-clean-0603",
+        "pestdb-clean-0610",
+        "pestdb-clean-1037",
+        "pestdb-clean-1051",
+        "pestdb-clean-1057"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "emamektin benzoat",
+      "aliases": [
+        "Emamektin Benzoat 20 g/L",
+        "Emamektin Benzoat 30 g/L",
+        "Emamektin Benzoat 50 g/L",
+        "Emamektin benzoat 50 g/L",
+        "emamektin benzoat 20 g/L",
+        "emamektin benzoat 30 g/L",
+        "emamektin benzoat 35 g/L",
+        "emamektin benzoat 50 g/L",
+        "emamektin benzoat 75 g/L"
+      ],
+      "product_count": 11,
+      "product_ids": [
+        "pestdb-clean-0240",
+        "pestdb-clean-0293",
+        "pestdb-clean-0300",
+        "pestdb-clean-0304",
+        "pestdb-clean-0351",
+        "pestdb-clean-0402",
+        "pestdb-clean-0522",
+        "pestdb-clean-0575",
+        "pestdb-clean-0918",
+        "pestdb-clean-0922",
+        "pestdb-clean-0923"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mankozeb 80%",
+      "aliases": [
+        "Mankozeb 80%",
+        "mankozeb 80%"
+      ],
+      "product_count": 9,
+      "product_ids": [
+        "pestdb-clean-0072",
+        "pestdb-clean-0079",
+        "pestdb-clean-0299",
+        "pestdb-clean-0375",
+        "pestdb-clean-0393",
+        "pestdb-clean-0397",
+        "pestdb-clean-0561",
+        "pestdb-clean-0578",
+        "pestdb-clean-0592"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "piraklostrobin",
+      "aliases": [
+        "Piraklostrobin 100 g/L",
+        "Piraklostrobin 115 g/L",
+        "Piraklostrobin 170 g/L",
+        "Piraklostrobin 250 g/L",
+        "piraklostrobin 150 g/L",
+        "piraklostrobin 250 g/L",
+        "piraklostrobin 75 g/L"
+      ],
+      "product_count": 8,
+      "product_ids": [
+        "pestdb-clean-0023",
+        "pestdb-clean-0042",
+        "pestdb-clean-0053",
+        "pestdb-clean-0054",
+        "pestdb-clean-0286",
+        "pestdb-clean-0839",
+        "pestdb-clean-0844",
+        "pestdb-clean-0848"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fipronil",
+      "aliases": [
+        "Fipronil 200 g/L",
+        "Fipronil 50 g/L",
+        "fipronil 150 g/L",
+        "fipronil 175 g/L",
+        "fipronil 50 g/L",
+        "fipronil 60 g/L"
+      ],
+      "product_count": 8,
+      "product_ids": [
+        "pestdb-clean-0050",
+        "pestdb-clean-0257",
+        "pestdb-clean-0394",
+        "pestdb-clean-0455",
+        "pestdb-clean-0919",
+        "pestdb-clean-0932",
+        "pestdb-clean-0950",
+        "pestdb-clean-0956"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "klorpirifos",
+      "aliases": [
+        "Klorpirifos 200 g/L",
+        "Klorpirifos 500 g/L",
+        "klorpirifos 200 g/L",
+        "klorpirifos 400 g/L",
+        "klorpirifos 500 g/L",
+        "klorpirifos 550 g/L"
+      ],
+      "product_count": 8,
+      "product_ids": [
+        "pestdb-clean-0084",
+        "pestdb-clean-0238",
+        "pestdb-clean-0243",
+        "pestdb-clean-0295",
+        "pestdb-clean-0348",
+        "pestdb-clean-0530",
+        "pestdb-clean-0538",
+        "pestdb-clean-0596"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "glufosinate-ammonium",
+      "aliases": [
+        "glufosinate-ammonium 150 g/L",
+        "glufosinate-ammonium 200 g/L",
+        "glufosinate-ammonium 280 g/L"
+      ],
+      "product_count": 7,
+      "product_ids": [
+        "pestdb-clean-0022",
+        "pestdb-clean-0820",
+        "pestdb-clean-0968",
+        "pestdb-clean-0969",
+        "pestdb-clean-0972",
+        "pestdb-clean-1020",
+        "pestdb-clean-1021"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "atrazin",
+      "aliases": [
+        "Atrazin 500 g/L",
+        "atrazin 200 g/L",
+        "atrazin 220 g/L",
+        "atrazin 300 g/L",
+        "atrazin 500 g/L"
+      ],
+      "product_count": 7,
+      "product_ids": [
+        "pestdb-clean-0030",
+        "pestdb-clean-0140",
+        "pestdb-clean-0305",
+        "pestdb-clean-0308",
+        "pestdb-clean-0447",
+        "pestdb-clean-0449",
+        "pestdb-clean-1041"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "amonium glufosinat",
+      "aliases": [
+        "Amonium Glufosinat 600 g/L",
+        "amonium glufosinat 150 g/L",
+        "amonium glufosinat 200 g/L",
+        "amonium glufosinat 210 g/L",
+        "amonium glufosinat 240 g/L"
+      ],
+      "product_count": 7,
+      "product_ids": [
+        "pestdb-clean-0303",
+        "pestdb-clean-0332",
+        "pestdb-clean-0347",
+        "pestdb-clean-0392",
+        "pestdb-clean-0448",
+        "pestdb-clean-0555",
+        "pestdb-clean-0841"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "chlorfenapyr",
+      "aliases": [
+        "chlorfenapyr 180 g/L",
+        "chlorfenapyr 200 g/L",
+        "chlorfenapyr 360 g/L",
+        "chlorfenapyr 450 g/L"
+      ],
+      "product_count": 7,
+      "product_ids": [
+        "pestdb-clean-0389",
+        "pestdb-clean-0403",
+        "pestdb-clean-0408",
+        "pestdb-clean-0462",
+        "pestdb-clean-0493",
+        "pestdb-clean-0803",
+        "pestdb-clean-1009"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "paraquat diklorida",
+      "aliases": [
+        "paraquat diklorida",
+        "paraquat diklorida 138 g/L",
+        "paraquat diklorida 276 g/L",
+        "paraquat diklorida 297 g/L"
+      ],
+      "product_count": 7,
+      "product_ids": [
+        "pestdb-clean-0446",
+        "pestdb-clean-0450",
+        "pestdb-clean-0451",
+        "pestdb-clean-0452",
+        "pestdb-clean-0560",
+        "pestdb-clean-0579",
+        "pestdb-clean-0601"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "lufenuron",
+      "aliases": [
+        "Lufenuron 105 g/L",
+        "Lufenuron 200 g/L",
+        "Lufenuron 53 g/L",
+        "Lufenuron 80 g/L",
+        "lufenuron 200 g/L",
+        "lufenuron 50 g/L",
+        "lufenuron 75 g/L"
+      ],
+      "product_count": 7,
+      "product_ids": [
+        "pestdb-clean-0522",
+        "pestdb-clean-0609",
+        "pestdb-clean-0823",
+        "pestdb-clean-0829",
+        "pestdb-clean-0846",
+        "pestdb-clean-1049",
+        "pestdb-clean-1050"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "imidakloprid",
+      "aliases": [
+        "Imidakloprid 120 g/L",
+        "Imidakloprid 200 g/L",
+        "Imidakloprid 350 g/L",
+        "Imidakloprid 50 g/L",
+        "imidakloprid 243,6 g/L"
+      ],
+      "product_count": 6,
+      "product_ids": [
+        "pestdb-clean-0012",
+        "pestdb-clean-0192",
+        "pestdb-clean-0193",
+        "pestdb-clean-0203",
+        "pestdb-clean-0208",
+        "pestdb-clean-0225"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "klorfenapir",
+      "aliases": [
+        "Klorfenapir 100 g/L",
+        "Klorfenapir 200 g/L",
+        "Klorfenapir 250 g/L",
+        "klorfenapir 100 g/L",
+        "klorfenapir 180 g/L",
+        "klorfenapir 200 g/L"
+      ],
+      "product_count": 6,
+      "product_ids": [
+        "pestdb-clean-0048",
+        "pestdb-clean-0234",
+        "pestdb-clean-0571",
+        "pestdb-clean-0925",
+        "pestdb-clean-0930",
+        "pestdb-clean-0996"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "propineb 70%",
+      "aliases": [
+        "Propineb 70%",
+        "propineb 70%"
+      ],
+      "product_count": 6,
+      "product_ids": [
+        "pestdb-clean-0067",
+        "pestdb-clean-0181",
+        "pestdb-clean-0182",
+        "pestdb-clean-0383",
+        "pestdb-clean-0570",
+        "pestdb-clean-0814"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "profenofos",
+      "aliases": [
+        "Profenofos 500 g/L",
+        "profenofos 500 g/L"
+      ],
+      "product_count": 6,
+      "product_ids": [
+        "pestdb-clean-0081",
+        "pestdb-clean-0296",
+        "pestdb-clean-0342",
+        "pestdb-clean-0532",
+        "pestdb-clean-0790",
+        "pestdb-clean-1042"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tebukonazol",
+      "aliases": [
+        "Tebukonazol 200 g/L",
+        "Tebukonazol 230 g/L",
+        "Tebukonazol 430 g/L",
+        "tebukonazol 159.85 g/L",
+        "tebukonazol 165 g/L",
+        "tebukonazol 430 g/L"
+      ],
+      "product_count": 6,
+      "product_ids": [
+        "pestdb-clean-0122",
+        "pestdb-clean-0201",
+        "pestdb-clean-0352",
+        "pestdb-clean-0407",
+        "pestdb-clean-0843",
+        "pestdb-clean-0844"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "chlorantraniliprole",
+      "aliases": [
+        "chlorantraniliprole",
+        "chlorantraniliprole 100 g/L",
+        "chlorantraniliprole 105 g/L",
+        "chlorantraniliprole 400 g/L",
+        "chlorantraniliprole 50 g/L",
+        "chlorantraniliprole 56 g/L"
+      ],
+      "product_count": 6,
+      "product_ids": [
+        "pestdb-clean-0130",
+        "pestdb-clean-0462",
+        "pestdb-clean-0958",
+        "pestdb-clean-1011",
+        "pestdb-clean-1013",
+        "pestdb-clean-1014"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "klorotalonil",
+      "aliases": [
+        "Klorotalonil 250 g/L",
+        "Klorotalonil 400 g/L",
+        "Klorotalonil 720 g/L",
+        "klorotalonil 400 g/L"
+      ],
+      "product_count": 6,
+      "product_ids": [
+        "pestdb-clean-0156",
+        "pestdb-clean-0611",
+        "pestdb-clean-0613",
+        "pestdb-clean-0836",
+        "pestdb-clean-1052",
+        "pestdb-clean-1055"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "azoksistrobin",
+      "aliases": [
+        "Azoksistrobin 200 g/L",
+        "azoksistrobin 159.85 g/L",
+        "azoksistrobin 200 g/L",
+        "azoksistrobin 250 g/L",
+        "azoksistrobin 60 g/L"
+      ],
+      "product_count": 6,
+      "product_ids": [
+        "pestdb-clean-0237",
+        "pestdb-clean-0324",
+        "pestdb-clean-0352",
+        "pestdb-clean-0407",
+        "pestdb-clean-0603",
+        "pestdb-clean-1037"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "glifosat ipa",
+      "aliases": [
+        "glifosat IPA 240 g/L",
+        "glifosat IPA 300 g/L",
+        "glifosat IPA 310 g/L",
+        "glifosat IPA 360 g/L",
+        "glifosat IPA 400 g/L",
+        "glifosat IPA 480 g/L"
+      ],
+      "product_count": 6,
+      "product_ids": [
+        "pestdb-clean-0544",
+        "pestdb-clean-0545",
+        "pestdb-clean-0550",
+        "pestdb-clean-0553",
+        "pestdb-clean-0557",
+        "pestdb-clean-0559"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mandipropamid",
+      "aliases": [
+        "Mandipropamid 300 g/L",
+        "Mandipropamid 40 g/L",
+        "mandipropamid 180 g/L",
+        "mandipropamid 250 g/L",
+        "mandipropamid 40 g/L"
+      ],
+      "product_count": 5,
+      "product_ids": [
+        "pestdb-clean-0066",
+        "pestdb-clean-0612",
+        "pestdb-clean-0613",
+        "pestdb-clean-1033",
+        "pestdb-clean-1055"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "indoksakarb",
+      "aliases": [
+        "Indoksakarb 150 g/L",
+        "indoksakarb 100 g/L",
+        "indoksakarb 120 g/L",
+        "indoksakarb 160 g/L"
+      ],
+      "product_count": 5,
+      "product_ids": [
+        "pestdb-clean-0113",
+        "pestdb-clean-0240",
+        "pestdb-clean-0300",
+        "pestdb-clean-0351",
+        "pestdb-clean-0996"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mesotrion",
+      "aliases": [
+        "Mesotrion 50 g/L",
+        "mesotrion 50 g/L",
+        "mesotrion 70 g/L"
+      ],
+      "product_count": 5,
+      "product_ids": [
+        "pestdb-clean-0140",
+        "pestdb-clean-0305",
+        "pestdb-clean-0447",
+        "pestdb-clean-0449",
+        "pestdb-clean-1041"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tetraniliprol",
+      "aliases": [
+        "Tetraniliprol 200 g/L",
+        "Tetraniliprol 480 g/L",
+        "tetraniliprol 120 g/L"
+      ],
+      "product_count": 5,
+      "product_ids": [
+        "pestdb-clean-0190",
+        "pestdb-clean-0214",
+        "pestdb-clean-0229",
+        "pestdb-clean-0230",
+        "pestdb-clean-0231"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "spirotetramat",
+      "aliases": [
+        "Spirotetramat 120 g/L",
+        "Spirotetramat 124 g/L",
+        "Spirotetramat 200 g/L",
+        "spirotetramat 240 g/L"
+      ],
+      "product_count": 5,
+      "product_ids": [
+        "pestdb-clean-0190",
+        "pestdb-clean-0208",
+        "pestdb-clean-0230",
+        "pestdb-clean-0616",
+        "pestdb-clean-0821"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metomil 40%",
+      "aliases": [
+        "Metomil 40%",
+        "metomil 40%"
+      ],
+      "product_count": 5,
+      "product_ids": [
+        "pestdb-clean-0251",
+        "pestdb-clean-0374",
+        "pestdb-clean-0467",
+        "pestdb-clean-0468",
+        "pestdb-clean-0582"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "acephate 75%",
+      "aliases": [
+        "acephate 75%"
+      ],
+      "product_count": 5,
+      "product_ids": [
+        "pestdb-clean-0270",
+        "pestdb-clean-0481",
+        "pestdb-clean-0819",
+        "pestdb-clean-0952",
+        "pestdb-clean-1018"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "lambda-cyhalothrin",
+      "aliases": [
+        "lambda-cyhalothrin 100 g/L",
+        "lambda-cyhalothrin 106 g/L",
+        "lambda-cyhalothrin 25 g/L",
+        "lambda-cyhalothrin 50 g/L"
+      ],
+      "product_count": 5,
+      "product_ids": [
+        "pestdb-clean-0367",
+        "pestdb-clean-0399",
+        "pestdb-clean-0478",
+        "pestdb-clean-0978",
+        "pestdb-clean-1023"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "flufenoximacil",
+      "aliases": [
+        "flufenoximacil 10 g/L",
+        "flufenoximacil 100 g/L",
+        "flufenoximacil 20 g/L",
+        "flufenoximacil 200 g/L",
+        "flufenoximacil 40 g/L"
+      ],
+      "product_count": 5,
+      "product_ids": [
+        "pestdb-clean-0418",
+        "pestdb-clean-0419",
+        "pestdb-clean-0425",
+        "pestdb-clean-0443",
+        "pestdb-clean-0444"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "asetamiprid",
+      "aliases": [
+        "Asetamiprid 30 g/L",
+        "Asetamiprid 81 g/L",
+        "asetamiprid 100 g/L"
+      ],
+      "product_count": 4,
+      "product_ids": [
+        "pestdb-clean-0014",
+        "pestdb-clean-0518",
+        "pestdb-clean-0831",
+        "pestdb-clean-0908"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "trisiklazol",
+      "aliases": [
+        "Trisiklazol 400 g/L",
+        "trisiklazol 150 g/L",
+        "trisiklazol 250 g/L",
+        "trisiklazol 400 g/L"
+      ],
+      "product_count": 4,
+      "product_ids": [
+        "pestdb-clean-0051",
+        "pestdb-clean-0054",
+        "pestdb-clean-0606",
+        "pestdb-clean-1045"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "siantraniliprol",
+      "aliases": [
+        "Siantraniliprol 200 g/L",
+        "siantraniliprol 100 g/L",
+        "siantraniliprol 200 g/L",
+        "siantraniliprol 400 g/L"
+      ],
+      "product_count": 4,
+      "product_ids": [
+        "pestdb-clean-0108",
+        "pestdb-clean-0608",
+        "pestdb-clean-0609",
+        "pestdb-clean-1050"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "buprofezin",
+      "aliases": [
+        "Buprofezin 500 g/L",
+        "buprofezin 100 g/L",
+        "buprofezin 440 g/L"
+      ],
+      "product_count": 4,
+      "product_ids": [
+        "pestdb-clean-0154",
+        "pestdb-clean-0360",
+        "pestdb-clean-0486",
+        "pestdb-clean-0986"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "propiconazole",
+      "aliases": [
+        "propiconazole",
+        "propiconazole 125 g/L",
+        "propiconazole 150 g/L",
+        "propiconazole 250 g/L"
+      ],
+      "product_count": 4,
+      "product_ids": [
+        "pestdb-clean-0174",
+        "pestdb-clean-0498",
+        "pestdb-clean-0509",
+        "pestdb-clean-0965"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "beta siflutrin",
+      "aliases": [
+        "Beta siflutrin 25 g/L",
+        "beta siflutrin 121,8 g/L",
+        "beta siflutrin 25 g/L",
+        "beta siflutrin 50 g/L"
+      ],
+      "product_count": 4,
+      "product_ids": [
+        "pestdb-clean-0188",
+        "pestdb-clean-0202",
+        "pestdb-clean-0225",
+        "pestdb-clean-0326"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "deltametrin",
+      "aliases": [
+        "Deltametrin 25 g/L",
+        "Deltametrin 27 g/L",
+        "deltametrin 25 g/L"
+      ],
+      "product_count": 4,
+      "product_ids": [
+        "pestdb-clean-0195",
+        "pestdb-clean-0331",
+        "pestdb-clean-0463",
+        "pestdb-clean-0822"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mankozeb 64%",
+      "aliases": [
+        "Mankozeb 64%",
+        "mankozeb 64%"
+      ],
+      "product_count": 4,
+      "product_ids": [
+        "pestdb-clean-0246",
+        "pestdb-clean-0328",
+        "pestdb-clean-0344",
+        "pestdb-clean-1056"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "azoxystrobin",
+      "aliases": [
+        "azoxystrobin 200 g/L",
+        "azoxystrobin 4.7 g/L"
+      ],
+      "product_count": 4,
+      "product_ids": [
+        "pestdb-clean-0259",
+        "pestdb-clean-0260",
+        "pestdb-clean-0509",
+        "pestdb-clean-0982"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "difenoconazole",
+      "aliases": [
+        "difenoconazole",
+        "difenoconazole 125 g/L",
+        "difenoconazole 150 g/L"
+      ],
+      "product_count": 4,
+      "product_ids": [
+        "pestdb-clean-0259",
+        "pestdb-clean-0260",
+        "pestdb-clean-0498",
+        "pestdb-clean-0965"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "imidacloprid",
+      "aliases": [
+        "imidacloprid 125 g/L",
+        "imidacloprid 200 g/L",
+        "imidacloprid 600 g/L"
+      ],
+      "product_count": 4,
+      "product_ids": [
+        "pestdb-clean-0389",
+        "pestdb-clean-0976",
+        "pestdb-clean-0977",
+        "pestdb-clean-0978"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "p-glufosinat",
+      "aliases": [
+        "p-glufosinat 100 g/L",
+        "p-glufosinat 200 g/L"
+      ],
+      "product_count": 4,
+      "product_ids": [
+        "pestdb-clean-0435",
+        "pestdb-clean-0441",
+        "pestdb-clean-0443",
+        "pestdb-clean-0444"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "abamectin",
+      "aliases": [
+        "abamectin",
+        "abamectin 18 g/L",
+        "abamectin 20 g/L",
+        "abamectin 50 g/L"
+      ],
+      "product_count": 4,
+      "product_ids": [
+        "pestdb-clean-0491",
+        "pestdb-clean-0508",
+        "pestdb-clean-0784",
+        "pestdb-clean-0812"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "2,4-d dma",
+      "aliases": [
+        "2,4-D DMA 100 g/L",
+        "2,4-D DMA 115 g/L",
+        "2,4-D DMA 150 g/L",
+        "2,4-D DMA 875 g/L"
+      ],
+      "product_count": 4,
+      "product_ids": [
+        "pestdb-clean-0545",
+        "pestdb-clean-0548",
+        "pestdb-clean-0553",
+        "pestdb-clean-0559"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tiametoksam",
+      "aliases": [
+        "Tiametoksam 100 g/L",
+        "Tiametoksam 102 g/L",
+        "Tiametoksam 141 g/L",
+        "Tiametoksam 200 g/L"
+      ],
+      "product_count": 4,
+      "product_ids": [
+        "pestdb-clean-0822",
+        "pestdb-clean-0922",
+        "pestdb-clean-1036",
+        "pestdb-clean-1064"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "lamda sihalotrin",
+      "aliases": [
+        "Lamda Sihalotrin 250 g/L",
+        "Lamda Sihalotrin 50 g/L",
+        "Lamda Sihalotrin 80 g/L",
+        "lamda sihalotrin 25 g/L"
+      ],
+      "product_count": 4,
+      "product_ids": [
+        "pestdb-clean-0830",
+        "pestdb-clean-0837",
+        "pestdb-clean-0846",
+        "pestdb-clean-1048"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "dimehipo",
+      "aliases": [
+        "Dimehipo 400 g/L",
+        "dimehipo 450 g/L",
+        "dimehipo 500 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0018",
+        "pestdb-clean-0239",
+        "pestdb-clean-0302"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "piraklostrobin 5%",
+      "aliases": [
+        "Piraklostrobin 5%",
+        "piraklostrobin 5%"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0024",
+        "pestdb-clean-0591",
+        "pestdb-clean-0824"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metiram 55%",
+      "aliases": [
+        "Metiram 55%",
+        "metiram 55%"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0024",
+        "pestdb-clean-0591",
+        "pestdb-clean-0824"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "topramezon",
+      "aliases": [
+        "topramezon 10 g/L",
+        "topramezon 336 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0029",
+        "pestdb-clean-0030",
+        "pestdb-clean-0308"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "alfa-sipermetrin",
+      "aliases": [
+        "Alfa-sipermetrin 15 g/L",
+        "Alfa-sipermetrin 75 g/L",
+        "alfa-sipermetrin 36 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0032",
+        "pestdb-clean-0033",
+        "pestdb-clean-0539"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fluksapiroksad",
+      "aliases": [
+        "Fluksapiroksad 250 g/L",
+        "Fluksapiroksad 80 g/L",
+        "fluksapiroksad 75 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0042",
+        "pestdb-clean-0055",
+        "pestdb-clean-0060"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "florpyrauxifen-benzyl (rinskor)",
+      "aliases": [
+        "Florpyrauxifen-benzyl (Rinskor)"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0062",
+        "pestdb-clean-0063",
+        "pestdb-clean-0064"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "oxathiapiprolin",
+      "aliases": [
+        "Oxathiapiprolin 30 g/L",
+        "oxathiapiprolin 200 g/L",
+        "oxathiapiprolin 48 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0066",
+        "pestdb-clean-0252",
+        "pestdb-clean-0255"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "klorantraniliprol 35%",
+      "aliases": [
+        "klorantraniliprol 35%"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0103",
+        "pestdb-clean-0109",
+        "pestdb-clean-0228"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fluopyram",
+      "aliases": [
+        "Fluopyram 200 g/L",
+        "Fluopyram 400 g/L",
+        "fluopyram 250 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0122",
+        "pestdb-clean-0207",
+        "pestdb-clean-0232"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "carbosulfan",
+      "aliases": [
+        "carbosulfan",
+        "carbosulfan 200 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0124",
+        "pestdb-clean-0125",
+        "pestdb-clean-0126"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "natrium bispiribak",
+      "aliases": [
+        "Natrium bispiribak 100 g/L",
+        "Natrium bispiribak 400 g/L",
+        "natrium bispiribak 400 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0137",
+        "pestdb-clean-0150",
+        "pestdb-clean-0306"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "siromazin 75%",
+      "aliases": [
+        "Siromazin 75%",
+        "siromazin 75%"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0143",
+        "pestdb-clean-0322",
+        "pestdb-clean-1062"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "propanil",
+      "aliases": [
+        "Propanil 167 g/L",
+        "propanil 220 g/L",
+        "propanil 347.5 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0147",
+        "pestdb-clean-0413",
+        "pestdb-clean-1017"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "siazofamid",
+      "aliases": [
+        "Siazofamid 100 g/L",
+        "Siazofamid 400 g/L",
+        "Siazofamid 85 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0155",
+        "pestdb-clean-0850",
+        "pestdb-clean-0944"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "2,4-d dimethylamine",
+      "aliases": [
+        "2,4-D dimethylamine 865 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0158",
+        "pestdb-clean-0256",
+        "pestdb-clean-0584"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "glyphosate ipa",
+      "aliases": [
+        "glyphosate IPA",
+        "glyphosate IPA 480 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0165",
+        "pestdb-clean-0274",
+        "pestdb-clean-0503"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "triclopyr butoxyethyl ester",
+      "aliases": [
+        "triclopyr butoxyethyl ester 670 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0166",
+        "pestdb-clean-0363",
+        "pestdb-clean-1029"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "niclosamide",
+      "aliases": [
+        "niclosamide 250 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0172",
+        "pestdb-clean-0184",
+        "pestdb-clean-1026"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metsulfuron-methyl 20%",
+      "aliases": [
+        "metsulfuron-methyl 20%"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0177",
+        "pestdb-clean-0551",
+        "pestdb-clean-0992"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "indaziflam",
+      "aliases": [
+        "Indaziflam 20 g/L",
+        "Indaziflam 500 g/L",
+        "indaziflam 4 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0185",
+        "pestdb-clean-0186",
+        "pestdb-clean-0218"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "isopropil amina glifosat",
+      "aliases": [
+        "ISOPROPIL AMINA GLIFOSAT 540 g/L",
+        "isopropil amina glifosat 486 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0186",
+        "pestdb-clean-0217",
+        "pestdb-clean-0218"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tiakloprid",
+      "aliases": [
+        "tiakloprid 240 g/L",
+        "tiakloprid 360 g/L",
+        "tiakloprid 480 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0187",
+        "pestdb-clean-0189",
+        "pestdb-clean-0231"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "ethephon",
+      "aliases": [
+        "ethephon",
+        "ethephon 480 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0197",
+        "pestdb-clean-0198",
+        "pestdb-clean-0602"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fenoksaprop-p-etil",
+      "aliases": [
+        "Fenoksaprop-P-etil 110 g/L",
+        "Fenoksaprop-P-etil 69 g/L",
+        "Fenoksaprop-p-etil 69 g/l"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0215",
+        "pestdb-clean-0216",
+        "pestdb-clean-0221"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "methoxyfenozide",
+      "aliases": [
+        "methoxyfenozide 350 g/L",
+        "methoxyfenozide 420 g/L",
+        "methoxyfenozide 60 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0254",
+        "pestdb-clean-0919",
+        "pestdb-clean-0958"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "beta-cypermethrin",
+      "aliases": [
+        "beta-cypermethrin 125 g/L",
+        "beta-cypermethrin 45 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0272",
+        "pestdb-clean-0950",
+        "pestdb-clean-0956"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mesotrione",
+      "aliases": [
+        "mesotrione",
+        "mesotrione 480 g/L",
+        "mesotrione 50 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0279",
+        "pestdb-clean-0552",
+        "pestdb-clean-0802"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "atrazine",
+      "aliases": [
+        "atrazine 500 g/L",
+        "atrazine 550 g/L",
+        "atrazine 560 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0279",
+        "pestdb-clean-0476",
+        "pestdb-clean-0552"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metil tiofanat",
+      "aliases": [
+        "Metil tiofanat 520 g/L",
+        "metil tiofanat 500 g/L",
+        "metil tiofanat 520 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0283",
+        "pestdb-clean-0310",
+        "pestdb-clean-0350"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "ametrin",
+      "aliases": [
+        "ametrin 500 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0287",
+        "pestdb-clean-0334",
+        "pestdb-clean-0542"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tiametoksam 25%",
+      "aliases": [
+        "tiametoksam 25%"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0294",
+        "pestdb-clean-0356",
+        "pestdb-clean-1034"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "penoksulam",
+      "aliases": [
+        "Penoksulam 10 g/L",
+        "Penoksulam 20 g/L",
+        "penoksulam 10 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0307",
+        "pestdb-clean-0840",
+        "pestdb-clean-1060"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "ipa glifosat",
+      "aliases": [
+        "IPA Glifosat 480 g/L",
+        "IPA glifosat 480 g/L",
+        "IPA glifosat 555 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0311",
+        "pestdb-clean-0581",
+        "pestdb-clean-1061"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "oksifluorfen",
+      "aliases": [
+        "Oksifluorfen 240 g/L",
+        "Oksifluorfen 400 g/L",
+        "oksifluorfen 240 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0313",
+        "pestdb-clean-0833",
+        "pestdb-clean-0943"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "dinotefuran 20%",
+      "aliases": [
+        "dinotefuran 20%"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0315",
+        "pestdb-clean-0346",
+        "pestdb-clean-0398"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "butaklor",
+      "aliases": [
+        "Butaklor 286 g/L",
+        "butaklor 500 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0320",
+        "pestdb-clean-0369",
+        "pestdb-clean-0828"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "dimetoat",
+      "aliases": [
+        "dimetoat 400 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0404",
+        "pestdb-clean-0525",
+        "pestdb-clean-0569"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "flusulfinam",
+      "aliases": [
+        "flusulfinam 30 g/L",
+        "flusulfinam 40 g/L",
+        "flusulfinam 57 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0413",
+        "pestdb-clean-0436",
+        "pestdb-clean-0440"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "isoflualanam",
+      "aliases": [
+        "isoflualanam 30 g/L",
+        "isoflualanam 40 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0428",
+        "pestdb-clean-0431",
+        "pestdb-clean-0445"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "zn",
+      "aliases": [
+        "Zn",
+        "Zn 10 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0470",
+        "pestdb-clean-0513",
+        "pestdb-clean-0514"
+      ],
+      "domain": "nutrition",
+      "status": "excluded_from_pesticide_ai"
+    },
+    {
+      "normalized_name": "b",
+      "aliases": [
+        "B",
+        "B 10 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0470",
+        "pestdb-clean-0513",
+        "pestdb-clean-0515"
+      ],
+      "domain": "nutrition",
+      "status": "excluded_from_pesticide_ai"
+    },
+    {
+      "normalized_name": "fenoxaprop-p-ethyl",
+      "aliases": [
+        "fenoxaprop-P-ethyl 120 g/L",
+        "fenoxaprop-P-ethyl 125 g/L",
+        "fenoxaprop-P-ethyl 69 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0471",
+        "pestdb-clean-0564",
+        "pestdb-clean-0816"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "propineb 75%",
+      "aliases": [
+        "propineb 75%"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0511",
+        "pestdb-clean-0556",
+        "pestdb-clean-0927"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "propikonazol",
+      "aliases": [
+        "Propikonazol 125 g/L",
+        "propikonazol 125 g/L",
+        "propikonazol 250 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0562",
+        "pestdb-clean-0606",
+        "pestdb-clean-1045"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "isosikloseram",
+      "aliases": [
+        "Isosikloseram 100 g/L",
+        "Isosikloseram 200 g/L",
+        "isosikloseram 200 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0607",
+        "pestdb-clean-1047",
+        "pestdb-clean-1058"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "oksatiapiprolin",
+      "aliases": [
+        "Oksatiapiprolin 6 g/L",
+        "oksatiapiprolin 30 g/L",
+        "oksatiapiprolin 6 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0611",
+        "pestdb-clean-0612",
+        "pestdb-clean-1052"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "bispyribac-sodium",
+      "aliases": [
+        "bispyribac-sodium 37.2 g/L",
+        "bispyribac-sodium 400 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0813",
+        "pestdb-clean-1006",
+        "pestdb-clean-1008"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "isopropylamine glyphosate",
+      "aliases": [
+        "isopropylamine glyphosate 480 g/L",
+        "isopropylamine glyphosate 485 g/L",
+        "isopropylamine glyphosate 500 g/L"
+      ],
+      "product_count": 3,
+      "product_ids": [
+        "pestdb-clean-0904",
+        "pestdb-clean-0940",
+        "pestdb-clean-1019"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "imidakloprid 2%",
+      "aliases": [
+        "Imidakloprid 2%",
+        "imidakloprid 2%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0016",
+        "pestdb-clean-0290"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "dimethomorph",
+      "aliases": [
+        "dimethomorph 200 g/L",
+        "dimethomorph 500 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0019",
+        "pestdb-clean-0163"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "dimetomorf",
+      "aliases": [
+        "dimetomorf 225 g/L",
+        "dimetomorf 500 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0020",
+        "pestdb-clean-0058"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "bentazone",
+      "aliases": [
+        "bentazone 460 g/L",
+        "bentazone 480 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0021",
+        "pestdb-clean-0949"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mefentriflukonazol",
+      "aliases": [
+        "Mefentriflukonazol 400 g/L",
+        "mefentriflukonazol 100 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0027",
+        "pestdb-clean-0051"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "broflanilide",
+      "aliases": [
+        "Broflanilide 100 g/L",
+        "broflanilide"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0028",
+        "pestdb-clean-0162"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "pendimetalin",
+      "aliases": [
+        "Pendimetalin 330 g/L",
+        "Pendimetalin 450 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0046",
+        "pestdb-clean-0842"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "bahan aktif pendamping",
+      "aliases": [
+        "bahan aktif pendamping"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0063",
+        "pestdb-clean-0111"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "indoksakarb 30%",
+      "aliases": [
+        "indoksakarb 30%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0100",
+        "pestdb-clean-0101"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "sulfentrazone",
+      "aliases": [
+        "Sulfentrazone 480 g/L",
+        "sulfentrazone 500 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0116",
+        "pestdb-clean-0966"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fluopikolid",
+      "aliases": [
+        "Fluopikolid 52,5 g/L",
+        "Fluopikolid 62,5 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0121",
+        "pestdb-clean-0132"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "propamokarb hcl",
+      "aliases": [
+        "Propamokarb HCl 52,5 g/L",
+        "Propamokarb HCl 625 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0121",
+        "pestdb-clean-0132"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "permethrin",
+      "aliases": [
+        "permethrin 20 g/L",
+        "permethrin 50 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0128",
+        "pestdb-clean-1032"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metamifop",
+      "aliases": [
+        "metamifop 100 g/L",
+        "metamifop 120 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0131",
+        "pestdb-clean-0312"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "prokloraz",
+      "aliases": [
+        "Prokloraz 168 g/L",
+        "Prokloraz 175 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0141",
+        "pestdb-clean-0849"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "pretilaklor",
+      "aliases": [
+        "Pretilaklor 300 g/L",
+        "Pretilaklor 323 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0145",
+        "pestdb-clean-0147"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "karbendazim",
+      "aliases": [
+        "Karbendazim 250 g/L",
+        "karbendazim 250 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0156",
+        "pestdb-clean-0352"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metsulfuron-methyl 10%",
+      "aliases": [
+        "metsulfuron-methyl 10%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0176",
+        "pestdb-clean-0245"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "thiencarbazone-methyl",
+      "aliases": [
+        "Thiencarbazone-methyl 68 g/l",
+        "Thiencarbazone-methyl 90 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0178",
+        "pestdb-clean-0191"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "trifloksistrobin 25%",
+      "aliases": [
+        "trifloksistrobin 25%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0210",
+        "pestdb-clean-0323"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "kalium glifosat (setara glifosat)",
+      "aliases": [
+        "kalium glifosat 440 g/L (setara glifosat 360 g/L)",
+        "kalium glifosat 660 g/L (setara glifosat 540 g/L)"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0219",
+        "pestdb-clean-0220"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "spinetoram",
+      "aliases": [
+        "spinetoram 120 g/L",
+        "spinetoram 300 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0247",
+        "pestdb-clean-0254"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "flonicamid 20%",
+      "aliases": [
+        "flonicamid 20%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0250",
+        "pestdb-clean-0330"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "chlorothalonil 75%",
+      "aliases": [
+        "chlorothalonil 75%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0280",
+        "pestdb-clean-0955"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "diuron",
+      "aliases": [
+        "Diuron 80 g/L",
+        "diuron 500 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0281",
+        "pestdb-clean-0558"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "buprofezin 10%",
+      "aliases": [
+        "Buprofezin 10%",
+        "buprofezin 10%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0285",
+        "pestdb-clean-0516"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "nikosulfuron",
+      "aliases": [
+        "nikosulfuron 20 g/L",
+        "nikosulfuron 30 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0305",
+        "pestdb-clean-0449"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "butil sihalofop",
+      "aliases": [
+        "Butil Sihalofop 147 g/L",
+        "butil sihalofop 50 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0307",
+        "pestdb-clean-0840"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "asefat 75%",
+      "aliases": [
+        "asefat 75%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0314",
+        "pestdb-clean-0572"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "dimetomorf 50%",
+      "aliases": [
+        "dimetomorf 50%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0319",
+        "pestdb-clean-0401"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "simoksanil 20%",
+      "aliases": [
+        "simoksanil 20%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0321",
+        "pestdb-clean-0563"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "pimetrozin 60%",
+      "aliases": [
+        "Pimetrozin 60%",
+        "pimetrozin 60%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0325",
+        "pestdb-clean-0825"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "bifenazate 50%",
+      "aliases": [
+        "bifenazate 50%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0338",
+        "pestdb-clean-1002"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "2,4-d dimetilamina",
+      "aliases": [
+        "2,4-D dimetilamina 865 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0339",
+        "pestdb-clean-0595"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "emamektin benzoat 5.7%",
+      "aliases": [
+        "emamektin benzoat 5.7%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0345",
+        "pestdb-clean-1015"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "heksakonazol",
+      "aliases": [
+        "Heksakonazol 50 g/L",
+        "heksakonazol 50 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0370",
+        "pestdb-clean-1038"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "klorotalonil 75%",
+      "aliases": [
+        "klorotalonil 75%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0373",
+        "pestdb-clean-0554"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "oxyfluorfen",
+      "aliases": [
+        "oxyfluorfen 240 g/L",
+        "oxyfluorfen 250 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0378",
+        "pestdb-clean-0568"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "pymetrozine 60%",
+      "aliases": [
+        "pymetrozine 60%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0382",
+        "pestdb-clean-0510"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "nitenpyram 20%",
+      "aliases": [
+        "nitenpyram 20%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0382",
+        "pestdb-clean-0510"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "pymetrozine 50%",
+      "aliases": [
+        "pymetrozine 50%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0386",
+        "pestdb-clean-1001"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "clomazone",
+      "aliases": [
+        "clomazone 129 g/L",
+        "clomazone 230 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0396",
+        "pestdb-clean-0975"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "indoxacarb",
+      "aliases": [
+        "indoxacarb 120 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0408",
+        "pestdb-clean-0493"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metoksifenosida",
+      "aliases": [
+        "Metoksifenosida 420 g/L",
+        "metoksifenosida 160 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0431",
+        "pestdb-clean-0957"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fluchloraminopyr-tefuryl",
+      "aliases": [
+        "fluchloraminopyr-tefuryl 100 g/L",
+        "fluchloraminopyr-tefuryl 50 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0435",
+        "pestdb-clean-0441"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metil bensulfuron",
+      "aliases": [
+        "metil bensulfuron 184,8 g/L",
+        "metil bensulfuron 80 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0439",
+        "pestdb-clean-1039"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metomil 25%",
+      "aliases": [
+        "Metomil 25%",
+        "metomil 25%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0459",
+        "pestdb-clean-0466"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metil metsulfuron 20%",
+      "aliases": [
+        "Metil metsulfuron 20%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0469",
+        "pestdb-clean-0576"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mancozeb",
+      "aliases": [
+        "mancozeb",
+        "mancozeb 59.7 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0482",
+        "pestdb-clean-0982"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "amisulbrom 50%",
+      "aliases": [
+        "amisulbrom 50%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0485",
+        "pestdb-clean-0981"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fluazinam",
+      "aliases": [
+        "Fluazinam 500 g/L",
+        "fluazinam 500 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0490",
+        "pestdb-clean-0942"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "procymidone 50%",
+      "aliases": [
+        "Procymidone 50%",
+        "procymidone 50%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0501",
+        "pestdb-clean-0945"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fe",
+      "aliases": [
+        "Fe"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0513",
+        "pestdb-clean-0514"
+      ],
+      "domain": "nutrition",
+      "status": "excluded_from_pesticide_ai"
+    },
+    {
+      "normalized_name": "mn",
+      "aliases": [
+        "Mn"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0513",
+        "pestdb-clean-0515"
+      ],
+      "domain": "nutrition",
+      "status": "excluded_from_pesticide_ai"
+    },
+    {
+      "normalized_name": "cu",
+      "aliases": [
+        "Cu"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0513",
+        "pestdb-clean-0514"
+      ],
+      "domain": "nutrition",
+      "status": "excluded_from_pesticide_ai"
+    },
+    {
+      "normalized_name": "mgo",
+      "aliases": [
+        "MgO"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0514",
+        "pestdb-clean-0515"
+      ],
+      "domain": "nutrition",
+      "status": "excluded_from_pesticide_ai"
+    },
+    {
+      "normalized_name": "lambda-sihalotrin",
+      "aliases": [
+        "lambda-sihalotrin 20 g/L",
+        "lambda-sihalotrin 25 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0535",
+        "pestdb-clean-0984"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metsulfuron-methyl",
+      "aliases": [
+        "metsulfuron-methyl 10 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0544",
+        "pestdb-clean-0550"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "parakuat diklorida",
+      "aliases": [
+        "Parakuat diklorida 276 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0580",
+        "pestdb-clean-1046"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "asibenzolar-s-metil 1%",
+      "aliases": [
+        "Asibenzolar-S-metil 1%",
+        "asibenzolar-S-metil 1%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0604",
+        "pestdb-clean-1040"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mankozeb 48%",
+      "aliases": [
+        "Mankozeb 48%",
+        "mankozeb 48%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0604",
+        "pestdb-clean-1040"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "spiropidion 30%",
+      "aliases": [
+        "Spiropidion 30%",
+        "spiropidion 30%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0605",
+        "pestdb-clean-1044"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "pidiflumetofen",
+      "aliases": [
+        "Pidiflumetofen 75 g/L",
+        "pidiflumetofen 75 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0610",
+        "pestdb-clean-1051"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "flonicamid",
+      "aliases": [
+        "Flonicamid 100 g/L",
+        "Flonicamid 101 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0616",
+        "pestdb-clean-0831"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "methomyl 40%",
+      "aliases": [
+        "methomyl 40%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0789",
+        "pestdb-clean-0809"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "triclopyr",
+      "aliases": [
+        "triclopyr 480 g/L",
+        "triclopyr 666 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0807",
+        "pestdb-clean-1028"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "nitenpyram 10%",
+      "aliases": [
+        "nitenpyram 10%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0817",
+        "pestdb-clean-0929"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "s-metolaklor",
+      "aliases": [
+        "S-metolaklor 318 g/L",
+        "S-metolaklor 480 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0826",
+        "pestdb-clean-0834"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "chlorpyrifos",
+      "aliases": [
+        "chlorpyrifos 200 g/L",
+        "chlorpyrifos 500 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0891",
+        "pestdb-clean-0947"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "azoxystrobin 10%",
+      "aliases": [
+        "azoxystrobin 10%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0906",
+        "pestdb-clean-0916"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "dimethomorph 60%",
+      "aliases": [
+        "dimethomorph 60%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0906",
+        "pestdb-clean-0916"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mancozeb 65%",
+      "aliases": [
+        "mancozeb 65%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0910",
+        "pestdb-clean-0926"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "carbendazim 20%",
+      "aliases": [
+        "carbendazim 20%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0910",
+        "pestdb-clean-0926"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "chlorothalonil 77%",
+      "aliases": [
+        "chlorothalonil 77%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0912",
+        "pestdb-clean-0928"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mancozeb 85%",
+      "aliases": [
+        "mancozeb 85%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0915",
+        "pestdb-clean-0936"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "cypermethrin",
+      "aliases": [
+        "cypermethrin 50 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0947",
+        "pestdb-clean-0961"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tebuconazole",
+      "aliases": [
+        "tebuconazole 200 g/L",
+        "tebuconazole 5.6 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0951",
+        "pestdb-clean-0982"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "acephate 50%",
+      "aliases": [
+        "acephate 50%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0959",
+        "pestdb-clean-0983"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "pendimethalin",
+      "aliases": [
+        "pendimethalin 307 g/L",
+        "pendimethalin 330 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0964",
+        "pestdb-clean-0975"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "cyhalofop-butyl",
+      "aliases": [
+        "cyhalofop-butyl 111.6 g/L",
+        "cyhalofop-butyl 180 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0967",
+        "pestdb-clean-1008"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metalaxyl",
+      "aliases": [
+        "metalaxyl 317 g/L",
+        "metalaxyl 37.5 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0971",
+        "pestdb-clean-1005"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "novaluron",
+      "aliases": [
+        "novaluron 100 g/L",
+        "novaluron 92 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-0984",
+        "pestdb-clean-1011"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "aluminium phosphide 56%",
+      "aliases": [
+        "aluminium phosphide 56%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-1003",
+        "pestdb-clean-1004"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "propanil 60%",
+      "aliases": [
+        "propanil 60%"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-1007",
+        "pestdb-clean-1016"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "sihalofop-butil",
+      "aliases": [
+        "Sihalofop-butil 300 g/L",
+        "Sihalofop-butil 50 g/L"
+      ],
+      "product_count": 2,
+      "product_ids": [
+        "pestdb-clean-1059",
+        "pestdb-clean-1060"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "l-α free amino acids 28,8% w/v",
+      "aliases": [
+        "L-α free amino acids 28,8% w/v"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0001"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "total n 10,8% w/v",
+      "aliases": [
+        "Total N 10,8% w/v"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0001"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mikro-nutrien kelat asam amino: fe, mn, zn, mg, cu, b, mo",
+      "aliases": [
+        "Mikro-nutrien kelat asam amino: Fe, Mn, Zn, Mg, Cu, B, Mo"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0002"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "kompleks asam amino",
+      "aliases": [
+        "Kompleks asam amino"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0003"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "komposisi rinci tidak ditemukan pada sumber yang diverifikasi",
+      "aliases": [
+        "komposisi rinci tidak ditemukan pada sumber yang diverifikasi"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0003"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "asam amino dan peptida",
+      "aliases": [
+        "Asam amino dan peptida"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0004"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "konsentrasi tidak dipublikasikan pada halaman produk",
+      "aliases": [
+        "konsentrasi tidak dipublikasikan pada halaman produk"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0004"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "short-chain amino acids",
+      "aliases": [
+        "Short-chain amino acids"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0005"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "organic acids",
+      "aliases": [
+        "organic acids"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0005"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "komposisi rinci tidak dipublikasikan pada halaman produk",
+      "aliases": [
+        "komposisi rinci tidak dipublikasikan pada halaman produk"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0005"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "free amino acids 6%",
+      "aliases": [
+        "Free amino acids 6%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0006"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "n 4,1%",
+      "aliases": [
+        "N 4,1%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0006"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fe 1,1%",
+      "aliases": [
+        "Fe 1,1%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0006"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mn 0,8%",
+      "aliases": [
+        "Mn 0,8%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0006"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "zn 1,3%",
+      "aliases": [
+        "Zn 1,3%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0006"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "b 0,1%",
+      "aliases": [
+        "B 0,1%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0006"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mo 0,1%",
+      "aliases": [
+        "Mo 0,1%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0006"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "cao 1,2%",
+      "aliases": [
+        "CaO 1,2%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0006"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "free l-amino acids",
+      "aliases": [
+        "Free L-amino acids"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0007"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "17 types",
+      "aliases": [
+        "17 types"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0007"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mengandung l-α-amino acids",
+      "aliases": [
+        "Mengandung L-α-amino acids"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0008"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "komposisi/konsentrasi tidak ditemukan pada sumber yang diverifikasi",
+      "aliases": [
+        "komposisi/konsentrasi tidak ditemukan pada sumber yang diverifikasi"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0008"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "free amino acids 2%",
+      "aliases": [
+        "Free amino acids 2%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0009"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "n 5,7%",
+      "aliases": [
+        "N 5,7%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0009"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fe/mn/zn/cu/b/mo/co",
+      "aliases": [
+        "Fe/Mn/Zn/Cu/B/Mo/Co"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0009"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "boron larut air",
+      "aliases": [
+        "Boron larut air"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0010"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "produk terkait seaweed bioactives",
+      "aliases": [
+        "produk terkait seaweed bioactives"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0010"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "artikel perusahaan menyebut seaweed mengandung alginic acid dan amino acids",
+      "aliases": [
+        "artikel perusahaan menyebut seaweed mengandung alginic acid dan amino acids"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0010"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "asam amino tumbuhan alami",
+      "aliases": [
+        "Asam amino tumbuhan alami"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0011"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "hormon",
+      "aliases": [
+        "hormon"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0011"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "penggalak pertumbuhan",
+      "aliases": [
+        "penggalak pertumbuhan"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0011"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "unsur surih",
+      "aliases": [
+        "unsur surih"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0011"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "broflanilida 53%",
+      "aliases": [
+        "Broflanilida 53%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0013"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "bisultap",
+      "aliases": [
+        "Bisultap"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0015"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "monosultap 58%",
+      "aliases": [
+        "Monosultap 58%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0016"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "karbaril 85%",
+      "aliases": [
+        "Karbaril 85%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0017"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "imazapik",
+      "aliases": [
+        "imazapik 240 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0025"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "dimpropyridaz",
+      "aliases": [
+        "Dimpropyridaz 120 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0031"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "teflubenzuron",
+      "aliases": [
+        "Teflubenzuron 75 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0033"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "saflufenasil",
+      "aliases": [
+        "saflufenasil 68 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0035"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "dimetenamid-p",
+      "aliases": [
+        "dimetenamid-P 600 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0035"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "afidopiropen",
+      "aliases": [
+        "Afidopiropen 50 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0036"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "saflufenasil 70%",
+      "aliases": [
+        "saflufenasil 70%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0037"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "simetilin",
+      "aliases": [
+        "Simetilin 750 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0039"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mefentrifluconazole",
+      "aliases": [
+        "mefentrifluconazole 200 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0041"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fluxapyroxad",
+      "aliases": [
+        "fluxapyroxad 200 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0041"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "belerang 80%",
+      "aliases": [
+        "belerang 80%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0043"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "propyrisulfuron",
+      "aliases": [
+        "propyrisulfuron 100 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0047"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fipronil 0.3%",
+      "aliases": [
+        "fipronil 0.3%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0049"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "ametokradin",
+      "aliases": [
+        "ametokradin 300 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0058"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "pikoksistrobin",
+      "aliases": [
+        "Pikoksistrobin 200 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0060"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "spinetoram 25%",
+      "aliases": [
+        "Spinetoram 25%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0061"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "triflumezopyrim",
+      "aliases": [
+        "Triflumezopyrim 106 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0065"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "npk cair (komposisi rinci perlu verifikasi label)",
+      "aliases": [
+        "NPK cair (komposisi rinci perlu verifikasi label)"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0093"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "bifentrin",
+      "aliases": [
+        "bifentrin 100 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0102"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metsulfuron-metil",
+      "aliases": [
+        "Metsulfuron-metil"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0111"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metsulfuron-metil 20%",
+      "aliases": [
+        "Metsulfuron-metil 20%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0112"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fenvalerate",
+      "aliases": [
+        "fenvalerate 50 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0115"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "flupyradifurone",
+      "aliases": [
+        "Flupyradifurone 106 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0117"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "bifenthrin",
+      "aliases": [
+        "Bifenthrin 159 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0117"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "trifloxistrobin 50%",
+      "aliases": [
+        "Trifloxistrobin 50%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0118"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fluopikolid 14,8%",
+      "aliases": [
+        "Fluopikolid 14,8%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0118"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "zeta-cypermethrin",
+      "aliases": [
+        "zeta-cypermethrin 50 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0119"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "hexaconazole",
+      "aliases": [
+        "hexaconazole 50 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0120"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "karbosulfan",
+      "aliases": [
+        "Karbosulfan 200 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0123"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "prochloraz 50%",
+      "aliases": [
+        "prochloraz 50%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0127"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "iprodione 50%",
+      "aliases": [
+        "iprodione 50%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0133"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "zinc thiazole",
+      "aliases": [
+        "zinc thiazole 228 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0134"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "pyrazosulfuron ethyl 10%",
+      "aliases": [
+        "pyrazosulfuron ethyl 10%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0135"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "cao 34%",
+      "aliases": [
+        "CaO 34%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0136"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "zn 1,6%",
+      "aliases": [
+        "Zn 1,6%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0136"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "b 0,6%",
+      "aliases": [
+        "B 0,6%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0136"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "propamokarb hidroklorida",
+      "aliases": [
+        "Propamokarb hidroklorida 722 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0138"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metil bensulfuron 4%",
+      "aliases": [
+        "Metil bensulfuron 4%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0139"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "pretilaklor 36%",
+      "aliases": [
+        "Pretilaklor 36%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0139"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fenoksikarb",
+      "aliases": [
+        "Fenoksikarb 75 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0142"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "diafentiuron",
+      "aliases": [
+        "Diafentiuron 300 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0142"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "kuinklorak 32,5%",
+      "aliases": [
+        "Kuinklorak 32,5%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0144"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "etil pirazosulfuron 5%",
+      "aliases": [
+        "Etil pirazosulfuron 5%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0144"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "piribenzoksim",
+      "aliases": [
+        "Piribenzoksim 20 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0145"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "etoksisulfuron 15%",
+      "aliases": [
+        "Etoksisulfuron 15%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0146"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mgo 11,5%",
+      "aliases": [
+        "MgO 11,5%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0148"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mgo 3,62%",
+      "aliases": [
+        "MgO 3,62%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0149"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "b 0,63%",
+      "aliases": [
+        "B 0,63%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0149"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "ekstrak rumput laut ascophyllum nodosum 13%",
+      "aliases": [
+        "ekstrak rumput laut Ascophyllum nodosum 13%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0149"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "kuinklorak 47%",
+      "aliases": [
+        "Kuinklorak 47%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0151"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "etil pirazosulfuron 3%",
+      "aliases": [
+        "Etil pirazosulfuron 3%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0151"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "natrium bispiribak 20%",
+      "aliases": [
+        "Natrium bispiribak 20%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0152"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "etil pirazosulfuron 10%",
+      "aliases": [
+        "Etil pirazosulfuron 10%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0152"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "total humic extract 15%",
+      "aliases": [
+        "Total humic extract 15%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0153"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "humic acids 12%",
+      "aliases": [
+        "Humic acids 12%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0153"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fulvic acids 3%",
+      "aliases": [
+        "Fulvic acids 3%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0153"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "etaboksam",
+      "aliases": [
+        "Etaboksam 100 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0157"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "glyphosate isopropylamine",
+      "aliases": [
+        "glyphosate isopropylamine 270 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0161"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "2,4-d isopropylamine",
+      "aliases": [
+        "2,4-D isopropylamine 120 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0161"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "thiophanate-methyl 35%",
+      "aliases": [
+        "thiophanate-methyl 35%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0168"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tricyclazole 37.5%",
+      "aliases": [
+        "tricyclazole 37.5%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0168"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "acetamiprid",
+      "aliases": [
+        "acetamiprid"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0169"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "carbaryl 85%",
+      "aliases": [
+        "carbaryl 85%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0171"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "isoksaflutol",
+      "aliases": [
+        "Isoksaflutol 225 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0178"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "minyak parafinik",
+      "aliases": [
+        "Minyak Parafinik 715 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0179"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fosetil aluminium 80%",
+      "aliases": [
+        "fosetil aluminium 80%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0180"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fenobucarb",
+      "aliases": [
+        "Fenobucarb 485 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0183"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "flubendiamida",
+      "aliases": [
+        "flubendiamida 240 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0187"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "isoxadifen-ethyl - safener",
+      "aliases": [
+        "Isoxadifen-ethyl - safener 134 g/l"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0191"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tembotrione",
+      "aliases": [
+        "Tembotrione 345 g/l"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0191"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "triafamone",
+      "aliases": [
+        "Triafamone 100 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0194"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tefuryltrione",
+      "aliases": [
+        "Tefuryltrione 200 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0194"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "indaziflam 20%",
+      "aliases": [
+        "indaziflam 20%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0196"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "iodosulfuron-methyl-sodium 2%",
+      "aliases": [
+        "iodosulfuron-methyl-sodium 2%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0196"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "propineb 61,3%",
+      "aliases": [
+        "propineb 61,3%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0199"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "trifloksistrobin 3,5%",
+      "aliases": [
+        "trifloksistrobin 3,5%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0199"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tebukonazol 25%",
+      "aliases": [
+        "tebukonazol 25%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0200"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "isotianil",
+      "aliases": [
+        "Isotianil 200 g/l"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0204"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "trifloxystrobin",
+      "aliases": [
+        "Trifloxystrobin 80 g/l"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0204"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tembotrion 20%",
+      "aliases": [
+        "tembotrion 20%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0205"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "imidakloprid 40%",
+      "aliases": [
+        "imidakloprid 40%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0206"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fipronil 40%",
+      "aliases": [
+        "fipronil 40%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0206"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "trifloksistrobin",
+      "aliases": [
+        "Trifloksistrobin 250 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0207"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tebukonazol trifloksistrobin",
+      "aliases": [
+        "Tebukonazol 200 g/L Trifloksistrobin 100 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0209"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tebukonazol 50%",
+      "aliases": [
+        "tebukonazol 50%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0210"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "trifloksistrobin isotianil",
+      "aliases": [
+        "Trifloksistrobin 100 g/L isotianil 120 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0211"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "spiromesifen",
+      "aliases": [
+        "Spiromesifen 228,6 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0212"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "propamokarb",
+      "aliases": [
+        "propamokarb 722 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0213"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "etoksisulfuron.",
+      "aliases": [
+        "Etoksisulfuron 20 g/l."
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0216"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metribuzin 17,5%",
+      "aliases": [
+        "metribuzin 17,5%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0222"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "flufenacet 24%",
+      "aliases": [
+        "flufenacet 24%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0222"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "bacillus subtilis qst 713 1,34%",
+      "aliases": [
+        "Bacillus subtilis QST 713 1,34%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0223"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "flupiradifuron",
+      "aliases": [
+        "flupiradifuron 200 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0224"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "isotianil 7%",
+      "aliases": [
+        "isotianil 7%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0226"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fosetil aluminium 70%",
+      "aliases": [
+        "fosetil aluminium 70%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0226"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fluopikolid 6%",
+      "aliases": [
+        "Fluopikolid 6%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0227"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "propineb 66,7%",
+      "aliases": [
+        "Propineb 66,7%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0227"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fluoxapiprolin",
+      "aliases": [
+        "fluoxapiprolin 20 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0233"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "beta-siflutrin",
+      "aliases": [
+        "beta-siflutrin 50 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0241"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "belerang 85%",
+      "aliases": [
+        "belerang 85%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0242"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "k 1%",
+      "aliases": [
+        "K 1%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0242"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "zn 2%",
+      "aliases": [
+        "Zn 2%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0242"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mn 1%",
+      "aliases": [
+        "Mn 1%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0242"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "ca 1%",
+      "aliases": [
+        "Ca 1%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0242"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metsulfuron-methyl 0.7%",
+      "aliases": [
+        "metsulfuron-methyl 0.7%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0244"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "chlorimuron-ethyl 0.7%",
+      "aliases": [
+        "chlorimuron-ethyl 0.7%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0244"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "2,4-d 75%",
+      "aliases": [
+        "2,4-D 75%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0244"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "chlorimuron-ethyl 10%",
+      "aliases": [
+        "chlorimuron-ethyl 10%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0245"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "simoksanil 8%",
+      "aliases": [
+        "simoksanil 8%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0246"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "famoxadone 22.5%",
+      "aliases": [
+        "famoxadone 22.5%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0248"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "cymoxanil 29%",
+      "aliases": [
+        "cymoxanil 29%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0248"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "haloxyfop-r-methyl ester",
+      "aliases": [
+        "haloxyfop-R-methyl ester 108 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0249"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "pymetrozine 20%",
+      "aliases": [
+        "pymetrozine 20%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0250"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fluroxypyr",
+      "aliases": [
+        "fluroxypyr 480 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0253"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "benthiavalicarb",
+      "aliases": [
+        "benthiavalicarb 240 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0255"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "benomyl 50%",
+      "aliases": [
+        "benomyl 50%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0258"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "abamectin?",
+      "aliases": [
+        "abamectin?"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0264"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "thiophanate-methyl",
+      "aliases": [
+        "thiophanate-methyl 520 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0265"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "thiophanate-methyl 70%",
+      "aliases": [
+        "thiophanate-methyl 70%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0266"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "ammonium glufosinate",
+      "aliases": [
+        "ammonium glufosinate 150 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0268"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "cymoxanil 20%",
+      "aliases": [
+        "cymoxanil 20%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0271"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "emamectin benzoate",
+      "aliases": [
+        "emamectin benzoate 21 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0272"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "paraquat dichloride",
+      "aliases": [
+        "paraquat dichloride 276 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0275"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "triclopyr bee?",
+      "aliases": [
+        "triclopyr BEE 670 g/L?"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0278"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metil tiofanat 70%",
+      "aliases": [
+        "Metil tiofanat 70%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0284"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "etofenproks 10%",
+      "aliases": [
+        "Etofenproks 10%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0285"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "epoksikonazol",
+      "aliases": [
+        "epoksikonazol 50 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0286"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metaldehida 12%",
+      "aliases": [
+        "metaldehida 12%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0288"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "monosultap 68%",
+      "aliases": [
+        "monosultap 68%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0290"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "flumioxazin 50%",
+      "aliases": [
+        "flumioxazin 50%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0291"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "triklopir butoksi etil ester",
+      "aliases": [
+        "triklopir butoksi etil ester 670 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0292"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fentin asetat 60%",
+      "aliases": [
+        "fentin asetat 60%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0297"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metomil 45%",
+      "aliases": [
+        "metomil 45%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0298"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "2,4-d dimetil amina",
+      "aliases": [
+        "2,4-D dimetil amina 865 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0301"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "klorotalonil 77%",
+      "aliases": [
+        "klorotalonil 77%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0309"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "glufosinat-p",
+      "aliases": [
+        "glufosinat-P 100 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0317"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "bentazon",
+      "aliases": [
+        "bentazon 400 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0318"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mcpa sodium",
+      "aliases": [
+        "MCPA sodium 60 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0318"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "oksadiazon",
+      "aliases": [
+        "oksadiazon 100 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0320"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tebukonazol 55%",
+      "aliases": [
+        "tebukonazol 55%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0323"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "nitenpiram 20%",
+      "aliases": [
+        "nitenpiram 20%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0325"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "etoksazol",
+      "aliases": [
+        "etoksazol 20 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0327"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metalaksil-m 4%",
+      "aliases": [
+        "metalaksil-M 4%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0328"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "acetamiprid 15%",
+      "aliases": [
+        "acetamiprid 15%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0330"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "alpha-cypermethrin",
+      "aliases": [
+        "alpha-cypermethrin 50 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0333"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "dikamba",
+      "aliases": [
+        "dikamba 480 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0335"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "benomil 50%",
+      "aliases": [
+        "benomil 50%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0336"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "bifenthrin 10%",
+      "aliases": [
+        "bifenthrin 10%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0337"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "sodium bispyribac",
+      "aliases": [
+        "sodium bispyribac 400 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0340"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "diuron 80%",
+      "aliases": [
+        "diuron 80%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0341"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "heksakonazol 5%",
+      "aliases": [
+        "heksakonazol 5%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0343"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metalaksil 8%",
+      "aliases": [
+        "metalaksil 8%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0344"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tembotrion 34.4%",
+      "aliases": [
+        "tembotrion 34.4%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0349"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tembaga oksiklorida 85%",
+      "aliases": [
+        "tembaga oksiklorida 85%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0353"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "nikosulfuron 2%",
+      "aliases": [
+        "nikosulfuron 2%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0354"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mesotrion 4%",
+      "aliases": [
+        "mesotrion 4%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0354"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "atrazin 20%",
+      "aliases": [
+        "atrazin 20%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0354"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fenvalerat",
+      "aliases": [
+        "fenvalerat 200 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0355"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "pretilaklor 30%",
+      "aliases": [
+        "pretilaklor 30%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0357"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "pyrazosulfuron-ethyl 0.75%",
+      "aliases": [
+        "pyrazosulfuron-ethyl 0.75%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0357"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "atrazin 72%",
+      "aliases": [
+        "atrazin 72%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0358"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "nikosulfuron 8%",
+      "aliases": [
+        "nikosulfuron 8%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0358"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fenobukarb",
+      "aliases": [
+        "fenobukarb 500 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0359"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "imazetapir",
+      "aliases": [
+        "imazetapir 100 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0361"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "sulfur 80% wdg",
+      "aliases": [
+        "sulfur 80% WDG"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0362"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "bispyribac sodium 10%",
+      "aliases": [
+        "bispyribac sodium 10%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0364"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "emamektin benzoat 5%",
+      "aliases": [
+        "emamektin benzoat 5%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0365"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "imidacloprid 30.5%",
+      "aliases": [
+        "imidacloprid 30.5%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0366"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "thiamethoxam",
+      "aliases": [
+        "thiamethoxam 141 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0367"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "clodinafop-propargyl 15%",
+      "aliases": [
+        "clodinafop-propargyl 15%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0368"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "penoxsulam",
+      "aliases": [
+        "penoxsulam 15 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0371"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "pretilachlor",
+      "aliases": [
+        "pretilachlor 385 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0371"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "azoksistrobin 11%",
+      "aliases": [
+        "azoksistrobin 11%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0372"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tebukonazol 18.3%",
+      "aliases": [
+        "tebukonazol 18.3%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0372"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "azoksistrobin 18.2%",
+      "aliases": [
+        "azoksistrobin 18.2%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0376"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "difenokonazol 11.4%",
+      "aliases": [
+        "difenokonazol 11.4%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0376"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "pendimetalin 30%",
+      "aliases": [
+        "pendimetalin 30%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0377"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "paraquat dichloride 24%",
+      "aliases": [
+        "paraquat dichloride 24%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0379"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "diafenthiuron 50%",
+      "aliases": [
+        "diafenthiuron 50%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0380"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "pyriproxyfen 10%",
+      "aliases": [
+        "pyriproxyfen 10%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0381"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "isoprotiolan",
+      "aliases": [
+        "isoprotiolan 400 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0384"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "pyriproxyfen 5%",
+      "aliases": [
+        "pyriproxyfen 5%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0385"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "diafenthiuron 25%",
+      "aliases": [
+        "diafenthiuron 25%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0385"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metribuzin 70%",
+      "aliases": [
+        "metribuzin 70%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0387"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "sianoksol? / cymoxanil 60%",
+      "aliases": [
+        "sianoksol? / cymoxanil 60%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0388"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "chlorantraniliprole 18.5%",
+      "aliases": [
+        "chlorantraniliprole 18.5%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0391"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "sulfosulfuron 75%",
+      "aliases": [
+        "sulfosulfuron 75%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0395"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fomesafen",
+      "aliases": [
+        "fomesafen 95 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0396"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "quizalofop-p-ethyl",
+      "aliases": [
+        "quizalofop-P-ethyl 25 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0396"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "pymetrozine 40%",
+      "aliases": [
+        "pymetrozine 40%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0398"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "propikonazol 25%",
+      "aliases": [
+        "propikonazol 25%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0400"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tebukonazol 10%",
+      "aliases": [
+        "tebukonazol 10%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0405"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "sulfur 65%",
+      "aliases": [
+        "sulfur 65%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0405"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tebukonazol 25.9%",
+      "aliases": [
+        "tebukonazol 25.9%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0406"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "pyrazosulfuron-ethyl 10%",
+      "aliases": [
+        "pyrazosulfuron-ethyl 10%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0409"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "propineb 54.2%",
+      "aliases": [
+        "propineb 54.2%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0410"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tricyclazole 15%",
+      "aliases": [
+        "tricyclazole 15%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0410"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "zn 3.66%",
+      "aliases": [
+        "Zn 3.66%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0411"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "b 0.16%",
+      "aliases": [
+        "B 0.16%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0411"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fe 0.10%",
+      "aliases": [
+        "Fe 0.10%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0411"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mn 0.02%",
+      "aliases": [
+        "Mn 0.02%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0411"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "amino acids",
+      "aliases": [
+        "amino acids"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0411"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mankozeb 63%",
+      "aliases": [
+        "mankozeb 63%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0412"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "karbendazim 12%",
+      "aliases": [
+        "karbendazim 12%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0412"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fluchloraminopyr",
+      "aliases": [
+        "fluchloraminopyr 200 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0417"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tripirasulfon",
+      "aliases": [
+        "tripirasulfon 90 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0436"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "cinflubrolin",
+      "aliases": [
+        "cinflubrolin 120 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0439"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "halauxifen-methyl",
+      "aliases": [
+        "halauxifen-methyl 3 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0440"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tembotrion",
+      "aliases": [
+        "tembotrion 80 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0456"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "permetrin",
+      "aliases": [
+        "Permetrin 20 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0460"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "imidakloprid 10%",
+      "aliases": [
+        "imidakloprid 10%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0465"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "hidrolisis enzimatik protein",
+      "aliases": [
+        "hidrolisis enzimatik protein 400 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0470"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "asam amino bebas",
+      "aliases": [
+        "asam amino bebas 100 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0470"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "ethoxysulfuron",
+      "aliases": [
+        "ethoxysulfuron 20 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0471"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "proprietary cellulose",
+      "aliases": [
+        "proprietary cellulose"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0472"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "alcohol ethoxylated polymer",
+      "aliases": [
+        "alcohol ethoxylated polymer"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0472"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "chlorfluazuron",
+      "aliases": [
+        "chlorfluazuron 50 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0475"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "nicosulfuron",
+      "aliases": [
+        "nicosulfuron 30 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0477"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "atrazine?",
+      "aliases": [
+        "atrazine?"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0477"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "copper hydroxide 77%",
+      "aliases": [
+        "copper hydroxide 77%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0480"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tricyclazole",
+      "aliases": [
+        "tricyclazole"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0482"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "deltamethrin",
+      "aliases": [
+        "deltamethrin 100 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0483"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "flubendiamide",
+      "aliases": [
+        "flubendiamide 200 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0484"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "sulfur 80%",
+      "aliases": [
+        "sulfur 80%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0488"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "copper oxychloride/sulfate mixture",
+      "aliases": [
+        "copper oxychloride/sulfate mixture"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0489"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "propamocarb hydrochloride",
+      "aliases": [
+        "propamocarb hydrochloride 722 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0492"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "chlorothalonil 82.5%",
+      "aliases": [
+        "chlorothalonil 82.5%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0495"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "potassium glyphosate",
+      "aliases": [
+        "potassium glyphosate 440 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0496"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "emamectin benzoate 5.7%",
+      "aliases": [
+        "emamectin benzoate 5.7%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0497"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "glyphosate",
+      "aliases": [
+        "glyphosate"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0499"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "triclopyr bee",
+      "aliases": [
+        "triclopyr BEE 665 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0500"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tiafenacil 70%",
+      "aliases": [
+        "tiafenacil 70%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0505"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "maneb 80%",
+      "aliases": [
+        "maneb 80%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0506"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "natrium para-nitrofenol",
+      "aliases": [
+        "natrium para-nitrofenol 3 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0512"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "natrium orto-nitrofenol",
+      "aliases": [
+        "natrium orto-nitrofenol 2 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0512"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "natrium 5-nitroguaiakol",
+      "aliases": [
+        "natrium 5-nitroguaiakol 1 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0512"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mg",
+      "aliases": [
+        "Mg"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0513"
+      ],
+      "domain": "nutrition",
+      "status": "excluded_from_pesticide_ai"
+    },
+    {
+      "normalized_name": "co",
+      "aliases": [
+        "Co"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0513"
+      ],
+      "domain": "nutrition",
+      "status": "excluded_from_pesticide_ai"
+    },
+    {
+      "normalized_name": "ni",
+      "aliases": [
+        "Ni"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0513"
+      ],
+      "domain": "nutrition",
+      "status": "excluded_from_pesticide_ai"
+    },
+    {
+      "normalized_name": "mo",
+      "aliases": [
+        "Mo"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0513"
+      ],
+      "domain": "nutrition",
+      "status": "excluded_from_pesticide_ai"
+    },
+    {
+      "normalized_name": "asam organik & protein",
+      "aliases": [
+        "asam organik & protein"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0513"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "p2o5 4%",
+      "aliases": [
+        "P2O5 4%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0514"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "k2o 6%",
+      "aliases": [
+        "K2O 6%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0514"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "b2o3",
+      "aliases": [
+        "B2O3"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0514"
+      ],
+      "domain": "nutrition",
+      "status": "excluded_from_pesticide_ai"
+    },
+    {
+      "normalized_name": "mno",
+      "aliases": [
+        "MnO"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0514"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "cao",
+      "aliases": [
+        "CaO"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0514"
+      ],
+      "domain": "nutrition",
+      "status": "excluded_from_pesticide_ai"
+    },
+    {
+      "normalized_name": "trehalose",
+      "aliases": [
+        "trehalose"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0514"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "n",
+      "aliases": [
+        "N"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0515"
+      ],
+      "domain": "nutrition",
+      "status": "excluded_from_pesticide_ai"
+    },
+    {
+      "normalized_name": "p2o5",
+      "aliases": [
+        "P2O5"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0515"
+      ],
+      "domain": "nutrition",
+      "status": "excluded_from_pesticide_ai"
+    },
+    {
+      "normalized_name": "k2o",
+      "aliases": [
+        "K2O"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0515"
+      ],
+      "domain": "nutrition",
+      "status": "excluded_from_pesticide_ai"
+    },
+    {
+      "normalized_name": "glukosa",
+      "aliases": [
+        "glukosa"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0515"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "sukrosa",
+      "aliases": [
+        "sukrosa"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0515"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "asam sitrat",
+      "aliases": [
+        "asam sitrat"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0515"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "asam suksinat",
+      "aliases": [
+        "asam suksinat"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0515"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "asam malat",
+      "aliases": [
+        "asam malat"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0515"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "asam tartarat",
+      "aliases": [
+        "asam tartarat"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0515"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "edta",
+      "aliases": [
+        "EDTA"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0515"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "adjuvant",
+      "aliases": [
+        "adjuvant"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0515"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "bpmc",
+      "aliases": [
+        "BPMC 480 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0517"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "diazinon 10%",
+      "aliases": [
+        "diazinon 10%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0519"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "diazinon",
+      "aliases": [
+        "diazinon 600 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0520"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "dinotefuran",
+      "aliases": [
+        "dinotefuran 250 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0523"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "flometoquin",
+      "aliases": [
+        "flometoquin 106 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0524"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fosthiazate",
+      "aliases": [
+        "fosthiazate 100 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0526"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mipc 50%",
+      "aliases": [
+        "MIPC 50%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0528"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "bisultap/dimehipo",
+      "aliases": [
+        "bisultap/dimehipo 400 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0529"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "karbofuran 3%",
+      "aliases": [
+        "karbofuran 3%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0531"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "alfametrin",
+      "aliases": [
+        "alfametrin 15 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0533"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "nitenpiram 25%",
+      "aliases": [
+        "nitenpiram 25%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0534"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "imidakloprid 5%",
+      "aliases": [
+        "imidakloprid 5%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0537"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metomil 27%",
+      "aliases": [
+        "metomil 27%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0541"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "ametrin 80%",
+      "aliases": [
+        "ametrin 80%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0543"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mankozeb 60%",
+      "aliases": [
+        "mankozeb 60%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0546"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mankozeb 70%",
+      "aliases": [
+        "mankozeb 70%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0547"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "karbendazim 10%",
+      "aliases": [
+        "karbendazim 10%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0547"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "dimetomorf 60%",
+      "aliases": [
+        "dimetomorf 60%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0565"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "thiobencarb",
+      "aliases": [
+        "thiobencarb"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0566"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "2,4-d ibe",
+      "aliases": [
+        "2,4-D IBE"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0566"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metil tiofanat 75%",
+      "aliases": [
+        "metil tiofanat 75%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0567"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fluroksipir mhe",
+      "aliases": [
+        "Fluroksipir MHE 480 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0573"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "triklopir bee",
+      "aliases": [
+        "Triklopir BEE 480 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0577"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "malation",
+      "aliases": [
+        "malation 500 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0583"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "glifosat",
+      "aliases": [
+        "glifosat 520 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0599"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "acetamiprid 24%",
+      "aliases": [
+        "acetamiprid 24%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0605"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "siprokonazol",
+      "aliases": [
+        "siprokonazol 80 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0608"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "triflumezopyrim 20%",
+      "aliases": [
+        "triflumezopyrim 20%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0614"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "dimetomorf 12,3%",
+      "aliases": [
+        "Dimetomorf 12,3%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0617"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "piraklostrobin 6,7%",
+      "aliases": [
+        "Piraklostrobin 6,7%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0617"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tiorantraniliprol",
+      "aliases": [
+        "Tiorantraniliprol 100 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0618"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "2,4-d dimethylammonium",
+      "aliases": [
+        "2,4-D Dimethylammonium 825 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0747"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "gibberellic acid 20%",
+      "aliases": [
+        "gibberellic acid 20%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0804"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "gibberellic acid",
+      "aliases": [
+        "gibberellic acid 40 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0805"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "triazophos",
+      "aliases": [
+        "triazophos 400 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0806"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "atrazine 48%",
+      "aliases": [
+        "atrazine 48%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0808"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "nicosulfuron 4%",
+      "aliases": [
+        "nicosulfuron 4%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0808"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "isoprothiolane",
+      "aliases": [
+        "isoprothiolane 440 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0810"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "oxadiazon",
+      "aliases": [
+        "oxadiazon 380 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0811"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "dimehypo",
+      "aliases": [
+        "dimehypo 400 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0818"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tolfenpyrad",
+      "aliases": [
+        "Tolfenpyrad 106 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0823"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "flumioxazin",
+      "aliases": [
+        "Flumioxazin 32 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0826"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tembaga hidroksida",
+      "aliases": [
+        "Tembaga hidroksida 545 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0827"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "oksadiargil",
+      "aliases": [
+        "Oksadiargil 32 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0828"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "28-homobrassinolide",
+      "aliases": [
+        "28-Homobrassinolide 0,03 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0835"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "asam giberelat (a4",
+      "aliases": [
+        "Asam giberelat (A4"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0835"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "a7)",
+      "aliases": [
+        "A7) 4,97 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0835"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "spinosad",
+      "aliases": [
+        "Spinosad 100 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0845"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "himeksazol",
+      "aliases": [
+        "Himeksazol 320 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0847"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metalaksil-m",
+      "aliases": [
+        "Metalaksil-M 46 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0847"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "protiokonazol",
+      "aliases": [
+        "Protiokonazol 170 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0848"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fenoksanil",
+      "aliases": [
+        "Fenoksanil 112 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0849"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "simoksanil",
+      "aliases": [
+        "Simoksanil 170 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0850"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "campuran pupuk organik & nutrisi tanaman",
+      "aliases": [
+        "Campuran pupuk organik & nutrisi tanaman"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0852"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "bahan pembasah/perata/perekat (komposisi rinci perlu verifikasi label)",
+      "aliases": [
+        "Bahan pembasah/perata/perekat (komposisi rinci perlu verifikasi label)"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0862"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "pupuk lengkap larut air",
+      "aliases": [
+        "Pupuk lengkap larut air"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0868"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mikro edta chelated",
+      "aliases": [
+        "mikro EDTA chelated"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0868"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metiram 55 %",
+      "aliases": [
+        "Metiram 55 %"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0873"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "piraklostrobin 5 %",
+      "aliases": [
+        "Piraklostrobin 5 %"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0873"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "emamektin benzoat 7%",
+      "aliases": [
+        "Emamektin benzoat 7%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0907"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "klorbenzuron 30%",
+      "aliases": [
+        "Klorbenzuron 30%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0907"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "bahan aktif kombinasi 30/30%",
+      "aliases": [
+        "Bahan aktif kombinasi 30/30%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0909"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metomil 77%",
+      "aliases": [
+        "Metomil 77%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0911"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "bahan aktif kombinasi 100/400/50 g/l",
+      "aliases": [
+        "Bahan aktif kombinasi 100/400/50 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0913"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "emamektin benzoat 7 %",
+      "aliases": [
+        "Emamektin Benzoat 7 %"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0917"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "klorbenzuron 30 %",
+      "aliases": [
+        "Klorbenzuron 30 %"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0917"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "klotianidin 30 %",
+      "aliases": [
+        "Klotianidin 30 %"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0920"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metidation 30 %",
+      "aliases": [
+        "Metidation 30 %"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0920"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "klorfenvinfos",
+      "aliases": [
+        "Klorfenvinfos 300 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0923"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "hexaconazole 8%",
+      "aliases": [
+        "hexaconazole 8%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0924"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "prochloraz 54%",
+      "aliases": [
+        "prochloraz 54%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0924"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "asefat",
+      "aliases": [
+        "Asefat 150 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0925"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "pymetrozine 30%",
+      "aliases": [
+        "pymetrozine 30%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0929"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fenpropatrin",
+      "aliases": [
+        "Fenpropatrin 251 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0931"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "metidation",
+      "aliases": [
+        "Metidation 400 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0932"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tebuconazole 20%",
+      "aliases": [
+        "tebuconazole 20%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0933"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "copper acetate 20%",
+      "aliases": [
+        "copper acetate 20%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0933"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "flusilazole",
+      "aliases": [
+        "flusilazole 300 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0935"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "myclobutanil",
+      "aliases": [
+        "myclobutanil 150 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0935"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "buprofezin 25 %",
+      "aliases": [
+        "Buprofezin 25 %"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0937"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mipc 25 %",
+      "aliases": [
+        "MIPC 25 %"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0937"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "carbendazim",
+      "aliases": [
+        "carbendazim 100 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0938"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "prochloraz",
+      "aliases": [
+        "prochloraz 350 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0938"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "methoxyfenozide 20%",
+      "aliases": [
+        "methoxyfenozide 20%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0939"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "chlorbenzuron 35%",
+      "aliases": [
+        "chlorbenzuron 35%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0939"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mancozeb 70%",
+      "aliases": [
+        "mancozeb 70%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0948"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "azoxystrobin 5%",
+      "aliases": [
+        "azoxystrobin 5%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0948"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "spirodiclofen",
+      "aliases": [
+        "spirodiclofen 240 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0953"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "permethrin 5%",
+      "aliases": [
+        "permethrin 5%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0954"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "imidacloprid 1.8%",
+      "aliases": [
+        "imidacloprid 1.8%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0959"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "cypermethrin 94%",
+      "aliases": [
+        "cypermethrin 94%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0960"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "napropamide 50%",
+      "aliases": [
+        "napropamide 50%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0962"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fludioxonil",
+      "aliases": [
+        "fludioxonil 25 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0971"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "glufosinate-ammonium (equivalent glufosinate)",
+      "aliases": [
+        "glufosinate-ammonium 50 g/L (equivalent glufosinate 37 g/L)"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0973"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "ipfencarbazone",
+      "aliases": [
+        "ipfencarbazone 250 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0974"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "topramezone",
+      "aliases": [
+        "topramezone 336 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0979"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "pymetrozine 36%",
+      "aliases": [
+        "pymetrozine 36%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0980"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "dinotefuran 11%",
+      "aliases": [
+        "dinotefuran 11%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0980"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "imidacloprid 5%",
+      "aliases": [
+        "imidacloprid 5%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0983"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "magnesium phosphide 56%",
+      "aliases": [
+        "magnesium phosphide 56%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0987"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "magnesium phosphide 66%",
+      "aliases": [
+        "magnesium phosphide 66%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0988"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mancozeb 62.5%",
+      "aliases": [
+        "mancozeb 62.5%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0991"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mancozeb 68%",
+      "aliases": [
+        "mancozeb 68%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0994"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "cymoxanil 5%",
+      "aliases": [
+        "cymoxanil 5%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0994"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tribasic copper sulfate 81%",
+      "aliases": [
+        "tribasic copper sulfate 81%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0995"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "permethrin 94%",
+      "aliases": [
+        "permethrin 94%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0998"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "ethyl pyrazosulfuron 0.75%",
+      "aliases": [
+        "ethyl pyrazosulfuron 0.75%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0999"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "pretilachlor 30%",
+      "aliases": [
+        "pretilachlor 30%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-0999"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "thifluzamide",
+      "aliases": [
+        "thifluzamide 240 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-1000"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mcpa 7.5%",
+      "aliases": [
+        "MCPA 7.5%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-1007"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "ammonium glyphosate 75% (equivalent glyphosate 56%)",
+      "aliases": [
+        "ammonium glyphosate 75% (equivalent glyphosate 56%)"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-1010"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "clethodim",
+      "aliases": [
+        "clethodim 240 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-1012"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "fipronil 80%",
+      "aliases": [
+        "fipronil 80%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-1022"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mankozeb 59.7%",
+      "aliases": [
+        "mankozeb 59.7%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-1024"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "azoksistrobin 4.7%",
+      "aliases": [
+        "azoksistrobin 4.7%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-1024"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tebukonazol 5.6%",
+      "aliases": [
+        "tebukonazol 5.6%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-1024"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mancozeb 59.7%",
+      "aliases": [
+        "mancozeb 59.7%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-1025"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "azoxystrobin 4.7%",
+      "aliases": [
+        "azoxystrobin 4.7%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-1025"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tebuconazole 5.6%",
+      "aliases": [
+        "tebuconazole 5.6%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-1025"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mancozeb 75%",
+      "aliases": [
+        "mancozeb 75%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-1027"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "sulfur",
+      "aliases": [
+        "sulfur 640 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-1031"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "tribasic copper sulfate",
+      "aliases": [
+        "tribasic copper sulfate 80 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-1031"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "lambda sihalotrin",
+      "aliases": [
+        "Lambda sihalotrin 106 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-1036"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "pyriftalid",
+      "aliases": [
+        "pyriftalid 366 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-1039"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "asetamiprid 24%",
+      "aliases": [
+        "Asetamiprid 24%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-1044"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "diafenthiuron",
+      "aliases": [
+        "diafenthiuron 500 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-1053"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "pimetrozin 50%",
+      "aliases": [
+        "Pimetrozin 50%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-1054"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "mefenoksam 4%",
+      "aliases": [
+        "Mefenoksam 4%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-1056"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "etoksisulfuron",
+      "aliases": [
+        "Etoksisulfuron 30 g/L"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-1059"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    },
+    {
+      "normalized_name": "triflumezopirim 20%",
+      "aliases": [
+        "Triflumezopirim 20%"
+      ],
+      "product_count": 1,
+      "product_ids": [
+        "pestdb-clean-1063"
+      ],
+      "domain": "candidate_pesticide_ai",
+      "status": "candidate"
+    }
+  ]
+}
