@@ -15,5 +15,16 @@
       "Added reusable UI icon set and emoji-to-SVG runtime replacer.",
       "Preserved source terminology and media provenance."
     ]
+  },
+  {
+    "version": "2026.10.15-media-sync",
+    "date": "2026-10-15",
+    "changes": [
+      "Data Manager: panel foto OPT dengan Publish ke GitHub (satu commit berisi foto + JSON record); tambah, ganti, hapus, dan tautkan file yang sudah ada.",
+      "Data Manager: draft hanya menyimpan dataset yang berubah dan memakai hash data repo; dataset gagal-muat tidak lagi bisa menimpa data dengan array kosong.",
+      "Data Manager: field array (gejala, hosts, dll.) tidak lagi berubah menjadi string saat record diedit; ID record OPT baru memakai slug.",
+      "Data: 40 local_path dimigrasi ke assets/opt-media/; hapus entri foto yang salah (Xanthomonas memakai gambar PepYLCIV, S. litura memakai foto gejala S. exigua); hapus 2 file duplikat byte-identik.",
+      "scripts/audit-opt-media.mjs: tidak lagi menormalkan path; cek prefix lama, file identik, ekstensi vs isi, dan file yatim."
+    ]
   }
 ]
