@@ -160,6 +160,14 @@
         "source_url": "",
         "attribution": "Ilustrasi pengguna — Crop Expert",
         "notes": "Ilustrasi siklus hidup Fall Armyworm (FAW): telur, larva, pupa, dan imago."
+      },
+      {
+        "image_type": "symptom_reference",
+        "local_path": "assets/opt-media/photos/spodoptera-frugiperda-symptom-reference.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": "Gejala serangan pada jagung"
       }
     ],
     "aliases": [
