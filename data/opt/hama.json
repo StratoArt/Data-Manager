@@ -285,12 +285,31 @@
         "notes": "Foto referensi berlisensi/sumber publik; cek halaman sumber untuk ketentuan penggunaan."
       },
       {
-        "image_type": "ai_illustration",
-        "local_path": "assets/opt-media/photos/helicoverpa-armigera.webp",
+        "image_type": "organism",
+        "stage": "nimfa",
+        "local_path": "assets/opt-media/photos/helicoverpa-armigera-nimfa.webp",
         "remote_url": "",
         "source_url": "",
-        "attribution": "Crop Expert — ilustrasi AI",
-        "notes": "Ilustrasi AI untuk pembelajaran bentuk/gejala; BUKAN foto diagnostik."
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": "Imago"
+      },
+      {
+        "image_type": "organism",
+        "stage": "larva",
+        "local_path": "assets/opt-media/photos/helicoverpa-armigera-larva.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": "Larva"
+      },
+      {
+        "image_type": "lifecycle",
+        "stage": "lifecycle",
+        "local_path": "assets/opt-media/reference/helicoverpa-armigera-lifecycle.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": ""
       }
     ],
     "description": "Ulat buah menyerang pucuk, bunga dan terutama buah. Larva dapat masuk ke buah sehingga kerusakan dari luar terlihat sebagai lubang masuk disertai kotoran.",
