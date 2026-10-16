@@ -215,6 +215,33 @@
         "author": "See source page",
         "attribution": "Plutella xylostella — Wikimedia Commons source.",
         "notes": "James K. Lindsey; diamondback moth."
+      },
+      {
+        "image_type": "organism",
+        "stage": "larva",
+        "local_path": "assets/opt-media/photos/plutella-xylostella-larva.webp",
+        "remote_url": "",
+        "source_url": "https://www.ukmoths.org.uk/species/plutella-xylostella/larva/",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": "Larva dari Plutella xylostella"
+      },
+      {
+        "image_type": "symptom_reference",
+        "stage": "gejala",
+        "local_path": "assets/opt-media/photos/plutella-xylostella-gejala.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": "Serangan larva pada daun"
+      },
+      {
+        "image_type": "lifecycle",
+        "stage": "lifecycle",
+        "local_path": "assets/opt-media/reference/plutella-xylostella-lifecycle.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": "Siklus Hidup Plutella xylstella"
       }
     ],
     "provenance": {
