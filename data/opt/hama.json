@@ -43,7 +43,7 @@
       {
         "image_type": "symptom_reference",
         "stage": "gejala",
-        "local_path": "assets/opt/photos/spodoptera-exigua-symptom.webp",
+        "local_path": "assets/opt-media/photos/spodoptera-exigua-symptom.webp",
         "remote_url": "",
         "source_url": "",
         "attribution": "Foto pengguna — Crop Expert",
@@ -52,7 +52,7 @@
       {
         "image_type": "organism",
         "stage": "imago",
-        "local_path": "assets/opt/photos/spodoptera-exigua-adult.webp",
+        "local_path": "assets/opt-media/photos/spodoptera-exigua-adult.webp",
         "remote_url": "",
         "source_url": "",
         "attribution": "Foto pengguna — Crop Expert",
@@ -61,7 +61,7 @@
       {
         "image_type": "organism",
         "stage": "larva",
-        "local_path": "assets/opt/photos/spodoptera-exigua-larva.webp",
+        "local_path": "assets/opt-media/photos/spodoptera-exigua-larva.webp",
         "remote_url": "",
         "source_url": "",
         "attribution": "Foto pengguna — Crop Expert",
@@ -70,7 +70,7 @@
       {
         "image_type": "lifecycle",
         "stage": "lifecycle",
-        "local_path": "assets/opt/photos/spodoptera-exigua-lifecycle.jpg",
+        "local_path": "assets/opt-media/photos/spodoptera-exigua-lifecycle.jpg",
         "remote_url": "",
         "source_url": "",
         "attribution": "Ilustrasi pengguna — Crop Expert",
@@ -137,7 +137,7 @@
       {
         "image_type": "organism",
         "stage": "larva",
-        "local_path": "assets/opt/photos/spodoptera-frugiperda-larva.webp",
+        "local_path": "assets/opt-media/photos/spodoptera-frugiperda-larva.webp",
         "remote_url": "",
         "source_url": "",
         "attribution": "Foto pengguna — Crop Expert",
@@ -146,7 +146,7 @@
       {
         "image_type": "species_reference",
         "stage": "larva",
-        "local_path": "assets/opt/photos/spodoptera-frugiperda-characteristics.webp",
+        "local_path": "assets/opt-media/photos/spodoptera-frugiperda-characteristics.webp",
         "remote_url": "",
         "source_url": "",
         "attribution": "Ilustrasi pengguna — Crop Expert",
@@ -155,7 +155,7 @@
       {
         "image_type": "lifecycle",
         "stage": "lifecycle",
-        "local_path": "assets/opt/photos/spodoptera-frugiperda-lifecycle.webp",
+        "local_path": "assets/opt-media/photos/spodoptera-frugiperda-lifecycle.webp",
         "remote_url": "",
         "source_url": "",
         "attribution": "Ilustrasi pengguna — Crop Expert",
@@ -251,7 +251,7 @@
       },
       {
         "image_type": "ai_illustration",
-        "local_path": "assets/opt/photos/helicoverpa-armigera.webp",
+        "local_path": "assets/opt-media/photos/helicoverpa-armigera.webp",
         "remote_url": "",
         "source_url": "",
         "attribution": "Crop Expert — ilustrasi AI",
@@ -310,7 +310,7 @@
     "images": [
       {
         "image_type": "ai_illustration",
-        "local_path": "assets/opt/photos/thrips-parvispinus.webp",
+        "local_path": "assets/opt-media/photos/thrips-parvispinus.webp",
         "remote_url": "",
         "source_url": "",
         "attribution": "Crop Expert — ilustrasi AI",
@@ -384,7 +384,7 @@
       },
       {
         "image_type": "ai_illustration",
-        "local_path": "assets/opt/photos/bemisia-tabaci.webp",
+        "local_path": "assets/opt-media/photos/bemisia-tabaci.webp",
         "remote_url": "",
         "source_url": "",
         "attribution": "Crop Expert — ilustrasi AI",
@@ -456,7 +456,7 @@
       },
       {
         "image_type": "ai_illustration",
-        "local_path": "assets/opt/photos/aphis-gossypii.webp",
+        "local_path": "assets/opt-media/photos/aphis-gossypii.webp",
         "remote_url": "",
         "source_url": "",
         "attribution": "Crop Expert — ilustrasi AI",
@@ -607,7 +607,7 @@
       },
       {
         "image_type": "ai_illustration",
-        "local_path": "assets/opt/photos/liriomyza.webp",
+        "local_path": "assets/opt-media/photos/liriomyza.webp",
         "remote_url": "",
         "source_url": "",
         "attribution": "Crop Expert — ilustrasi AI",
@@ -815,7 +815,7 @@
       {
         "image_type": "symptom_reference",
         "stage": "gejala",
-        "local_path": "assets/opt/photos/scirpophaga-innotata-whitehead.webp",
+        "local_path": "assets/opt-media/photos/scirpophaga-innotata-whitehead.webp",
         "remote_url": "",
         "source_url": "",
         "source_name": "Foto pengguna (user-provided)",
@@ -827,7 +827,7 @@
       {
         "image_type": "organism",
         "stage": "larva",
-        "local_path": "assets/opt/photos/scirpophaga-innotata-larva.webp",
+        "local_path": "assets/opt-media/photos/scirpophaga-innotata-larva.webp",
         "remote_url": "",
         "source_url": "",
         "source_name": "Foto pengguna (user-provided)",
@@ -1069,18 +1069,9 @@
     "notes": "Polifag dan menyerang banyak tanaman budidaya.",
     "images": [
       {
-        "image_type": "symptom_reference",
-        "stage": "gejala",
-        "local_path": "assets/opt/photos/spodoptera-exigua-symptom.webp",
-        "remote_url": "",
-        "source_url": "",
-        "attribution": "Foto pengguna — Crop Expert",
-        "notes": "Foto gejala serangan pada bawang yang juga dapat digunakan sebagai contoh gejala lapangan S. litura; gejala bersifat tumpang tindih dan tidak menentukan spesies secara tunggal."
-      },
-      {
         "image_type": "organism",
         "stage": "imago",
-        "local_path": "assets/opt/photos/spodoptera-litura-adult.webp",
+        "local_path": "assets/opt-media/photos/spodoptera-litura-adult.webp",
         "remote_url": "",
         "source_url": "",
         "attribution": "Foto pengguna — Crop Expert",
@@ -1089,7 +1080,7 @@
       {
         "image_type": "organism",
         "stage": "larva",
-        "local_path": "assets/opt/photos/spodoptera-litura-larva.webp",
+        "local_path": "assets/opt-media/photos/spodoptera-litura-larva.webp",
         "remote_url": "",
         "source_url": "",
         "attribution": "Foto pengguna — Crop Expert",
@@ -1155,7 +1146,7 @@
       },
       {
         "image_type": "ai_illustration",
-        "local_path": "assets/opt/photos/agrotis-ipsilon.webp",
+        "local_path": "assets/opt-media/photos/agrotis-ipsilon.webp",
         "remote_url": "",
         "source_url": "",
         "attribution": "Crop Expert — ilustrasi AI",
@@ -1430,7 +1421,7 @@
       },
       {
         "image_type": "ai_illustration",
-        "local_path": "assets/opt/photos/thrips-tabaci.webp",
+        "local_path": "assets/opt-media/photos/thrips-tabaci.webp",
         "remote_url": "",
         "source_url": "",
         "attribution": "Crop Expert — ilustrasi AI",
@@ -1439,7 +1430,7 @@
       {
         "image_type": "lifecycle",
         "stage": "lifecycle",
-        "local_path": "assets/opt/photos/thrips-tabaci-lifecycle.jpg",
+        "local_path": "assets/opt-media/photos/thrips-tabaci-lifecycle.jpg",
         "remote_url": "",
         "source_url": "",
         "attribution": "Ilustrasi pengguna — Crop Expert",
@@ -1448,7 +1439,7 @@
       {
         "image_type": "organism",
         "stage": "imago",
-        "local_path": "assets/opt/photos/thrips-tabaci-adult.webp",
+        "local_path": "assets/opt-media/photos/thrips-tabaci-adult.webp",
         "remote_url": "",
         "source_url": "",
         "attribution": "Foto pengguna — Crop Expert",
@@ -1790,7 +1781,7 @@
       },
       {
         "image_type": "ai_illustration",
-        "local_path": "assets/opt/photos/polyphagotarsonemus-latus.webp",
+        "local_path": "assets/opt-media/photos/polyphagotarsonemus-latus.webp",
         "remote_url": "",
         "source_url": "",
         "attribution": "Crop Expert — ilustrasi AI",
@@ -1859,7 +1850,7 @@
       },
       {
         "image_type": "ai_illustration",
-        "local_path": "assets/opt/photos/bactrocera-dorsalis.webp",
+        "local_path": "assets/opt-media/photos/bactrocera-dorsalis.webp",
         "remote_url": "",
         "source_url": "",
         "attribution": "Crop Expert — ilustrasi AI",
@@ -2563,7 +2554,7 @@
     "images": [
       {
         "image_type": "lifecycle",
-        "local_path": "assets/opt/reference/thrips-life-cycle.png",
+        "local_path": "assets/opt-media/reference/thrips-life-cycle.png",
         "remote_url": "",
         "source_url": "",
         "source_name": "Gambar referensi pengguna",
@@ -2574,7 +2565,7 @@
       },
       {
         "image_type": "species_reference",
-        "local_path": "assets/opt/reference/thrips-species-hosts.png",
+        "local_path": "assets/opt-media/reference/thrips-species-hosts.png",
         "remote_url": "",
         "source_url": "",
         "source_name": "Gambar referensi pengguna",
@@ -2648,7 +2639,7 @@
     "images": [
       {
         "image_type": "lifecycle",
-        "local_path": "assets/opt/reference/thrips-life-cycle.png",
+        "local_path": "assets/opt-media/reference/thrips-life-cycle.png",
         "remote_url": "",
         "source_url": "",
         "source_name": "Gambar referensi pengguna",
@@ -2659,7 +2650,7 @@
       },
       {
         "image_type": "species_reference",
-        "local_path": "assets/opt/reference/thrips-species-hosts.png",
+        "local_path": "assets/opt-media/reference/thrips-species-hosts.png",
         "remote_url": "",
         "source_url": "",
         "source_name": "Gambar referensi pengguna",
@@ -2731,7 +2722,7 @@
     "images": [
       {
         "image_type": "lifecycle",
-        "local_path": "assets/opt/reference/thrips-life-cycle.png",
+        "local_path": "assets/opt-media/reference/thrips-life-cycle.png",
         "remote_url": "",
         "source_url": "",
         "source_name": "Gambar referensi pengguna",
@@ -2742,7 +2733,7 @@
       },
       {
         "image_type": "species_reference",
-        "local_path": "assets/opt/reference/thrips-species-hosts.png",
+        "local_path": "assets/opt-media/reference/thrips-species-hosts.png",
         "remote_url": "",
         "source_url": "",
         "source_name": "Gambar referensi pengguna",
@@ -2810,7 +2801,7 @@
     "images": [
       {
         "image_type": "lifecycle",
-        "local_path": "assets/opt/reference/thrips-life-cycle.png",
+        "local_path": "assets/opt-media/reference/thrips-life-cycle.png",
         "remote_url": "",
         "source_url": "",
         "source_name": "Gambar referensi pengguna",
@@ -2821,7 +2812,7 @@
       },
       {
         "image_type": "species_reference",
-        "local_path": "assets/opt/reference/thrips-species-hosts.png",
+        "local_path": "assets/opt-media/reference/thrips-species-hosts.png",
         "remote_url": "",
         "source_url": "",
         "source_name": "Gambar referensi pengguna",
@@ -2888,7 +2879,7 @@
     "images": [
       {
         "image_type": "lifecycle",
-        "local_path": "assets/opt/reference/thrips-life-cycle.png",
+        "local_path": "assets/opt-media/reference/thrips-life-cycle.png",
         "remote_url": "",
         "source_url": "",
         "source_name": "Gambar referensi pengguna",
@@ -2899,7 +2890,7 @@
       },
       {
         "image_type": "species_reference",
-        "local_path": "assets/opt/reference/thrips-species-hosts.png",
+        "local_path": "assets/opt-media/reference/thrips-species-hosts.png",
         "remote_url": "",
         "source_url": "",
         "source_name": "Gambar referensi pengguna",

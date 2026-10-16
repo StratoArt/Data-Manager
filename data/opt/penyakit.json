@@ -64,7 +64,7 @@
     "images": [
       {
         "image_type": "ai_illustration",
-        "local_path": "assets/opt/photos/colletotrichum.webp",
+        "local_path": "assets/opt-media/photos/colletotrichum.webp",
         "remote_url": "",
         "source_url": "",
         "attribution": "Crop Expert — ilustrasi AI",
@@ -151,14 +151,6 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Bacterial_leaf_spot_of_pepper_(Capsicum_sp.)_(43614805831).jpg",
         "attribution": "Wikimedia Commons — CC0",
         "notes": "Foto referensi berlisensi/sumber publik; cek halaman sumber untuk ketentuan penggunaan."
-      },
-      {
-        "image_type": "ai_illustration",
-        "local_path": "assets/opt/photos/xanthomonas.webp",
-        "remote_url": "",
-        "source_url": "",
-        "attribution": "Crop Expert — ilustrasi AI",
-        "notes": "Ilustrasi AI untuk pembelajaran bentuk/gejala; BUKAN foto diagnostik."
       }
     ],
     "life_cycle_reference": {
@@ -423,7 +415,7 @@
       },
       {
         "image_type": "ai_illustration",
-        "local_path": "assets/opt/photos/tomato-bacterial-wilt.webp",
+        "local_path": "assets/opt-media/photos/tomato-bacterial-wilt.webp",
         "remote_url": "",
         "source_url": "",
         "attribution": "Crop Expert — ilustrasi AI",
@@ -721,7 +713,7 @@
       },
       {
         "image_type": "ai_illustration",
-        "local_path": "assets/opt/photos/fusarium-cepae.webp",
+        "local_path": "assets/opt-media/photos/fusarium-cepae.webp",
         "remote_url": "",
         "source_url": "",
         "attribution": "Crop Expert — ilustrasi AI",
@@ -956,7 +948,7 @@
       },
       {
         "image_type": "ai_illustration",
-        "local_path": "assets/opt/photos/onion-downy-mildew.webp",
+        "local_path": "assets/opt-media/photos/onion-downy-mildew.webp",
         "remote_url": "",
         "source_url": "",
         "attribution": "Crop Expert — ilustrasi AI",
@@ -1065,7 +1057,7 @@
       },
       {
         "image_type": "ai_illustration",
-        "local_path": "assets/opt/photos/chili-phytophthora-capsici.webp",
+        "local_path": "assets/opt-media/photos/chili-phytophthora-capsici.webp",
         "remote_url": "",
         "source_url": "",
         "attribution": "Crop Expert — ilustrasi AI",
@@ -1235,7 +1227,7 @@
       },
       {
         "image_type": "ai_illustration",
-        "local_path": "assets/opt/photos/alternaria-porri.webp",
+        "local_path": "assets/opt-media/photos/alternaria-porri.webp",
         "remote_url": "",
         "source_url": "",
         "attribution": "Crop Expert — ilustrasi AI",
@@ -1385,7 +1377,7 @@
       },
       {
         "image_type": "ai_illustration",
-        "local_path": "assets/opt/photos/botrytis-aclada.webp",
+        "local_path": "assets/opt-media/photos/botrytis-aclada.webp",
         "remote_url": "",
         "source_url": "",
         "attribution": "Crop Expert — ilustrasi AI",
@@ -2280,7 +2272,7 @@
       },
       {
         "image_type": "ai_illustration",
-        "local_path": "assets/opt/photos/pepylciv.webp",
+        "local_path": "assets/opt-media/photos/pepylciv.webp",
         "remote_url": "",
         "source_url": "",
         "attribution": "Crop Expert — ilustrasi AI",
