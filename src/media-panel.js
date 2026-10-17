@@ -154,7 +154,7 @@ async function publishMedia() {
   const message = ($('mpMsg') && $('mpMsg').value.trim()) || defaultMessage();
   const st = MP; st.busy = true; st.error = ''; st.status = 'Menyiapkan…'; renderMedia();
   try {
-    const res = await GitHubSync.publishOptMedia(new GitHubSync.Client(cfg), { datasetKey: st.k, recordId: st.id, ops, message, onProgress: s => { st.status = s; const el = document.querySelector('.mp-status'); if (el) el.textContent = s; } });
+    const res = await GitHubSync.publishOptMedia(new GitHubSync.Client(cfg), { datasetKey: st.k, recordId: st.id, ops, message, onProgress: s => { st.status = s; const el = document.querySelector('#mediaPanel .mp-status'); if (el) el.textContent = s; } });
     onPublished(st, res);
   } catch (e) { st.error = e.message; toast(e.message, 'err'); }
   st.busy = false; if (MP === st) renderMedia();

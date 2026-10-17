@@ -26,5 +26,15 @@
       "Data: 40 local_path dimigrasi ke assets/opt-media/; hapus entri foto yang salah (Xanthomonas memakai gambar PepYLCIV, S. litura memakai foto gejala S. exigua); hapus 2 file duplikat byte-identik.",
       "scripts/audit-opt-media.mjs: tidak lagi menormalkan path; cek prefix lama, file identik, ekstensi vs isi, dan file yatim."
     ]
+  },
+  {
+    "version": "2026.10.16-detail-editor",
+    "date": "2026-10-16",
+    "changes": [
+      "Data Manager v0.7: editor detail untuk Tanaman, Hama, Penyakit, Gulma — field (deskripsi, tanaman inang, gejala, dll.), icon, bahan aktif terkait, dan produk yang bisa digunakan, disimpan sebagai satu commit ke GitHub.",
+      "Icon: pilih dari assets/icons/index.json (script scripts/build-icon-index.mjs) atau unggah icon sendiri ke assets/icons/custom/ (disimpan sebagai custom/<file> pada field icon).",
+      "Bahan aktif disimpan di record OPT sebagai active_ingredients[{name,note,status:'manual'}]; tautan produk mengubah linked_opt_ids pada produk dan data/relations/product_opt.json secara konsisten.",
+      "Menu Tanaman (crops) ditambahkan ke sidebar."
+    ]
   }
 ]

@@ -1,0 +1,383 @@
+{
+  "version": 1,
+  "icons": [
+    {
+      "value": "acari.svg",
+      "path": "opt/acari.svg",
+      "name": "acari.svg",
+      "dir": "opt",
+      "label": "acari"
+    },
+    {
+      "value": "category-disease.svg",
+      "path": "opt/category-disease.svg",
+      "name": "category-disease.svg",
+      "dir": "opt",
+      "label": "category disease"
+    },
+    {
+      "value": "category-host.svg",
+      "path": "opt/category-host.svg",
+      "name": "category-host.svg",
+      "dir": "opt",
+      "label": "category host"
+    },
+    {
+      "value": "category-pest.svg",
+      "path": "opt/category-pest.svg",
+      "name": "category-pest.svg",
+      "dir": "opt",
+      "label": "category pest"
+    },
+    {
+      "value": "category-weed.svg",
+      "path": "opt/category-weed.svg",
+      "name": "category-weed.svg",
+      "dir": "opt",
+      "label": "category weed"
+    },
+    {
+      "value": "coleoptera.svg",
+      "path": "opt/coleoptera.svg",
+      "name": "coleoptera.svg",
+      "dir": "opt",
+      "label": "coleoptera"
+    },
+    {
+      "value": "crop-banana.svg",
+      "path": "opt/crop-banana.svg",
+      "name": "crop-banana.svg",
+      "dir": "opt",
+      "label": "crop banana"
+    },
+    {
+      "value": "crop-beans.svg",
+      "path": "opt/crop-beans.svg",
+      "name": "crop-beans.svg",
+      "dir": "opt",
+      "label": "crop beans"
+    },
+    {
+      "value": "crop-broccoli.svg",
+      "path": "opt/crop-broccoli.svg",
+      "name": "crop-broccoli.svg",
+      "dir": "opt",
+      "label": "crop broccoli"
+    },
+    {
+      "value": "crop-cabbage.svg",
+      "path": "opt/crop-cabbage.svg",
+      "name": "crop-cabbage.svg",
+      "dir": "opt",
+      "label": "crop cabbage"
+    },
+    {
+      "value": "crop-cacao.svg",
+      "path": "opt/crop-cacao.svg",
+      "name": "crop-cacao.svg",
+      "dir": "opt",
+      "label": "crop cacao"
+    },
+    {
+      "value": "crop-caisim.svg",
+      "path": "opt/crop-caisim.svg",
+      "name": "crop-caisim.svg",
+      "dir": "opt",
+      "label": "crop caisim"
+    },
+    {
+      "value": "crop-cassava.svg",
+      "path": "opt/crop-cassava.svg",
+      "name": "crop-cassava.svg",
+      "dir": "opt",
+      "label": "crop cassava"
+    },
+    {
+      "value": "crop-cauliflower.svg",
+      "path": "opt/crop-cauliflower.svg",
+      "name": "crop-cauliflower.svg",
+      "dir": "opt",
+      "label": "crop cauliflower"
+    },
+    {
+      "value": "crop-chili.svg",
+      "path": "opt/crop-chili.svg",
+      "name": "crop-chili.svg",
+      "dir": "opt",
+      "label": "crop chili"
+    },
+    {
+      "value": "crop-citrus.svg",
+      "path": "opt/crop-citrus.svg",
+      "name": "crop-citrus.svg",
+      "dir": "opt",
+      "label": "crop citrus"
+    },
+    {
+      "value": "crop-coconut.svg",
+      "path": "opt/crop-coconut.svg",
+      "name": "crop-coconut.svg",
+      "dir": "opt",
+      "label": "crop coconut"
+    },
+    {
+      "value": "crop-coffee.svg",
+      "path": "opt/crop-coffee.svg",
+      "name": "crop-coffee.svg",
+      "dir": "opt",
+      "label": "crop coffee"
+    },
+    {
+      "value": "crop-corn.svg",
+      "path": "opt/crop-corn.svg",
+      "name": "crop-corn.svg",
+      "dir": "opt",
+      "label": "crop corn"
+    },
+    {
+      "value": "crop-cucumber.svg",
+      "path": "opt/crop-cucumber.svg",
+      "name": "crop-cucumber.svg",
+      "dir": "opt",
+      "label": "crop cucumber"
+    },
+    {
+      "value": "crop-eggplant.svg",
+      "path": "opt/crop-eggplant.svg",
+      "name": "crop-eggplant.svg",
+      "dir": "opt",
+      "label": "crop eggplant"
+    },
+    {
+      "value": "crop-grape.svg",
+      "path": "opt/crop-grape.svg",
+      "name": "crop-grape.svg",
+      "dir": "opt",
+      "label": "crop grape"
+    },
+    {
+      "value": "crop-kailan.svg",
+      "path": "opt/crop-kailan.svg",
+      "name": "crop-kailan.svg",
+      "dir": "opt",
+      "label": "crop kailan"
+    },
+    {
+      "value": "crop-melon.svg",
+      "path": "opt/crop-melon.svg",
+      "name": "crop-melon.svg",
+      "dir": "opt",
+      "label": "crop melon"
+    },
+    {
+      "value": "crop-mustard.svg",
+      "path": "opt/crop-mustard.svg",
+      "name": "crop-mustard.svg",
+      "dir": "opt",
+      "label": "crop mustard"
+    },
+    {
+      "value": "crop-onion.svg",
+      "path": "opt/crop-onion.svg",
+      "name": "crop-onion.svg",
+      "dir": "opt",
+      "label": "crop onion"
+    },
+    {
+      "value": "crop-pakcoy.svg",
+      "path": "opt/crop-pakcoy.svg",
+      "name": "crop-pakcoy.svg",
+      "dir": "opt",
+      "label": "crop pakcoy"
+    },
+    {
+      "value": "crop-palm.svg",
+      "path": "opt/crop-palm.svg",
+      "name": "crop-palm.svg",
+      "dir": "opt",
+      "label": "crop palm"
+    },
+    {
+      "value": "crop-peanut.svg",
+      "path": "opt/crop-peanut.svg",
+      "name": "crop-peanut.svg",
+      "dir": "opt",
+      "label": "crop peanut"
+    },
+    {
+      "value": "crop-potato.svg",
+      "path": "opt/crop-potato.svg",
+      "name": "crop-potato.svg",
+      "dir": "opt",
+      "label": "crop potato"
+    },
+    {
+      "value": "crop-rice.svg",
+      "path": "opt/crop-rice.svg",
+      "name": "crop-rice.svg",
+      "dir": "opt",
+      "label": "crop rice"
+    },
+    {
+      "value": "crop-soy.svg",
+      "path": "opt/crop-soy.svg",
+      "name": "crop-soy.svg",
+      "dir": "opt",
+      "label": "crop soy"
+    },
+    {
+      "value": "crop-sweet-corn.svg",
+      "path": "opt/crop-sweet-corn.svg",
+      "name": "crop-sweet-corn.svg",
+      "dir": "opt",
+      "label": "crop sweet corn"
+    },
+    {
+      "value": "crop-tea.svg",
+      "path": "opt/crop-tea.svg",
+      "name": "crop-tea.svg",
+      "dir": "opt",
+      "label": "crop tea"
+    },
+    {
+      "value": "crop-tomato.svg",
+      "path": "opt/crop-tomato.svg",
+      "name": "crop-tomato.svg",
+      "dir": "opt",
+      "label": "crop tomato"
+    },
+    {
+      "value": "crop-watermelon.svg",
+      "path": "opt/crop-watermelon.svg",
+      "name": "crop-watermelon.svg",
+      "dir": "opt",
+      "label": "crop watermelon"
+    },
+    {
+      "value": "diptera.svg",
+      "path": "opt/diptera.svg",
+      "name": "diptera.svg",
+      "dir": "opt",
+      "label": "diptera"
+    },
+    {
+      "value": "disease-leaf.svg",
+      "path": "opt/disease-leaf.svg",
+      "name": "disease-leaf.svg",
+      "dir": "opt",
+      "label": "disease leaf"
+    },
+    {
+      "value": "helicoverpa.svg",
+      "path": "opt/helicoverpa.svg",
+      "name": "helicoverpa.svg",
+      "dir": "opt",
+      "label": "helicoverpa"
+    },
+    {
+      "value": "hemiptera.svg",
+      "path": "opt/hemiptera.svg",
+      "name": "hemiptera.svg",
+      "dir": "opt",
+      "label": "hemiptera"
+    },
+    {
+      "value": "isoptera.svg",
+      "path": "opt/isoptera.svg",
+      "name": "isoptera.svg",
+      "dir": "opt",
+      "label": "isoptera"
+    },
+    {
+      "value": "lainnya.svg",
+      "path": "opt/lainnya.svg",
+      "name": "lainnya.svg",
+      "dir": "opt",
+      "label": "lainnya"
+    },
+    {
+      "value": "lepidoptera.svg",
+      "path": "opt/lepidoptera.svg",
+      "name": "lepidoptera.svg",
+      "dir": "opt",
+      "label": "lepidoptera"
+    },
+    {
+      "value": "mollusca.svg",
+      "path": "opt/mollusca.svg",
+      "name": "mollusca.svg",
+      "dir": "opt",
+      "label": "mollusca"
+    },
+    {
+      "value": "nematoda.svg",
+      "path": "opt/nematoda.svg",
+      "name": "nematoda.svg",
+      "dir": "opt",
+      "label": "nematoda"
+    },
+    {
+      "value": "orthoptera.svg",
+      "path": "opt/orthoptera.svg",
+      "name": "orthoptera.svg",
+      "dir": "opt",
+      "label": "orthoptera"
+    },
+    {
+      "value": "plutella.svg",
+      "path": "opt/plutella.svg",
+      "name": "plutella.svg",
+      "dir": "opt",
+      "label": "plutella"
+    },
+    {
+      "value": "rodentia.svg",
+      "path": "opt/rodentia.svg",
+      "name": "rodentia.svg",
+      "dir": "opt",
+      "label": "rodentia"
+    },
+    {
+      "value": "spodoptera.svg",
+      "path": "opt/spodoptera.svg",
+      "name": "spodoptera.svg",
+      "dir": "opt",
+      "label": "spodoptera"
+    },
+    {
+      "value": "thrips.svg",
+      "path": "opt/thrips.svg",
+      "name": "thrips.svg",
+      "dir": "opt",
+      "label": "thrips"
+    },
+    {
+      "value": "thysanoptera.svg",
+      "path": "opt/thysanoptera.svg",
+      "name": "thysanoptera.svg",
+      "dir": "opt",
+      "label": "thysanoptera"
+    },
+    {
+      "value": "weed-broadleaf.svg",
+      "path": "opt/weed-broadleaf.svg",
+      "name": "weed-broadleaf.svg",
+      "dir": "opt",
+      "label": "weed broadleaf"
+    },
+    {
+      "value": "weed-grass.svg",
+      "path": "opt/weed-grass.svg",
+      "name": "weed-grass.svg",
+      "dir": "opt",
+      "label": "weed grass"
+    },
+    {
+      "value": "weed-sedge.svg",
+      "path": "opt/weed-sedge.svg",
+      "name": "weed-sedge.svg",
+      "dir": "opt",
+      "label": "weed sedge"
+    }
+  ]
+}

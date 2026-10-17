@@ -252,6 +252,151 @@
     }, message || `media: perbarui foto ${recordId}`, onProgress);
   }
 
+  /* ======================= Editor detail record (v0.7) ======================= */
+  const RECORD_FILES = Object.assign({}, OPT_FILES, { crops: 'data/master/crops.json' });
+  const PRODUCT_FILE = 'data/products/pestisida.json';
+  const PRODUCT_REL = 'data/relations/product_opt.json';
+  const ICON_DIR = 'assets/icons';
+  const ICON_CUSTOM_DIR = 'assets/icons/custom';
+  const ICON_INDEX = 'assets/icons/index.json';
+  const OPT_COMMON = [
+    ['name', 'Nama ilmiah', 'text'], ['common', 'Nama umum', 'text'], ['category', 'Kategori', 'text'],
+    ['description', 'Deskripsi', 'area'], ['hosts', 'Tanaman inang', 'lines'], ['symptoms', 'Gejala / ciri', 'lines'],
+    ['diagnostic', 'Petunjuk identifikasi', 'area'], ['favorable_conditions', 'Kondisi yang mendukung', 'area'], ['notes', 'Catatan', 'area']
+  ];
+  const withAt = (arr, key, extra) => { const i = arr.findIndex(f => f[0] === key); return [...arr.slice(0, i + 1), ...extra, ...arr.slice(i + 1)]; };
+  const DETAIL_FIELDS = {
+    pests: withAt(withAt(OPT_COMMON, 'category', [['family', 'Famili', 'text']]), 'symptoms', [['life', 'Tahap perkembangan', 'lines']]),
+    diseases: withAt(OPT_COMMON, 'category', [['classification', 'Klasifikasi', 'text'], ['classification_group', 'Golongan teknis', 'text']]),
+    weeds: withAt(OPT_COMMON, 'category', [['classification', 'Klasifikasi', 'text'], ['classification_group', 'Golongan teknis', 'text']]),
+    crops: [['name', 'Nama tanaman', 'text'], ['latin', 'Nama ilmiah', 'text']]
+  };
+
+  function parseDataset(text) {
+    const d = JSON.parse(text);
+    if (Array.isArray(d)) return { wrapper: null, records: d };
+    if (d && Array.isArray(d.records)) return { wrapper: d, records: d.records };
+    throw new Error('Format dataset tidak dikenali (bukan array atau {records}).');
+  }
+  const stringifyDataset = (orig, parsed, records) => serializeLike(orig, parsed.wrapper ? Object.assign({}, parsed.wrapper, { records }) : records);
+
+  function normalizeField(type, v) {
+    if (type === 'lines') return (Array.isArray(v) ? v : String(v == null ? '' : v).split(/\r?\n/)).map(x => String(x).trim()).filter(Boolean);
+    return String(v == null ? '' : v).trim();
+  }
+  function applyFields(rec, fields, kind) {
+    for (const [key, , type] of DETAIL_FIELDS[kind] || []) {
+      if (!fields || !(key in fields)) continue;
+      const v = normalizeField(type, fields[key]);
+      const empty = Array.isArray(v) ? !v.length : v === '';
+      if (empty && !(key in rec)) continue;
+      rec[key] = v;
+    }
+  }
+  function normalizeAI(list) {
+    const seen = new Set(), out = [];
+    for (const a of list || []) {
+      const name = String((a && a.name) || '').trim(); if (!name) continue;
+      const k = name.toLowerCase(); if (seen.has(k)) continue; seen.add(k);
+      const e = { name }; const note = String(a.note || '').trim(); if (note) e.note = note;
+      e.status = 'manual'; out.push(e);
+    }
+    return out;
+  }
+  function pickIconName(recordId, ext, taken) {
+    const base = `${slugify(recordId) || 'icon'}-icon`;
+    const e = String(ext || 'webp').toLowerCase().replace(/^\./, '').replace('jpeg', 'jpg');
+    let name = `${base}.${e}`, n = 1;
+    while (taken.has(name.toLowerCase())) { n++; name = `${base}-${String(n).padStart(2, '0')}.${e}`; }
+    taken.add(name.toLowerCase()); return name;
+  }
+  const ICON_VALUE_RE = /^[A-Za-z0-9][A-Za-z0-9._\-]*(\/[A-Za-z0-9][A-Za-z0-9._\-]*)?$/;
+
+  /*
+   * Ubah detail satu record (atau buat baru bila recordId kosong) dalam SATU commit:
+   *   fields           {key: nilai}          field teks/daftar sesuai DETAIL_FIELDS
+   *   activeIngredients [{name, note}]       hanya OPT; menggantikan seluruh daftar
+   *   icon             {value} | {upload:{base64, ext}} | {value:''} (hapus)
+   *   products         {add:[id], remove:[id]}  hanya OPT; mengubah linked_opt_ids produk + relations/product_opt.json
+   */
+  async function publishRecordEdit(client, { datasetKey, recordId, fields, activeIngredients, icon, products, message, onProgress }) {
+    const path = RECORD_FILES[datasetKey];
+    if (!path) throw new Error('Dataset ini belum mendukung editor detail.');
+    const isOpt = !!OPT_FILES[datasetKey];
+    return client.publish(async parent => {
+      const text = await client.readText(path, parent.sha);
+      const ds = parseDataset(text), records = ds.records.slice(), files = [];
+      const idx = recordId ? records.findIndex(r => r && r.id === recordId) : -1;
+      if (recordId && idx < 0) throw new Error(`Record "${recordId}" tidak ditemukan di repo. Muat ulang halaman.`);
+      let rec;
+      if (idx >= 0) rec = Object.assign({}, records[idx]);
+      else {
+        const nm = String((fields && fields.name) || '').trim();
+        if (!nm) throw new Error('Nama wajib diisi.');
+        const ids = new Set(records.map(r => r && r.id)), base = slugify(nm) || 'item'; let id = base, n = 1;
+        while (ids.has(id)) id = `${base}-${++n}`;
+        rec = { id };
+      }
+      applyFields(rec, fields, datasetKey);
+      if (idx < 0 && !String(rec.name || '').trim()) throw new Error('Nama wajib diisi.');
+      if (idx < 0) { if (isOpt) rec.images = []; rec.provenance = { source: 'Data Manager manual entry', created_at: new Date().toISOString() }; }
+
+      if (isOpt && Array.isArray(activeIngredients)) {
+        const ai = normalizeAI(activeIngredients);
+        if (ai.length || 'active_ingredients' in rec) rec.active_ingredients = ai;
+      }
+
+      let iconPath = null;
+      if (icon && icon.upload) {
+        const taken = new Set((await client.listDir(ICON_CUSTOM_DIR, parent.sha)).filter(f => f.type === 'file').map(f => f.name.toLowerCase()));
+        const name = pickIconName(rec.id, icon.upload.ext, taken);
+        iconPath = `${ICON_CUSTOM_DIR}/${name}`;
+        files.push({ path: iconPath, base64: icon.upload.base64 });
+        rec.icon = `custom/${name}`;
+        let itxt = null;
+        try { itxt = await client.readText(ICON_INDEX, parent.sha); } catch (e) { if (e.status !== 404) throw e; }
+        const idxObj = itxt ? JSON.parse(itxt) : { version: 1, icons: [] };
+        idxObj.icons = (idxObj.icons || []).concat([{ value: `custom/${name}`, path: `custom/${name}`, name, dir: 'custom', label: rec.name || rec.id }]);
+        files.push({ path: ICON_INDEX, text: itxt ? serializeLike(itxt, idxObj) : JSON.stringify(idxObj, null, 2) });
+      } else if (icon && 'value' in icon) {
+        const v = String(icon.value || '').trim();
+        if (v && (!ICON_VALUE_RE.test(v) || v.includes('..'))) throw new Error('Nama icon tidak valid.');
+        rec.icon = v || null;
+      }
+
+      let productRecords = null, relRecords = null;
+      const add = (products && products.add) || [], remove = (products && products.remove) || [];
+      if (isOpt && (add.length || remove.length)) {
+        const ptxt = await client.readText(PRODUCT_FILE, parent.sha), pds = parseDataset(ptxt), prods = pds.records.slice();
+        const rtxt = await client.readText(PRODUCT_REL, parent.sha), rds = parseDataset(rtxt); let rels = rds.records.slice();
+        const byId = new Map(prods.map((p, i) => [p && p.id, i]));
+        let pChanged = false, rChanged = false;
+        for (const pid of add) {
+          const i = byId.get(pid); if (i === undefined) throw new Error(`Produk "${pid}" tidak ada di repo.`);
+          const ids = Array.isArray(prods[i].linked_opt_ids) ? prods[i].linked_opt_ids : [];
+          if (!ids.includes(rec.id)) { prods[i] = Object.assign({}, prods[i], { linked_opt_ids: [...ids, rec.id] }); pChanged = true; }
+          if (!rels.some(r => r.product_id === pid && r.opt_id === rec.id)) { rels.push({ product_id: pid, opt_id: rec.id }); rChanged = true; }
+        }
+        for (const pid of remove) {
+          const i = byId.get(pid);
+          if (i !== undefined && Array.isArray(prods[i].linked_opt_ids) && prods[i].linked_opt_ids.includes(rec.id)) {
+            prods[i] = Object.assign({}, prods[i], { linked_opt_ids: prods[i].linked_opt_ids.filter(x => x !== rec.id) }); pChanged = true;
+          }
+          const before = rels.length; rels = rels.filter(r => !(r.product_id === pid && r.opt_id === rec.id)); if (rels.length !== before) rChanged = true;
+        }
+        if (pChanged) { files.push({ path: PRODUCT_FILE, text: stringifyDataset(ptxt, pds, prods) }); productRecords = prods; }
+        if (rChanged) {
+          if (rds.wrapper) rds.wrapper = Object.assign({}, rds.wrapper, { record_count: rels.length });
+          files.push({ path: PRODUCT_REL, text: stringifyDataset(rtxt, rds, rels) }); relRecords = rels;
+        }
+      }
+
+      const next = records.slice(); if (idx >= 0) next[idx] = rec; else next.push(rec);
+      files.unshift({ path, text: stringifyDataset(text, ds, next) });
+      return { files, result: { records: next, record: rec, created: idx < 0, jsonPath: path, iconPath, productRecords, relRecords } };
+    }, message || `data(${datasetKey}): ${recordId || 'record baru'}`, onProgress);
+  }
+
   /* Daftar semua file media di repo (untuk fitur "tautkan file yang sudah ada"). */
   async function listMediaFiles(client, ref) {
     const out = [];
@@ -274,6 +419,7 @@
 
   return {
     DEFAULTS, OPT_FILES, MEDIA_DIRS, Client, GitHubError,
+    RECORD_FILES, DETAIL_FIELDS, PRODUCT_FILE, PRODUCT_REL, ICON_DIR, ICON_INDEX, publishRecordEdit, parseDataset, normalizeAI, normalizeField,
     normalizePath, imageKey, slugify, defaultDirFor, detectFormat, serializeLike,
     pickFilename, buildEntry, applyOps, publishOptMedia, listMediaFiles, hashString
   };

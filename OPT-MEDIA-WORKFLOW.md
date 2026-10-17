@@ -34,3 +34,15 @@ Aturan penting:
 - Edit teks record masih berupa draft lokal (Export JSON); hanya foto OPT yang di-commit langsung.
 
 Jalankan `node tests/github-sync.test.mjs` dan `node scripts/audit-opt-media.mjs` sebelum merilis.
+
+## Editor detail & icon (v0.7)
+
+Klik record **Tanaman / Hama / Penyakit / Gulma** → editor detail. Semua perubahan disimpan dengan **Simpan ke GitHub** sebagai satu commit (butuh token, lihat bagian "Publish langsung").
+
+- **Detail:** nama ilmiah/umum, kategori, deskripsi, tanaman inang, gejala, tahap perkembangan, petunjuk identifikasi, kondisi mendukung, catatan. Hanya field yang diubah yang ditulis; field lain di record tidak disentuh.
+- **Icon:** pilih dari daftar (`assets/icons/index.json`) atau unggah sendiri (SVG/PNG/WebP/JPG; raster dikecilkan ke 256 px WebP). Icon unggahan disimpan di `assets/icons/custom/` dan field `icon` berisi `custom/<file>`. Jalankan `node scripts/build-icon-index.mjs` bila menambah file icon manual.
+- **Bahan aktif terkait:** daftar nama + catatan, disimpan di `active_ingredients` pada record OPT (status `manual`). PestiApps menampilkannya sebagai "Input manual" di detail OPT.
+- **Produk yang bisa digunakan:** cari di Database Pestisida lalu Tambah/Lepas. Ini mengubah `linked_opt_ids` pada produk dan `data/relations/product_opt.json` dalam commit yang sama. PestiApps membaca `linked_opt_ids`.
+- **Record baru:** tombol + Tambah di halaman Hama/Penyakit/Gulma/Tanaman (id dibuat dari nama; foto bisa ditambahkan setelah record tersimpan).
+- Editor ini membaca data terbaru dari branch saat menyimpan, jadi tidak menimpa perubahan lain. Menghapus record belum didukung dari editor ini.
+- PestiApps butuh versi 0.27.0+ untuk menampilkan icon kustom dan bahan aktif manual.
