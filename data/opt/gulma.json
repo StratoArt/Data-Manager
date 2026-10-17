@@ -272,7 +272,25 @@
       "source_file": "data/opt.json",
       "source_dataset": "weeds",
       "migration": "exact-source-copy-2026-10-05"
-    }
+    },
+    "images": [
+      {
+        "image_type": "organism",
+        "local_path": "assets/opt-media/photos/sphenochlea-organism.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": ""
+      },
+      {
+        "image_type": "organism",
+        "local_path": "assets/opt-media/photos/sphenochlea-organism-02.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": ""
+      }
+    ]
   },
   {
     "id": "ischaemum",
