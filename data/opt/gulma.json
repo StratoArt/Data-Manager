@@ -65,6 +65,22 @@
         "author": "See source page",
         "attribution": "Cyperus rotundus — Wikimedia Commons source.",
         "notes": "Cyperus iria category; selected photo file."
+      },
+      {
+        "image_type": "organism",
+        "local_path": "assets/opt-media/photos/cyperus-organism.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": ""
+      },
+      {
+        "image_type": "ai_illustration",
+        "local_path": "assets/opt-media/photos/cyperus-ai-illustration.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": ""
       }
     ],
     "classification": "Daun Sempit",
