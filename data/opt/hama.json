@@ -437,12 +437,31 @@
         "notes": "Foto referensi berlisensi/sumber publik; cek halaman sumber untuk ketentuan penggunaan."
       },
       {
-        "image_type": "ai_illustration",
-        "local_path": "assets/opt-media/photos/bemisia-tabaci.webp",
+        "image_type": "symptom_reference",
+        "stage": "gejala",
+        "local_path": "assets/opt-media/photos/bemisia-tabaci-gejala.webp",
+        "remote_url": "",
+        "source_url": "©CSIRO/via scienceimage.csiro.au - CC BY 3.0",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": "Serangan Massal Kutu Kebul"
+      },
+      {
+        "image_type": "lifecycle",
+        "stage": "lifecycle",
+        "local_path": "assets/opt-media/reference/bemisia-tabaci-lifecycle.webp",
         "remote_url": "",
         "source_url": "",
-        "attribution": "Crop Expert — ilustrasi AI",
-        "notes": "Ilustrasi AI untuk pembelajaran bentuk/gejala; BUKAN foto diagnostik."
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": "Siklus Hidup"
+      },
+      {
+        "image_type": "organism",
+        "stage": "larva",
+        "local_path": "assets/opt-media/photos/bemisia-tabaci-larva.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": "Larva Kutu Kebul"
       }
     ],
     "eppo": {
