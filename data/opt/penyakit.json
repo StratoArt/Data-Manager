@@ -17,14 +17,29 @@
     "images": [
       {
         "image_type": "symptom",
-        "local_path": "",
-        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Phytophthora_infestans.webp",
+        "local_path": "assets/opt-media/photos/phytophthora-symptom.webp",
+        "remote_url": "",
         "source_url": "https://commons.wikimedia.org/wiki/File:Phytophthora_infestans.webp",
-        "source_name": "Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "author": "See source page",
         "attribution": "Phytophthora infestans — Wikimedia Commons source.",
         "notes": "Reference image of Phytophthora infestans."
+      },
+      {
+        "image_type": "lifecycle",
+        "stage": "lifecycle",
+        "local_path": "assets/opt-media/reference/phytophthora-lifecycle.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": ""
+      },
+      {
+        "image_type": "symptom_reference",
+        "stage": "gejala",
+        "local_path": "assets/opt-media/photos/phytophthora-gejala.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": ""
       }
     ],
     "classification": "Jamur Basah",
