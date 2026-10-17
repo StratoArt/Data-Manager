@@ -741,7 +741,52 @@
       "Imago"
     ],
     "notes": "Populasi berkembang cepat pada kondisi panas dan kering.",
-    "images": [],
+    "images": [
+      {
+        "image_type": "organism",
+        "local_path": "assets/opt-media/photos/tetranychus-organism.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": "Tungau Merah"
+      },
+      {
+        "image_type": "symptom_reference",
+        "stage": "gejala",
+        "local_path": "assets/opt-media/photos/tetranychus-gejala.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": "Serangan tungau merah pada tanaman cabai"
+      },
+      {
+        "image_type": "symptom",
+        "stage": "gejala",
+        "local_path": "assets/opt-media/photos/tetranychus-gejala-02.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": "Serangan tungau merah pada tanaman cabai"
+      },
+      {
+        "image_type": "symptom_reference",
+        "stage": "gejala",
+        "local_path": "assets/opt-media/photos/tetranychus-gejala-03.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": "Serangan tungau laba-laba"
+      },
+      {
+        "image_type": "organism",
+        "stage": "imago",
+        "local_path": "assets/opt-media/photos/tetranychus-imago.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": "Spider Mite / Tungau Laba-laba"
+      }
+    ],
     "provenance": {
       "source_repo": "StratoArt/pestiapps",
       "source_file": "data/opt.json",
