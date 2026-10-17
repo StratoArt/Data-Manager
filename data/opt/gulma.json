@@ -14,14 +14,19 @@
     "images": [
       {
         "image_type": "organism",
-        "local_path": "",
-        "remote_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Echinochloa_crus-galli.jpg",
+        "local_path": "assets/opt-media/photos/echinochloa-organism.webp",
+        "remote_url": "",
         "source_url": "https://commons.wikimedia.org/wiki/File:Echinochloa_crus-galli.jpg",
-        "source_name": "Wikimedia Commons / USDA-NRCS",
-        "license": "Public domain",
-        "author": "See source page",
         "attribution": "Echinochloa crus-galli — Wikimedia Commons source.",
         "notes": "Robert H. Mohlenbrock / USDA-NRCS."
+      },
+      {
+        "image_type": "ai_illustration",
+        "local_path": "assets/opt-media/photos/echinochloa-ai-illustration.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": ""
       }
     ],
     "classification": "Rumput",
