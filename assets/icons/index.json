@@ -378,6 +378,13 @@
       "name": "weed-sedge.svg",
       "dir": "opt",
       "label": "weed sedge"
+    },
+    {
+      "value": "custom/spodoptera-exigua-icon.svg",
+      "path": "custom/spodoptera-exigua-icon.svg",
+      "name": "spodoptera-exigua-icon.svg",
+      "dir": "custom",
+      "label": "Spodoptera exigua"
     }
   ]
 }

@@ -5,7 +5,7 @@
     "common": "Ulat bawang / ulat grayak (beet armyworm)",
     "category": "Lepidoptera",
     "family": "Noctuidae",
-    "icon": "spodoptera.svg",
+    "icon": "custom/spodoptera-exigua-icon.svg",
     "hosts": [
       "Alfalfa",
       "Asparagus",
@@ -109,7 +109,21 @@
       "source_file": "data/opt.json",
       "source_dataset": "pests",
       "migration": "exact-source-copy-2026-10-05"
-    }
+    },
+    "active_ingredients": [
+      {
+        "name": "Broflanilide",
+        "status": "manual"
+      },
+      {
+        "name": "isosikloseram",
+        "status": "manual"
+      },
+      {
+        "name": "isoflualanam",
+        "status": "manual"
+      }
+    ]
   },
   {
     "id": "spodoptera-frugiperda",

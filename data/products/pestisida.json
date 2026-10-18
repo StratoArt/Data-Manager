@@ -440,7 +440,8 @@
       "targets_raw": "ulat grayak; ulat Lepidoptera",
       "linked_opt_ids": [
         "spodoptera-frugiperda",
-        "spodoptera-litura"
+        "spodoptera-litura",
+        "spodoptera-exigua"
       ],
       "ai_master_matches": [
         {
@@ -1039,7 +1040,9 @@
         "hrac": ""
       },
       "targets_raw": "Trips, Spodoptera, Plutella",
-      "linked_opt_ids": [],
+      "linked_opt_ids": [
+        "spodoptera-exigua"
+      ],
       "ai_master_matches": [
         {
           "committee": "IRAC",
@@ -4010,7 +4013,9 @@
         "hrac": ""
       },
       "targets_raw": "",
-      "linked_opt_ids": [],
+      "linked_opt_ids": [
+        "spodoptera-exigua"
+      ],
       "ai_master_matches": [],
       "registration": {
         "number": "01010120134700",
@@ -4376,7 +4381,8 @@
       "linked_opt_ids": [
         "bemisia-tabaci",
         "bemisia-vaporariorum",
-        "aphid"
+        "aphid",
+        "spodoptera-exigua"
       ],
       "ai_master_matches": [
         {
@@ -4884,7 +4890,9 @@
         "hrac": ""
       },
       "targets_raw": "Ulat Lepidoptera",
-      "linked_opt_ids": [],
+      "linked_opt_ids": [
+        "spodoptera-exigua"
+      ],
       "ai_master_matches": [],
       "registration": {
         "number": "",
@@ -7249,7 +7257,9 @@
         "hrac": ""
       },
       "targets_raw": "Ulat dan hama pengisap pada tanaman terdaftar",
-      "linked_opt_ids": [],
+      "linked_opt_ids": [
+        "spodoptera-exigua"
+      ],
       "ai_master_matches": [
         {
           "committee": "IRAC",
@@ -8776,7 +8786,9 @@
         "hrac": "N/A - bukan herbisida"
       },
       "targets_raw": "ulat Lepidoptera; penggerek",
-      "linked_opt_ids": [],
+      "linked_opt_ids": [
+        "spodoptera-exigua"
+      ],
       "ai_master_matches": [
         {
           "committee": "IRAC",
@@ -16303,7 +16315,9 @@
         "hrac": ""
       },
       "targets_raw": "Ulat/serangga",
-      "linked_opt_ids": [],
+      "linked_opt_ids": [
+        "spodoptera-exigua"
+      ],
       "ai_master_matches": [
         {
           "committee": "IRAC",
@@ -17174,7 +17188,9 @@
         "hrac": ""
       },
       "targets_raw": "Hama putih palsu pada padi",
-      "linked_opt_ids": [],
+      "linked_opt_ids": [
+        "spodoptera-exigua"
+      ],
       "ai_master_matches": [
         {
           "committee": "IRAC",
@@ -17677,7 +17693,9 @@
         "hrac": ""
       },
       "targets_raw": "Penggerek batang pada padi",
-      "linked_opt_ids": [],
+      "linked_opt_ids": [
+        "spodoptera-exigua"
+      ],
       "ai_master_matches": [
         {
           "committee": "IRAC",
@@ -32091,7 +32109,9 @@
         "hrac": ""
       },
       "targets_raw": "Pengorok daun bawang",
-      "linked_opt_ids": [],
+      "linked_opt_ids": [
+        "spodoptera-exigua"
+      ],
       "ai_master_matches": [
         {
           "committee": "IRAC",
@@ -32193,7 +32213,9 @@
         "hrac": ""
       },
       "targets_raw": "Penggerek batang padi",
-      "linked_opt_ids": [],
+      "linked_opt_ids": [
+        "spodoptera-exigua"
+      ],
       "ai_master_matches": [
         {
           "committee": "IRAC",
@@ -35933,7 +35955,9 @@
         "hrac": ""
       },
       "targets_raw": "",
-      "linked_opt_ids": [],
+      "linked_opt_ids": [
+        "spodoptera-exigua"
+      ],
       "ai_master_matches": [],
       "registration": {
         "number": "01010120248326",
@@ -36554,7 +36578,9 @@
         "hrac": ""
       },
       "targets_raw": "ulat; ulat grayak; ulat buah",
-      "linked_opt_ids": [],
+      "linked_opt_ids": [
+        "spodoptera-exigua"
+      ],
       "ai_master_matches": [
         {
           "committee": "IRAC",
@@ -40249,7 +40275,9 @@
         "hrac": "N/A - bukan herbisida"
       },
       "targets_raw": "Hama serangga sesuai label produk",
-      "linked_opt_ids": [],
+      "linked_opt_ids": [
+        "spodoptera-exigua"
+      ],
       "ai_master_matches": [
         {
           "committee": "IRAC",

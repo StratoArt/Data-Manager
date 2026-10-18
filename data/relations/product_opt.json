@@ -1,6 +1,6 @@
 {
   "dataset_version": "2026.10.04",
-  "record_count": 92,
+  "record_count": 107,
   "records": [
     {
       "product_id": "pestdb-clean-0012",
@@ -369,6 +369,66 @@
     {
       "product_id": "pestdb-clean-1064",
       "opt_id": "spodoptera-litura"
+    },
+    {
+      "product_id": "pestdb-clean-0013",
+      "opt_id": "spodoptera-exigua"
+    },
+    {
+      "product_id": "pestdb-clean-0028",
+      "opt_id": "spodoptera-exigua"
+    },
+    {
+      "product_id": "pestdb-clean-1058",
+      "opt_id": "spodoptera-exigua"
+    },
+    {
+      "product_id": "pestdb-clean-0117",
+      "opt_id": "spodoptera-exigua"
+    },
+    {
+      "product_id": "pestdb-clean-0229",
+      "opt_id": "spodoptera-exigua"
+    },
+    {
+      "product_id": "pestdb-clean-0190",
+      "opt_id": "spodoptera-exigua"
+    },
+    {
+      "product_id": "pestdb-clean-0408",
+      "opt_id": "spodoptera-exigua"
+    },
+    {
+      "product_id": "pestdb-clean-0939",
+      "opt_id": "spodoptera-exigua"
+    },
+    {
+      "product_id": "pestdb-clean-0108",
+      "opt_id": "spodoptera-exigua"
+    },
+    {
+      "product_id": "pestdb-clean-0431",
+      "opt_id": "spodoptera-exigua"
+    },
+    {
+      "product_id": "pestdb-clean-0957",
+      "opt_id": "spodoptera-exigua"
+    },
+    {
+      "product_id": "pestdb-clean-0445",
+      "opt_id": "spodoptera-exigua"
+    },
+    {
+      "product_id": "pestdb-clean-0832",
+      "opt_id": "spodoptera-exigua"
+    },
+    {
+      "product_id": "pestdb-clean-0830",
+      "opt_id": "spodoptera-exigua"
+    },
+    {
+      "product_id": "pestdb-clean-0130",
+      "opt_id": "spodoptera-exigua"
     }
   ]
 }
