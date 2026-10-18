@@ -3102,7 +3102,70 @@
       "Pupa",
       "Imago"
     ],
-    "images": [],
+    "images": [
+      {
+        "image_type": "organism",
+        "local_path": "assets/opt-media/photos/phyllotreta-striolata-organism.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": ""
+      },
+      {
+        "image_type": "organism",
+        "stage": "larva",
+        "local_path": "assets/opt-media/photos/phyllotreta-striolata-larva.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": ""
+      },
+      {
+        "image_type": "organism",
+        "stage": "gejala",
+        "local_path": "assets/opt-media/photos/phyllotreta-striolata-gejala.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": ""
+      },
+      {
+        "image_type": "organism",
+        "stage": "gejala",
+        "local_path": "assets/opt-media/photos/phyllotreta-striolata-gejala-02.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": ""
+      },
+      {
+        "image_type": "organism",
+        "stage": "larva",
+        "local_path": "assets/opt-media/photos/phyllotreta-striolata-larva-02.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": ""
+      },
+      {
+        "image_type": "organism",
+        "stage": "imago",
+        "local_path": "assets/opt-media/photos/phyllotreta-striolata-imago.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": ""
+      },
+      {
+        "image_type": "lifecycle",
+        "stage": "lifecycle",
+        "local_path": "assets/opt-media/reference/phyllotreta-striolata-lifecycle.webp",
+        "remote_url": "",
+        "source_url": "",
+        "attribution": "Foto pengguna — Crop Expert",
+        "notes": ""
+      }
+    ],
     "provenance": {
       "source": "Data Manager manual entry",
       "created_at": "2026-10-18T23:32:05.775Z"
