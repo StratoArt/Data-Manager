@@ -385,6 +385,13 @@
       "name": "spodoptera-exigua-icon.svg",
       "dir": "custom",
       "label": "Spodoptera exigua"
+    },
+    {
+      "value": "custom/phyllotreta-striolata-icon.svg",
+      "path": "custom/phyllotreta-striolata-icon.svg",
+      "name": "phyllotreta-striolata-icon.svg",
+      "dir": "custom",
+      "label": "Phyllotreta striolata"
     }
   ]
 }

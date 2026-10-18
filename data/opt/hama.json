@@ -3074,5 +3074,39 @@
       "source": "Data Manager manual entry",
       "created_at": "2026-10-18T01:44:49.954Z"
     }
+  },
+  {
+    "id": "phyllotreta-striolata",
+    "name": "Phyllotreta striolata",
+    "common": "Kumbang Kutu Bergaris/Flea Stripped Beetle",
+    "category": "Coleoptera",
+    "family": "Chrysomelidae",
+    "description": "Kumbang kutu bergaris (*Phyllotreta striolata*) adalah sejenis kumbang kutu berukuran kecil yang berwarna hitam mengilap dengan semburat kehijauan. Kumbang ini memiliki panjang 1,5 hingga 2,5 mm dan terdapat garis bergelombang berwarna kuning kecokelatan (amber) yang membentang di sepanjang setiap pelindung sayap. Serangga ini merupakan hama bagi tanaman kubis-kubisan (brassica). Kaki belakangnya menebal, yang memungkinkannya melompat layaknya kutu saat merasa terganggu.",
+    "hosts": [
+      "Sawi hijau/caisim",
+      "Sawi Pakcoy",
+      "Sawi Putih",
+      "Kubis",
+      "Kembang Kol",
+      "Brokoli"
+    ],
+    "symptoms": [
+      "Lubang-lubang kecil (perforasi)",
+      "Daun berlubang kecil berbentuk bundar",
+      "Terdapat bercak atau bintik-bintik kuning pada permukaan daun.",
+      "Pada serangan berat, daun yang berlubang dan berbintik kuning akan layu hingga mengering."
+    ],
+    "life": [
+      "Telur",
+      "Larva",
+      "Pupa",
+      "Imago"
+    ],
+    "images": [],
+    "provenance": {
+      "source": "Data Manager manual entry",
+      "created_at": "2026-10-18T23:32:05.775Z"
+    },
+    "icon": "custom/phyllotreta-striolata-icon.svg"
   }
 ]
